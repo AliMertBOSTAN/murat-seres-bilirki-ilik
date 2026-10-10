@@ -17,7 +17,7 @@ import { exportDocx, bolumDahil } from '@/lib/docx'
 import type { EvaluatedCard } from '@/engine/selectors'
 
 const ORDER = ['yol-cevre', 'arac', 'surucu', 'yolcu', 'yaya', 'dorse', 'iz', 'olu-yarali', 'kaza-nedeni']
-const LOGO: Record<string, string> = { 'yol-cevre': 'sb-bilirkisilik.png', surucu: 'sb-bilirkisilik.png', yaya: 'sb-bilirkisilik.png' }
+const LOGO: Record<string, string> = {}
 /** Etken grubu → analiz sayfası rotası (varlıklı gruplarda `/n` eklenir). */
 const GROUP_ROUTE: Record<string, string> = { 'yol-cevre': '/analiz/yol-cevre', arac: '/analiz/arac', surucu: '/analiz/surucu', yolcu: '/analiz/yolcu', yaya: '/analiz/yaya' }
 /** Sabit rapor bölümleri (etken grupları ve modül bölümleri dinamik eklenir). */
@@ -64,7 +64,7 @@ export function RaporOnizlemePage() {
   // Kapak
   if (dahil('kapak')) pages.push({ title: 'Kapak', body: (
     <div className="flex h-[250mm] flex-col items-center justify-between py-10 text-center">
-      <img src="/brand/sb-bilirkisilik-adaletin-guvencesi.png" alt="" className="h-60 object-contain" />
+      <img src="/brand/logo.jpg" alt="" className="h-60 object-contain" />
       <div><div className="text-3xl font-bold">{c.dosya.firma}</div><div className="mt-2 text-xl">{c.dosya.raporTuru}</div><div className="mt-8 text-lg">{title}</div><div className="mt-2 text-sm">Dosya No: {c.dosya.dosyaNo || '—'} · {c.dosya.suc}</div><div className="mt-1 text-sm">{[c.dosya.il, c.dosya.ilce, c.dosya.mahalle].filter(Boolean).join(' / ')}</div></div>
       <img src="/brand/tubir.png" alt="" className="h-24 object-contain" />
     </div>) })

@@ -33,7 +33,7 @@ export function LoginPage() {
       <div className="w-full max-w-md">
         <div className="kart overflow-hidden">
           <div className="flex flex-col items-center gap-3 border-b border-krem-200 bg-kagit px-8 pt-8 pb-6 text-center">
-            <img src="/brand/sb-bilirkisilik-adaletin-guvencesi.png" alt="SB Bilirkişilik — Adaletin Güvencesi" className="h-32 w-auto object-contain drop-shadow" />
+            <img src="/brand/logo.jpg" alt="ST Bilirkişilik — Adaletin Güvencesi" className="h-32 w-auto object-contain drop-shadow" />
             <div>
               <div className="font-display text-2xl font-semibold leading-none tracking-wide text-lacivert">SERESLER</div>
               <div className="mt-1 text-[10px] uppercase tracking-[0.2em] text-altin">Bilirkişilik Sistemi</div>

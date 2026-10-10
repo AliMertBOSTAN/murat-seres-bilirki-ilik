@@ -4,7 +4,7 @@ import { useSettingsStore } from '@/store/settingsStore'
 import { formatDateTR } from '@/engine/excel-compat'
 
 /** Excel rapor sayfalarının ISO tipi başlık bloğu (satır 2–6) ve altbilgisi. */
-export function ReportHeader({ pageNo, total, logo = 'sb-bilirkisilik-adaletin-guvencesi.png', frozenDate }: { pageNo: number; total?: number; logo?: string; frozenDate?: string }) {
+export function ReportHeader({ pageNo, total, logo = 'logo.jpg', frozenDate }: { pageNo: number; total?: number; logo?: string; frozenDate?: string }) {
   const c = useCaseStore((s) => s.caseData)
   const ov = useSettingsStore((s) => s.settings.reportMetaOverrides)
   const m = { ...(REPORT_META as unknown as Record<string, string>), ...ov }

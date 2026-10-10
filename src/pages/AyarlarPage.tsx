@@ -303,7 +303,7 @@ function Meta({ settings, update }: P) {
   return (
     <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
       <div className="kart grid gap-3 p-4 sm:grid-cols-2">{keys.map((k) => <Field key={k} label={k} source="Tanım!B2:C23"><TextInput value={settings.reportMetaOverrides[k] ?? m[k] ?? ''} onChange={(v) => update((s) => ({ reportMetaOverrides: { ...s.reportMetaOverrides, [k]: v } }))} /></Field>)}</div>
-      <div className="kart space-y-3 p-4"><h3 className="font-semibold text-lacivert">Logolar</h3>{['sb-bilirkisilik-adaletin-guvencesi.png', 'tubir.png', 'sb-bilirkisilik.png'].map((f) => <div key={f} className="flex items-center gap-3 text-xs"><img src={`/brand/${f}`} alt="" className="h-14 w-14 rounded bg-white object-contain p-1" /><div><div className="font-mono">{f}</div><div className="text-gri">public/brand/ — değiştirmek için dosyayı aynı adla yenileyin</div></div></div>)}</div>
+      <div className="kart space-y-3 p-4"><h3 className="font-semibold text-lacivert">Logolar</h3>{['logo.jpg', 'logo-kucuk.jpg', 'tubir.png'].map((f) => <div key={f} className="flex items-center gap-3 text-xs"><img src={`/brand/${f}`} alt="" className="h-14 w-14 rounded bg-white object-contain p-1" /><div><div className="font-mono">{f}</div><div className="text-gri">public/brand/ — değiştirmek için dosyayı aynı adla yenileyin</div></div></div>)}</div>
     </div>
   )
 }

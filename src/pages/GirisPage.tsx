@@ -41,7 +41,7 @@ export function GirisPage() {
 
       <section className="kart mb-6 overflow-hidden">
         <div className="grid items-center gap-6 bg-gradient-to-br from-kagit via-krem to-altin-100/60 p-8 md:grid-cols-[auto_1fr_auto]">
-          <img src="/brand/sb-bilirkisilik-adaletin-guvencesi.png" alt="SB Bilirkişilik — Adaletin Güvencesi" className="h-44 w-auto object-contain drop-shadow" />
+          <img src="/brand/logo.jpg" alt="ST Bilirkişilik — Adaletin Güvencesi" className="h-44 w-auto object-contain drop-shadow" />
           <div className="text-center">
             <ComboInput options={listItems('tanim-e86-e113')} value={c.dosya.firma ?? ''} onChange={(v) => setField('dosya.firma', v)} className="!border-0 !bg-transparent text-center !font-display !text-3xl !font-semibold !text-lacivert !shadow-none" aria-label="Kurum / firma" />
             <div className="hr-altin my-2" />

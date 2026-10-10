@@ -57,7 +57,7 @@ export function AppShell() {
     <div className="flex h-full">
       <aside className={cn('no-print fixed inset-y-0 left-0 z-40 flex w-72 flex-col bg-lacivert text-white transition-transform lg:static lg:translate-x-0', navOpen ? 'translate-x-0' : '-translate-x-full')}>
         <div className="flex items-center gap-3 border-b border-white/10 px-4 py-4">
-          <img src="/brand/sb-bilirkisilik.png" alt="SB Bilirkişilik" className="h-11 w-11 rounded-md bg-white/90 object-contain p-0.5" />
+          <img src="/brand/logo-kucuk.jpg" alt="ST Bilirkişilik" className="h-11 w-11 rounded-md bg-white/90 object-contain p-0.5" />
           <div>
             <div className="font-display text-xl font-semibold leading-none tracking-wide">SERESLER</div>
             <div className="text-[10px] uppercase tracking-[0.2em] text-altin">Bilirkişilik Sistemi</div>
