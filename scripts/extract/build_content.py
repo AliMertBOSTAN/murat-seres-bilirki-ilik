@@ -583,6 +583,8 @@ def build_expected():
         for a1, c in sorted(sh.cells.items(), key=lambda kv: (split_a1(kv[0])[1], col_idx(split_a1(kv[0])[0]))):
             if "f" in c:
                 exp["cells"].append({"sheet": sname, "cell": a1, "formula": c["f"], "cached": c.get("cached"), **({"arrayRef": c["arrayRef"]} if c.get("arrayRef") else {})})
+            elif sname == "sonuç1":
+                exp["cells"].append({"sheet": sname, "cell": a1, "formula": "(dizi taşması)", "cached": c.get("v")})
     # Güneş: Excel'in (hatalı) kayıtlı değerleri de saklanır; doğru değerler golden testte ayrı tanımlanır
     exp["gunesExcelCached"] = {f"{s}!{a}": GUNES[s].val(a) for s, a in (("Hesap", "W19"), ("Hesap", "W20"), ("Hesap", "W21"), ("sınıflandırma", "W9"), ("sınıflandırma", "W10"))}
     out("tests/golden/expected.json", exp)

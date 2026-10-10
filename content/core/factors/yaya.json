@@ -29,6 +29,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E15",
     "parts": [
      {
       "kind": "text",
@@ -79,7 +81,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A14"
      },
      {
@@ -592,6 +595,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E25",
     "parts": [
      {
       "kind": "text",
@@ -642,7 +647,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A24"
      },
      {
@@ -1079,6 +1085,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E35",
     "parts": [
      {
       "kind": "text",
@@ -1129,7 +1137,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A34"
      },
      {
@@ -1259,6 +1268,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E45",
     "parts": [
      {
       "kind": "text",
@@ -1309,7 +1320,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A44"
      },
      {
@@ -1433,6 +1445,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E55",
     "parts": [
      {
       "kind": "text",
@@ -1483,7 +1497,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A54"
      },
      {
@@ -1948,6 +1963,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E65",
     "parts": [
      {
       "kind": "sheet-cell",
@@ -1998,7 +2015,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A64"
      },
      {

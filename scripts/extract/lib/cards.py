@@ -86,8 +86,10 @@ class CardParser:
                 return {"kind": "card", "field": "subTitle", "text": self.sh.text(ref.a1())}
             v = self.sh.val(ref.start)
             f = self.sh.formula(ref.start)
-            if v in (None, "", " ", 0) and not f:
+            if v in (None, "", 0) and not f:
                 return {"kind": "blank", "cell": ref.a1()}
+            if isinstance(v, str) and v.strip() == "" and not f:
+                return {"kind": "literal", "text": v, "cell": ref.a1()}  # ör. A15 = " " (boşluk hücresi)
             # başka bir kart hücresi (ör. B22 etiketi) → statik metin
             if f and f.startswith("=") and "Tanım" in f:
                 return {"kind": "library-via-card", "cell": ref.a1(), "text": self.sh.text(ref.start), "formula": f}
@@ -124,6 +126,8 @@ class CardParser:
                 return [{"kind": "value", "path": r["path"], "source": r["cell"]}]
             if r["kind"] == "blank":
                 return [{"kind": "blank", "cell": r["cell"]}]
+            if r["kind"] == "literal":
+                return [{"kind": "literal", "text": r["text"], "cell": r.get("cell")}]
             return [{"kind": r["kind"], **{k: v for k, v in r.items() if k != "kind"}}]
         return [{"kind": "unsupported", "formula": to_text(node)}]
 
@@ -158,7 +162,15 @@ class CardParser:
             # statik anahtar → şimdi çöz
             key_text = key_res.get("text") or (self.book.val("Grş 1", key.start) if key_res["kind"] == "input-unmapped" else "")
             text = self.static_lookup(table, key_text or "")
-            return {"kind": "text", "text": text, "source": f"VLOOKUP({key_text!r},{rng},{int(col.value)})", "table": table}
+            out = {"kind": "text", "text": text, "source": f"VLOOKUP({key_text!r},{rng},{int(col.value)})", "table": table}
+            if not exact:
+                # Yaklaşık eşleşme (…,1) sıralanmamış tabloda Excel'in ikili aramasına bağlıdır; Excel'in kayıtlı sonucu korunur.
+                cached = ctx.get("currentCached")
+                out["text"] = "" if cached in (None, 0, False) else str(cached)
+                out["approxMatch"] = True
+                out["exactMatchText"] = text
+                self.warnings.append(f"yaklaşık VLOOKUP (statik anahtar {key_text!r}) → Excel kayıtlı değeri kullanıldı: {ctx.get('currentCell')}")
+            return out
         if isinstance(node, Ref):
             r = self.resolve_ref(node, ctx)
             if r["kind"] in ("library", "library-via-card", "sheet-cell", "other-sheet"):
@@ -303,6 +315,7 @@ class CardParser:
                 rows.append(row)
                 break
             elif ef_:
+                ctx["currentCell"] = self.c("E", r); ctx["currentCached"] = self.val("E", r)
                 row["source"] = self.text_source(parse(ef_), ctx)
                 row["sampleText"] = self.val("E", r)
             else:
@@ -310,6 +323,12 @@ class CardParser:
             rows.append(row)
             r += 1
         card["rows"] = rows
+        ek = card.get("ekDosya") or {}
+        if ek.get("on") == "other" and ek.get("onCell"):
+            for row in rows:
+                if "sorumlu" in row and ek["onCell"] == self.c("E", row["row"]):
+                    ek["on"] = "sorumlu"
+                    self.warnings.append(f"ekDosya koşulu Sorumlu satırına bakıyor: {self.sheet_name}!V{tr_} → {ek['onCell']}")
         return card
 
     def library_block(self, sheet, row):
@@ -333,15 +352,18 @@ class CardParser:
         node = parse(f)
         branches, els = flatten_if(node)
         hide_when = []
+        on_cell = None
         for cond, val in branches:
             lit = eq_literal(cond)
             if lit and isinstance(val, Str) and val.value == "":
                 hide_when.append(lit[1])
+                on_cell = lit[0].a1()
             else:
                 self.warnings.append(f"ekDosya beklenmeyen dal: {to_text(node)}")
         parts = self.node_to_parts(els, ctx)
         texts = [p for p in parts if p["kind"] == "text"]
-        return {"kind": "rule", "hideWhen": hide_when, "parts": parts,
+        on = "incelemeDurumu" if on_cell == ctx["statusCell"] else ("value" if on_cell == ctx["valueCell"] else "other")
+        return {"kind": "rule", "hideWhen": hide_when, "on": on, "onCell": on_cell, "parts": parts,
                 "kod": texts[0]["text"] if texts else "", "metin": texts[1]["text"] if len(texts) > 1 else "",
                 "formula": to_text(node)}
 

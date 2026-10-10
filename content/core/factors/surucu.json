@@ -27,7 +27,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A15"
     },
     {
@@ -41,6 +42,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E16",
     "parts": [
      {
       "kind": "text",
@@ -91,7 +94,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A15"
      },
      {
@@ -474,7 +478,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A25"
     },
     {
@@ -488,6 +493,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E26",
     "parts": [
      {
       "kind": "text",
@@ -551,7 +558,8 @@
       "value": "#REF!"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A25"
      },
      {
@@ -1029,7 +1037,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A35"
     },
     {
@@ -1043,6 +1052,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E36",
     "parts": [
      {
       "kind": "text",
@@ -1105,7 +1116,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A35"
      },
      {
@@ -1516,7 +1528,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A45"
     },
     {
@@ -1530,6 +1543,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E46",
     "parts": [
      {
       "kind": "text",
@@ -1592,7 +1607,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A45"
      },
      {
@@ -3762,7 +3778,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A55"
     },
     {
@@ -3776,6 +3793,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E56",
     "parts": [
      {
       "kind": "text",
@@ -3838,7 +3857,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A55"
      },
      {
@@ -6118,7 +6138,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A65"
     },
     {
@@ -6132,6 +6153,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E66",
     "parts": [
      {
       "kind": "text",
@@ -6194,7 +6217,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A65"
      },
      {
@@ -8458,7 +8482,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A75"
     },
     {
@@ -8472,6 +8497,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E76",
     "parts": [
      {
       "kind": "text",
@@ -8534,7 +8561,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A75"
      },
      {
@@ -10784,7 +10812,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A84"
     },
     {
@@ -10798,6 +10827,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E85",
     "parts": [
      {
       "kind": "text",
@@ -10860,7 +10891,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A84"
      },
      {
@@ -12961,7 +12993,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A94"
     },
     {
@@ -12975,6 +13008,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E95",
     "parts": [
      {
       "kind": "text",
@@ -13037,7 +13072,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A94"
      },
      {
@@ -15164,7 +15200,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A104"
     },
     {
@@ -15178,6 +15215,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E105",
     "parts": [
      {
       "kind": "text",
@@ -15240,7 +15279,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A104"
      },
      {
@@ -17338,7 +17378,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A114"
     },
     {
@@ -17352,6 +17393,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E115",
     "parts": [
      {
       "kind": "text",
@@ -17414,7 +17457,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A114"
      },
      {
@@ -19505,7 +19549,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A124"
     },
     {
@@ -19519,6 +19564,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E125",
     "parts": [
      {
       "kind": "text",
@@ -19581,7 +19628,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A124"
      },
      {
@@ -21660,7 +21708,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A134"
     },
     {
@@ -21674,6 +21723,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E135",
     "parts": [
      {
       "kind": "text",
@@ -21736,7 +21787,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A134"
      },
      {
@@ -23819,7 +23871,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A144"
     },
     {
@@ -23833,6 +23886,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E145",
     "parts": [
      {
       "kind": "text",
@@ -23895,7 +23950,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A144"
      },
      {
@@ -26015,7 +26071,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A154"
     },
     {
@@ -26029,6 +26086,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E155",
     "parts": [
      {
       "kind": "text",
@@ -26091,7 +26150,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A154"
      },
      {
@@ -27935,7 +27995,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A164"
     },
     {
@@ -27949,6 +28010,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E165",
     "parts": [
      {
       "kind": "text",
@@ -28011,7 +28074,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A164"
      },
      {
@@ -29509,7 +29573,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A174"
     },
     {
@@ -29523,6 +29588,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E175",
     "parts": [
      {
       "kind": "text",
@@ -29585,7 +29652,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A174"
      },
      {
@@ -30632,7 +30700,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A184"
     },
     {
@@ -30646,6 +30715,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E185",
     "parts": [
      {
       "kind": "text",
@@ -30708,7 +30779,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A184"
      },
      {
@@ -31311,7 +31383,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A194"
     },
     {
@@ -31325,6 +31398,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E195",
     "parts": [
      {
       "kind": "text",
@@ -31387,7 +31462,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A194"
      },
      {
@@ -33464,7 +33540,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A204"
     },
     {
@@ -33478,6 +33555,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E205",
     "parts": [
      {
       "kind": "text",
@@ -33540,7 +33619,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A204"
      },
      {
@@ -35632,7 +35712,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A214"
     },
     {
@@ -35646,6 +35727,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E215",
     "parts": [
      {
       "kind": "text",
@@ -35708,7 +35791,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A214"
      },
      {
@@ -37773,7 +37857,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A224"
     },
     {
@@ -37787,6 +37872,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E225",
     "parts": [
      {
       "kind": "text",
@@ -37849,7 +37936,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A224"
      },
      {

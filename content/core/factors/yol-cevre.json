@@ -47,6 +47,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E11",
     "parts": [
      {
       "kind": "text",
@@ -793,6 +795,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E21",
     "parts": [
      {
       "kind": "text",
@@ -1384,6 +1388,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "sorumlu",
+    "onCell": "E37",
     "parts": [
      {
       "kind": "text",
@@ -4113,6 +4119,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E53",
     "parts": [
      {
       "kind": "text",
@@ -4570,6 +4578,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E63",
     "parts": [
      {
       "kind": "text",
@@ -5195,7 +5205,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A73"
     },
     {
@@ -5209,6 +5220,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "sorumlu",
+    "onCell": "E80",
     "parts": [
      {
       "kind": "text",
@@ -5259,7 +5272,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A73"
      },
      {
@@ -6194,7 +6208,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A83"
     },
     {
@@ -6208,6 +6223,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E84",
     "parts": [
      {
       "kind": "text",
@@ -6258,7 +6275,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A83"
      },
      {
@@ -7048,6 +7066,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E94",
     "parts": [
      {
       "kind": "text",
@@ -8002,6 +8022,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E104",
     "parts": [
      {
       "kind": "text",
@@ -9021,6 +9043,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "sorumlu",
+    "onCell": "E124",
     "parts": [
      {
       "kind": "text",
@@ -9093,6 +9117,8 @@
        "row": 501
       }
      ],
+     "approxMatch": true,
+     "exactMatchText": "Açıklama : Şerit çizgilerinin görünürlük derecesi (aşınma, renk solması), kalınlığı ve yol üzerindeki doğru konumlandırması detaylı bir şekilde açıklanmalıdır. Ayrıca, gece görüşünü sağlamak için kullanılan reflektif malzemenin durumu da belirtilmelidir.",
      "excelCell": "E119"
     },
     "nedensellik": {
@@ -9146,6 +9172,8 @@
        "row": 501
       }
      ],
+     "approxMatch": true,
+     "exactMatchText": "Nedensellik Bağı : Şerit çizgilerinin yetersizliği (görünürlüğün düşük olması, silik olması) nedeniyle sürücünün doğru şeridi takip edememesi, şerit değiştirme kazaları veya yol dışına çıkması gibi olaylarda nedensellik bağı oluşur.",
      "excelCell": "E120"
     },
     "sorun": {
@@ -10393,7 +10421,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A134"
     },
     {
@@ -10407,6 +10436,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "other",
+    "onCell": "C141",
     "parts": [
      {
       "kind": "text",
@@ -10457,7 +10488,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A134"
      },
      {
@@ -12824,6 +12856,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E145",
     "parts": [
      {
       "kind": "text",
@@ -12874,7 +12908,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A144"
      },
      {
@@ -13437,6 +13472,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E155",
     "parts": [
      {
       "kind": "text",
@@ -13487,7 +13524,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A154"
      },
      {
@@ -14300,6 +14338,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E166",
     "parts": [
      {
       "kind": "text",
@@ -14364,7 +14404,7 @@
    "fields": {
     "aciklama": {
      "kind": "text",
-     "text": "",
+     "text": "Keskin virajlar (belirli bir yarıçapın altında) ve %3'ten daha fazla eğime sahip (yokuş aşağı veya yokuş yukarı) yollar, trafik akışını yönlendirmek ve olası kazaları önlemek için bariyer gerekliliğini ortaya çıkarır.",
      "source": "VLOOKUP('2.15  IŞIKLI SESLİ UYARILAR','BİLGİ HESAP'!B101:E128,2)",
      "table": [
       {
@@ -14433,6 +14473,8 @@
        "row": 118
       }
      ],
+     "approxMatch": true,
+     "exactMatchText": "",
      "excelCell": "E167"
     },
     "nedensellik": {
@@ -15251,6 +15293,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "sorumlu",
+    "onCell": "E183",
     "parts": [
      {
       "kind": "text",
@@ -16135,6 +16179,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E187",
     "parts": [
      {
       "kind": "text",
@@ -16770,7 +16816,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A196"
     },
     {
@@ -16784,6 +16831,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E197",
     "parts": [
      {
       "kind": "text",
@@ -16835,7 +16884,8 @@
       "cell": "D196"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A196"
      },
      {
@@ -17696,6 +17746,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E207",
     "parts": [
      {
       "kind": "text",
@@ -18499,7 +18551,8 @@
      "kind": "value"
     },
     {
-     "kind": "blank",
+     "kind": "literal",
+     "text": " ",
      "cell": "A216"
     },
     {
@@ -18513,6 +18566,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E217",
     "parts": [
      {
       "kind": "text",
@@ -18563,7 +18618,8 @@
       "kind": "value"
      },
      {
-      "kind": "blank",
+      "kind": "literal",
+      "text": " ",
       "cell": "A216"
      },
      {
@@ -19488,6 +19544,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E227",
     "parts": [
      {
       "kind": "text",
@@ -20546,6 +20604,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E237",
     "parts": [
      {
       "kind": "text",
@@ -21278,6 +21338,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E246",
     "parts": [
      {
       "kind": "blank",
@@ -21513,6 +21575,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E255",
     "parts": [
      {
       "kind": "blank",
@@ -21745,6 +21809,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E265",
     "parts": [
      {
       "kind": "blank",
@@ -21975,6 +22041,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E274",
     "parts": [
      {
       "kind": "blank",
@@ -22214,6 +22282,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "other",
+    "onCell": "F283",
     "parts": [
      {
       "kind": "blank",
@@ -22595,6 +22665,8 @@
     "hideWhen": [
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E292",
     "parts": [
      {
       "kind": "blank",

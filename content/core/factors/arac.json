@@ -34,6 +34,8 @@
      "Var",
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E13",
     "parts": [
      {
       "kind": "text",
@@ -525,6 +527,8 @@
      "Var",
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E23",
     "parts": [
      {
       "kind": "text",
@@ -1028,6 +1032,8 @@
      "Var",
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E33",
     "parts": [
      {
       "kind": "text",
@@ -1636,6 +1642,8 @@
      "Var",
      "Aranmadı"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E43",
     "parts": [
      {
       "kind": "text",
@@ -2403,6 +2411,8 @@
     "hideWhen": [
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E53",
     "parts": [
      {
       "kind": "text",
@@ -2877,6 +2887,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E63",
     "parts": [
      {
       "kind": "text",
@@ -3309,6 +3321,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E73",
     "parts": [
      {
       "kind": "text",
@@ -3687,6 +3701,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E83",
     "parts": [
      {
       "kind": "text",
@@ -4138,6 +4154,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E93",
     "parts": [
      {
       "kind": "text",
@@ -4571,6 +4589,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E103",
     "parts": [
      {
       "kind": "text",
@@ -5040,6 +5060,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E113",
     "parts": [
      {
       "kind": "text",
@@ -5492,6 +5514,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E123",
     "parts": [
      {
       "kind": "text",
@@ -5912,6 +5936,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E133",
     "parts": [
      {
       "kind": "text",
@@ -6336,6 +6362,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E143",
     "parts": [
      {
       "kind": "text",
@@ -6769,6 +6797,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E153",
     "parts": [
      {
       "kind": "text",
@@ -7193,6 +7223,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E163",
     "parts": [
      {
       "kind": "text",
@@ -7613,6 +7645,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E173",
     "parts": [
      {
       "kind": "text",
@@ -8112,6 +8146,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E183",
     "parts": [
      {
       "kind": "text",
@@ -8933,6 +8969,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E193",
     "parts": [
      {
       "kind": "text",
@@ -9353,6 +9391,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E203",
     "parts": [
      {
       "kind": "text",
@@ -9793,6 +9833,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E213",
     "parts": [
      {
       "kind": "text",
@@ -10901,6 +10943,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E223",
     "parts": [
      {
       "kind": "text",
@@ -11342,6 +11386,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E233",
     "parts": [
      {
       "kind": "text",
@@ -11781,6 +11827,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E243",
     "parts": [
      {
       "kind": "text",
@@ -12229,6 +12277,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E253",
     "parts": [
      {
       "kind": "text",
@@ -12645,6 +12695,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E263",
     "parts": [
      {
       "kind": "text",
@@ -13095,6 +13147,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E273",
     "parts": [
      {
       "kind": "text",
@@ -13530,6 +13584,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E283",
     "parts": [
      {
       "kind": "text",
@@ -13963,6 +14019,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E293",
     "parts": [
      {
       "kind": "text",
@@ -14388,6 +14446,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E303",
     "parts": [
      {
       "kind": "text",
@@ -14799,6 +14859,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E313",
     "parts": [
      {
       "kind": "text",
@@ -15234,6 +15296,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E323",
     "parts": [
      {
       "kind": "text",
@@ -15656,6 +15720,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E333",
     "parts": [
      {
       "kind": "text",
@@ -16104,6 +16170,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E343",
     "parts": [
      {
       "kind": "text",
@@ -16563,6 +16631,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E353",
     "parts": [
      {
       "kind": "text",
@@ -16992,6 +17062,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E363",
     "parts": [
      {
       "kind": "text",
@@ -17394,6 +17466,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E373",
     "parts": [
      {
       "kind": "text",
@@ -17800,6 +17874,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E383",
     "parts": [
      {
       "kind": "text",
@@ -18215,6 +18291,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E393",
     "parts": [
      {
       "kind": "text",
@@ -18668,6 +18746,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E403",
     "parts": [
      {
       "kind": "text",
@@ -19136,6 +19216,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E413",
     "parts": [
      {
       "kind": "text",
@@ -19539,6 +19621,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E423",
     "parts": [
      {
       "kind": "text",
@@ -19803,6 +19887,8 @@
      "Aranmadı",
      "Var"
     ],
+    "on": "incelemeDurumu",
+    "onCell": "E433",
     "parts": [
      {
       "kind": "text",

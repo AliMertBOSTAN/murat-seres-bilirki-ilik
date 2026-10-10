@@ -472,7 +472,7 @@ Tanım kütüphanesinde numaralı başlık: **230**; rapor sayfalarında kullan�
 
 ## 9. Altın beklentiler
 
-- `tests/golden/expected.json`: 3124 formül hücresinin kayıtlı değeri.
+- `tests/golden/expected.json`: 3160 formül hücresinin kayıtlı değeri.
 
 ## 10. Sayfa 4 Araç 2 sütunu (AB:AX) referans analizi
 
@@ -524,3 +524,10 @@ Tanım kütüphanesinde numaralı başlık: **230**; rapor sayfalarında kullan�
 
 ## 11. Üretim notları
 
+- [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V29 → E37
+- [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V72 → E80
+- [3] yaklaşık VLOOKUP (statik anahtar 'Kesintisiz Çizgi') → Excel kayıtlı değeri kullanıldı: E119
+- [3] yaklaşık VLOOKUP (statik anahtar 'Kesintisiz Çizgi') → Excel kayıtlı değeri kullanıldı: E120
+- [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V116 → E124
+- [3] yaklaşık VLOOKUP (statik anahtar '2.15  IŞIKLI SESLİ UYARILAR') → Excel kayıtlı değeri kullanıldı: E167
+- [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V175 → E183
