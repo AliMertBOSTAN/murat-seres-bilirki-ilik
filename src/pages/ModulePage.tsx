@@ -8,14 +8,15 @@ export function ModulePage({ module }: { module: ModuleDefinition | undefined })
   const update = useSettingsStore((s) => s.update)
   if (!module) return <Empty>Modül bulunamadı.</Empty>
   const m = module.manifest
-  if (m.status === 'excel-bekleniyor') {
+  if (m.status === 'gelistiriliyor') {
     return (
       <div className="mx-auto max-w-4xl">
-        <PageHeader sheet={m.pages[0]?.sheetName} title={m.name} subtitle={m.description} />
-        <div className="kart p-8 text-center">
-          <Badge tone="altin">Excel bekleniyor</Badge>
-          <p className="mt-3 text-sm text-gri">Bu modülün iskeleti hazır (manifest, rota, rapor bölümü). İlgili Excel dosyası verildiğinde Faz 0 analiz yöntemi aynen uygulanır ve aynı sözleşmeyle (inputs / outputs / hooks) modüle çevrilir.</p>
-          <pre className="mt-4 overflow-x-auto rounded bg-krem p-3 text-left text-[11px]">{JSON.stringify(m, null, 1)}</pre>
+        <PageHeader title={m.name} subtitle={m.description} />
+        <div className="kart p-10 text-center">
+          <Badge tone="altin">Modül geliştiriliyor</Badge>
+          <h2 className="mt-4 text-2xl font-semibold text-lacivert">{m.name}</h2>
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gri">Bu modül hazırlık aşamasında. Yayına alındığında sol menüde etkinleşecek, kartlara öneri üretecek ve rapora kendi bölümünü ekleyecek. Mevcut dosyalarınız etkilenmez.</p>
+          <div className="mx-auto mt-6 h-1.5 w-64 overflow-hidden rounded-full bg-krem-200"><div className="h-full w-1/3 animate-pulse rounded-full bg-altin" /></div>
         </div>
       </div>
     )

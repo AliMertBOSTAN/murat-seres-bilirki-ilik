@@ -74,7 +74,7 @@ export function FactorCard({ def, entityIndex, entry, result, compact = false }:
         <div className="space-y-4">
           <div className="grid gap-3 sm:grid-cols-2">
             <div>
-              <div className="mb-1 flex items-center justify-between"><span className="etiket">{def.subTitle || 'Değer'}</span>{isInput && <Badge tone="cam" title={`Kaynak: ${vs.cell}`}>Grş 1'den</Badge>}</div>
+              <div className="mb-1 flex items-center justify-between"><span className="etiket">{def.subTitle || 'Değer'}</span>{isInput && <Badge tone="cam" title={settings.showExcelRefs ? `Kaynak: ${vs.cell}` : 'Veri Girişi sayfasından gelir'}>{settings.showExcelRefs ? "Grş 1'den" : 'Veri Girişi'}</Badge>}</div>
               {isInput ? (
                 <Link to={`/dosya/veri#${inputPath}`} className="input block truncate bg-krem text-left hover:border-camgobegi" title={`${INPUT_LABELS[vs.path ?? ''] ?? vs.path} alanına git`}>{result.valueText || <span className="text-gri">— Grş 1'de doldurulmamış —</span>}</Link>
               ) : valueOptions.length ? (
@@ -148,8 +148,9 @@ export function FactorCard({ def, entityIndex, entry, result, compact = false }:
           <Ekler def={def} entityIndex={entityIndex} entry={entry} />
           {warnings.length > 0 && <ul className="space-y-1 text-[11px] text-amber-800">{warnings.map((w, i) => <li key={i}>⚠ {w}</li>)}</ul>}
           <div className="text-[10px] text-gri">
-            Kaynak: {def.sourceRef.sheet ? `Sayfa ${def.sourceRef.sheet} satır ${def.sourceRef.titleRow}` : 'Tanım kütüphanesi'} ← {def.sourceRef.library.sheet}!{def.sourceRef.library.cell} · profil <b>{settings.engine.statusProfileOverride ?? def.statusProfile}</b>
-            {(def.libraryRowCount ?? 0) > 0 && <button className="ml-2 text-camgobegi hover:underline" onClick={openLibrary}>kütüphane satırları ({def.libraryRowCount})</button>}
+            {settings.showExcelRefs && <>Kaynak: {def.sourceRef.sheet ? `Sayfa ${def.sourceRef.sheet} satır ${def.sourceRef.titleRow}` : 'Tanım kütüphanesi'} ← {def.sourceRef.library.sheet}!{def.sourceRef.library.cell} · profil <b>{settings.engine.statusProfileOverride ?? def.statusProfile}</b>
+            {(def.libraryRowCount ?? 0) > 0 && <button className="ml-2 text-camgobegi hover:underline" onClick={openLibrary}>kütüphane satırları ({def.libraryRowCount})</button>}</>}
+            {!settings.showExcelRefs && <>Bilgi bankası: {def.id} · profil <b>{settings.engine.statusProfileOverride ?? def.statusProfile}</b></>}
           </div>
         </div>
       </div>

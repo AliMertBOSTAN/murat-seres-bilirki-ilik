@@ -1,6 +1,55 @@
-import { test, expect } from '@playwright/test'
+import { test, expect, type Page } from '@playwright/test'
+
+/** Giriş kapısı: /giris → bilirkisi/seres123 → kapak sayfası. Demo hesapları README › "Giriş ve roller". */
+async function login(page: Page, username = 'bilirkisi', password = 'seres123') {
+  await page.goto('/giris')
+  await expect(page.getByText('SERESLER')).toBeVisible()
+  await page.getByLabel('Kullanıcı adı').fill(username)
+  await page.getByLabel('Parola').fill(password)
+  await page.getByRole('button', { name: 'Giriş', exact: true }).click()
+  await page.waitForURL(/\/dosya\/giris$/)
+}
+
+test.describe('Giriş kapısı ve roller', () => {
+  test('giriş yapmadan korumalı sayfa /giris\'e yönlenir', async ({ page }) => {
+    await page.goto('/dosya/veri')
+    await page.waitForURL(/\/giris$/)
+    await expect(page.getByRole('button', { name: 'Giriş', exact: true })).toBeVisible()
+    await expect(page.getByText('Demo hesapları: admin / seres · bilirkisi / seres123')).toBeVisible()
+  })
+  test('hatalı parola reddedilir, girişten sonra gelinen sayfaya dönülür', async ({ page }) => {
+    await page.goto('/dosya/veri')
+    await page.waitForURL(/\/giris$/)
+    await page.getByLabel('Kullanıcı adı').fill('bilirkisi')
+    await page.getByLabel('Parola').fill('yanlis')
+    await page.getByRole('button', { name: 'Giriş', exact: true }).click()
+    await expect(page.getByRole('alert')).toContainText('hatalı')
+    await page.getByLabel('Parola').fill('seres123')
+    await page.getByLabel('Parola').press('Enter')
+    await page.waitForURL(/\/dosya\/veri$/)
+    await expect(page.getByTestId('oturum').getByText('Bilirkişi', { exact: true })).toBeVisible()
+  })
+  test('kullanıcı rolüyle /ayarlar → /dosya/giris, menüde Ayarlar yok', async ({ page }) => {
+    await login(page)
+    await expect(page.locator('nav').getByRole('link', { name: /Ayarlar/ })).toHaveCount(0)
+    await page.goto('/ayarlar')
+    await page.waitForURL(/\/dosya\/giris$/)
+    await expect(page.getByText('Ayarlar paneli yalnız yönetici rolüne açıktır.')).toBeVisible()
+  })
+  test('yönetici rolüyle Ayarlar paneli parola ekranı olmadan açılır, Çıkış /giris\'e döner', async ({ page }) => {
+    await login(page, 'admin', 'seres')
+    await expect(page.getByTestId('oturum').getByText('Yönetici', { exact: true })).toBeVisible()
+    await page.locator('nav').getByRole('link', { name: /Ayarlar/ }).click()
+    await expect(page.getByRole('heading', { name: 'Ayarlar — Yönetici Paneli' })).toBeVisible()
+    await page.getByTestId('oturum').getByRole('button', { name: 'Çıkış', exact: true }).click()
+    await page.waitForURL(/\/giris$/)
+    await page.goto('/ayarlar')
+    await page.waitForURL(/\/giris$/)
+  })
+})
 
 test.describe('Uçtan uca duman testi', () => {
+  test.beforeEach(async ({ page }) => { await login(page) })
   test('örnek dosya yüklenir, sayaç ve kartlar Excel ile uyumlu', async ({ page }) => {
     await page.goto('/dosya/giris')
     await expect(page.getByRole('heading', { name: 'Kapak ve Dosya Kimliği' })).toBeVisible()

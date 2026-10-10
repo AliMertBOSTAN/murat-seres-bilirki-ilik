@@ -1,7 +1,8 @@
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { useCaseStore } from '@/store/caseStore'
 import { useSettingsStore } from '@/store/settingsStore'
+import { useAuthStore } from '@/store/authStore'
 import { useSummary } from '@/engine/selectors'
 import { GROUP_TITLES } from '@/content'
 import { formatDateTR } from '@/engine/excel-compat'
@@ -18,9 +19,16 @@ export function AppShell() {
   const settings = useSettingsStore((s) => s.settings)
   const summary = useSummary()
   const loc = useLocation()
+  const navigate = useNavigate()
+  const user = useAuthStore((s) => s.user)
+  const logout = useAuthStore((s) => s.logout)
+  const isAdmin = user?.role === 'admin'
   const [navOpen, setNavOpen] = useState(false)
+  const [warn, setWarn] = useState<string | null>(null)
 
   useEffect(() => { setNavOpen(false) }, [loc.pathname])
+  // Yetki yönlendirmesinden gelen kısa uyarı (RequireAdmin → state.warn)
+  useEffect(() => { const w = (loc.state as { warn?: string } | null)?.warn; if (w) { setWarn(w); const t = setTimeout(() => setWarn(null), 6000); return () => clearTimeout(t) } }, [loc.state])
   useEffect(() => {
     const last = localStorage.getItem('seres-last-case')
     if (last && last !== useCaseStore.getState().caseData.id) void loadCaseById(last).then((cc) => { if (cc) useCaseStore.getState().loadCase(cc) })
@@ -40,9 +48,9 @@ export function AppShell() {
       entityNav('yolcular', '/analiz/yolcu', '6. Yolcu', '6'),
       entityNav('yayalar', '/analiz/yaya', '9Y. Yaya', '9Y'),
     ] },
-    { title: 'Modüller', items: MODULES.map((m) => ({ to: m.pages[0]?.route ?? `/modul/${m.id}`, label: m.name, sheet: m.pages[0]?.sheetName, badge: m.status === 'excel-bekleniyor' ? 'Excel bekleniyor' : settings.enabledModules.includes(m.id) ? undefined : 'kapalı' })) },
+    { title: 'Modüller', items: MODULES.map((m) => ({ to: m.pages[0]?.route ?? `/modul/${m.id}`, label: m.name, sheet: m.pages[0]?.sheetName, badge: m.status === 'gelistiriliyor' ? 'geliştiriliyor' : settings.enabledModules.includes(m.id) ? undefined : 'kapalı' })) },
     ...(settings.showDrafts ? [{ title: 'Taslak gruplar', items: ['dorse', 'iz', 'olu-yarali', 'kaza-nedeni'].map((g) => ({ to: `/analiz/grup/${g}`, label: GROUP_TITLES[g] ?? g, sheet: 'Tanım' })) }] : []),
-    { title: 'Araçlar', items: [{ to: '/bag-haritasi', label: 'Bağ Haritası ve Kontroller' }, { to: '/rapor/onizleme', label: 'Rapor Önizleme (A4)' }, { to: '/ayarlar', label: 'Ayarlar (Yönetici)', sheet: 'Tanım · BİLGİ HESAP' }] },
+    { title: 'Araçlar', items: [{ to: '/bag-haritasi', label: 'Bağ Haritası ve Kontroller' }, { to: '/rapor/onizleme', label: 'Rapor Önizleme (A4)' }, ...(isAdmin ? [{ to: '/ayarlar', label: 'Ayarlar (Yönetici)', sheet: 'Tanım · BİLGİ HESAP' }] : [])] },
   ]
 
   return (
@@ -63,7 +71,7 @@ export function AppShell() {
                 <NavLink key={it.to} to={it.to} className={({ isActive }) => cn('flex items-center justify-between rounded-md px-3 py-1.5 text-sm transition-colors', isActive || loc.pathname.startsWith(it.to.replace(/\/1$/, '')) ? 'bg-white/15 text-white' : 'text-white/80 hover:bg-white/10 hover:text-white')}>
                   <span>
                     <span className="block leading-tight">{it.label}</span>
-                    {it.sheet && <span className="block text-[10px] text-white/70">Sayfa: {it.sheet}</span>}
+                    {it.sheet && settings.showExcelRefs && <span className="block text-[10px] text-white/70">Sayfa: {it.sheet}</span>}
                   </span>
                   {it.badge && <span className="rounded bg-altin/20 px-1.5 py-0.5 text-[9px] uppercase text-altin">{it.badge}</span>}
                 </NavLink>
@@ -90,7 +98,15 @@ export function AppShell() {
             <span className="flex items-center gap-1 text-xs font-semibold"><span className="h-2.5 w-2.5 rounded-full bg-d-incelenmeli" /> İNCELENMELİ <AnimatedNumber value={summary.incelenmeli} /></span>
             {summary.tanimsiz > 0 && <span className="text-[10px] text-amber-700" title="Kural tanımsız kart">⚠ {summary.tanimsiz}</span>}
           </div>
+          {user && (
+            <div className="flex items-center gap-2" data-testid="oturum" title={`Giriş: ${formatDateTR(user.loginAt.slice(0, 10))}`}>
+              <span className="text-xs font-medium text-lacivert">{user.username}</span>
+              <span className={cn('rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider', isAdmin ? 'bg-lacivert text-white' : 'bg-camgobegi-100 text-lacivert')}>{isAdmin ? 'Yönetici' : 'Bilirkişi'}</span>
+              <button className="btn-ghost !px-2 !py-1 text-xs" onClick={() => { logout(); navigate('/giris', { replace: true }) }}>Çıkış</button>
+            </div>
+          )}
         </header>
+        {warn && <div className="no-print mx-4 mt-3 flex items-center justify-between rounded-lg border border-altin/60 bg-altin-100 px-3 py-2 text-sm text-bronz lg:mx-8" role="status">{warn}<button className="ml-3 text-xs underline" onClick={() => setWarn(null)}>kapat</button></div>}
         <main className="scroll-thin flex-1 overflow-y-auto px-4 py-5 lg:px-8">
           <Outlet />
         </main>

@@ -42,15 +42,28 @@ Betikler metinleri elle kopyalamaz; her alan Excel hücre referansıyla taşın�
 | `src/engine/` | Excel uyumluluk yardımcıları, kart motoru, durum kuralları, istatistik, seçiciler, bağımlılık grafiği, kontroller |
 | `src/modules/` | Modül sözleşmesi, kayıt defteri, Güneş ve Kaçınma modülleri, iskelet modüller |
 | `src/pages/`, `src/components/` | Rotalar ve Etken Kartı / provenance bileşenleri |
-| `netlify/functions/` | `auth-admin`, `settings-get`, `settings-put`, `module-pack-upload` (Netlify Blobs) |
+| `netlify/functions/` | `auth-login`, `auth-admin`, `settings-get`, `settings-put`, `module-pack-upload` (Netlify Blobs) |
 | `docs/` | `excel-analysis.md`, `tutarsizlik-raporu.md` (31 madde), `acik-sorular.md` (23 soru), `adr/ADR-001..006`, `screens/` |
 
 ## Netlify dağıtımı
 
 1. Depoyu Netlify'a bağlayın (`netlify.toml` build komutu `npm run build`, publish `dist`, functions `netlify/functions`).
-2. Ortam değişkeni: `ADMIN_PASSCODE` (yönetici parolası). Netlify Blobs otomatik etkindir (`settings`, `packs` depoları).
+2. Ortam değişkenleri: `ADMIN_PASSCODE` (yönetici parolası) ve `USER_PASSCODE` (bilirkişi parolası) — bkz. "Giriş ve roller". Netlify Blobs otomatik etkindir (`settings`, `packs` depoları).
 3. SPA yönlendirmesi `netlify.toml` içinde (`/* → /index.html 200`); yenilemede 404 olmaz.
 4. `netlify deploy --prod` veya git push ile yayın.
+
+## Giriş ve roller
+
+Uygulama iki kullanıcılı basit bir giriş kapısıyla korunur; oturum açılmadan hiçbir sayfa kullanılamaz (`/giris`'e yönlendirilir). Oturum tarayıcıda `seres-auth` anahtarında saklanır; üst şeritteki **Çıkış** düğmesi oturumu kapatır.
+
+| Kullanıcı adı | Rol | Parola kaynağı (Netlify) | Çevrimdışı demo parolası |
+|---|---|---|---|
+| `admin` | `admin` — tüm sayfalar + **Ayarlar (Yönetici)** paneli (parola ekranı atlanır) | `ADMIN_PASSCODE` | `seres` |
+| `bilirkisi` | `kullanici` — Ayarlar dışındaki tüm sayfalar; `/ayarlar` isteği `/dosya/giris`'e döner | `USER_PASSCODE` | `seres123` |
+
+Akış: `src/store/authStore.ts` → `loginRequest()` (`src/lib/central.ts`) önce `POST /api/auth-login` (`netlify/functions/auth-login.ts`) çağırır; Function erişilemezse (yerel `vite preview`, 404, JSON olmayan yanıt) `DEMO_USERS` sabitindeki çevrimdışı hesaplar kabul edilir. Function 401 döndürürse çevrimdışı hesaplara düşülmez. Token, `_auth.ts` içindeki HMAC imzalı yükte `role` ve `username` alanlarını taşır; yönetici token'ı `ADMIN_PASSCODE` ile imzalandığı için `settings-put` tarafından doğrulanır, bilirkişi token'ı (`USER_PASSCODE`) yönetici uç noktalarında geçersizdir.
+
+> Bu kapı bir demo mekanizmasıdır; üretimde Netlify Identity / OIDC önerilir (ADR-004).
 
 ## Yeni modül ekleme
 

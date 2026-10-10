@@ -17,7 +17,7 @@ export function BagHaritasiPage() {
   const all = useAllResults()
   const [tab, setTab] = useState<'harita' | 'kontroller'>('harita')
   const [group, setGroup] = useState<string>('yol-cevre')
-  const graph = useMemo(() => buildGraph(effectiveFactors(settings).filter((f) => f.group === group), { modules: MODULE_DEFS.filter((m) => settings.enabledModules.includes(m.manifest.id) && m.manifest.status !== 'excel-bekleniyor').map((m) => ({ id: m.manifest.id, name: m.manifest.name, inputs: m.manifest.inputs.map((i) => i.from), targets: (m.manifest.hooks ?? []).map((h) => h.targetFactorId) })) }), [settings, group])
+  const graph = useMemo(() => buildGraph(effectiveFactors(settings).filter((f) => f.group === group), { modules: MODULE_DEFS.filter((m) => settings.enabledModules.includes(m.manifest.id) && m.manifest.status !== 'gelistiriliyor').map((m) => ({ id: m.manifest.id, name: m.manifest.name, inputs: m.manifest.inputs.map((i) => i.from), targets: (m.manifest.hooks ?? []).map((h) => h.targetFactorId) })) }), [settings, group])
   const { nodes, edges } = useMemo(() => {
     const cols: Record<string, number> = { input: 0, module: 1, setting: 1, factor: 2, summary: 3, report: 4 }
     const counts: Record<number, number> = {}

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useSettingsStore, DEFAULT_SETTINGS, type Settings } from '@/store/settingsStore'
 import { ALL_FACTORS, GROUP_TITLES, GROUP_ORDER, LISTS, STATUS_PROFILES, STATUS_INPUTS, CONSTANTS, EVIDENCE_CODES, LEGAL_TEXTS, REPORT_META, CONTENT_VERSION } from '@/content'
@@ -9,6 +9,7 @@ import { StatusChip } from '@/ui/StatusChip'
 import { download } from '@/lib/io'
 import type { FactorDef } from '@/engine/types'
 import { adminLogin, pullCentralSettings, pushCentralSettings } from '@/lib/central'
+import { useAuthStore } from '@/store/authStore'
 
 const SECTIONS = [
   { id: 'bilgi-bankasi', label: 'Bilgi Bankası' }, { id: 'listeler', label: 'Listeler' }, { id: 'kurallar', label: 'Kural Profilleri' }, { id: 'katsayilar', label: 'Katsayılar ve Sabitler' },
@@ -25,7 +26,12 @@ export function AyarlarPage() {
   const [note, setNote] = useState('')
   const [msg, setMsg] = useState<string | null>(null)
   const tab = (SECTIONS.find((s) => s.id === section)?.id ?? 'bilgi-bankasi') as SectionId
-  const unlocked = !!adminToken
+  // Yönetici rolüyle oturum açılmışsa parola ekranı atlanır; adminToken oturum token'ından beslenir.
+  const authUser = useAuthStore((s) => s.user)
+  const isAdminUser = authUser?.role === 'admin'
+  useEffect(() => { if (isAdminUser && !adminToken && authUser) setAdminToken(authUser.token) }, [isAdminUser, adminToken, authUser, setAdminToken])
+  const unlocked = !!adminToken || isAdminUser
+  const token = adminToken ?? authUser?.token ?? ''
 
   if (!unlocked) {
     return (
@@ -41,7 +47,7 @@ export function AyarlarPage() {
   }
 
   const save = async () => { const h = await commitVersion(note || 'Ayar güncellemesi'); setNote(''); setMsg(`Sürüm kaydedildi: v${useSettingsStore.getState().settings.version} #${h}`) }
-  const push = async () => { const ok = await pushCentralSettings(settings, adminToken!); setMsg(ok ? 'Merkezi ayarlar (Netlify Blobs) güncellendi.' : 'Merkezi kayıt başarısız (çevrimdışı veya yetkisiz).') }
+  const push = async () => { const ok = await pushCentralSettings(settings, token); setMsg(ok ? 'Merkezi ayarlar (Netlify Blobs) güncellendi.' : 'Merkezi kayıt başarısız (çevrimdışı veya yetkisiz).') }
   const pull = async () => { const s = await pullCentralSettings(); if (s) { importSettings(s); setMsg('Merkezi ayarlar alındı.') } else setMsg('Merkezi ayar bulunamadı.') }
 
   return (
@@ -332,14 +338,14 @@ function Moduller({ settings, update }: P) {
           return (
             <div key={m.id} className="kart p-4">
               <div className="flex items-start justify-between gap-2"><div><h3 className="font-semibold text-lacivert">{m.name} <span className="font-mono text-xs text-gri">v{m.version}</span></h3><p className="text-xs text-gri">{m.description}</p></div>
-                {m.status === 'excel-bekleniyor' ? <Badge tone="altin">Excel bekleniyor</Badge> : <Toggle checked={on} onChange={(v) => update({ enabledModules: v ? [...settings.enabledModules, m.id] : settings.enabledModules.filter((x) => x !== m.id) })} label={on ? 'açık' : 'kapalı'} />}</div>
+                {m.status === 'gelistiriliyor' ? <Badge tone="altin">Modül geliştiriliyor</Badge> : <Toggle checked={on} onChange={(v) => update({ enabledModules: v ? [...settings.enabledModules, m.id] : settings.enabledModules.filter((x) => x !== m.id) })} label={on ? 'açık' : 'kapalı'} />}</div>
               <div className="mt-2 flex flex-wrap gap-1 text-[10px]">{m.inputs.map((i) => <Badge key={i.key} tone="gri">in: {i.from}{i.fallback ? ` (${i.fallback})` : ''}</Badge>)}{m.outputs.map((o) => <Badge key={o.key} tone="cam">out: {o.key}</Badge>)}{(m.hooks ?? []).map((h) => <Badge key={h.targetFactorId} tone="altin">hook: {h.targetFactorId}</Badge>)}</div>
               {(m.dependsOn ?? []).length > 0 && <div className="mt-1 text-[10px] text-gri">Bağımlılık: {m.dependsOn!.map((d) => `${d.id}@${d.version}`).join(', ')}</div>}
             </div>
           )
         })}
       </div>
-      <div className="kart p-4 text-sm"><Toggle checked={settings.showDrafts} onChange={(v) => update({ showDrafts: v })} label="Taslak etken gruplarını (6., 7., 10., 11., dorse, 8.11+, 9.9+) navigasyonda göster" /><div className="mt-2"><Toggle checked={settings.reportShowDrafts} onChange={(v) => update({ reportShowDrafts: v })} label="Taslak kartları raporda göster" /></div><div className="mt-2 flex items-center gap-3"><span>"Aranmadı" kartları raporda:</span><Segmented options={['tam', 'kisa', 'gizle'] as const} value={settings.reportAranmadi} onChange={(v) => v && update({ reportAranmadi: v })} /></div><div className="mt-2"><Field label="Varlık üst sınırı (araç/sürücü/yaya/yolcu)"><TextInput type="number" min={1} max={20} value={settings.entityLimit} onChange={(v) => update({ entityLimit: Math.max(1, Number(v) || 6) })} className="!w-24" /></Field></div></div>
+      <div className="kart p-4 text-sm"><Toggle checked={settings.showExcelRefs} onChange={(v) => update({ showExcelRefs: v })} label="Excel kaynak izlerini göster (sayfa adları, hücre referansları) — kullanıcıya gösterilmek istenmiyorsa kapatın" /><div className="mt-2"><Toggle checked={settings.showDrafts} onChange={(v) => update({ showDrafts: v })} label="Taslak etken gruplarını (6., 7., 10., 11., dorse, 8.11+, 9.9+) navigasyonda göster" /></div><div className="mt-2"><Toggle checked={settings.reportShowDrafts} onChange={(v) => update({ reportShowDrafts: v })} label="Taslak kartları raporda göster" /></div><div className="mt-2 flex items-center gap-3"><span>"Aranmadı" kartları raporda:</span><Segmented options={['tam', 'kisa', 'gizle'] as const} value={settings.reportAranmadi} onChange={(v) => v && update({ reportAranmadi: v })} /></div><div className="mt-2"><Field label="Varlık üst sınırı (araç/sürücü/yaya/yolcu)"><TextInput type="number" min={1} max={20} value={settings.entityLimit} onChange={(v) => update({ entityLimit: Math.max(1, Number(v) || 6) })} className="!w-24" /></Field></div></div>
     </div>
   )
 }

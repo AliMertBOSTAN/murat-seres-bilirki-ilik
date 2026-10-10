@@ -9,6 +9,7 @@ export interface Settings {
   engine: EngineSettings
   summaryScope: 'excel' | 'all'
   showDrafts: boolean
+  showExcelRefs: boolean
   entityLimit: number
   enabledModules: string[]
   reportAranmadi: 'tam' | 'kisa' | 'gizle'
@@ -27,7 +28,7 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   engine: { renderMode: 'excel', statusProfileOverride: null, vlookupExactAlways: true },
-  summaryScope: 'all', showDrafts: false, entityLimit: 6, enabledModules: ['gunes-etkenligi', 'kacinma-mutalaa'],
+  summaryScope: 'all', showDrafts: false, showExcelRefs: true, entityLimit: 6, enabledModules: ['gunes-etkenligi', 'kacinma-mutalaa'],
   reportAranmadi: 'tam', reportShowDrafts: false, numberingScheme: 'v1',
   duzeltmeler: { siklikEslemesi: false, kacinmaCarpan: false, kurumAnlam: false, rkEtiket: false, ekDosyaIncelemeDurumu: false },
   gunes: { thetaBands: [{ max: 5, sinif: 'Tam körlük', K: 0.1 }, { max: 10, sinif: 'Çok yüksek', K: 0.4 }, { max: 20, sinif: 'Yüksek', K: 0.6 }, { max: 45, sinif: 'Orta', K: 0.8 }, { max: 180, sinif: 'Düşük/önemsiz', K: 1 }],

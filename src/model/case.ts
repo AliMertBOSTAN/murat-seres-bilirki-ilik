@@ -28,8 +28,12 @@ export interface CaseData {
   modules: Record<string, unknown>
   factorEntries: FactorEntry[]
   ekler?: { id: string; name: string; type: string; size: number; factorId?: string }[]
+  /** Rapor içeriği seçimi: bölüm bayrakları (anahtar yoksa dahil) ve hariç tutulan kart anahtarları (`${factorId}#${entityIndex ?? 0}`). */
+  rapor?: RaporSecimi
   [k: string]: unknown
 }
+
+export interface RaporSecimi { bolumler: Record<string, boolean>; haricKartlar: string[] }
 
 export const ENTITY_KINDS: { kind: EntityKind; factorKind: 'arac' | 'surucu' | 'yaya' | 'yolcu'; title: string; singular: string }[] = [
   { kind: 'araclar', factorKind: 'arac', title: 'Araçlar', singular: 'Araç' },
@@ -49,7 +53,7 @@ export function newCase(contentVersion: string, settingsHash: string): CaseData 
     id: newId(), title: 'Yeni dosya', createdAt: now, updatedAt: now, settingsVersionHash: settingsHash, contentVersion,
     dosya: { firma: 'SERESLER BİLİRKİŞİLİK', raporTuru: 'BİLİRKİŞİ RAPORUDUR', dosyaTuru: 'ceza', mahkemeNo: null },
     taraflar: {}, bilirkisi: {}, gorevlendirme: {}, kazaYeri: {}, yolCevre: {}, guzergah: {}, yolEkipman: {}, kaza: {},
-    araclar: [{}], suruculer: [{}], yayalar: [], yolcular: [], istatistik: { saatler: {}, metinSecimleri: {} }, modules: {}, factorEntries: [], ekler: [],
+    araclar: [{}], suruculer: [{}], yayalar: [], yolcular: [], istatistik: { saatler: {}, metinSecimleri: {} }, modules: {}, factorEntries: [], ekler: [], rapor: { bolumler: {}, haricKartlar: [] },
   }
 }
 
@@ -66,6 +70,9 @@ export function normalizeCase(c: Partial<CaseData>): CaseData {
   const ist = out.istatistik as Record<string, unknown>
   if (!ist.saatler || typeof ist.saatler !== 'object') ist.saatler = {}
   if (!ist.metinSecimleri || typeof ist.metinSecimleri !== 'object') ist.metinSecimleri = {}
+  if (!out.rapor || typeof out.rapor !== 'object') out.rapor = { bolumler: {}, haricKartlar: [] }
+  if (!out.rapor.bolumler || typeof out.rapor.bolumler !== 'object') out.rapor.bolumler = {}
+  if (!Array.isArray(out.rapor.haricKartlar)) out.rapor.haricKartlar = []
   for (const e of out.factorEntries) { if (!e.tespit) e.tespit = { yontemler: [], puanlar: [] }; if (!Array.isArray(e.tespit.puanlar)) e.tespit.puanlar = []; if (!Array.isArray(e.tespit.yontemler)) e.tespit.yontemler = [] }
   return out
 }

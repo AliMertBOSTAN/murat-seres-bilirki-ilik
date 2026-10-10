@@ -6,8 +6,9 @@ const unb64 = (s: string) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/
 async function key(secret: string) {
   return crypto.subtle.importKey('raw', enc.encode(secret + '|seres-admin'), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign', 'verify'])
 }
-export async function issueToken(secret: string, ttlMs = 2 * 60 * 60 * 1000): Promise<string> {
-  const payload = b64(enc.encode(JSON.stringify({ sub: 'admin', exp: Date.now() + ttlMs })))
+/** `extra` ile yüke ek alanlar (ör. role, username) eklenir; `sub` ve `exp` korunur. */
+export async function issueToken(secret: string, ttlMs = 2 * 60 * 60 * 1000, extra?: Record<string, unknown>): Promise<string> {
+  const payload = b64(enc.encode(JSON.stringify({ sub: 'admin', ...(extra ?? {}), exp: Date.now() + ttlMs })))
   const sig = b64(await crypto.subtle.sign('HMAC', await key(secret), enc.encode(payload)))
   return `${payload}.${sig}`
 }

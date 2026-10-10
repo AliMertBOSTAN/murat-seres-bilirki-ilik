@@ -1,12 +1,14 @@
 import { type ReactNode, type SelectHTMLAttributes, type InputHTMLAttributes, type TextareaHTMLAttributes, useId } from 'react'
 import { cn } from './cn'
+import { useSettingsStore } from '@/store/settingsStore'
 
 export function Field({ label, hint, children, className, source }: { label: ReactNode; hint?: ReactNode; children: ReactNode; className?: string; source?: string }) {
+  const showRefs = useSettingsStore((s) => s.settings.showExcelRefs)
   return (
     <label className={cn('block', className)}>
       <span className="mb-1 flex items-baseline justify-between gap-2">
         <span className="text-xs font-semibold text-lacivert">{label}</span>
-        {source && <span className="font-mono text-[10px] text-gri" title="Excel kaynağı">{source}</span>}
+        {source && showRefs && <span className="font-mono text-[10px] text-gri" title="Excel kaynağı">{source}</span>}
       </span>
       {children}
       {hint && <span className="mt-1 block text-[11px] text-gri">{hint}</span>}
@@ -103,10 +105,11 @@ export function Drawer({ open, onClose, title, children, width = 'md' }: { open:
 }
 
 export function PageHeader({ title, subtitle, sheet, actions, next }: { title: ReactNode; subtitle?: ReactNode; sheet?: string; actions?: ReactNode; next?: { to: string; label: string } }) {
+  const showRefs = useSettingsStore((s) => s.settings.showExcelRefs)
   return (
     <header className="mb-5 flex flex-wrap items-end justify-between gap-3">
       <div>
-        {sheet && <div className="etiket">Excel sayfası: {sheet}</div>}
+        {sheet && showRefs && <div className="etiket">Excel sayfası: {sheet}</div>}
         <h1 className="text-3xl font-semibold leading-tight text-lacivert">{title}</h1>
         {subtitle && <p className="mt-1 max-w-3xl text-sm text-gri">{subtitle}</p>}
       </div>

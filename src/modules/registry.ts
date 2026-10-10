@@ -2,8 +2,8 @@ import type { ModuleDefinition, ModuleManifest } from './types'
 import { gunesModule } from './gunes-etkenligi'
 import { kacinmaModule } from './kacinma-mutalaa'
 
-function skeleton(id: string, name: string, description: string, sheets: string[], after = 'sonuc'): ModuleDefinition {
-  const manifest: ModuleManifest = { id, name, version: '0.0.0', kind: 'compute', description, status: 'excel-bekleniyor', inputs: [], outputs: [], pages: [{ route: `/modul/${id}`, title: name, sheetName: sheets.join(', ') }], reportSections: [{ id, title: name, after }] }
+function skeleton(id: string, name: string, description: string, after = 'sonuc'): ModuleDefinition {
+  const manifest: ModuleManifest = { id, name, version: '0.0.0', kind: 'compute', description, status: 'gelistiriliyor', inputs: [], outputs: [], pages: [{ route: `/modul/${id}`, title: name }], reportSections: [{ id, title: name, after }] }
   return { manifest, Page: () => null }
 }
 
@@ -11,14 +11,15 @@ function skeleton(id: string, name: string, description: string, sheets: string[
 export const MODULE_DEFS: ModuleDefinition[] = [
   kacinmaModule,
   gunesModule,
-  skeleton('istatistik-risk', 'İstatistik ve Risk (ayrı modül)', 'Sayfa 2. risk/sıklık hesabı ayrı eklenti olarak', ['2.']),
-  skeleton('ayna', 'Ayna Görüş Analizi', 'Dış dosya: AYNA', ['AYNA']),
-  skeleton('zaman-mesafe', 'Zaman–Mesafe (ZMN5)', 'Dış dosya: Trafik Kazası Bilirkişiliği 001.xlsb › ZMN5', ['ZMN5']),
-  skeleton('sorumluluk', 'Sorumluluk Puanlaması (SRNK)', 'Dış dosya: SRNK, İŞRNK, BRYR', ['SRNK']),
-  skeleton('kavsak', 'Kavşak Analizi (KVŞ)', 'Dış dosya: KVŞ', ['KVŞ']),
-  skeleton('iz-analizi', 'İz Analizi (6., 7., 10. bölümler)', 'Tanım kütüphanesindeki taslak etkenlerden', ['Tanım']),
+  skeleton('istatistik-risk', 'İstatistik ve Risk Modülü', 'Yol kesimi, nüfus ve taşıt verilerinden risk ve olası sıklık değerlendirmesi (bağımsız eklenti olarak).'),
+  skeleton('ayna', 'Ayna Görüş Analizi', 'Araç aynalarının görüş alanı ve kör nokta değerlendirmesi.'),
+  skeleton('zaman-mesafe', 'Zaman–Mesafe Analizi', 'Araçların zaman–mesafe diyagramı, görüş mesafesi ve reaksiyon süresi hesapları.'),
+  skeleton('sorumluluk', 'Sorumluluk Puanlaması', 'Sürücü, araç sahibi ve kurumlar için temel kusur puanlaması.'),
+  skeleton('kavsak', 'Kavşak Analizi', 'Kavşak geometrisi, geçiş önceliği ve sinyalizasyon değerlendirmesi.'),
+  skeleton('iz-analizi', 'İz Analizi', 'Araç yükü, lastik, kayma, sürüklenme ve fren izleri ile ölü/yaralıya ait izlerin değerlendirilmesi.'),
 ]
 export const MODULES = MODULE_DEFS.map((m) => ({ ...m.manifest, status: m.manifest.status ?? 'hazir' }))
+export const MODUL_DURUM_ETIKETI: Record<string, string> = { hazir: 'hazır', gelistiriliyor: 'Modül geliştiriliyor' }
 export const MODULE_BY_ID = new Map(MODULE_DEFS.map((m) => [m.manifest.id, m]))
 
 export interface RegistryCheck { level: 'hata' | 'uyari'; moduleId: string; message: string }

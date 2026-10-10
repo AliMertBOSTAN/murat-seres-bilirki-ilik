@@ -9,6 +9,14 @@ import { PageHeader, Badge, Toggle, Empty } from '@/ui/primitives'
 import { StatusChip } from '@/ui/StatusChip'
 import { ENTITY_KIND_BY_FACTOR, ENTITY_KINDS, type EntityKind } from '@/model/case'
 
+/** "2.3. HAVA DURUMU" → "Hava Durumu" */
+export function kisaBaslik(title: string): string {
+  const t = title.replace(/^\s*[\d.]+\s*/, '').replace(/\s+/g, ' ').trim()
+  const words = t.split(' ')
+  const cased = words.map((w) => (w.length > 2 && w === w.toLocaleUpperCase('tr-TR') ? w.charAt(0) + w.slice(1).toLocaleLowerCase('tr-TR') : w)).join(' ')
+  return cased.length > 34 ? cased.slice(0, 32) + '…' : cased
+}
+
 const SHEET: Record<string, string> = { 'yol-cevre': '3', arac: '4', surucu: '5', yolcu: '6', yaya: '9Y' }
 const NEXT: Record<string, { to: string; label: string }> = { 'yol-cevre': { to: '/sonuc', label: 'Sonuç' }, arac: { to: '/analiz/surucu/1', label: '5. Sürücü' }, surucu: { to: '/analiz/yolcu/1', label: '6. Yolcu' }, yolcu: { to: '/analiz/yaya/1', label: '9Y. Yaya' }, yaya: { to: '/modul/kacinma', label: '19. Kaçınma' } }
 
@@ -54,7 +62,7 @@ export function FactorGroupPage({ group: groupProp }: { group?: string }) {
       )}
 
       <div className="mb-4 flex flex-wrap gap-1.5">
-        {cards.map((k) => <a key={k.def.id} href={`#kart-${k.def.id}-${k.entityIndex ?? 0}`} title={k.def.title}><StatusChip value={k.def.displayCode || k.def.title.slice(0, 12)} size="sm" className={k.result.durum ? '' : '!bg-krem-200 !text-gri'} defined={k.result.durumDefined} /></a>)}
+        {cards.map((k) => <a key={k.def.id} href={`#kart-${k.def.id}-${k.entityIndex ?? 0}`} title={`${k.def.title} — ${k.result.durum || 'durum seçilmedi'}`} className="inline-flex items-center gap-1.5 rounded-full border border-krem-200 bg-white py-0.5 pl-1 pr-2.5 text-[11px] text-lacivert hover:border-camgobegi"><StatusChip value={k.def.displayCode?.replace(/\.$/, '') || '•'} size="sm" className={k.result.durum ? '' : '!bg-krem-200 !text-gri'} defined={k.result.durumDefined} /><span className="max-w-[12rem] truncate">{kisaBaslik(k.def.title)}</span></a>)}
       </div>
 
       {shown.length === 0 && <Empty>Bu filtrede kart yok.</Empty>}

@@ -1,6 +1,8 @@
 import { lazy, Suspense, type ComponentType } from 'react'
 import { createBrowserRouter, Navigate, useParams } from 'react-router-dom'
 import { AppShell } from '@/layout/AppShell'
+import { RequireAuth, RequireAdmin } from '@/layout/RequireAuth'
+import { LoginPage } from '@/pages/LoginPage'
 import { GirisPage } from '@/pages/GirisPage'
 import { VeriPage } from '@/pages/VeriPage'
 import { AciklamalarPage } from '@/pages/AciklamalarPage'
@@ -19,8 +21,9 @@ function GroupRoute({ group }: { group: string }) { return <FactorGroupPage grou
 function ModuleRoute() { const { id } = useParams(); const m = MODULE_BY_ID.get(id ?? ''); return <ModulePage module={m} /> }
 
 export const router = createBrowserRouter([
+  { path: '/giris', element: <LoginPage /> },
   {
-    path: '/', element: <AppShell />,
+    path: '/', element: <RequireAuth><AppShell /></RequireAuth>,
     children: [
       { index: true, element: <Navigate to="/dosya/giris" replace /> },
       { path: 'dosya/giris', element: <GirisPage /> },
@@ -40,8 +43,8 @@ export const router = createBrowserRouter([
       { path: 'modul/:id', element: <ModuleRoute /> },
       { path: 'bag-haritasi', element: <BagHaritasiPage /> },
       { path: 'rapor/onizleme', element: <RaporOnizlemePage /> },
-      { path: 'ayarlar', element: <AyarlarPage /> },
-      { path: 'ayarlar/:section', element: <AyarlarPage /> },
+      { path: 'ayarlar', element: <RequireAdmin><AyarlarPage /></RequireAdmin> },
+      { path: 'ayarlar/:section', element: <RequireAdmin><AyarlarPage /></RequireAdmin> },
       { path: '*', element: <Navigate to="/dosya/giris" replace /> },
     ],
   },

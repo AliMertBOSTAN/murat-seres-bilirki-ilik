@@ -11,7 +11,7 @@ export interface ModuleManifest {
   description: string
   icon?: string
   author?: string
-  status?: 'hazir' | 'excel-bekleniyor'
+  status?: 'hazir' | 'gelistiriliyor'
   dependsOn?: { id: string; version: string }[]
   inputs: { key: string; from: string; required: boolean; fallback?: 'manual' | 'setting' }[]
   outputs: { key: string; label: string; unit?: string }[]
