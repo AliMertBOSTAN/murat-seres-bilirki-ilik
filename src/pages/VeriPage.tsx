@@ -14,6 +14,8 @@ interface FieldDef { row: number; path: string; kind: string; label: string; lis
 const FIELDS = inputFields.grs1 as FieldDef[]
 const SECTIONS = inputFields.sections as { id: string; title: string; rows: number[] }[]
 const INCELEME = listItems('inceleme-durumu')
+/** Birden fazla kişi girilebilen taraf etiketleri */
+const TARAF_RE = /MAĞDUR|KATILAN|VEKİL|SANIK|DAVACI|DAVALI|ŞÜPHELİ|ALACAKLI|BORÇLU/i
 
 export function VeriPage() {
   const c = useCaseStore((s) => s.caseData)
@@ -54,6 +56,27 @@ export function VeriPage() {
     const set = (v: unknown) => setField(path, v)
     let label = f.label || path.split('.').pop() || ''
     if (f.row >= 6 && f.row <= 20) label = labelSet.labels[f.row - 6] || label
+    // Taraflar: tarih alanları takvimden seçilir; taraf alanlarına "+" ile birden fazla kişi eklenebilir
+    if (f.row >= 6 && f.row <= 17) {
+      const source0 = `Grş 1!D${f.row}`
+      if (/TARİH/i.test(label)) return <Field label={label} source={source0}><TextInput type="date" value={String(value ?? '').slice(0, 10)} onChange={set} /></Field>
+      if (TARAF_RE.test(label)) {
+        const ekPath = `${path}_ek`
+        const ekler = (getPath(c, ekPath) as string[] | undefined) ?? []
+        const setEk = (arr: string[]) => setField(ekPath, arr)
+        return (
+          <Field label={<span className="inline-flex items-center gap-1.5">{label}<button type="button" className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-camgobegi text-[11px] font-bold leading-none text-white hover:bg-lacivert" title={`Birden fazla ${label.toLocaleLowerCase('tr-TR')} ekle`} onClick={() => setEk([...ekler, ''])}>+</button></span>} source={source0}>
+            <TextInput value={value ?? ''} onChange={set} placeholder={`1. ${label.toLocaleLowerCase('tr-TR')}`} />
+            {ekler.map((v, i) => (
+              <div key={i} className="mt-1.5 flex gap-1">
+                <TextInput value={v} onChange={(t) => setEk(ekler.map((x, j) => (j === i ? t : x)))} placeholder={`${i + 2}. ${label.toLocaleLowerCase('tr-TR')}`} />
+                <button type="button" className="btn-ghost !px-2 !py-1 text-xs text-red-700" title="Kaldır" onClick={() => setEk(ekler.filter((_, j) => j !== i))}>✕</button>
+              </div>
+            ))}
+          </Field>
+        )
+      }
+    }
     const col = f.kind === 'scalar' || f.kind === 'derived' ? 'D' : ['D', 'E', 'F'][Number(/\[(\d+)\]/.exec(path)?.[1] ?? 0)] ?? 'D'
     const source = `Grş 1!${col}${f.row}`
     if (f.kind === 'derived') return <Field label={label} source={source}><div className="input bg-krem">{weekdayTR(c.kazaYeri.tarih) || '—'}</div></Field>

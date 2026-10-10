@@ -80,7 +80,7 @@ test.describe('Uçtan uca duman testi', () => {
     await expect(page.getByText('ETKEN 3')).toBeVisible()
     await page.getByLabel(/Dosya türü/).selectOption('hukuk')
     await page.locator('nav').getByRole('link', { name: /Veri Girişi/ }).click()
-    await expect(page.getByText('DAVACI', { exact: true })).toBeVisible()
+    await expect(page.getByText('DAVACI VEKİLİ').first()).toBeVisible()
   })
   test('sonuç ve rapor önizleme açılır', async ({ page }) => {
     await page.goto('/dosya/giris')

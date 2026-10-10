@@ -73,7 +73,7 @@ export function RaporOnizlemePage() {
     <div className="text-[12px]">
       <h2 className="my-3 text-center text-base font-bold">{title}</h2>
       <table className="w-full border-collapse"><tbody>
-        {labelSet.labels.slice(0, 12).map((l, i) => { const v = c.taraflar[`slot${i + 1}`]; return v ? <tr key={i}><td className="w-56 border border-black px-2 py-0.5 font-bold">{l}</td><td className="border border-black px-2 py-0.5">{String(v)}</td></tr> : null })}
+        {labelSet.labels.slice(0, 12).flatMap((l, i) => { const v = c.taraflar[`slot${i + 1}`]; const ek = (c.taraflar[`slot${i + 1}_ek`] as string[] | undefined) ?? []; const vals = [v, ...ek].filter((x) => x !== undefined && x !== null && String(x).trim() !== ''); return vals.map((x, j) => <tr key={`${i}-${j}`}><td className="w-56 border border-black px-2 py-0.5 font-bold">{vals.length > 1 ? `${l} ${j + 1}` : l}</td><td className="border border-black px-2 py-0.5">{/TARİH/i.test(l) ? formatDateTR(String(x)) || String(x) : String(x)}</td></tr>) })}
         {[['Bilirkişi Ad Soyadı', c.bilirkisi.ad], ['Uzmanlık Alanı', c.bilirkisi.uzmanlik], ['Bilirkişi Sicil No', c.bilirkisi.sicilNo], ['İnceleme Türü', c.gorevlendirme.incelemeTuru], ['Görevlendirme / Talep Dayanağı', c.gorevlendirme.dayanak], ['İnceleme Konusu', c.gorevlendirme.konu], ['Bilirkişiye Yöneltilen Sorular', c.gorevlendirme.sorular]].map(([l, v]) => v ? <tr key={String(l)}><td className="border border-black px-2 py-0.5 font-bold">{String(l)}</td><td className="border border-black px-2 py-0.5">{String(v)}</td></tr> : null)}
       </tbody></table>
     </div>) })

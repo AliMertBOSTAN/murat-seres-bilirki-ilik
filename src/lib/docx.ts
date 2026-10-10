@@ -3,7 +3,7 @@ import type { CaseData } from '@/model/case'
 import type { EvaluatedCard } from '@/engine/selectors'
 import type { Settings } from '@/store/settingsStore'
 import { download } from './io'
-import { GROUP_TITLES, CONTENT_VERSION } from '@/content'
+import { GROUP_TITLES, CONTENT_VERSION, PARTY_LABELS } from '@/content'
 import { keyOf } from '@/engine/selectors'
 import { formatDateTR } from '@/engine/excel-compat'
 
@@ -20,6 +20,17 @@ export async function exportDocx(c: CaseData, _titles: string[], summary: { rows
   const children: (Paragraph | Table)[] = dahil('kapak') ? [
     p(String(c.dosya.firma ?? ''), { bold: true, align: AlignmentType.CENTER, size: 32 }), p(String(c.dosya.raporTuru ?? ''), { align: AlignmentType.CENTER, size: 26 }), p(title, { align: AlignmentType.CENTER }), p(`Dosya No: ${c.dosya.dosyaNo ?? ''} · ${[c.dosya.il, c.dosya.ilce, c.dosya.mahalle].filter(Boolean).join(' / ')} · ${formatDateTR(c.kazaYeri.tarih)}`, { align: AlignmentType.CENTER }), p(''),
   ] : []
+  // Taraflar ve görevlendirme (ek taraflar dâhil)
+  if (bolumDahil(secim.bolumler, 'taraflar')) {
+    const labels = ((PARTY_LABELS as { sets: { id: string; labels: string[] }[] }).sets.find((s) => s.id === (c.dosya.dosyaTuru ?? 'ceza')) ?? (PARTY_LABELS as { sets: { labels: string[] }[] }).sets[0]).labels
+    const rows: TableRow[] = []
+    labels.slice(0, 12).forEach((l, i) => {
+      const vals = [c.taraflar[`slot${i + 1}`], ...(((c.taraflar[`slot${i + 1}_ek`] as string[] | undefined) ?? []))].filter((x) => x !== undefined && x !== null && String(x).trim() !== '')
+      vals.forEach((x, j) => rows.push(new TableRow({ children: [cell(vals.length > 1 ? `${l} ${j + 1}` : l, true, 30), cell(/TARİH/i.test(l) ? formatDateTR(String(x)) || String(x) : String(x), false, 70)] })))
+    })
+    for (const [l, v] of [['Bilirkişi Ad Soyadı', c.bilirkisi.ad], ['Uzmanlık Alanı', c.bilirkisi.uzmanlik], ['Bilirkişi Sicil No', c.bilirkisi.sicilNo]] as const) if (v) rows.push(new TableRow({ children: [cell(l, true, 30), cell(String(v), false, 70)] }))
+    if (rows.length) children.push(new Paragraph({ text: 'TARAFLAR VE GÖREVLENDİRME', heading: HeadingLevel.HEADING_1 }), new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, rows }))
+  }
   let lastGroup = ''
   for (const k of all.values()) {
     if (k.def.draft && !settings.reportShowDrafts) continue
