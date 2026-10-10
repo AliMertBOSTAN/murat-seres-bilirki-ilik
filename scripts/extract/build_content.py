@@ -415,7 +415,7 @@ def build_knowledge():
         birim=clean(T.val("C5")), konu=clean(T.val("C6")), dosyaYeri=clean(T.val("C7")), hazirlayan=clean(T.val("C8")), dokNo=clean(T.val("C9")),
         hazTarihi=clean(T.val("C11")), isoBelge=clean(T.val("C12")), bagOlAyGun=clean(T.val("C13")), revizyonNo=clean(T.val("C15")), revizyonTarihi=clean(T.val("C16")),
         klasorNo=clean(T.val("C17")), arsivYeri=clean(T.val("C18")), yenileyen=clean(T.val("C19")), onaylayan=clean(T.val("C20")),
-        altbilgiNotu=clean(T.val("B23")), birimRapor=clean(CORE.val("3", "E5")), yenileyenRapor=clean(CORE.val("3", "L6")),
+        altbilgiNotu=clean(T.val("B23")), birimRapor=clean(CORE.val("3", "E5")), yenileyenRapor="",  # Excel 3!L6 kişi adı içeriyordu; ürün sahibi isteğiyle taşınmaz, Ayarlar › Rapor Meta'dan girilir
         etiketler={f"B{r}": clean(T.val(f"B{r}")) for r in range(2, 24) if clean(T.val(f"B{r}"))},
         basliklar={"dokNo": "Dok.No:", "sayfaNo": "Sayfa No:", "hazTarihi": "Haz.Tarihi:", "revizyonNo": "Revizyon No", "revizyonTarihi": "Rvzyn Tarihi", "isoBelge": "İso Belge",
                    "bagOlAyGun": "Bağ.Ol.Ay-Gün", "yil": "Yıl", "klasorNo": "Klasör No :", "arsivYeri": "Arşiv Yeri :", "birim": "Birim :", "konu": "Konu ", "yenileyen": "Yenileyen"},
