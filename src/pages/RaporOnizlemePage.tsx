@@ -137,7 +137,7 @@ export function RaporOnizlemePage() {
         {eksikler.length > 0 && <button className="text-xs text-lacivert underline-offset-2 hover:underline" onClick={() => setPanel('eksikler')}>Eksikleri gör</button>}
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-[320px_1fr]">
+      <div className="print-block grid gap-4 lg:grid-cols-[320px_1fr]">
         <aside className="no-print kart self-start p-3 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto scroll-thin">
           <Tabs value={panel} onChange={setPanel} tabs={[{ id: 'icerik', label: 'İçerik' }, { id: 'eksikler', label: 'Eksikler', count: eksikler.length }]} />
           {panel === 'icerik' ? (

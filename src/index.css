@@ -46,9 +46,16 @@ h1, h2, h3 { @apply font-display; }
 .a4 { width: 210mm; min-height: 297mm; padding: 12mm 14mm 16mm; background: white; margin: 0 auto 10mm; box-shadow: 0 2px 12px rgba(0,0,0,.15); position: relative; }
 @page { size: A4; margin: 10mm; }
 @media print {
+  /* Kaydırma kapları yazdırmada tek sayfaya kırpılmasın: yükseklik ve taşma serbest */
+  html, body, #root, main, .scroll-thin { height: auto !important; max-height: none !important; overflow: visible !important; }
   body { background: white; }
+  main { padding: 0 !important; }
   .no-print { display: none !important; }
-  .a4 { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; page-break-after: always; }
+  .print-block { display: block !important; grid-template-columns: none !important; }
+  .a4 { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; page-break-after: always; break-after: page; }
+  .a4:last-child { page-break-after: auto; break-after: auto; }
+  .a4 > .absolute { position: static !important; margin-top: 8mm; }
+  .break-inside-avoid { break-inside: avoid; page-break-inside: avoid; }
 }
 
 /* Form kontrolleri */
