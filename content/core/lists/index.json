@@ -1,0 +1,4070 @@
+{
+ "version": "1.0.0",
+ "lists": {
+  "tanim-ad3-ad92": {
+   "id": "tanim-ad3-ad92",
+   "source": "Tanım!AD3:AD92",
+   "items": [
+    "Gemlik",
+    "İnegöl",
+    "İznik",
+    "Karacabey",
+    "Keles",
+    "Mudanya",
+    "Mustafakemalpaşa",
+    "Orhaneli",
+    "Orhangazi",
+    "Yenişehir / Bursa",
+    "Büyükorhan",
+    "Harmancık",
+    "Nilüfer",
+    "Osmangazi",
+    "Yıldırım",
+    "Gürsu",
+    "Kestel"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M9:R9"
+    }
+   ]
+  },
+  "tanim-g4-g85": {
+   "id": "tanim-g4-g85",
+   "source": "Tanım!G4:G85",
+   "items": [
+    "Adana",
+    "Adıyaman",
+    "Afyonkarahisar",
+    "Ağrı",
+    "Aksaray",
+    "Amasya",
+    "Ankara",
+    "Antalya",
+    "Ardahan",
+    "Artvin",
+    "Aydın",
+    "Balıkesir",
+    "Bartın",
+    "Batman",
+    "Bayburt",
+    "Bilecik",
+    "Bingöl",
+    "Bitlis",
+    "Bolu",
+    "Burdur",
+    "Bursa",
+    "Çanakkale",
+    "Çankırı",
+    "Çorum",
+    "Denizli",
+    "Diyarbakır",
+    "Düzce",
+    "Edirne",
+    "Elazığ",
+    "Erzincan",
+    "Erzurum",
+    "Eskişehir",
+    "Gaziantep",
+    "Giresun",
+    "Gümüşhane",
+    "Hakkari",
+    "Hatay",
+    "Iğdır",
+    "Isparta",
+    "İstanbul",
+    "İzmir",
+    "Kahramanmaraş",
+    "Karabük",
+    "Karaman",
+    "Kars",
+    "Kastamonu",
+    "Kayseri",
+    "Kırıkkale",
+    "Kırklareli",
+    "Kırşehir",
+    "Kilis",
+    "Kocaeli",
+    "Konya",
+    "Kütahya",
+    "Malatya",
+    "Manisa",
+    "Mardin",
+    "Mersin",
+    "Muğla",
+    "Muş",
+    "Nevşehir",
+    "Niğde",
+    "Ordu",
+    "Osmaniye",
+    "Rize",
+    "Sakarya",
+    "Samsun",
+    "Siirt",
+    "Sinop",
+    "Sivas",
+    "Şanlıurfa",
+    "Şırnak",
+    "Tekirdağ",
+    "Tokat",
+    "Trabzon",
+    "Tunceli",
+    "Uşak",
+    "Van",
+    "Yalova",
+    "Yozgat",
+    "Zonguldak"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M8:R8"
+    },
+    {
+     "sheet": "Grş 1",
+     "cells": "D140:G140"
+    }
+   ]
+  },
+  "tanim-e86-e108": {
+   "id": "tanim-e86-e108",
+   "source": "Tanım!E86:E108",
+   "items": [
+    "SERESLER BİLİRKİŞİLİK",
+    "Murat Rasim SERES",
+    "Mehmet ÖNEL BİLİRKİŞİLİK"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M7:R7"
+    }
+   ]
+  },
+  "tanim-f62-f162": {
+   "id": "tanim-f62-f162",
+   "source": "Tanım!F62:F162",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M11"
+    }
+   ]
+  },
+  "tanim-e2-e7": {
+   "id": "tanim-e2-e7",
+   "source": "Tanım!E2:E7",
+   "items": [
+    "BİLİRKİŞİ RAPORUDUR",
+    "UZMAN GÖRÜŞÜDÜR",
+    1,
+    2,
+    3,
+    4
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "J4:R5"
+    }
+   ]
+  },
+  "tanim-d60-d76": {
+   "id": "tanim-d60-d76",
+   "source": "Tanım!D60:D76",
+   "items": [
+    "Araç Kazası",
+    "Yaya Kazası",
+    "Araç Ticari",
+    "İCRA MAHKEMELERİ",
+    "DOSYA NO",
+    "ALACAKLI",
+    "ALACAKLI VEKİLİ",
+    "BORÇLU",
+    "BORÇLU VEKİLİ",
+    "TAKİP KONUSU",
+    "TAKİP TARİHİ",
+    "GÖREVLENDİRME",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M13:R13"
+    }
+   ]
+  },
+  "tanim-b46-b61": {
+   "id": "tanim-b46-b61",
+   "source": "Tanım!B46:B61",
+   "items": [
+    "AĞIR CEZA MAHKEMESİ",
+    "ASLİYE CEZA MAHKEMESİ",
+    "SULH CEZA HAKİMLİĞİ",
+    "ASLİYE HUKUK MAHKEMESİ",
+    "SULH HUKUK MAHKEMESİ",
+    "İŞ MAHKEMESİ",
+    "İCRA MAHKEMESİ-İCRA DAİRESİ",
+    "AİLE MAHKEMESİ",
+    "ÇOCUK MAHKEMESİ",
+    "ÇOCUK AĞIR CEZA MAHKEMESİ",
+    "ASLİYE TİCARET MAHKEMESİ",
+    "TÜKETİCİ MAHKEMESİ",
+    "FİKRİ VE SINAİ HAKLAR MAHKEMESİ",
+    "DOSYA NO"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "N11:R11"
+    }
+   ]
+  },
+  "tanim-af3-af150": {
+   "id": "tanim-af3-af150",
+   "source": "Tanım!AF3:AF150",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "M10:R10"
+    }
+   ]
+  },
+  "tanim-e86-e113": {
+   "id": "tanim-e86-e113",
+   "source": "Tanım!E86:E113",
+   "items": [
+    "SERESLER BİLİRKİŞİLİK",
+    "Murat Rasim SERES",
+    "Mehmet ÖNEL BİLİRKİŞİLİK"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Giriş",
+     "cells": "J2:R3"
+    }
+   ]
+  },
+  "bilgi-hesap-b90-b97": {
+   "id": "bilgi-hesap-b90-b97",
+   "source": "BİLGİ HESAP!B90:B97",
+   "items": [
+    "Bariyer :",
+    "Bordür :",
+    "Yaya Kaldırıı :",
+    "Orta Refüj :",
+    "Kavşak :",
+    "Yaya Geçidi :",
+    "Yol Elamanları etkenliği yoktur."
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "E28:H28"
+    }
+   ]
+  },
+  "tanim-d23-d32": {
+   "id": "tanim-d23-d32",
+   "source": "Tanım!D23:D32",
+   "items": [
+    "Yeterli",
+    "Yetersiz",
+    "Var",
+    "Yok",
+    "Yapıldı",
+    "Aranmadı",
+    "Belirsiz",
+    "Davranış"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D123 D114 D92:D96 D85:D88 D75:D83 D107:F107"
+    },
+    {
+     "sheet": "3",
+     "cells": "E31 E207 E94 E104 E21 E118 E155 E145 E187 E135 E166 E177 E265 E74 E84 E283 E11 E197 E53 E217 E227 E274 E237 E246 E255 E292 E41 E63"
+    },
+    {
+     "sheet": "4",
+     "cells": "E423 E13 E23 E33 E43 E53 E63 E73 E83 E93 E103 E113 E123 E133 E143 E153 E163 E173 E183 E193 E203 E213 E223 E233 E243 E253 E263 E273 E283 E293 E303 E313 E323 E333 E343 E353 E363 E383 E393 E373 E403 E413 E433 AE423 AE13 AE23 AE33 AE43 AE53 AE63 AE73 AE83 AE93 AE103 AE113 AE123 AE133 AE143 AE153 AE163 AE173 AE183 AE193 AE203 AE213 AE223 AE233 AE243 AE253 AE263 AE273 AE283 AE293 AE303 AE313 AE323 AE333 AE343 AE353 AE363 AE383 AE393 AE373 AE403 AE413 AE433"
+    },
+    {
+     "sheet": "5",
+     "cells": "E36 E46 E56 E16 E26 E66 E76 E85 E95 E105 E115 E125 E135 E145 E155 E165 E175 E185 E195 E205 E215 E225"
+    },
+    {
+     "sheet": "6",
+     "cells": "E15 E25 E35 E45 E55 E65"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "E15 E25 E35 E45 E55 E65"
+    }
+   ]
+  },
+  "bilgi-hesap-b243-b250": {
+   "id": "bilgi-hesap-b243-b250",
+   "source": "BİLGİ HESAP!B243:B250",
+   "items": [
+    "Kavşak",
+    "Viraj",
+    "Düz Yol",
+    "Işıklı Kontrol",
+    "Eğimli Yol",
+    "Yaya Geçidi",
+    "Diğer: ........................................"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "E113:H113"
+    }
+   ]
+  },
+  "bilgi-hesap-b253-b261": {
+   "id": "bilgi-hesap-b253-b261",
+   "source": "BİLGİ HESAP!B253:B261",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "E122:H122"
+    }
+   ]
+  },
+  "bilgi-hesap-b264-b276": {
+   "id": "bilgi-hesap-b264-b276",
+   "source": "BİLGİ HESAP!B264:B276",
+   "items": [
+    "Açık ve Güneşli",
+    "Kapalı ve Bulutlu",
+    "Yağmurlu",
+    "Karlı",
+    "Rüzgarlı",
+    "Sisli",
+    "Fırtınalı",
+    "Dolu Yağışlı",
+    "Tipi Yağışlı",
+    "Sulu Sepken",
+    "Tozlu Fırtınalı",
+    "Diğer: .."
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "E131:H131"
+    }
+   ]
+  },
+  "tanim-g97-g103": {
+   "id": "tanim-g97-g103",
+   "source": "Tanım!G97:G103",
+   "items": [
+    "Çok İyi",
+    "İyi",
+    "Orta",
+    "Kötü",
+    "Çok Kötü"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "J28 J113 J122 J131"
+    },
+    {
+     "sheet": "3",
+     "cells": "S103 S93 S83"
+    }
+   ]
+  },
+  "tanim-d37-d45": {
+   "id": "tanim-d37-d45",
+   "source": "Tanım!D37:D45",
+   "items": [
+    "Kolluk Kuvvetleri tarafından araştırılmasına",
+    "Savcılık Tarafından araştırılmasına",
+    "Bilirkişi Trafından Tarafından inceleme yapılasına",
+    "Uzman Tarafından inceleme yapılasına",
+    "Tarafından inceleme yapılasına",
+    "Aranmadı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "E34:G34 I34 D119:G119 I119 D128:G128 I128"
+    },
+    {
+     "sheet": "3",
+     "cells": "S298 S124 S70 S17 S59 S90 S80 S100 S141 S183 S37 S203 S161 S193 S172 S151 S110 S213 S223 S233 S242 S251 S260 S270 E288 S279 S27 S47"
+    },
+    {
+     "sheet": "4",
+     "cells": "AS299 AS29 AS49 S49 AS69 S69 AS89 S89 AS99 AS109 AS119 AS129 AS139 AS149 AS159 AS169 AS179 AS189 AS199 AS209 AS219 S239 S259 AS259 AS269 S269 AS289 S289 S309 AS309 AS329 S329 AS349 S349 AS359 AS369 S389 AS399 AS409 AS379 AS419 AS429 S29 AS19 S39 AS39 S59 AS59 S79 AS79 S99 S109 S119 S129 S139 S149 S159 S169 S179 S189 S199 S209 S219 S229 AS239 S249 AS229 AS249 S279 AS279 S299 S19 S319 AS319 S339 AS339 S359 S369 S379 AS389 S409 S419 S399 S429 S439 AS439"
+    },
+    {
+     "sheet": "5",
+     "cells": "S141 S32 S121 S52 S221 S22 S111 S161 S201 S231 S151 S62 S191 S72 S42 E81 S181 S91 S171 S101 S131 S211"
+    },
+    {
+     "sheet": "6",
+     "cells": "S21 S31 S41 S61 S51 S71"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "S51 S31 S71 S41 S61 S21"
+    }
+   ]
+  },
+  "tanim-c271-q271": {
+   "id": "tanim-c271-q271",
+   "source": "Tanım!C271:Q271",
+   "items": [
+    "1. Cadde",
+    "2. Sokak",
+    "3.Otoyol",
+    "4. Devlet Yolu",
+    "5. İl Yolu",
+    "6. Köy Yolu",
+    "7. Orman Yolu",
+    "8. Servis Yolu",
+    "9. Bağlantı Yolu",
+    "10. Park Alanı",
+    "11. Tesis Mülk Önü veya içi",
+    "12. Su Yolu",
+    "13. Diğerleri"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D47"
+    }
+   ]
+  },
+  "tanim-c270-l270": {
+   "id": "tanim-c270-l270",
+   "source": "Tanım!C270:L270",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D49"
+    }
+   ]
+  },
+  "tanim-c344-h344": {
+   "id": "tanim-c344-h344",
+   "source": "Tanım!C344:H344",
+   "items": [
+    "1. Yeterli Belge",
+    "2. Yetersiz Belgeli",
+    "3. Zorunlu değil",
+    "4. Geçici Geri alınması var",
+    "5. Geçerlilik süresi dolmuş (5 - 10 Yıl)",
+    "6. Tespit edilemedi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D139:G139"
+    }
+   ]
+  },
+  "tanim-c347-h347": {
+   "id": "tanim-c347-h347",
+   "source": "Tanım!C347:H347",
+   "items": [
+    "1. İlk Okul",
+    "2. Orta okul",
+    "3. Lise",
+    "4. Yüksek okul",
+    "5. Tespit edilemedi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D143:G143"
+    }
+   ]
+  },
+  "bilgi-hesap-d513-x513": {
+   "id": "bilgi-hesap-d513-x513",
+   "source": "BİLGİ HESAP!D513:X513",
+   "items": [
+    "1- Otomobil",
+    "1.1. Taksi",
+    "1.2.Taksi Dolmuş",
+    "1.3. Özel Güvenlik Bölmeli Taksi",
+    "2. Minibüs",
+    "3) Otobüs",
+    "4) Kamyonet",
+    "5) Kamyon",
+    "6) Çekici",
+    "7) Arazi Taşıtı",
+    "8) Motosiklet",
+    "8.1. Tirbitör",
+    "9) Motorlu bisiklet (Moped)",
+    "10) Bisiklet:",
+    "12) İş Makinası",
+    "11) Lastik Tekerlekli Traktör",
+    "13) Tramvay",
+    "14) Özel Amaçlı Taşıt",
+    "15) Okul Taşıtı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D104:F104"
+    }
+   ]
+  },
+  "tanim-c294-r294": {
+   "id": "tanim-c294-r294",
+   "source": "Tanım!C294:R294",
+   "items": [
+    "1. Karşılıklı Çarpışma",
+    "2. Arkadan Çarpma",
+    "3. Yandan Çarpma",
+    "4.Yan Yana Çarpışma",
+    "5. Duran Araca Çarpma",
+    "6. Zincirleme Çarpışma",
+    "7. Çoklu Çarpışma",
+    "8. Engel/Cisim ile Çarpışma",
+    "9. Yaya ya Çarpma",
+    "11. Devrilme,Svrulma,Takla atma",
+    "12. Yoldan Çıkma",
+    "13. Araçtan İnsan Düşmesi",
+    "14.Araçtan Cisim düşmesi",
+    "15. Park Etmiş Araca Çarpma"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D89"
+    }
+   ]
+  },
+  "tanim-c295-h295": {
+   "id": "tanim-c295-h295",
+   "source": "Tanım!C295:H295",
+   "items": [
+    "1. Tek Araçlı kaza",
+    "2. Çok Araçlı Kaza",
+    "3. İki raçlı kaza"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D90"
+    }
+   ]
+  },
+  "tanim-c296-n296": {
+   "id": "tanim-c296-n296",
+   "source": "Tanım!C296:N296",
+   "items": [
+    "1. Yol  Üzerinde",
+    "2. Banket Üzerinde",
+    "3. Orta Refujda",
+    "4. Yol kenarında ( Banket Dışı)",
+    "5. Yaya Kaldırımında Çarpma",
+    "6. Durak önünde",
+    "7. Hemzemin Geçidinde",
+    "8. Yaya Geçidinde",
+    "9. Okul Geçidinde",
+    "10. Diğerleri",
+    "11. Tespit edilemedi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D91"
+    }
+   ]
+  },
+  "tanim-b982-b991": {
+   "id": "tanim-b982-b991",
+   "source": "Tanım!B982:B991",
+   "items": [
+    "Ticari Yük",
+    "Ticari Yolcu",
+    "Resmi (Hizmet)",
+    "Özel Amaçlı",
+    "İş Makinesi",
+    "Tarım (Zirai)",
+    "Motorsuz Taşıt/Römork",
+    "Mobilite/Ulaşım Amaçlı (Motorlu)",
+    "Mobilite/Ulaşım Amaçlı (Motorsuz)",
+    "mobilite ulaşım amaçlı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D106:F106"
+    }
+   ]
+  },
+  "tanim-b1086-b1096": {
+   "id": "tanim-b1086-b1096",
+   "source": "Tanım!B1086:B1096",
+   "items": [
+    "Yükün Cinsi Kategorisi",
+    "Genel Ticari Yük",
+    "Hızlı Tüketim Malları (Kurye)",
+    "Tehlikeli Madde",
+    "Dökme Yük",
+    "Canlı Hayvan",
+    "Ağır/Özel Yük",
+    "Posta/Evrak/Değerli Evrak",
+    "Atık/Çöp",
+    "Boş (Yüksüz)",
+    "Kişisel Eşya/Ekipman"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D112:F112"
+    }
+   ]
+  },
+  "bilgi-hesap-b4-b13": {
+   "id": "bilgi-hesap-b4-b13",
+   "source": "BİLGİ HESAP!B4:B13",
+   "items": [
+    "Gündüz",
+    "Gece",
+    "Alacakaranlık",
+    "Şafak Vakti",
+    "Tespit Yöntemi:"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D42"
+    }
+   ]
+  },
+  "tanim-b395-b408": {
+   "id": "tanim-b395-b408",
+   "source": "Tanım!B395:B408",
+   "items": [
+    "Açık ve Güneşli",
+    "Kapalı ve Bulutlu",
+    "Yağmurlu",
+    "Karlı",
+    "Rüzgarlı",
+    "Sisli",
+    "Fırtınalı",
+    "Dolu Yağışlı",
+    "Tipi Yağışlı",
+    "Sulu Sepken",
+    "Tozlu Fırtınalı",
+    "Diğer: .."
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D43"
+    }
+   ]
+  },
+  "tanim-b413-b428": {
+   "id": "tanim-b413-b428",
+   "source": "Tanım!B413:B428",
+   "items": [
+    "1 Cadde",
+    "2 Sokak",
+    "3 Otoyol",
+    "4 Devlet yolu",
+    "5 Köy yolu",
+    "6 Bölünmüş yol",
+    "7 Tek yönlü yol",
+    "8 İki yönlü yol",
+    "9 Bağlantı yolu",
+    "10 Servis yolu",
+    "11 Orman yolu",
+    "12 Park alanı",
+    "13 Tesis/mülk önü veya içi",
+    "14 Su yolu taşıtı",
+    "15 Diğer"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D44"
+    }
+   ]
+  },
+  "tanim-b432-b435": {
+   "id": "tanim-b432-b435",
+   "source": "Tanım!B432:B435",
+   "items": [
+    "Bölünmüş Yol",
+    "Tek Yönlü Yol",
+    "İki Yönlü Yol"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D45"
+    }
+   ]
+  },
+  "tanim-c83-c88": {
+   "id": "tanim-c83-c88",
+   "source": "Tanım!C83:C88",
+   "items": [
+    "Bilirkişi Raporu",
+    "Bilirkişi Heyeti Raporu",
+    "Uzman Görüşü",
+    "Ek Rapor",
+    "Tamamlayıcı Rapor"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D21"
+    }
+   ]
+  },
+  "tanim-c90-c96": {
+   "id": "tanim-c90-c96",
+   "source": "Tanım!C90:C96",
+   "items": [
+    "Ara karar",
+    "Savcılık görevlendirmesi",
+    "Taraf talebi",
+    "Vekil talebi",
+    "Kurumsal talep",
+    "Tespit edilemedi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D22"
+    }
+   ]
+  },
+  "grs-1-i136-l136": {
+   "id": "grs-1-i136-l136",
+   "source": "Grş 1!I136:L136",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D137:G137 D158:F158"
+    }
+   ]
+  },
+  "grs-1-i137-m137": {
+   "id": "grs-1-i137-m137",
+   "source": "Grş 1!I137:M137",
+   "items": [
+    "ERKEK",
+    "KADIN",
+    "EKS"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D138:G138 D159:F159"
+    }
+   ]
+  },
+  "grs-1-i141-m141": {
+   "id": "grs-1-i141-m141",
+   "source": "Grş 1!I141:M141",
+   "items": [
+    "ADAY",
+    "SÜRÜCÜ"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D142:G142"
+    }
+   ]
+  },
+  "grs-1-i143-k143": {
+   "id": "grs-1-i143-k143",
+   "source": "Grş 1!I143:K143",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D144:G144 D163:F163"
+    }
+   ]
+  },
+  "grs-1-i144-p144": {
+   "id": "grs-1-i144-p144",
+   "source": "Grş 1!I144:P144",
+   "items": [
+    "O \"Sıfır\"",
+    "BELİRSİZ",
+    "TESPİT EDİLEMEDİ",
+    "YETERSİZ"
+   ],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D145:F146"
+    }
+   ]
+  },
+  "grs-1-b967-b976": {
+   "id": "grs-1-b967-b976",
+   "source": "Grş 1!B967:B976",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "Grş 1",
+     "cells": "D108:F108"
+    }
+   ]
+  },
+  "tanim-f62-f111": {
+   "id": "tanim-f62-f111",
+   "source": "Tanım!F62:F111",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "usedBy": [
+    {
+     "sheet": "1.",
+     "cells": "R3 T3"
+    },
+    {
+     "sheet": "2.",
+     "cells": "R3 T3"
+    },
+    {
+     "sheet": "3",
+     "cells": "R3 T3"
+    },
+    {
+     "sheet": "4",
+     "cells": "R3 T3 AR3 AT3"
+    }
+   ]
+  },
+  "tanim-f62-f71": {
+   "id": "tanim-f62-f71",
+   "source": "Tanım!F62:F71",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "U15"
+    }
+   ]
+  },
+  "tanim-g104-g144": {
+   "id": "tanim-g104-g144",
+   "source": "Tanım!G104:G144",
+   "items": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400,
+    425,
+    450,
+    475,
+    500,
+    525,
+    550,
+    575,
+    600,
+    625,
+    650,
+    675,
+    700,
+    725,
+    750,
+    775,
+    800,
+    825,
+    850,
+    875,
+    900,
+    925,
+    950,
+    975,
+    1000
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "N15"
+    }
+   ]
+  },
+  "tanim-ab2-ab27": {
+   "id": "tanim-ab2-ab27",
+   "source": "Tanım!AB2:AB27",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "U17 X17"
+    }
+   ]
+  },
+  "tanim-f61-f85": {
+   "id": "tanim-f61-f85",
+   "source": "Tanım!F61:F85",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "X15"
+    }
+   ]
+  },
+  "tanim-f61-f211": {
+   "id": "tanim-f61-f211",
+   "source": "Tanım!F61:F211",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "L15"
+    }
+   ]
+  },
+  "tanim-ap2-ap53": {
+   "id": "tanim-ap2-ap53",
+   "source": "Tanım!AP2:AP53",
+   "items": [
+    "150-01.0",
+    "160-01.1",
+    "160-01.2",
+    "160-01.3",
+    "160-01.4",
+    "160-01.5",
+    "200-04.1",
+    "200-04.2",
+    "200-04.3",
+    "200-05.1",
+    "200-05.2",
+    "200-05.3",
+    "200-06.1",
+    "200-06.2",
+    "200-06.3",
+    "200-06.4",
+    "230-05.1",
+    "230-05.2",
+    "573-01.1",
+    "573-01.2",
+    "575-02.1",
+    "575-02.2",
+    "575-02.3",
+    "575-02.4",
+    "587-01.0",
+    "595-02.1",
+    "595-02.2",
+    "595-02.3",
+    "595-02.4",
+    "595-03.1",
+    "595-03.2",
+    "595-03.3",
+    "595-04.0",
+    "595-05.0",
+    "16-30.0",
+    "16-32.0",
+    "16-33.0",
+    "16-34.1",
+    "16-34.2",
+    "16-50.1",
+    "16-50.2",
+    "16-50.3",
+    "16-51.1",
+    "16-51.2",
+    "16-51.3",
+    "16-51.4",
+    "16-51.5",
+    "16-52.0",
+    "16-54.0",
+    "16-55.0",
+    "16-57.1"
+   ],
+   "usedBy": [
+    {
+     "sheet": "2.",
+     "cells": "J15"
+    }
+   ]
+  },
+  "bilgi-hesap-b37-b43": {
+   "id": "bilgi-hesap-b37-b43",
+   "source": "BİLGİ HESAP!B37:B43",
+   "items": [
+    "Asfalt",
+    "Beton",
+    "Parke",
+    "Stabilize",
+    "Toprak",
+    "Kaplama cinsi önerisi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E62"
+    }
+   ]
+  },
+  "bilgi-hesap-b32-b36": {
+   "id": "bilgi-hesap-b32-b36",
+   "source": "BİLGİ HESAP!B32:B36",
+   "items": [
+    "Bölünmüş Yol",
+    "Tek Yönlü Yol",
+    "İki Yönlü Yol",
+    "Yol Kaplama Tipleri"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "V39"
+    }
+   ]
+  },
+  "tanim-f62-f99": {
+   "id": "tanim-f62-f99",
+   "source": "Tanım!F62:F99",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "Y127:Y129"
+    }
+   ]
+  },
+  "tanim-b446-b454": {
+   "id": "tanim-b446-b454",
+   "source": "Tanım!B446:B454",
+   "items": [
+    "Kuru",
+    "Islak",
+    "Karlı",
+    "Buzlu",
+    "Gizli Buzlanma",
+    "Tozlu",
+    "Sulu",
+    "Yolun en son"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E73:G73"
+    }
+   ]
+  },
+  "tanim-e61-e80": {
+   "id": "tanim-e61-e80",
+   "source": "Tanım!E61:E80",
+   "items": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16,
+    0.17,
+    0.18,
+    0.19
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "J144 H144"
+    }
+   ]
+  },
+  "bilgi-hesap-b189-b199": {
+   "id": "bilgi-hesap-b189-b199",
+   "source": "BİLGİ HESAP!B189:B199",
+   "items": [
+    "Bina/Duvar",
+    "Ağaç/Bitki Örtüsü",
+    "Park Halindeki Araçlar",
+    "Tepe Üstü",
+    "Viraj",
+    "Güneş Parlaması:",
+    "Büyük Araçlar:",
+    "Tünel Girişi:",
+    "Diğer"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E176"
+    }
+   ]
+  },
+  "bilgi-hesap-b151-b158": {
+   "id": "bilgi-hesap-b151-b158",
+   "source": "BİLGİ HESAP!B151:B158",
+   "items": [
+    "Işıklı ve Sesli Uyarılar",
+    "Trafik Işığı",
+    "Yaya Sinyali",
+    "Siren",
+    "Korna",
+    "Diğer: ......................",
+    "Kaza Yeri ışıklı ve sesli uyarılar"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E165"
+    }
+   ]
+  },
+  "bilgi-hesap-b207-b215": {
+   "id": "bilgi-hesap-b207-b215",
+   "source": "BİLGİ HESAP!B207:B215",
+   "items": [
+    "Geçit Özellikleri ve Nedensellik Bağları",
+    "Trafik kazası incelemelerinde, kazanın gerçekleştiği geçitlerin (tünel, viyadük, alt veya üst geçit gibi) yapısal ve güvenlik özellikleri, nedensellik bağını kurmada kritik bir rol oynar. Bir geçidin hatalı tasarımı veya yetersiz bakımı, kazanın oluşumuna doğrudan katkı sağlayabilir.",
+    "Demiryolu Geçidi (Hemzemin Geçit)",
+    "Alt/Üst Geçit (Viyadük)",
+    "Tünel Giriş ve Çıkışları",
+    "Geçitlerdeki Görüş Açısı (Aliyman ve Kurp)",
+    "Yaya Geçidi",
+    "Üst Geçit ve Köprü",
+    "Açıklama: .................................................."
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E206"
+    }
+   ]
+  },
+  "tanim-b565-b569": {
+   "id": "tanim-b565-b569",
+   "source": "Tanım!B565:B569",
+   "items": [
+    "Yatay Eğim",
+    "Dikey Eğim",
+    "Yatay-Dikey",
+    "Düz Yol Aranmadı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E154:K154"
+    }
+   ]
+  },
+  "bilgi-hesap-b233-b241": {
+   "id": "bilgi-hesap-b233-b241",
+   "source": "BİLGİ HESAP!B233:B241",
+   "items": [
+    "İşaretlemeli çalışma",
+    "personelli çalışma",
+    "Tam işaretleme",
+    "eksik işaretleme",
+    "İşaretleme Yok",
+    "Personel yok",
+    "Öneri:",
+    "Kazanın Meydana Geldiği Yerin Özellikleri:"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E196"
+    }
+   ]
+  },
+  "bilgi-hesap-b223-b230": {
+   "id": "bilgi-hesap-b223-b230",
+   "source": "BİLGİ HESAP!B223:B230",
+   "items": [
+    "Yolda Çalışma Bilgileri:",
+    "Yol Çalışması Var",
+    "Bakım Çalışması Var",
+    "Onarım Çalışması Var",
+    "Kurum Çalışması",
+    "Özel Kuruluş/Vatandaş Çalışması:",
+    "Diğer: ..................."
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E186"
+    }
+   ]
+  },
+  "bilgi-hesap-b48-b56": {
+   "id": "bilgi-hesap-b48-b56",
+   "source": "BİLGİ HESAP!B48:B56",
+   "items": [
+    "·         Yolun ortası:",
+    "·         Yolun kenarı:",
+    "·         Refüj:",
+    "·         Banket:",
+    "·         Yaya kaldırımı:",
+    "·         Eğimli Yol:",
+    "·         Düz Yol:",
+    "·         Viraj:",
+    "·         Diğer:"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E93"
+    }
+   ]
+  },
+  "tanim-e40-e60": {
+   "id": "tanim-e40-e60",
+   "source": "Tanım!E40:E60",
+   "items": [
+    "Sorumlu Tespiti yapılması",
+    "Sorumlu Yok",
+    "Sürücü",
+    "Yaya",
+    "Yolcu",
+    "Araç Sahibi",
+    "Bakım Onarım",
+    "Yolun / Mal Zilyeti",
+    "Üretici Firma",
+    "Denetleyiciler",
+    "Tesis Kurum Kuruluşlar",
+    "Çevre Şehirci",
+    "TEK",
+    "Kanun Yöntmlk",
+    "Sigorta Şirketi",
+    "3. Kişiler",
+    "Sorumlu tespit edilemedi",
+    "Kolluk ve Adalet sorgusu",
+    3,
+    4,
+    5
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E90:O90 E100:O100 E298:O298 E124:O124 E80:O80 E47:O47 E37:O37 E17:O17 E59:O59 E70:O70 E110:O110 E151:O151 E161:O161 E172:O172 E183:O183 E193:O193 E203:O203 E213:O213 E223:O223 E233:O233 E242:O242 E251:O251 E260:O260 E270:O270 P288:Z288 E279:O279 E27:O27 E141:O141"
+    },
+    {
+     "sheet": "4",
+     "cells": "E29:O29 E39:O39 E49:O49 E59:O59 E69:O69 E79:O79 E89:O89 E99:O99 E109:O109 E119:O119 E129:O129 E139:O139 E149:O149 E159:O159 E169:O169 E179:O179 E189:O189 E199:O199 E209:O209 E219:O219 E229:O229 E239:O239 E249:O249 E259:O259 E269:O269 E279:O279 E289:O289 E299:O299 AE309:AO309 E319:O319 E329:O329 E339:O339 E349:O349 E359:O359 E369:O369 E379:O379 E389:O389 E409:O409 E419:O419 E399:O399 E429:O429 E439:O439 E19:O19 AE29:AO29 AE39:AO39 AE49:AO49 AE59:AO59 AE69:AO69 AE79:AO79 AE89:AO89 AE99:AO99 AE109:AO109 AE119:AO119 AE129:AO129 AE139:AO139 AE149:AO149 AE159:AO159 AE169:AO169 AE179:AO179 AE189:AO189 AE199:AO199 AE209:AO209 AE219:AO219 AE229:AO229 AE239:AO239 AE249:AO249 AE259:AO259 AE269:AO269 AE279:AO279 AE289:AO289 AE299:AO299 AE19:AO19 AE319:AO319 AE329:AO329 AE339:AO339 AE349:AO349 AE359:AO359 AE369:AO369 AE379:AO379 AE389:AO389 AE409:AO409 AE419:AO419 AE399:AO399 AE429:AO429 AE439:AO439 E309:O309"
+    },
+    {
+     "sheet": "5",
+     "cells": "E131:O131 E22:O22 E32:O32 E42:O42 E52:O52 E62:O62 P81:Z81 E72:O72 E91:O91 E101:O101 E111:O111 E221:O221 E121:O121 E141:O141 E231:O231 E151:O151 E171:O171 E181:O181 E191:O191 E201:O201 E161:O161 E211:O211"
+    },
+    {
+     "sheet": "6",
+     "cells": "E31:O31 E41:O41 E51:O51 E61:O61 E71:O71 E21:O21"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "E71:O71 E61:O61 E51:O51 E41:O41 E31:O31 E21:O21"
+    }
+   ]
+  },
+  "tanim-b458-b465": {
+   "id": "tanim-b458-b465",
+   "source": "Tanım!B458:B465",
+   "items": [
+    "Tekerlek izinde oturma",
+    "Şerit çökmesi",
+    "Kısmi veya münferit çökme (Çukurlar)",
+    "Düşük banket",
+    "Yol sathında gevşek malzeme",
+    "Yol üzerindeki döküntü veya yabancı maddeler",
+    "Diğer"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E83:L83"
+    }
+   ]
+  },
+  "tanim-b494-b501": {
+   "id": "tanim-b494-b501",
+   "source": "Tanım!B494:B501",
+   "items": [
+    "Kesikli Çizgi",
+    "Kesintisiz Çizgi",
+    "İkili Kesintisiz Çizgi",
+    "Kesikli ve Kesintisiz Çizgilerin Yan Yana Olması",
+    "Şerit Çizgisi ve Nedensellik Bağı:",
+    "Nedensellik Bağı:",
+    "Nedensellik bağı :",
+    "Şerit Çizgisi Durumu ve Açıklamaları"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "K117:U117"
+    }
+   ]
+  },
+  "tanim-b522-b529": {
+   "id": "tanim-b522-b529",
+   "source": "Tanım!B522:B529",
+   "items": [
+    "Yol elemanları Açıklamaları",
+    "Bariyer",
+    "Bordür",
+    "Yaya Kaldırıı",
+    "Orta Refüj",
+    "Kavşak",
+    "Yaya Geçidi",
+    "Bariyer İsteminin Kök Nedenleri ve Belirlenmesi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E134:G134"
+    }
+   ]
+  },
+  "tanim-b638-b644": {
+   "id": "tanim-b638-b644",
+   "source": "Tanım!B638:B644",
+   "items": [
+    "Aydınlatma",
+    "Görüş Mesafesinin Kısıtlanması",
+    "Parıltı (Yan Yansıma) Etkisi",
+    "Standartlara Aykırılık",
+    "Işık Şiddeti (Lüks Değeri)",
+    "Işık Homojenliği",
+    "Armatür Yüksekliği ve Aralığı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E216:L216"
+    }
+   ]
+  },
+  "tanim-b652-b660": {
+   "id": "tanim-b652-b660",
+   "source": "Tanım!B652:B660",
+   "items": [
+    "Park",
+    "Bahçe",
+    "Bina",
+    "Okul",
+    "Hastane",
+    "Market",
+    "Akaryakıt İstasyonu",
+    "Diğer: .....",
+    "Yol Üzerinde"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E103"
+    }
+   ]
+  },
+  "tanim-b652-b663": {
+   "id": "tanim-b652-b663",
+   "source": "Tanım!B652:B663",
+   "items": [
+    "Park",
+    "Bahçe",
+    "Bina",
+    "Okul",
+    "Hastane",
+    "Market",
+    "Akaryakıt İstasyonu",
+    "Diğer: .....",
+    "Yol Üzerinde",
+    "Öneri"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E226:L226"
+    }
+   ]
+  },
+  "tanim-b504-i504": {
+   "id": "tanim-b504-i504",
+   "source": "Tanım!B504:I504",
+   "items": [
+    "Çok İyi",
+    "İyi",
+    "Normal",
+    "Kötü",
+    "Çok Kötü"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E117:G117 S144:U144 S154:U154 S165:U165 S176:U176 S186:U186 S196:U196 S206:U206 S216:U216 S226:U226 S236:U236 S245:U245 S254:U254 S264:U264 S273:U273 S282:U282 S291:U291"
+    }
+   ]
+  },
+  "tanim-b388-b390": {
+   "id": "tanim-b388-b390",
+   "source": "Tanım!B388:B390",
+   "items": [
+    "Görüş Koşulları (Karanlık/Aydınlık)",
+    "İnsan Faktörü (Biyolojik Saat ve Davranış)",
+    "Önleyici Tedbirler İçin Kullanımı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "B22:D22"
+    }
+   ]
+  },
+  "tanim-aa123-aa258": {
+   "id": "tanim-aa123-aa258",
+   "source": "Tanım!AA123:AA258",
+   "items": [
+    "EKSİK YOK",
+    "Açılan Köprü",
+    "Ada Etrafında Dönünüz",
+    "Ana Yol - Tali Yol Kavşağı",
+    "At Arabası Giremez",
+    "Azami Hız Sınırlaması",
+    "Belirli Miktardan",
+    "Bisiklet Geçebilir",
+    "Bisiklet Giremez",
+    "Bütün Yasaklama ve Kısıtlamaların Sonu",
+    "Demir Bariyer",
+    "Deniz veya Nehir",
+    "Dikkat",
+    "Dingil Başina ... Tondan Fazla Yük Düşen Taşıt Giremez",
+    "Dönel Kavşak Yaklaşımı",
+    "DUR",
+    "Duraklamak ve Parketmek Yasaktır",
+    "Ehli Hayvanlar Geçebilir",
+    "El Arabası Giremez",
+    "Fazla Patlayıcı ve Parlayıcı Madde",
+    "Fazla Su Kirletici Madde Taşıyan",
+    "Geçme Yasağı Sonu",
+    "Genişliği ... Metreden Fazla Olan Taşıt Giremez",
+    "Gevşek Malzemeli Zemin",
+    "Gevşek Şev",
+    "Giremez",
+    "Gümrük - Durmadan Geçmek Yasaktır",
+    "Haftanın Çift Günlerinde Parketmek Yasaktır",
+    "Haftanın Tek Günlerinde Parketmek Yasaktır",
+    "Hava Alanı (Alçak Uçuş)",
+    "Her İki Yandan Gidiniz",
+    "Hız kesici şeritler",
+    "Hız Sınırlaması Sonu",
+    "Işıklı İşaret Cihazı",
+    "İki Taraflı Daralan Yol",
+    "İki Taraftan genişletilen yol",
+    "İki Taraftan Daralan Kaplama",
+    "İki Yönlu Trafik",
+    "İleri Mecburi Yön",
+    "İleri ve Sağa Mecburi Yön",
+    "İleri ve Sola Mecburi Yön",
+    "iş makinası çıkabilir",
+    "Kamyon Giremez",
+    "Kamyonlar İçin Geçme Yasağı Sonu",
+    "Kamyonlar İçin Öndeki Taşıtı Geçmek Yasaktır",
+    "Karşıdan Gelene Yol Ver",
+    "Kasisli Köprü Yaklaşımı",
+    "Kasisli Yol",
+    "Kaygan Yol",
+    "Kıyısında Biten Yol",
+    "Kontrollü Demiryolu Geçidi",
+    "Kontrolsüz Demiryolu",
+    "Kontrolsüz Kavşak",
+    "Mecburi Asgari Hız",
+    "Mecburi Asgari Hız Sonu",
+    "Mecburi At Yolu",
+    "Mecburi Bisiklet Yolu",
+    "Mecburi Yaya Yolu",
+    "Mopet Giremez",
+    "Motorlu Taşıt Giremez",
+    "Motosiklet Giremez",
+    "Motosiklet Hariç Motorlu Taşıt Trafiğine Kapalı Yol",
+    "Okul Geçidi",
+    "Otobüs Giremez",
+    "Otoyol Band Değiştirme",
+    "Otoyol Başlangıcı",
+    "Otoyol Bilgi İşaretleri (Refuj Ortası Yön Levhası)",
+    "Otoyol Çıkış Levhası",
+    "Otoyol Sonu",
+    "Otoyol Şerit Düzenleme Levhasi",
+    "Otoyol Şerit Kapatma Levhası",
+    "Öndeki Taşıt ... Metreden Daha Yakın Takip Edilmez",
+    "Park Yeri",
+    "Parketmek Yasaktır",
+    "Sağa Dönülmez",
+    "Sağa Mecburi Yön",
+    "Sağa Tehlikeli Devamlı Virajlar",
+    "Sağa Tehlikeli Viraj",
+    "Sağa ve Sola Mecburi Yön",
+    "Sağdan Ana Yola Giriş",
+    "Sağdan Daralan Kaplama",
+    "Sağdan Gidiniz",
+    "Sesli İkaz Cihazlarının Kullanımı Yasaktır",
+    "Sınırlı Süreli Park",
+    "Sola Dönülmez",
+    "Sola Mecburi Yön",
+    "Sola Tehlikeli Devamlı Virajlar",
+    "Sola Tehlikeli Viraj",
+    "Soldan Ana Yola Giriş",
+    "Soldan Daralan Kaplama",
+    "Su Kanalı",
+    "Tarım Aracı çıkabilir",
+    "Tarım Traktörü Giremez",
+    "Taşıt Giremez",
+    "Taşıt Trafiğine Kapalı Yol",
+    "Taşıyan Taşıt",
+    "Tehlikeli Eğim (Çıkış)",
+    "Tehlikeli Eğim (İniş)",
+    "Treyler Giremez",
+    "U Dönüşü Yapılmaz",
+    "Uzunluğu ... Metreden Fazla Olan Araç Giremez",
+    "Vahşi Hayvanlar Geçebilir",
+    "Yandan Rüzgar",
+    "Yaya Geçidi",
+    "Yaya Giremez",
+    "Yol Ver",
+    "Yola katılım şeridi",
+    "Yolda Çalışma Var",
+    "Yüklü Ağırlığı ... Tondan Fazla Olan Taşıt Giremez",
+    "Yüksekliği ... Metreden Fazla Olan Taşıt Giremez",
+    "Zincir Takma Mecburiyeti Sonu",
+    "Zincir Takmak Mecburidir"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "O159:Z159"
+    }
+   ]
+  },
+  "tanim-b565-b568": {
+   "id": "tanim-b565-b568",
+   "source": "Tanım!B565:B568",
+   "items": [
+    "Yatay Eğim",
+    "Dikey Eğim",
+    "Yatay-Dikey",
+    "Düz Yol Aranmadı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E144"
+    }
+   ]
+  },
+  "tanim-b665-b671": {
+   "id": "tanim-b665-b671",
+   "source": "Tanım!B665:B671",
+   "items": [
+    "1  Üç yönlü (T)",
+    "2  Üç yönlü (Y)",
+    "3  Dört Yönlü",
+    "4  Dönel Kavşak",
+    "5  Döner kavşak + - X tipi",
+    "6  Köprülü kavşak",
+    "7  Kavşak Yok Diğerleri"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "H236:L236"
+    }
+   ]
+  },
+  "tanim-d666-m666": {
+   "id": "tanim-d666-m666",
+   "source": "Tanım!D666:M666",
+   "items": [
+    "Kavşak, farklı istikametlerdeki yolların birbiri ile aynı düzlemde kesiştiği, farklı yönlerden gelen araçların emniyetle birbirlerinin güzergahlarından geçtiği veya yön değiştirdiği nokta. Bir yolun kavşağa birleşen kısmına kavşak ayağı ya da kavşak kolu olarak adlandırılır.  Kavşaklar, karayollarında güvenliğin en az olduğu, bunun yanında karayolun kapasitesini belirleyen kesimlerdir. Kol sayısına göre 3 yönlü Y tipi kavşak lardır",
+    "Sonuç Olarak: Kavşağın kusurlu olması teknolojik ve mühendislik hatasından kaynaklanmaktadır. Kazada etken olabilmesi çevre, nüfus doğal ve araç sayısının yeterli özenle alınmaması üzerine değerlendirme yapılmalıdır.",
+    "Tespit ediliş şekli: Kaza Tespit tutanağı, Bilirkişi ve uzman görüş raporu, Resimler ve video çekimlerle yapılmakta Mühendisin onayı ile belirme oanaylanmasıyla yapılmaktadır"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "H245:L245 H291:L291 H264:L264 H273:L273 H282:L282"
+    }
+   ]
+  },
+  "tanim-b673-b683": {
+   "id": "tanim-b673-b683",
+   "source": "Tanım!B673:B683",
+   "items": [
+    "2.22.2 Viraj",
+    "2.22.3. Düz Yol",
+    "2.22.4  Işıklı Kontrol",
+    "2.22.5  Eğimli Yol",
+    "2.22.5  Yaya Geçidi",
+    "Diğer: ........................................"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "E245 E236 E273 E282 E291 E264 E254"
+    }
+   ]
+  },
+  "tanim-e20-e29": {
+   "id": "tanim-e20-e29",
+   "source": "Tanım!E20:E29",
+   "items": [
+    "1 Yönlü",
+    "2 Yönlü",
+    "3 Yönlü",
+    "4 Yönlü",
+    "5 Yönlü",
+    "6 Yönlü",
+    "7 Yönlü"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "H254:L254"
+    }
+   ]
+  },
+  "tanim-c96-c110": {
+   "id": "tanim-c96-c110",
+   "source": "Tanım!C96:C110",
+   "items": [
+    "Tespit edilemedi",
+    "Belirsiz",
+    "Olay tutanakları,",
+    "Kamera kayıtları,",
+    "Tanık ifadeleri,",
+    "Takograf verileri,",
+    "Meteoroloji",
+    "Astronomi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "K79 K16 E16 H16 K26 E26 H26 K46 E46 H46 K36 E36 H36 K69 E69 H69 E79 H79 K58 E58 H58 K89 E89 H89 K99 E99 H99 K109 E109 H109 K123 E123 H123 K150 E150 H150 K160 E160 H160 K171 E171 H171 K182 E182 H182 K192 E192 H192 K202 E202 H202 K212 E212 H212 K222 E222 H222 K232 E232 H232 K241 E241 H241 K250 E250 H250 K259 E259 H259 K269 E269 H269 K278 E278 H278 K297 E297 H297 K140 E140 H140"
+    },
+    {
+     "sheet": "4",
+     "cells": "K438 E438 H438 K428 E428 H428 K418 E418 H418 K408 E408 H408 K398 E398 H398 K388 E388 H388 K378 E378 H378 K368 E368 H368 K358 E358 H358 K348 E348 H348 K338 E338 H338 K328 E328 H328 K318 E318 H318 K308 E308 H308 K298 E298 H298 K288 E288 H288 K278 E278 H278 K268 E268 H268 K258 E258 H258 K248 E248 H248 K238 E238 H238 K228 E228 H228 K218 E218 H218 K208 E208 H208 K198 E198 H198 K188 E188 H188 K178 E178 H178 K168 E168 H168 K158 E158 H158 K148 E148 H148 K138 E138 H138 K128 E128 H128 K118 E118 H118 K108 E108 H108 K98 E98 H98 K88 E88 H88 K78 E78 H78 K68 E68 H68 K58 E58 H58 K48 E48 H48 K38 E38 H38 K28 E28 H28 K18 E18 H18 AK438 AE438 AH438 AK428 AE428 AH428 AK418 AE418 AH418 AK408 AE408 AH408 AK398 AE398 AH398 AK388 AE388 AH388 AK378 AE378 AH378 AK368 AE368 AH368 AK358 AE358 AH358 AK348 AE348 AH348 AK338 AE338 AH338 AK328 AE328 AH328 AK318 AE318 AH318 AK308 AE308 AH308 AK298 AE298 AH298 AK288 AE288 AH288 AK278 AE278 AH278 AK268 AE268 AH268 AK258 AE258 AH258 AK248 AE248 AH248 AK238 AE238 AH238 AK228 AE228 AH228 AK218 AE218 AH218 AK208 AE208 AH208 AK198 AE198 AH198 AK188 AE188 AH188 AK178 AE178 AH178 AK168 AE168 AH168 AK158 AE158 AH158 AK148 AE148 AH148 AK138 AE138 AH138 AK128 AE128 AH128 AK118 AE118 AH118 AK108 AE108 AH108 AK98 AE98 AH98 AK88 AE88 AH88 AK78 AE78 AH78 AK68 AE68 AH68 AK58 AE58 AH58 AK48 AE48 AH48 AK38 AE38 AH38 AK28 AE28 AH28 AK18 AE18 AH18"
+    },
+    {
+     "sheet": "5",
+     "cells": "K130 E130 H130 K21 E21 H21 K31 E31 H31 K41 E41 H41 K51 E51 H51 K61 E61 H61 K71 E71 H71 K90 E90 H90 K100 E100 H100 K110 E110 H110 K120 E120 H120 K140 E140 H140 K150 E150 H150 K170 E170 H170 K180 E180 H180 K190 E190 H190 K160 E160 H160 K220 E220 H220 K230 E230 H230 K200 E200 H200 K210 E210 H210"
+    },
+    {
+     "sheet": "6",
+     "cells": "K70 E70 H70 K60 E60 H60 K50 E50 H50 K40 E40 H40 K30 E30 H30 K20 E20 H20"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "K70 E70 H70 K60 E60 H60 K50 E50 H50 K40 E40 H40 K30 E30 H30 K20 E20 H20"
+    }
+   ]
+  },
+  "tanim-b107-b111": {
+   "id": "tanim-b107-b111",
+   "source": "Tanım!B107:B111",
+   "items": [
+    "Doğrulandı",
+    "Belirsiz"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "X79:Z79 X16:Z16 X26:Z26 X46:Z46 X36:Z36 X69:Z69 X58:Z58 X89:Z89 X99:Z99 X109:Z109 X123:Z123 X150:Z150 X160:Z160 X171:Z171 X182:Z182 X192:Z192 X202:Z202 X212:Z212 X222:Z222 X232:Z232 X241:Z241 X250:Z250 X259:Z259 X269:Z269 X278:Z278 X297:Z297 X140:Z140"
+    },
+    {
+     "sheet": "4",
+     "cells": "X438:Z438 X428:Z428 X418:Z418 X408:Z408 X398:Z398 X388:Z388 X378:Z378 X368:Z368 X358:Z358 X348:Z348 X338:Z338 X328:Z328 X318:Z318 X308:Z308 X298:Z298 X288:Z288 X278:Z278 X268:Z268 X258:Z258 X248:Z248 X238:Z238 X228:Z228 X218:Z218 X208:Z208 X198:Z198 X188:Z188 X178:Z178 X168:Z168 X158:Z158 X148:Z148 X138:Z138 X128:Z128 X118:Z118 X108:Z108 X98:Z98 X88:Z88 X78:Z78 X68:Z68 X58:Z58 X48:Z48 X38:Z38 X28:Z28 X18:Z18 AX438:AZ438 AX428:AZ428 AX418:AZ418 AX408:AZ408 AX398:AZ398 AX388:AZ388 AX378:AZ378 AX368:AZ368 AX358:AZ358 AX348:AZ348 AX338:AZ338 AX328:AZ328 AX318:AZ318 AX308:AZ308 AX298:AZ298 AX288:AZ288 AX278:AZ278 AX268:AZ268 AX258:AZ258 AX248:AZ248 AX238:AZ238 AX228:AZ228 AX218:AZ218 AX208:AZ208 AX198:AZ198 AX188:AZ188 AX178:AZ178 AX168:AZ168 AX158:AZ158 AX148:AZ148 AX138:AZ138 AX128:AZ128 AX118:AZ118 AX108:AZ108 AX98:AZ98 AX88:AZ88 AX78:AZ78 AX68:AZ68 AX58:AZ58 AX48:AZ48 AX38:AZ38 AX28:AZ28 AX18:AZ18"
+    },
+    {
+     "sheet": "5",
+     "cells": "X130:Z130 X21:Z21 X31:Z31 X41:Z41 X51:Z51 X61:Z61 X71:Z71 X90:Z90 X100:Z100 X110:Z110 X120:Z120 X140:Z140 X150:Z150 X170:Z170 X180:Z180 X190:Z190 X160:Z160 X220:Z220 X230:Z230 X200:Z200 X210:Z210"
+    },
+    {
+     "sheet": "6",
+     "cells": "X70:Z70 X60:Z60 X50:Z50 X40:Z40 X30:Z30 X20:Z20"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "X70:Z70 X60:Z60 X50:Z50 X40:Z40 X30:Z30 X20:Z20"
+    }
+   ]
+  },
+  "tanim-d2000-d2080": {
+   "id": "tanim-d2000-d2080",
+   "source": "Tanım!D2000:D2080",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "P16 Q150:T150 Q278:T278 Q259:T259 Q297:T297 Q250:T250 Q222:T222 Q269:T269 Q241:T241 Q212:T212 Q202:T202 Q26:T26 Q58:T58 Q36:T36 Q182:T182 Q171:T171 Q160:T160 Q140:T140 Q123:T123 Q109:T109 Q99:T99 Q69:T69 Q89:T89 Q79:T79 Q46:T46 Q192:T192 Q232:T232"
+    },
+    {
+     "sheet": "4",
+     "cells": "P438 AP18 AP28 AP38 AP48 AP58 AP68 AP78 AP88 AP98 AP108 AP118 AP128 AP138 AP148 AP158 AP168 AP178 AP188 AP198 AP208 AP218 AP228 AP238 AP248 AP258 AP268 AP278 AP288 AP298 AP308 AP318 AP328 AP338 AP348 AP358 AP368 AP378 AP388 AP398 AP408 AP418 AP428 AP438 P18 P28 P38 P48 P58 P68 P78 P88 P98 P108 P118 P128 P138 P148 P158 P168 P178 P188 P198 P208 P218 P228 P238 P248 P258 P268 P278 P288 P298 P308 P318 P328 P338 P348 P358 P368 P378 P388 P398 P408 P418 P428"
+    },
+    {
+     "sheet": "5",
+     "cells": "P130 P210 P200 P230 P220 P160 P190 P180 P170 P150 P140 P120 P110 P100 P90 P71 P61 P51 P41 P31 P21"
+    },
+    {
+     "sheet": "6",
+     "cells": "P70 P20 P30 P40 P50 P60"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "P70 P20 P30 P40 P50 P60"
+    }
+   ]
+  },
+  "tanim-e2000-e2080": {
+   "id": "tanim-e2000-e2080",
+   "source": "Tanım!E2000:E2080",
+   "items": [
+    "TIME-REF-02",
+    "ROAD-ELEMENTS-01",
+    "LAND-01",
+    "IMPACT-01",
+    "POS-01",
+    "CONTR-01",
+    "WORK-01",
+    "WORKMARK-01",
+    "CROSS-01",
+    "AUS-01",
+    "OBS-01",
+    "LIM-01",
+    "ROAD-FEATURES-01",
+    "Ancak burada bir düzeltme yapmayı öneriyorum: ÇAL-01 yerine YÇL-01 daha doğru. Çünkü ileride ST-02 içinde “çalışma” sözcüğü başka teknik faaliyetler için de kullanılabilir. YÇL = Yol Çalışması kodu çakışmayı önler.",
+    "Aynı nedenle kod sisteminin nihai ana sözlüğünü şöyle sabitlemek daha sağlam olur:",
+    "Bir noktayı da özellikle koruyalım: ST02-04 ve ST02-11 Türkçeleştirilecek kodlar değildir. Bunlar ST-02 sistemindeki bölüm/referans kimlikleridir ve aynen kalmalıdır.",
+    "Bundan sonra yeni kod üretirken de İngilizce kökenli kod kullanmayalım; önce bu sözlüğe bakalım, mevcut aile yoksa yeni Türkçe kod ailesi tanımlayalım. Bu, ileride yüzlerce ST-02 kodunun birbirinden kopmasını engeller."
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "Q16:T16"
+    },
+    {
+     "sheet": "4",
+     "cells": "Q438:T438 Q428:T428 Q418:T418 Q408:T408 Q398:T398 Q388:T388 Q378:T378 Q368:T368 Q358:T358 Q348:T348 Q338:T338 Q328:T328 Q318:T318 Q308:T308 Q298:T298 Q288:T288 Q278:T278 Q268:T268 Q258:T258 Q248:T248 Q238:T238 Q228:T228 Q218:T218 Q208:T208 Q198:T198 Q188:T188 Q178:T178 Q168:T168 Q158:T158 Q148:T148 Q138:T138 Q128:T128 Q118:T118 Q108:T108 Q98:T98 Q88:T88 Q78:T78 Q68:T68 Q58:T58 Q48:T48 Q38:T38 Q28:T28 Q18:T18 AQ438:AT438 AQ428:AT428 AQ418:AT418 AQ408:AT408 AQ398:AT398 AQ388:AT388 AQ378:AT378 AQ368:AT368 AQ358:AT358 AQ348:AT348 AQ338:AT338 AQ328:AT328 AQ318:AT318 AQ308:AT308 AQ298:AT298 AQ288:AT288 AQ278:AT278 AQ268:AT268 AQ258:AT258 AQ248:AT248 AQ238:AT238 AQ228:AT228 AQ218:AT218 AQ208:AT208 AQ198:AT198 AQ188:AT188 AQ178:AT178 AQ168:AT168 AQ158:AT158 AQ148:AT148 AQ138:AT138 AQ128:AT128 AQ118:AT118 AQ108:AT108 AQ98:AT98 AQ88:AT88 AQ78:AT78 AQ68:AT68 AQ58:AT58 AQ48:AT48 AQ38:AT38 AQ28:AT28 AQ18:AT18"
+    },
+    {
+     "sheet": "5",
+     "cells": "Q130:T130 Q21:T21 Q31:T31 Q41:T41 Q51:T51 Q61:T61 Q71:T71 Q90:T90 Q100:T100 Q110:T110 Q120:T120 Q140:T140 Q150:T150 Q170:T170 Q180:T180 Q190:T190 Q160:T160 Q220:T220 Q230:T230 Q200:T200 Q210:T210"
+    },
+    {
+     "sheet": "6",
+     "cells": "Q70:T70 Q60:T60 Q50:T50 Q40:T40 Q30:T30 Q20:T20"
+    },
+    {
+     "sheet": "9Y",
+     "cells": "Q70:T70 Q60:T60 Q50:T50 Q40:T40 Q30:T30 Q20:T20"
+    }
+   ]
+  },
+  "tanim-c2000-c2080": {
+   "id": "tanim-c2000-c2080",
+   "source": "Tanım!C2000:C2080",
+   "items": [
+    "ÇEV-02",
+    "ZMN-KYN-02",
+    "ÇEV-01",
+    "ÇEV-03",
+    "YOL-01",
+    "YOL-02",
+    "ÇEV-04",
+    "YOL-06",
+    "YÜZ-01",
+    "YOL-07",
+    "TRF-02",
+    "ÇRP-01",
+    "KON-01",
+    "TRF-01",
+    "ÇEV-KUL-01",
+    "YOL-03",
+    "YOL-08",
+    "YOL-05",
+    "YOL-ELM-01",
+    "YOL-04",
+    "YOL-09",
+    "SNY-01",
+    "GRŞ-01",
+    "GRŞ-02",
+    "GRŞ-03",
+    "GRŞ-04",
+    "YOL-11",
+    "BKM-KYT-01",
+    "ÇAL-01",
+    "ÇAL-İŞR-01",
+    "GÇT-01",
+    "YOL-10",
+    "YOL-12",
+    "RSK-01",
+    "ÇEV-05",
+    "ETS-01",
+    "HIZ-01",
+    "YOL-13",
+    "GÖZ-01",
+    "SIN-01",
+    "YOL-ÖZL-01",
+    "ST02-04",
+    "ST02-11",
+    "ZMN-KYN-02",
+    "YOL-ELM-01",
+    "ÇEV-KUL-01",
+    "ÇRP-01",
+    "KON-01",
+    "BKM-KYT-01",
+    "YÇL-01",
+    "YÇL-İŞR-01",
+    "GÇT-01",
+    "ETS-01",
+    "GÖZ-01",
+    "SIN-01",
+    "YOL-ÖZL-01",
+    "ÇEV",
+    "ZMN",
+    "YOL",
+    "YÜZ",
+    "TRF",
+    "ÇRP",
+    "KON",
+    "GRŞ",
+    "SNY",
+    "BKM",
+    "YÇL",
+    "İŞR",
+    "GÇT",
+    "RSK",
+    "ETS",
+    "HIZ",
+    "GÖZ",
+    "SIN",
+    "ÖZL",
+    "OBS-01",
+    "LIM-01",
+    "ROAD-FEATURES-01",
+    "ST02-04",
+    "ST02-11"
+   ],
+   "usedBy": [
+    {
+     "sheet": "3",
+     "cells": "P192 P182 P171 P160 P150 P140 P123 P109 P99 P89 P79 P69 P58 P46 P36 P26 P202 P212 P222 P250 P259 P278 P297 P269 P241 P232"
+    }
+   ]
+  },
+  "tanim-b968-b971": {
+   "id": "tanim-b968-b971",
+   "source": "Tanım!B968:B971",
+   "items": [
+    "Rengi",
+    "Markası",
+    "Tipi",
+    "kg"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "B32:D32 AB32:AD32"
+    }
+   ]
+  },
+  "tanim-c311-o311": {
+   "id": "tanim-c311-o311",
+   "source": "Tanım!C311:O311",
+   "items": [
+    "1 Hususi (Özel)",
+    "2 Ticari",
+    "3 Emniyet",
+    "4 Askeri",
+    "5 Diğer Kamu Kuruluşu",
+    "6 Zirai",
+    "7 Yabancı"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E42:G42 AE42:AG42"
+    }
+   ]
+  },
+  "tanim-g993-g998": {
+   "id": "tanim-g993-g998",
+   "source": "Tanım!G993:G998",
+   "items": [
+    "Araç Muayesi",
+    "1. Periyodik Araç Muayenesi",
+    "2. Egzoz Gazı Emisyon Ölçümü",
+    "3. Tadilat Sonrası Muayene",
+    "4. Yola Elverişlilik Muayenesi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E52:G52 AE52:AG52"
+    }
+   ]
+  },
+  "tanim-g1006-g1009": {
+   "id": "tanim-g1006-g1009",
+   "source": "Tanım!G1006:G1009",
+   "items": [
+    "Emniyet kemeri",
+    "Kontrol"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E72:G72 AE72:AG72"
+    }
+   ]
+  },
+  "tanim-g1013-g1016": {
+   "id": "tanim-g1013-g1016",
+   "source": "Tanım!G1013:G1016",
+   "items": [
+    "Yolcu adedi",
+    "Fazla yolcu"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E82:G82 AE82:AG82"
+    }
+   ]
+  },
+  "tanim-g1020-g1021": {
+   "id": "tanim-g1020-g1021",
+   "source": "Tanım!G1020:G1021",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E92:G92 AE92:AG92"
+    }
+   ]
+  },
+  "tanim-g1248-g1252": {
+   "id": "tanim-g1248-g1252",
+   "source": "Tanım!G1248:G1252",
+   "items": [
+    "Aynalar",
+    "İç Dikiz Aynası",
+    "Dış Dikiz Aynası"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E402:G402 AE402:AG402"
+    }
+   ]
+  },
+  "tanim-g1239-g1244": {
+   "id": "tanim-g1239-g1244",
+   "source": "Tanım!G1239:G1244",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E392:G392 AE392:AG392"
+    }
+   ]
+  },
+  "tanim-b1289-b1298": {
+   "id": "tanim-b1289-b1298",
+   "source": "Tanım!B1289:B1298",
+   "items": [
+    "1. Tenteli / Perde Dorse (Curtain Sider)",
+    "2. Kapalı Kasa Dorse (Dry Van/Box Trailer)",
+    "3. Frigo / Soğutuculu Dorse (Reefer)",
+    "4. Lowbed Dorse (Havuzlu/Alçak Yataklı)",
+    "5. Tanker Dorse",
+    "6. Silobas Dorse (Silo/Bulk Carrier)",
+    "7. Damper Dorse (Kaldırmalı Kasa/Tipper)",
+    "8. Platform / Düz Dorse (Flatbed)",
+    "9. Konteyner Taşıyıcı Dorse (Skelet/İskelet)"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E432:G432 AE432:AG432"
+    }
+   ]
+  },
+  "tanim-b1087-b1096": {
+   "id": "tanim-b1087-b1096",
+   "source": "Tanım!B1087:B1096",
+   "items": [
+    "Genel Ticari Yük",
+    "Hızlı Tüketim Malları (Kurye)",
+    "Tehlikeli Madde",
+    "Dökme Yük",
+    "Canlı Hayvan",
+    "Ağır/Özel Yük",
+    "Posta/Evrak/Değerli Evrak",
+    "Atık/Çöp",
+    "Boş (Yüksüz)",
+    "Kişisel Eşya/Ekipman"
+   ],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E182:G182 AE182:AG182"
+    }
+   ]
+  },
+  "etken-g981-g986": {
+   "id": "etken-g981-g986",
+   "source": "4!G981:G986",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E62:G62 AE62:AG62"
+    }
+   ]
+  },
+  "etken-g1008-g1009": {
+   "id": "etken-g1008-g1009",
+   "source": "4!G1008:G1009",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E102:G102 AE372:AG372 AE362:AG362 AE352:AG352 AE342:AG342 AE332:AG332 AE322:AG322 AE312:AG312 AE302:AG302 AE292:AG292 AE282:AG282 AE272:AG272 AE262:AG262 AE252:AG252 AE242:AG242 AE232:AG232 AE222:AG222 AE212:AG212 AE202:AG202 AE192:AG192 AE112:AG112 AE172:AG172 AE162:AG162 AE152:AG152 AE142:AG142 AE132:AG132 AE122:AG122 AE102:AG102 E372:G372 E362:G362 E352:G352 E342:G342 E332:G332 E322:G322 E312:G312 E302:G302 E292:G292 E282:G282 E272:G272 E262:G262 E252:G252 E242:G242 E232:G232 E222:G222 E212:G212 E202:G202 E192:G192 E112:G112 E172:G172 E162:G162 E152:G152 E142:G142 E132:G132 E122:G122"
+    }
+   ]
+  },
+  "etken-g1214-g1219": {
+   "id": "etken-g1214-g1219",
+   "source": "4!G1214:G1219",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E382:G382 AE382:AG382"
+    }
+   ]
+  },
+  "etken-g1243-g1247": {
+   "id": "etken-g1243-g1247",
+   "source": "4!G1243:G1247",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "4",
+     "cells": "E412:G412 AE422:AG422 AE412:AG412 E422:G422"
+    }
+   ]
+  },
+  "tanim-o685-o688": {
+   "id": "tanim-o685-o688",
+   "source": "Tanım!O685:O688",
+   "items": [
+    "Reşit değil",
+    "Reşit",
+    "Aday sürücü"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E15:G15"
+    }
+   ]
+  },
+  "tanim-o698-o703": {
+   "id": "tanim-o698-o703",
+   "source": "Tanım!O698:O703",
+   "items": [
+    "5 Yıllık var",
+    "10 Yıllık Var",
+    "Sağlık taraması Yok",
+    "Sağlık taraması Yok"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E35:G35"
+    }
+   ]
+  },
+  "tanim-o705-o711": {
+   "id": "tanim-o705-o711",
+   "source": "Tanım!O705:O711",
+   "items": [
+    "Özel eğitim almış",
+    "Mesleki Eğitimli",
+    "Sürüş eğitimli",
+    "Yasal eğitimli",
+    "Eğitimsiz"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E45:G45"
+    }
+   ]
+  },
+  "tanim-o731-o735": {
+   "id": "tanim-o731-o735",
+   "source": "Tanım!O731:O735",
+   "items": [
+    "Yeterli Reaksiyon",
+    "Yetersiz Reaksiyon",
+    "İncelenmeli"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E55:G55"
+    }
+   ]
+  },
+  "tanim-o742-o745": {
+   "id": "tanim-o742-o745",
+   "source": "Tanım!O742:O745",
+   "items": [
+    "Psiko Teknik"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E65:G65"
+    }
+   ]
+  },
+  "tanim-o749-o753": {
+   "id": "tanim-o749-o753",
+   "source": "Tanım!O749:O753",
+   "items": [
+    "Ticari",
+    "Resmi",
+    "Özel",
+    "Hususi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E75:G75"
+    }
+   ]
+  },
+  "tanim-o830-o834": {
+   "id": "tanim-o830-o834",
+   "source": "Tanım!O830:O834",
+   "items": [
+    "Var",
+    "Yok",
+    "Aranmadı",
+    "İncelenmeli"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E144:G144"
+    }
+   ]
+  },
+  "tanim-q691-q694": {
+   "id": "tanim-q691-q694",
+   "source": "Tanım!Q691:Q694",
+   "items": [
+    "Boyu",
+    "Kilosu",
+    "Yaşı",
+    "Ten Rengi"
+   ],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E25:G25"
+    }
+   ]
+  },
+  "etken-an98-an98": {
+   "id": "etken-an98-an98",
+   "source": "5!AN98:AN98",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E94:G94 E104:G104 E114:G114 E124:G124 E134:G134"
+    }
+   ]
+  },
+  "etken-o828-o832": {
+   "id": "etken-o828-o832",
+   "source": "5!O828:O832",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E154:G154 E164:G164 E174:G174 E184:G184 E194:G194 E204:G204 E214:G214 E224:G224"
+    }
+   ]
+  },
+  "etken-o770-o774": {
+   "id": "etken-o770-o774",
+   "source": "5!O770:O774",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "5",
+     "cells": "E84:G84"
+    }
+   ]
+  },
+  "tanim-o1520-o1524": {
+   "id": "tanim-o1520-o1524",
+   "source": "Tanım!O1520:O1524",
+   "items": [
+    "Yolcu Koltuğunda",
+    "Ayakta",
+    "Yerde oturuyor"
+   ],
+   "usedBy": [
+    {
+     "sheet": "6",
+     "cells": "E24:G24"
+    }
+   ]
+  },
+  "tanim-o1527-o1531": {
+   "id": "tanim-o1527-o1531",
+   "source": "Tanım!O1527:O1531",
+   "items": [
+    "Kemer takılı",
+    "Kemer takılı değil",
+    "Tespit edilemedi",
+    "İncelemede"
+   ],
+   "usedBy": [
+    {
+     "sheet": "6",
+     "cells": "E34:G34"
+    }
+   ]
+  },
+  "tanim-o1534-o1541": {
+   "id": "tanim-o1534-o1541",
+   "source": "Tanım!O1534:O1541",
+   "items": [
+    "Alkollü",
+    "Alkollü değil",
+    "Tespit edilemedi",
+    "Dr Raporlu",
+    "Dr Tarafından inceleme",
+    "0 \"Sıfır\""
+   ],
+   "usedBy": [
+    {
+     "sheet": "6",
+     "cells": "E44:G44"
+    }
+   ]
+  },
+  "etken-ai17-ai18": {
+   "id": "etken-ai17-ai18",
+   "source": "6!AI17:AI18",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "6",
+     "cells": "E14:G14"
+    }
+   ]
+  },
+  "etken-ak57-ak58": {
+   "id": "etken-ak57-ak58",
+   "source": "6!AK57:AK58",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "6",
+     "cells": "E54:G54 E64:G64"
+    }
+   ]
+  },
+  "tanim-c1576-c1581": {
+   "id": "tanim-c1576-c1581",
+   "source": "Tanım!C1576:C1581",
+   "items": [
+    "Üstüme geliyor",
+    "Sağdan Geliyor",
+    "Soldan Geliyor",
+    "İler gidiyor",
+    "Geri Geliyor"
+   ],
+   "usedBy": [
+    {
+     "sheet": "9Y",
+     "cells": "E24:G24"
+    }
+   ]
+  },
+  "tanim-o1617-o1620": {
+   "id": "tanim-o1617-o1620",
+   "source": "Tanım!O1617:O1620",
+   "items": [
+    "Sağlam",
+    "Yaralı",
+    "EKS"
+   ],
+   "usedBy": [
+    {
+     "sheet": "9Y",
+     "cells": "E54:G54"
+    }
+   ]
+  },
+  "tanim-o1600-o1604": {
+   "id": "tanim-o1600-o1604",
+   "source": "Tanım!O1600:O1604",
+   "items": [
+    "Kemer takılı",
+    "Kemer takılı değil",
+    "Tespit edilemedi",
+    "İncelemede"
+   ],
+   "usedBy": [
+    {
+     "sheet": "9Y",
+     "cells": "E34:G34"
+    }
+   ]
+  },
+  "y-ai49-ai52": {
+   "id": "y-ai49-ai52",
+   "source": "9Y!AI49:AI52",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "9Y",
+     "cells": "E44:G44"
+    }
+   ]
+  },
+  "y-ai18-ai18": {
+   "id": "y-ai18-ai18",
+   "source": "9Y!AI18:AI18",
+   "items": [],
+   "usedBy": [
+    {
+     "sheet": "9Y",
+     "cells": "E14:G14"
+    }
+   ]
+  },
+  "inceleme-durumu": {
+   "id": "inceleme-durumu",
+   "source": "Tanım!D23:D32",
+   "items": [
+    "Yeterli",
+    "Yetersiz",
+    "Var",
+    "Yok",
+    "Yapıldı",
+    "Aranmadı",
+    "Belirsiz",
+    "Davranış"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "hakim-savci-tespit": {
+   "id": "hakim-savci-tespit",
+   "source": "Tanım!D37:D45",
+   "items": [
+    "Kolluk Kuvvetleri tarafından araştırılmasına",
+    "Savcılık Tarafından araştırılmasına",
+    "Bilirkişi Trafından Tarafından inceleme yapılasına",
+    "Uzman Tarafından inceleme yapılasına",
+    "Tarafından inceleme yapılasına",
+    "Aranmadı"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "sorumlu": {
+   "id": "sorumlu",
+   "source": "Tanım!E40:E60",
+   "items": [
+    "Sorumlu Tespiti yapılması",
+    "Sorumlu Yok",
+    "Sürücü",
+    "Yaya",
+    "Yolcu",
+    "Araç Sahibi",
+    "Bakım Onarım",
+    "Yolun / Mal Zilyeti",
+    "Üretici Firma",
+    "Denetleyiciler",
+    "Tesis Kurum Kuruluşlar",
+    "Çevre Şehirci",
+    "TEK",
+    "Kanun Yöntmlk",
+    "Sigorta Şirketi",
+    "3. Kişiler",
+    "Sorumlu tespit edilemedi",
+    "Kolluk ve Adalet sorgusu",
+    3,
+    4,
+    5
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "tespit-yontemi": {
+   "id": "tespit-yontemi",
+   "source": "Tanım!C96:C110",
+   "items": [
+    "Tespit edilemedi",
+    "Belirsiz",
+    "Olay tutanakları,",
+    "Kamera kayıtları,",
+    "Tanık ifadeleri,",
+    "Takograf verileri,",
+    "Meteoroloji",
+    "Astronomi"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "tespit-dogrulama": {
+   "id": "tespit-dogrulama",
+   "source": "Tanım!B107:B111",
+   "items": [
+    "Doğrulandı",
+    "Belirsiz"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "delil-kodu": {
+   "id": "delil-kodu",
+   "source": "Tanım!C2000:C2080",
+   "items": [
+    "ÇEV-02",
+    "ZMN-KYN-02",
+    "ÇEV-01",
+    "ÇEV-03",
+    "YOL-01",
+    "YOL-02",
+    "ÇEV-04",
+    "YOL-06",
+    "YÜZ-01",
+    "YOL-07",
+    "TRF-02",
+    "ÇRP-01",
+    "KON-01",
+    "TRF-01",
+    "ÇEV-KUL-01",
+    "YOL-03",
+    "YOL-08",
+    "YOL-05",
+    "YOL-ELM-01",
+    "YOL-04",
+    "YOL-09",
+    "SNY-01",
+    "GRŞ-01",
+    "GRŞ-02",
+    "GRŞ-03",
+    "GRŞ-04",
+    "YOL-11",
+    "BKM-KYT-01",
+    "ÇAL-01",
+    "ÇAL-İŞR-01",
+    "GÇT-01",
+    "YOL-10",
+    "YOL-12",
+    "RSK-01",
+    "ÇEV-05",
+    "ETS-01",
+    "HIZ-01",
+    "YOL-13",
+    "GÖZ-01",
+    "SIN-01",
+    "YOL-ÖZL-01",
+    "ST02-04",
+    "ST02-11",
+    "ZMN-KYN-02",
+    "YOL-ELM-01",
+    "ÇEV-KUL-01",
+    "ÇRP-01",
+    "KON-01",
+    "BKM-KYT-01",
+    "YÇL-01",
+    "YÇL-İŞR-01",
+    "GÇT-01",
+    "ETS-01",
+    "GÖZ-01",
+    "SIN-01",
+    "YOL-ÖZL-01",
+    "ÇEV",
+    "ZMN",
+    "YOL",
+    "YÜZ",
+    "TRF",
+    "ÇRP",
+    "KON",
+    "GRŞ",
+    "SNY",
+    "BKM",
+    "YÇL",
+    "İŞR",
+    "GÇT",
+    "RSK",
+    "ETS",
+    "HIZ",
+    "GÖZ",
+    "SIN",
+    "ÖZL",
+    "OBS-01",
+    "LIM-01",
+    "ROAD-FEATURES-01",
+    "ST02-04",
+    "ST02-11"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "skala-5": {
+   "id": "skala-5",
+   "source": "BİLGİ HESAP!B71:B75",
+   "items": [
+    "Çok İyi",
+    "İyi",
+    "Normal",
+    "Kötü",
+    "Çok Kötu"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "gun-skala": {
+   "id": "gun-skala",
+   "source": "Tanım!G97:G103",
+   "items": [
+    "Çok İyi",
+    "İyi",
+    "Orta",
+    "Kötü",
+    "Çok Kötü"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "siklik": {
+   "id": "siklik",
+   "source": "Tanım!AB2:AB27",
+   "items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "yol-kesim": {
+   "id": "yol-kesim",
+   "source": "Tanım!AP2:AP53",
+   "items": [
+    "150-01.0",
+    "160-01.1",
+    "160-01.2",
+    "160-01.3",
+    "160-01.4",
+    "160-01.5",
+    "200-04.1",
+    "200-04.2",
+    "200-04.3",
+    "200-05.1",
+    "200-05.2",
+    "200-05.3",
+    "200-06.1",
+    "200-06.2",
+    "200-06.3",
+    "200-06.4",
+    "230-05.1",
+    "230-05.2",
+    "573-01.1",
+    "573-01.2",
+    "575-02.1",
+    "575-02.2",
+    "575-02.3",
+    "575-02.4",
+    "587-01.0",
+    "595-02.1",
+    "595-02.2",
+    "595-02.3",
+    "595-02.4",
+    "595-03.1",
+    "595-03.2",
+    "595-03.3",
+    "595-04.0",
+    "595-05.0",
+    "16-30.0",
+    "16-32.0",
+    "16-33.0",
+    "16-34.1",
+    "16-34.2",
+    "16-50.1",
+    "16-50.2",
+    "16-50.3",
+    "16-51.1",
+    "16-51.2",
+    "16-51.3",
+    "16-51.4",
+    "16-51.5",
+    "16-52.0",
+    "16-54.0",
+    "16-55.0",
+    "16-57.1"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "mahkeme": {
+   "id": "mahkeme",
+   "source": "Tanım!B46:B61",
+   "items": [
+    "AĞIR CEZA MAHKEMESİ",
+    "ASLİYE CEZA MAHKEMESİ",
+    "SULH CEZA HAKİMLİĞİ",
+    "ASLİYE HUKUK MAHKEMESİ",
+    "SULH HUKUK MAHKEMESİ",
+    "İŞ MAHKEMESİ",
+    "İCRA MAHKEMESİ-İCRA DAİRESİ",
+    "AİLE MAHKEMESİ",
+    "ÇOCUK MAHKEMESİ",
+    "ÇOCUK AĞIR CEZA MAHKEMESİ",
+    "ASLİYE TİCARET MAHKEMESİ",
+    "TÜKETİCİ MAHKEMESİ",
+    "FİKRİ VE SINAİ HAKLAR MAHKEMESİ",
+    "DOSYA NO"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "rapor-turu": {
+   "id": "rapor-turu",
+   "source": "Tanım!E2:E7",
+   "items": [
+    "BİLİRKİŞİ RAPORUDUR",
+    "UZMAN GÖRÜŞÜDÜR",
+    1,
+    2,
+    3,
+    4
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "firma": {
+   "id": "firma",
+   "source": "Tanım!E86:E113",
+   "items": [
+    "SERESLER BİLİRKİŞİLİK",
+    "Murat Rasim SERES",
+    "Mehmet ÖNEL BİLİRKİŞİLİK"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "personel": {
+   "id": "personel",
+   "source": "Tanım!E86:E108",
+   "items": [
+    "SERESLER BİLİRKİŞİLİK",
+    "Murat Rasim SERES",
+    "Mehmet ÖNEL BİLİRKİŞİLİK"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "suc-turu": {
+   "id": "suc-turu",
+   "source": "Tanım!D60:D76",
+   "items": [
+    "Araç Kazası",
+    "Yaya Kazası",
+    "Araç Ticari",
+    "İCRA MAHKEMELERİ",
+    "DOSYA NO",
+    "ALACAKLI",
+    "ALACAKLI VEKİLİ",
+    "BORÇLU",
+    "BORÇLU VEKİLİ",
+    "TAKİP KONUSU",
+    "TAKİP TARİHİ",
+    "GÖREVLENDİRME",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "il": {
+   "id": "il",
+   "source": "Tanım!G4:G85",
+   "items": [
+    "Adana",
+    "Adıyaman",
+    "Afyonkarahisar",
+    "Ağrı",
+    "Aksaray",
+    "Amasya",
+    "Ankara",
+    "Antalya",
+    "Ardahan",
+    "Artvin",
+    "Aydın",
+    "Balıkesir",
+    "Bartın",
+    "Batman",
+    "Bayburt",
+    "Bilecik",
+    "Bingöl",
+    "Bitlis",
+    "Bolu",
+    "Burdur",
+    "Bursa",
+    "Çanakkale",
+    "Çankırı",
+    "Çorum",
+    "Denizli",
+    "Diyarbakır",
+    "Düzce",
+    "Edirne",
+    "Elazığ",
+    "Erzincan",
+    "Erzurum",
+    "Eskişehir",
+    "Gaziantep",
+    "Giresun",
+    "Gümüşhane",
+    "Hakkari",
+    "Hatay",
+    "Iğdır",
+    "Isparta",
+    "İstanbul",
+    "İzmir",
+    "Kahramanmaraş",
+    "Karabük",
+    "Karaman",
+    "Kars",
+    "Kastamonu",
+    "Kayseri",
+    "Kırıkkale",
+    "Kırklareli",
+    "Kırşehir",
+    "Kilis",
+    "Kocaeli",
+    "Konya",
+    "Kütahya",
+    "Malatya",
+    "Manisa",
+    "Mardin",
+    "Mersin",
+    "Muğla",
+    "Muş",
+    "Nevşehir",
+    "Niğde",
+    "Ordu",
+    "Osmaniye",
+    "Rize",
+    "Sakarya",
+    "Samsun",
+    "Siirt",
+    "Sinop",
+    "Sivas",
+    "Şanlıurfa",
+    "Şırnak",
+    "Tekirdağ",
+    "Tokat",
+    "Trabzon",
+    "Tunceli",
+    "Uşak",
+    "Van",
+    "Yalova",
+    "Yozgat",
+    "Zonguldak"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "inceleme-turu": {
+   "id": "inceleme-turu",
+   "source": "Tanım!C83:C88",
+   "items": [
+    "Bilirkişi Raporu",
+    "Bilirkişi Heyeti Raporu",
+    "Uzman Görüşü",
+    "Ek Rapor",
+    "Tamamlayıcı Rapor"
+   ],
+   "usedBy": [],
+   "named": true
+  },
+  "gorevlendirme-dayanagi": {
+   "id": "gorevlendirme-dayanagi",
+   "source": "Tanım!C90:C96",
+   "items": [
+    "Ara karar",
+    "Savcılık görevlendirmesi",
+    "Taraf talebi",
+    "Vekil talebi",
+    "Kurumsal talep",
+    "Tespit edilemedi"
+   ],
+   "usedBy": [],
+   "named": true
+  }
+ },
+ "usage": [
+  {
+   "sheet": "Giriş",
+   "cells": "M9:R9",
+   "listId": "tanim-ad3-ad92"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "M8:R8",
+   "listId": "tanim-g4-g85"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "M7:R7",
+   "listId": "tanim-e86-e108"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "M11",
+   "listId": "tanim-f62-f162"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "J4:R5",
+   "listId": "tanim-e2-e7"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "M13:R13",
+   "listId": "tanim-d60-d76"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "N11:R11",
+   "listId": "tanim-b46-b61"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "M10:R10",
+   "listId": "tanim-af3-af150"
+  },
+  {
+   "sheet": "Giriş",
+   "cells": "J2:R3",
+   "listId": "tanim-e86-e113"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "E28:H28",
+   "listId": "bilgi-hesap-b90-b97"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D123 D114 D92:D96 D85:D88 D75:D83 D107:F107",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "E113:H113",
+   "listId": "bilgi-hesap-b243-b250"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "E122:H122",
+   "listId": "bilgi-hesap-b253-b261"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "E131:H131",
+   "listId": "bilgi-hesap-b264-b276"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "J28 J113 J122 J131",
+   "listId": "tanim-g97-g103"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "E34:G34 I34 D119:G119 I119 D128:G128 I128",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D47",
+   "listId": "tanim-c271-q271"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D49",
+   "listId": "tanim-c270-l270"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D139:G139",
+   "listId": "tanim-c344-h344"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D140:G140",
+   "listId": "tanim-g4-g85"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D143:G143",
+   "listId": "tanim-c347-h347"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D104:F104",
+   "listId": "bilgi-hesap-d513-x513"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D89",
+   "listId": "tanim-c294-r294"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D90",
+   "listId": "tanim-c295-h295"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D91",
+   "listId": "tanim-c296-n296"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D106:F106",
+   "listId": "tanim-b982-b991"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D112:F112",
+   "listId": "tanim-b1086-b1096"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D42",
+   "listId": "bilgi-hesap-b4-b13"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D43",
+   "listId": "tanim-b395-b408"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D44",
+   "listId": "tanim-b413-b428"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D45",
+   "listId": "tanim-b432-b435"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D21",
+   "listId": "tanim-c83-c88"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D22",
+   "listId": "tanim-c90-c96"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D137:G137 D158:F158",
+   "listId": "grs-1-i136-l136"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D138:G138 D159:F159",
+   "listId": "grs-1-i137-m137"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D142:G142",
+   "listId": "grs-1-i141-m141"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D144:G144 D163:F163",
+   "listId": "grs-1-i143-k143"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D145:F146",
+   "listId": "grs-1-i144-p144"
+  },
+  {
+   "sheet": "Grş 1",
+   "cells": "D108:F108",
+   "listId": "grs-1-b967-b976"
+  },
+  {
+   "sheet": "1.",
+   "cells": "R3 T3",
+   "listId": "tanim-f62-f111"
+  },
+  {
+   "sheet": "2.",
+   "cells": "U15",
+   "listId": "tanim-f62-f71"
+  },
+  {
+   "sheet": "2.",
+   "cells": "N15",
+   "listId": "tanim-g104-g144"
+  },
+  {
+   "sheet": "2.",
+   "cells": "U17 X17",
+   "listId": "tanim-ab2-ab27"
+  },
+  {
+   "sheet": "2.",
+   "cells": "X15",
+   "listId": "tanim-f61-f85"
+  },
+  {
+   "sheet": "2.",
+   "cells": "L15",
+   "listId": "tanim-f61-f211"
+  },
+  {
+   "sheet": "2.",
+   "cells": "J15",
+   "listId": "tanim-ap2-ap53"
+  },
+  {
+   "sheet": "2.",
+   "cells": "R3 T3",
+   "listId": "tanim-f62-f111"
+  },
+  {
+   "sheet": "3",
+   "cells": "S298 S124 S70 S17 S59 S90 S80 S100 S141 S183 S37 S203 S161 S193 S172 S151 S110 S213 S223 S233 S242 S251 S260 S270 E288 S279 S27 S47",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "3",
+   "cells": "E31 E207 E94 E104 E21 E118 E155 E145 E187 E135 E166 E177 E265 E74 E84 E283 E11 E197 E53 E217 E227 E274 E237 E246 E255 E292 E41 E63",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "3",
+   "cells": "E62",
+   "listId": "bilgi-hesap-b37-b43"
+  },
+  {
+   "sheet": "3",
+   "cells": "V39",
+   "listId": "bilgi-hesap-b32-b36"
+  },
+  {
+   "sheet": "3",
+   "cells": "Y127:Y129",
+   "listId": "tanim-f62-f99"
+  },
+  {
+   "sheet": "3",
+   "cells": "E73:G73",
+   "listId": "tanim-b446-b454"
+  },
+  {
+   "sheet": "3",
+   "cells": "S103 S93 S83",
+   "listId": "tanim-g97-g103"
+  },
+  {
+   "sheet": "3",
+   "cells": "J144 H144",
+   "listId": "tanim-e61-e80"
+  },
+  {
+   "sheet": "3",
+   "cells": "E176",
+   "listId": "bilgi-hesap-b189-b199"
+  },
+  {
+   "sheet": "3",
+   "cells": "E165",
+   "listId": "bilgi-hesap-b151-b158"
+  },
+  {
+   "sheet": "3",
+   "cells": "E206",
+   "listId": "bilgi-hesap-b207-b215"
+  },
+  {
+   "sheet": "3",
+   "cells": "E154:K154",
+   "listId": "tanim-b565-b569"
+  },
+  {
+   "sheet": "3",
+   "cells": "E196",
+   "listId": "bilgi-hesap-b233-b241"
+  },
+  {
+   "sheet": "3",
+   "cells": "E186",
+   "listId": "bilgi-hesap-b223-b230"
+  },
+  {
+   "sheet": "3",
+   "cells": "E93",
+   "listId": "bilgi-hesap-b48-b56"
+  },
+  {
+   "sheet": "3",
+   "cells": "E90:O90 E100:O100 E298:O298 E124:O124 E80:O80 E47:O47 E37:O37 E17:O17 E59:O59 E70:O70 E110:O110 E151:O151 E161:O161 E172:O172 E183:O183 E193:O193 E203:O203 E213:O213 E223:O223 E233:O233 E242:O242 E251:O251 E260:O260 E270:O270 P288:Z288 E279:O279 E27:O27 E141:O141",
+   "listId": "tanim-e40-e60"
+  },
+  {
+   "sheet": "3",
+   "cells": "E83:L83",
+   "listId": "tanim-b458-b465"
+  },
+  {
+   "sheet": "3",
+   "cells": "K117:U117",
+   "listId": "tanim-b494-b501"
+  },
+  {
+   "sheet": "3",
+   "cells": "E134:G134",
+   "listId": "tanim-b522-b529"
+  },
+  {
+   "sheet": "3",
+   "cells": "E216:L216",
+   "listId": "tanim-b638-b644"
+  },
+  {
+   "sheet": "3",
+   "cells": "E103",
+   "listId": "tanim-b652-b660"
+  },
+  {
+   "sheet": "3",
+   "cells": "E226:L226",
+   "listId": "tanim-b652-b663"
+  },
+  {
+   "sheet": "3",
+   "cells": "E117:G117 S144:U144 S154:U154 S165:U165 S176:U176 S186:U186 S196:U196 S206:U206 S216:U216 S226:U226 S236:U236 S245:U245 S254:U254 S264:U264 S273:U273 S282:U282 S291:U291",
+   "listId": "tanim-b504-i504"
+  },
+  {
+   "sheet": "3",
+   "cells": "B22:D22",
+   "listId": "tanim-b388-b390"
+  },
+  {
+   "sheet": "3",
+   "cells": "O159:Z159",
+   "listId": "tanim-aa123-aa258"
+  },
+  {
+   "sheet": "3",
+   "cells": "E144",
+   "listId": "tanim-b565-b568"
+  },
+  {
+   "sheet": "3",
+   "cells": "H236:L236",
+   "listId": "tanim-b665-b671"
+  },
+  {
+   "sheet": "3",
+   "cells": "H245:L245 H291:L291 H264:L264 H273:L273 H282:L282",
+   "listId": "tanim-d666-m666"
+  },
+  {
+   "sheet": "3",
+   "cells": "E245 E236 E273 E282 E291 E264 E254",
+   "listId": "tanim-b673-b683"
+  },
+  {
+   "sheet": "3",
+   "cells": "H254:L254",
+   "listId": "tanim-e20-e29"
+  },
+  {
+   "sheet": "3",
+   "cells": "R3 T3",
+   "listId": "tanim-f62-f111"
+  },
+  {
+   "sheet": "3",
+   "cells": "K79 K16 E16 H16 K26 E26 H26 K46 E46 H46 K36 E36 H36 K69 E69 H69 E79 H79 K58 E58 H58 K89 E89 H89 K99 E99 H99 K109 E109 H109 K123 E123 H123 K150 E150 H150 K160 E160 H160 K171 E171 H171 K182 E182 H182 K192 E192 H192 K202 E202 H202 K212 E212 H212 K222 E222 H222 K232 E232 H232 K241 E241 H241 K250 E250 H250 K259 E259 H259 K269 E269 H269 K278 E278 H278 K297 E297 H297 K140 E140 H140",
+   "listId": "tanim-c96-c110"
+  },
+  {
+   "sheet": "3",
+   "cells": "X79:Z79 X16:Z16 X26:Z26 X46:Z46 X36:Z36 X69:Z69 X58:Z58 X89:Z89 X99:Z99 X109:Z109 X123:Z123 X150:Z150 X160:Z160 X171:Z171 X182:Z182 X192:Z192 X202:Z202 X212:Z212 X222:Z222 X232:Z232 X241:Z241 X250:Z250 X259:Z259 X269:Z269 X278:Z278 X297:Z297 X140:Z140",
+   "listId": "tanim-b107-b111"
+  },
+  {
+   "sheet": "3",
+   "cells": "P16 Q150:T150 Q278:T278 Q259:T259 Q297:T297 Q250:T250 Q222:T222 Q269:T269 Q241:T241 Q212:T212 Q202:T202 Q26:T26 Q58:T58 Q36:T36 Q182:T182 Q171:T171 Q160:T160 Q140:T140 Q123:T123 Q109:T109 Q99:T99 Q69:T69 Q89:T89 Q79:T79 Q46:T46 Q192:T192 Q232:T232",
+   "listId": "tanim-d2000-d2080"
+  },
+  {
+   "sheet": "3",
+   "cells": "Q16:T16",
+   "listId": "tanim-e2000-e2080"
+  },
+  {
+   "sheet": "3",
+   "cells": "P192 P182 P171 P160 P150 P140 P123 P109 P99 P89 P79 P69 P58 P46 P36 P26 P202 P212 P222 P250 P259 P278 P297 P269 P241 P232",
+   "listId": "tanim-c2000-c2080"
+  },
+  {
+   "sheet": "4",
+   "cells": "E423 E13 E23 E33 E43 E53 E63 E73 E83 E93 E103 E113 E123 E133 E143 E153 E163 E173 E183 E193 E203 E213 E223 E233 E243 E253 E263 E273 E283 E293 E303 E313 E323 E333 E343 E353 E363 E383 E393 E373 E403 E413 E433 AE423 AE13 AE23 AE33 AE43 AE53 AE63 AE73 AE83 AE93 AE103 AE113 AE123 AE133 AE143 AE153 AE163 AE173 AE183 AE193 AE203 AE213 AE223 AE233 AE243 AE253 AE263 AE273 AE283 AE293 AE303 AE313 AE323 AE333 AE343 AE353 AE363 AE383 AE393 AE373 AE403 AE413 AE433",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "4",
+   "cells": "AS299 AS29 AS49 S49 AS69 S69 AS89 S89 AS99 AS109 AS119 AS129 AS139 AS149 AS159 AS169 AS179 AS189 AS199 AS209 AS219 S239 S259 AS259 AS269 S269 AS289 S289 S309 AS309 AS329 S329 AS349 S349 AS359 AS369 S389 AS399 AS409 AS379 AS419 AS429 S29 AS19 S39 AS39 S59 AS59 S79 AS79 S99 S109 S119 S129 S139 S149 S159 S169 S179 S189 S199 S209 S219 S229 AS239 S249 AS229 AS249 S279 AS279 S299 S19 S319 AS319 S339 AS339 S359 S369 S379 AS389 S409 S419 S399 S429 S439 AS439",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "4",
+   "cells": "E29:O29 E39:O39 E49:O49 E59:O59 E69:O69 E79:O79 E89:O89 E99:O99 E109:O109 E119:O119 E129:O129 E139:O139 E149:O149 E159:O159 E169:O169 E179:O179 E189:O189 E199:O199 E209:O209 E219:O219 E229:O229 E239:O239 E249:O249 E259:O259 E269:O269 E279:O279 E289:O289 E299:O299 AE309:AO309 E319:O319 E329:O329 E339:O339 E349:O349 E359:O359 E369:O369 E379:O379 E389:O389 E409:O409 E419:O419 E399:O399 E429:O429 E439:O439 E19:O19 AE29:AO29 AE39:AO39 AE49:AO49 AE59:AO59 AE69:AO69 AE79:AO79 AE89:AO89 AE99:AO99 AE109:AO109 AE119:AO119 AE129:AO129 AE139:AO139 AE149:AO149 AE159:AO159 AE169:AO169 AE179:AO179 AE189:AO189 AE199:AO199 AE209:AO209 AE219:AO219 AE229:AO229 AE239:AO239 AE249:AO249 AE259:AO259 AE269:AO269 AE279:AO279 AE289:AO289 AE299:AO299 AE19:AO19 AE319:AO319 AE329:AO329 AE339:AO339 AE349:AO349 AE359:AO359 AE369:AO369 AE379:AO379 AE389:AO389 AE409:AO409 AE419:AO419 AE399:AO399 AE429:AO429 AE439:AO439 E309:O309",
+   "listId": "tanim-e40-e60"
+  },
+  {
+   "sheet": "4",
+   "cells": "B32:D32 AB32:AD32",
+   "listId": "tanim-b968-b971"
+  },
+  {
+   "sheet": "4",
+   "cells": "E42:G42 AE42:AG42",
+   "listId": "tanim-c311-o311"
+  },
+  {
+   "sheet": "4",
+   "cells": "E52:G52 AE52:AG52",
+   "listId": "tanim-g993-g998"
+  },
+  {
+   "sheet": "4",
+   "cells": "E72:G72 AE72:AG72",
+   "listId": "tanim-g1006-g1009"
+  },
+  {
+   "sheet": "4",
+   "cells": "E82:G82 AE82:AG82",
+   "listId": "tanim-g1013-g1016"
+  },
+  {
+   "sheet": "4",
+   "cells": "E92:G92 AE92:AG92",
+   "listId": "tanim-g1020-g1021"
+  },
+  {
+   "sheet": "4",
+   "cells": "E402:G402 AE402:AG402",
+   "listId": "tanim-g1248-g1252"
+  },
+  {
+   "sheet": "4",
+   "cells": "E392:G392 AE392:AG392",
+   "listId": "tanim-g1239-g1244"
+  },
+  {
+   "sheet": "4",
+   "cells": "E432:G432 AE432:AG432",
+   "listId": "tanim-b1289-b1298"
+  },
+  {
+   "sheet": "4",
+   "cells": "R3 T3 AR3 AT3",
+   "listId": "tanim-f62-f111"
+  },
+  {
+   "sheet": "4",
+   "cells": "E182:G182 AE182:AG182",
+   "listId": "tanim-b1087-b1096"
+  },
+  {
+   "sheet": "4",
+   "cells": "X438:Z438 X428:Z428 X418:Z418 X408:Z408 X398:Z398 X388:Z388 X378:Z378 X368:Z368 X358:Z358 X348:Z348 X338:Z338 X328:Z328 X318:Z318 X308:Z308 X298:Z298 X288:Z288 X278:Z278 X268:Z268 X258:Z258 X248:Z248 X238:Z238 X228:Z228 X218:Z218 X208:Z208 X198:Z198 X188:Z188 X178:Z178 X168:Z168 X158:Z158 X148:Z148 X138:Z138 X128:Z128 X118:Z118 X108:Z108 X98:Z98 X88:Z88 X78:Z78 X68:Z68 X58:Z58 X48:Z48 X38:Z38 X28:Z28 X18:Z18 AX438:AZ438 AX428:AZ428 AX418:AZ418 AX408:AZ408 AX398:AZ398 AX388:AZ388 AX378:AZ378 AX368:AZ368 AX358:AZ358 AX348:AZ348 AX338:AZ338 AX328:AZ328 AX318:AZ318 AX308:AZ308 AX298:AZ298 AX288:AZ288 AX278:AZ278 AX268:AZ268 AX258:AZ258 AX248:AZ248 AX238:AZ238 AX228:AZ228 AX218:AZ218 AX208:AZ208 AX198:AZ198 AX188:AZ188 AX178:AZ178 AX168:AZ168 AX158:AZ158 AX148:AZ148 AX138:AZ138 AX128:AZ128 AX118:AZ118 AX108:AZ108 AX98:AZ98 AX88:AZ88 AX78:AZ78 AX68:AZ68 AX58:AZ58 AX48:AZ48 AX38:AZ38 AX28:AZ28 AX18:AZ18",
+   "listId": "tanim-b107-b111"
+  },
+  {
+   "sheet": "4",
+   "cells": "K438 E438 H438 K428 E428 H428 K418 E418 H418 K408 E408 H408 K398 E398 H398 K388 E388 H388 K378 E378 H378 K368 E368 H368 K358 E358 H358 K348 E348 H348 K338 E338 H338 K328 E328 H328 K318 E318 H318 K308 E308 H308 K298 E298 H298 K288 E288 H288 K278 E278 H278 K268 E268 H268 K258 E258 H258 K248 E248 H248 K238 E238 H238 K228 E228 H228 K218 E218 H218 K208 E208 H208 K198 E198 H198 K188 E188 H188 K178 E178 H178 K168 E168 H168 K158 E158 H158 K148 E148 H148 K138 E138 H138 K128 E128 H128 K118 E118 H118 K108 E108 H108 K98 E98 H98 K88 E88 H88 K78 E78 H78 K68 E68 H68 K58 E58 H58 K48 E48 H48 K38 E38 H38 K28 E28 H28 K18 E18 H18 AK438 AE438 AH438 AK428 AE428 AH428 AK418 AE418 AH418 AK408 AE408 AH408 AK398 AE398 AH398 AK388 AE388 AH388 AK378 AE378 AH378 AK368 AE368 AH368 AK358 AE358 AH358 AK348 AE348 AH348 AK338 AE338 AH338 AK328 AE328 AH328 AK318 AE318 AH318 AK308 AE308 AH308 AK298 AE298 AH298 AK288 AE288 AH288 AK278 AE278 AH278 AK268 AE268 AH268 AK258 AE258 AH258 AK248 AE248 AH248 AK238 AE238 AH238 AK228 AE228 AH228 AK218 AE218 AH218 AK208 AE208 AH208 AK198 AE198 AH198 AK188 AE188 AH188 AK178 AE178 AH178 AK168 AE168 AH168 AK158 AE158 AH158 AK148 AE148 AH148 AK138 AE138 AH138 AK128 AE128 AH128 AK118 AE118 AH118 AK108 AE108 AH108 AK98 AE98 AH98 AK88 AE88 AH88 AK78 AE78 AH78 AK68 AE68 AH68 AK58 AE58 AH58 AK48 AE48 AH48 AK38 AE38 AH38 AK28 AE28 AH28 AK18 AE18 AH18",
+   "listId": "tanim-c96-c110"
+  },
+  {
+   "sheet": "4",
+   "cells": "P438 AP18 AP28 AP38 AP48 AP58 AP68 AP78 AP88 AP98 AP108 AP118 AP128 AP138 AP148 AP158 AP168 AP178 AP188 AP198 AP208 AP218 AP228 AP238 AP248 AP258 AP268 AP278 AP288 AP298 AP308 AP318 AP328 AP338 AP348 AP358 AP368 AP378 AP388 AP398 AP408 AP418 AP428 AP438 P18 P28 P38 P48 P58 P68 P78 P88 P98 P108 P118 P128 P138 P148 P158 P168 P178 P188 P198 P208 P218 P228 P238 P248 P258 P268 P278 P288 P298 P308 P318 P328 P338 P348 P358 P368 P378 P388 P398 P408 P418 P428",
+   "listId": "tanim-d2000-d2080"
+  },
+  {
+   "sheet": "4",
+   "cells": "Q438:T438 Q428:T428 Q418:T418 Q408:T408 Q398:T398 Q388:T388 Q378:T378 Q368:T368 Q358:T358 Q348:T348 Q338:T338 Q328:T328 Q318:T318 Q308:T308 Q298:T298 Q288:T288 Q278:T278 Q268:T268 Q258:T258 Q248:T248 Q238:T238 Q228:T228 Q218:T218 Q208:T208 Q198:T198 Q188:T188 Q178:T178 Q168:T168 Q158:T158 Q148:T148 Q138:T138 Q128:T128 Q118:T118 Q108:T108 Q98:T98 Q88:T88 Q78:T78 Q68:T68 Q58:T58 Q48:T48 Q38:T38 Q28:T28 Q18:T18 AQ438:AT438 AQ428:AT428 AQ418:AT418 AQ408:AT408 AQ398:AT398 AQ388:AT388 AQ378:AT378 AQ368:AT368 AQ358:AT358 AQ348:AT348 AQ338:AT338 AQ328:AT328 AQ318:AT318 AQ308:AT308 AQ298:AT298 AQ288:AT288 AQ278:AT278 AQ268:AT268 AQ258:AT258 AQ248:AT248 AQ238:AT238 AQ228:AT228 AQ218:AT218 AQ208:AT208 AQ198:AT198 AQ188:AT188 AQ178:AT178 AQ168:AT168 AQ158:AT158 AQ148:AT148 AQ138:AT138 AQ128:AT128 AQ118:AT118 AQ108:AT108 AQ98:AT98 AQ88:AT88 AQ78:AT78 AQ68:AT68 AQ58:AT58 AQ48:AT48 AQ38:AT38 AQ28:AT28 AQ18:AT18",
+   "listId": "tanim-e2000-e2080"
+  },
+  {
+   "sheet": "4",
+   "cells": "E62:G62 AE62:AG62",
+   "listId": "etken-g981-g986"
+  },
+  {
+   "sheet": "4",
+   "cells": "E102:G102 AE372:AG372 AE362:AG362 AE352:AG352 AE342:AG342 AE332:AG332 AE322:AG322 AE312:AG312 AE302:AG302 AE292:AG292 AE282:AG282 AE272:AG272 AE262:AG262 AE252:AG252 AE242:AG242 AE232:AG232 AE222:AG222 AE212:AG212 AE202:AG202 AE192:AG192 AE112:AG112 AE172:AG172 AE162:AG162 AE152:AG152 AE142:AG142 AE132:AG132 AE122:AG122 AE102:AG102 E372:G372 E362:G362 E352:G352 E342:G342 E332:G332 E322:G322 E312:G312 E302:G302 E292:G292 E282:G282 E272:G272 E262:G262 E252:G252 E242:G242 E232:G232 E222:G222 E212:G212 E202:G202 E192:G192 E112:G112 E172:G172 E162:G162 E152:G152 E142:G142 E132:G132 E122:G122",
+   "listId": "etken-g1008-g1009"
+  },
+  {
+   "sheet": "4",
+   "cells": "E382:G382 AE382:AG382",
+   "listId": "etken-g1214-g1219"
+  },
+  {
+   "sheet": "4",
+   "cells": "E412:G412 AE422:AG422 AE412:AG412 E422:G422",
+   "listId": "etken-g1243-g1247"
+  },
+  {
+   "sheet": "5",
+   "cells": "E36 E46 E56 E16 E26 E66 E76 E85 E95 E105 E115 E125 E135 E145 E155 E165 E175 E185 E195 E205 E215 E225",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "5",
+   "cells": "S141 S32 S121 S52 S221 S22 S111 S161 S201 S231 S151 S62 S191 S72 S42 E81 S181 S91 S171 S101 S131 S211",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "5",
+   "cells": "E131:O131 E22:O22 E32:O32 E42:O42 E52:O52 E62:O62 P81:Z81 E72:O72 E91:O91 E101:O101 E111:O111 E221:O221 E121:O121 E141:O141 E231:O231 E151:O151 E171:O171 E181:O181 E191:O191 E201:O201 E161:O161 E211:O211",
+   "listId": "tanim-e40-e60"
+  },
+  {
+   "sheet": "5",
+   "cells": "E15:G15",
+   "listId": "tanim-o685-o688"
+  },
+  {
+   "sheet": "5",
+   "cells": "E35:G35",
+   "listId": "tanim-o698-o703"
+  },
+  {
+   "sheet": "5",
+   "cells": "E45:G45",
+   "listId": "tanim-o705-o711"
+  },
+  {
+   "sheet": "5",
+   "cells": "E55:G55",
+   "listId": "tanim-o731-o735"
+  },
+  {
+   "sheet": "5",
+   "cells": "E65:G65",
+   "listId": "tanim-o742-o745"
+  },
+  {
+   "sheet": "5",
+   "cells": "E75:G75",
+   "listId": "tanim-o749-o753"
+  },
+  {
+   "sheet": "5",
+   "cells": "E144:G144",
+   "listId": "tanim-o830-o834"
+  },
+  {
+   "sheet": "5",
+   "cells": "E25:G25",
+   "listId": "tanim-q691-q694"
+  },
+  {
+   "sheet": "5",
+   "cells": "X130:Z130 X21:Z21 X31:Z31 X41:Z41 X51:Z51 X61:Z61 X71:Z71 X90:Z90 X100:Z100 X110:Z110 X120:Z120 X140:Z140 X150:Z150 X170:Z170 X180:Z180 X190:Z190 X160:Z160 X220:Z220 X230:Z230 X200:Z200 X210:Z210",
+   "listId": "tanim-b107-b111"
+  },
+  {
+   "sheet": "5",
+   "cells": "K130 E130 H130 K21 E21 H21 K31 E31 H31 K41 E41 H41 K51 E51 H51 K61 E61 H61 K71 E71 H71 K90 E90 H90 K100 E100 H100 K110 E110 H110 K120 E120 H120 K140 E140 H140 K150 E150 H150 K170 E170 H170 K180 E180 H180 K190 E190 H190 K160 E160 H160 K220 E220 H220 K230 E230 H230 K200 E200 H200 K210 E210 H210",
+   "listId": "tanim-c96-c110"
+  },
+  {
+   "sheet": "5",
+   "cells": "P130 P210 P200 P230 P220 P160 P190 P180 P170 P150 P140 P120 P110 P100 P90 P71 P61 P51 P41 P31 P21",
+   "listId": "tanim-d2000-d2080"
+  },
+  {
+   "sheet": "5",
+   "cells": "Q130:T130 Q21:T21 Q31:T31 Q41:T41 Q51:T51 Q61:T61 Q71:T71 Q90:T90 Q100:T100 Q110:T110 Q120:T120 Q140:T140 Q150:T150 Q170:T170 Q180:T180 Q190:T190 Q160:T160 Q220:T220 Q230:T230 Q200:T200 Q210:T210",
+   "listId": "tanim-e2000-e2080"
+  },
+  {
+   "sheet": "5",
+   "cells": "E94:G94 E104:G104 E114:G114 E124:G124 E134:G134",
+   "listId": "etken-an98-an98"
+  },
+  {
+   "sheet": "5",
+   "cells": "E154:G154 E164:G164 E174:G174 E184:G184 E194:G194 E204:G204 E214:G214 E224:G224",
+   "listId": "etken-o828-o832"
+  },
+  {
+   "sheet": "5",
+   "cells": "E84:G84",
+   "listId": "etken-o770-o774"
+  },
+  {
+   "sheet": "6",
+   "cells": "E24:G24",
+   "listId": "tanim-o1520-o1524"
+  },
+  {
+   "sheet": "6",
+   "cells": "S21 S31 S41 S61 S51 S71",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "6",
+   "cells": "E15 E25 E35 E45 E55 E65",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "6",
+   "cells": "E31:O31 E41:O41 E51:O51 E61:O61 E71:O71 E21:O21",
+   "listId": "tanim-e40-e60"
+  },
+  {
+   "sheet": "6",
+   "cells": "E34:G34",
+   "listId": "tanim-o1527-o1531"
+  },
+  {
+   "sheet": "6",
+   "cells": "E44:G44",
+   "listId": "tanim-o1534-o1541"
+  },
+  {
+   "sheet": "6",
+   "cells": "K70 E70 H70 K60 E60 H60 K50 E50 H50 K40 E40 H40 K30 E30 H30 K20 E20 H20",
+   "listId": "tanim-c96-c110"
+  },
+  {
+   "sheet": "6",
+   "cells": "X70:Z70 X60:Z60 X50:Z50 X40:Z40 X30:Z30 X20:Z20",
+   "listId": "tanim-b107-b111"
+  },
+  {
+   "sheet": "6",
+   "cells": "P70 P20 P30 P40 P50 P60",
+   "listId": "tanim-d2000-d2080"
+  },
+  {
+   "sheet": "6",
+   "cells": "Q70:T70 Q60:T60 Q50:T50 Q40:T40 Q30:T30 Q20:T20",
+   "listId": "tanim-e2000-e2080"
+  },
+  {
+   "sheet": "6",
+   "cells": "E14:G14",
+   "listId": "etken-ai17-ai18"
+  },
+  {
+   "sheet": "6",
+   "cells": "E54:G54 E64:G64",
+   "listId": "etken-ak57-ak58"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E15 E25 E35 E45 E55 E65",
+   "listId": "tanim-d23-d32"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "S51 S31 S71 S41 S61 S21",
+   "listId": "tanim-d37-d45"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E24:G24",
+   "listId": "tanim-c1576-c1581"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E54:G54",
+   "listId": "tanim-o1617-o1620"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E34:G34",
+   "listId": "tanim-o1600-o1604"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "X70:Z70 X60:Z60 X50:Z50 X40:Z40 X30:Z30 X20:Z20",
+   "listId": "tanim-b107-b111"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "K70 E70 H70 K60 E60 H60 K50 E50 H50 K40 E40 H40 K30 E30 H30 K20 E20 H20",
+   "listId": "tanim-c96-c110"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E71:O71 E61:O61 E51:O51 E41:O41 E31:O31 E21:O21",
+   "listId": "tanim-e40-e60"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "P70 P20 P30 P40 P50 P60",
+   "listId": "tanim-d2000-d2080"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "Q70:T70 Q60:T60 Q50:T50 Q40:T40 Q30:T30 Q20:T20",
+   "listId": "tanim-e2000-e2080"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E44:G44",
+   "listId": "y-ai49-ai52"
+  },
+  {
+   "sheet": "9Y",
+   "cells": "E14:G14",
+   "listId": "y-ai18-ai18"
+  }
+ ]
+}

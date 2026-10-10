@@ -1,0 +1,123 @@
+{
+ "il": "IĞDIR ",
+ "ilceler": {
+  "ARALIK": [
+   "ARAS",
+   "KARASU",
+   "KARŞIYAKA",
+   "KÖPRÜLER",
+   "ORTAKÖY"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "14 KASIM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALİKAMERLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EMEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAKVEYİS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KONAKLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZGÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PİR SULTAN ABDAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÖĞÜTLÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TOPÇULAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KARAKOYUNLU": [
+   "ERGENEKON",
+   "FATİH"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "HALFELİ"
+   },
+   {
+    "mahalle": "FARUK TOKA",
+    "belde": "HOŞHABER"
+   },
+   {
+    "mahalle": "KARABAĞ",
+    "belde": "MELEKLİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "MELEKLİ"
+   },
+   {
+    "mahalle": "NAMIK KEMAL",
+    "belde": "MELEKLİ"
+   },
+   {
+    "mahalle": "ÖZVATAN",
+    "belde": "HALFELİ"
+   },
+   {
+    "mahalle": "SAİD NURSİ",
+    "belde": "HALFELİ"
+   },
+   {
+    "mahalle": "TURGUT ÖZAL",
+    "belde": "HALFELİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "HOŞHABER"
+   },
+   {
+    "mahalle": "YUNUSEMRE",
+    "belde": "HALFELİ"
+   }
+  ],
+  "TUZLUCA": [
+   "AŞAĞI",
+   "CUMHUİYET",
+   "ORTA",
+   "YENİMAHALLE",
+   "YUKARI"
+  ]
+ }
+}

@@ -1,0 +1,548 @@
+{
+ "source": "2.!B37:Z84",
+ "blocks": [
+  {
+   "title": "YOLDA OLUŞABİLECEK KAZA ÇEŞİTLERİ",
+   "cell": "B37",
+   "items": [
+    {
+     "text": "Yandan Çarpma",
+     "cell": "E37"
+    },
+    {
+     "text": "Yandan Çarpışma",
+     "cell": "E38"
+    },
+    {
+     "text": "Duran Araca Çarpma",
+     "cell": "E39"
+    },
+    {
+     "text": "Sabit Cisme Çarpma",
+     "cell": "E40"
+    },
+    {
+     "text": "Yaya ya Çarpma",
+     "cell": "E41"
+    }
+   ]
+  },
+  {
+   "title": "KAZA SONRASI ÇEVREYE VERİLEBİLECEK ZARARLAR",
+   "cell": "B44",
+   "items": [
+    {
+     "text": "Yakıt Sızıntısı:",
+     "cell": "E44"
+    },
+    {
+     "text": "Yağ ve Soğutucu Sıvılar",
+     "cell": "E45"
+    },
+    {
+     "text": "Metal Parçacıkları:",
+     "cell": "E46"
+    },
+    {
+     "text": "akü asitleri ve diğer sıvılar",
+     "cell": "E47"
+    },
+    {
+     "text": "Plastik ve cam kırıkları",
+     "cell": "E48"
+    },
+    {
+     "text": "zehirli gazlar",
+     "cell": "E49"
+    },
+    {
+     "text": "Toprak Kirliliği",
+     "cell": "E50"
+    }
+   ]
+  },
+  {
+   "title": "KAZA ÖNCESİ, SONRASI ÇEVREYE VERİLEBİLECEK ZARARLAR EĞİTİMİ",
+   "cell": "B51",
+   "items": [
+    {
+     "text": "Sürücü Eğitimi:",
+     "cell": "E51"
+    },
+    {
+     "text": "Çevresel etkilerin farkındalığı: Doğanın önemi",
+     "cell": "E52"
+    },
+    {
+     "text": "Atık yönetimi: Tehlikeli atıkların bertarafı",
+     "cell": "E53"
+    },
+    {
+     "text": "Kirlilik türleri ve etkileri: Hava, su, toprak kirliliği",
+     "cell": "E54"
+    },
+    {
+     "text": "Temizleme yöntemleri: Doğru temizleme teknikleri",
+     "cell": "E55"
+    },
+    {
+     "text": "Ekonomik kayıplar",
+     "cell": "E56"
+    },
+    {
+     "text": "Hava kirliliği (yakıt sızıntıları, yangınlar)",
+     "cell": "E57"
+    }
+   ]
+  },
+  {
+   "title": "YOLUN KAZAYA ETKİSİ",
+   "cell": "B58",
+   "items": [
+    {
+     "text": "Kavşak sistemi",
+     "cell": "E58"
+    },
+    {
+     "text": "Yol işaretlemeleri: Oklar, çizgiler, levhalar",
+     "cell": "E59"
+    },
+    {
+     "text": "Yetersiz Aydınlatma: Özellikle gece saatlerinde görüş mesafesini azaltarak kazalara neden olur.",
+     "cell": "E60"
+    },
+    {
+     "text": "Yarıçap: Virajların yarıçapı, aracın güvenli bir şekilde dönmesini etkiler. Dar virajlar, yüksek hızlarda kaza riskini artırır.",
+     "cell": "E61"
+    },
+    {
+     "text": "Hava koşullarının yol üzerindeki etkileri: Buzlanma, çamur",
+     "cell": "E62"
+    }
+   ]
+  },
+  {
+   "title": "OLASI SIKLIK ARAÇ",
+   "cell": "B63",
+   "items": [
+    {
+     "text": "1 Hafta",
+     "cell": "E63",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "title": "OLASI SIKLIK YAYA",
+   "cell": "B64",
+   "items": [
+    {
+     "text": "3 Ay",
+     "cell": "E64",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "title": "YOLDAKİ EKSİKLİKLER",
+   "cell": "B65",
+   "items": [
+    {
+     "text": "Yol Satında Gevşek Malz ",
+     "cell": "E65"
+    },
+    {
+     "text": "Eksik veya Yanlış İşaretler: Sürücüleri yanıltarak kaza riskini artırır.",
+     "cell": "E66"
+    },
+    {
+     "text": "İki Tarafı Dar Yol",
+     "cell": "E67"
+    },
+    {
+     "text": "Yol işaretlemeleri: Oklar, çizgiler, levhalar",
+     "cell": "E68"
+    },
+    {
+     "text": "Yolda Münferit Çukur ",
+     "cell": "E69"
+    },
+    {
+     "text": "Azami Hız Sınırlaması",
+     "cell": "E70"
+    }
+   ]
+  },
+  {
+   "title": "EĞİTİM SİSTEMİ",
+   "cell": "B71",
+   "items": [
+    {
+     "text": "E-öğrenme",
+     "cell": "E71"
+    },
+    {
+     "text": "Sınıf eğitimleri",
+     "cell": "E72"
+    }
+   ]
+  },
+  {
+   "title": "GEREĞİ İÇİN",
+   "cell": "B73",
+   "items": [
+    {
+     "text": "Bölge karayolları Müdürlüğü",
+     "cell": "E73"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B74",
+   "items": [
+    {
+     "text": "Jandarma Genel Komutanlığı",
+     "cell": "E74"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B75",
+   "items": [
+    {
+     "text": "Air Liquide A.Ş.",
+     "cell": "E75"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B76",
+   "items": [
+    {
+     "text": "Ulaştırma Bakanlığı",
+     "cell": "E76"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B77",
+   "items": [
+    {
+     "text": "Çevre ve şehircilik bakanlığı",
+     "cell": "E77"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B78",
+   "items": [
+    {
+     "text": "Tarım Bakanlığı",
+     "cell": "E78"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B79",
+   "items": [
+    {
+     "text": "Büyükşehir Belediyesi",
+     "cell": "E79"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B80",
+   "items": [
+    {
+     "text": "Karayolları Genel Müdürlüğü",
+     "cell": "E80"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B81",
+   "items": [
+    {
+     "text": "Polis Akadesi Trafik Ensitisü",
+     "cell": "E81"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B82",
+   "items": [
+    {
+     "text": "Ufuk Üniversitesi",
+     "cell": "E82"
+    }
+   ]
+  },
+  {
+   "title": "BİLGİ İÇİN",
+   "cell": "B83",
+   "items": [
+    {
+     "text": "Arem ARAŞTIRMA ve ETÜTLER MERKEZİ ",
+     "cell": "E83"
+    }
+   ]
+  },
+  {
+   "title": "KAZADA OLUŞABİLECEK MADDİ MANEVİ KAYIPLAR",
+   "cell": "O37",
+   "items": [
+    {
+     "text": "Tedavi Masrafları: Hastanede yatış, ameliyat, ilaç, fizik tedavi gibi tüm tedavi masrafları.",
+     "cell": "R37"
+    },
+    {
+     "text": "Kazanın Oluşturduğu Diğer Malvarlığı Kayıpları: Kazada zarar gören kişisel eşyalar, kıyafetler gibi diğer malvarlığı kayıpları.",
+     "cell": "R38"
+    },
+    {
+     "text": "Acı ve Elem: Fiziksel ağrı, sakatlık ve hastalık nedeniyle yaşanan acı ve ıstırap.",
+     "cell": "R39"
+    },
+    {
+     "text": "Yakınlarının Üzüntüsü: Kazada hayatını kaybeden veya yaralanan kişinin yakınlarının yaşadığı derin üzüntü, keder ve acı.",
+     "cell": "R40"
+    },
+    {
+     "text": "Kazanın Sonucu İş Gücü Kaybı: Kazanın neden olduğu iş göremezlik süresi boyunca kaybedilen gelir ve gelecekteki kazanç kayıpları.",
+     "cell": "R41"
+    },
+    {
+     "text": "Ulaşım Masrafları: Tedaviye gidiş gelişlerde veya diğer ihtiyaçlar için yapılan ulaşım masrafları.",
+     "cell": "R42"
+    },
+    {
+     "text": "Yaşam Kalitesindeki Düşüş: Sakatlıklar nedeniyle fiziksel aktivitelerin kısıtlanması, sosyal hayattan uzaklaşma ve yaşam kalitesinin düşmesi.",
+     "cell": "R43"
+    }
+   ]
+  },
+  {
+   "title": "KAZA SONRASI İŞ SAĞLIĞI VE GÜVENLİĞİ SONUÇLARI",
+   "cell": "O44",
+   "items": [
+    {
+     "text": "Fiziksel Yaralanmalar: Kalıcı sakatlıklar, iş göremezlik, ölüm gibi ağır sonuçlara yol açabilir.",
+     "cell": "R44"
+    },
+    {
+     "text": "Psikolojik Travmalar: Kaza sonrasında psikolojik sorunlar (kaygı, depresyon vb.) yaşanabilir.",
+     "cell": "R45"
+    },
+    {
+     "text": "Ekonomik Kayıplar: Gelir kaybı, tedavi masrafları gibi ekonomik zorluklarla karşılaşılabilir.",
+     "cell": "R46"
+    },
+    {
+     "text": "Önlemlerin Yetersizliği: Kazanın önlenmesi için gerekli önlemlerin alınmadığı veya yetersiz olduğu anlaşılır.",
+     "cell": "R47"
+    },
+    {
+     "text": "Verimlilik Kaybı: Kaza sonucu iş gücü kaybı, iş süreçlerinde aksaklıklar ve moral bozulması gibi nedenlerle verimlilik düşebilir.",
+     "cell": "R48"
+    },
+    {
+     "text": "Mevzuata Uygunluk Sorunları: İşletmenin iş sağlığı ve güvenliği mevzuatına uygunluk sorunu ortaya çıkabilir.",
+     "cell": "R49"
+    },
+    {
+     "text": "Risk Değerlendirmesi Eksiklikleri: İş yerindeki risklerin yeterince değerlendirilmediği anlaşılır.",
+     "cell": "R50"
+    }
+   ]
+  },
+  {
+   "title": "KAZA ÖNCESİ, SONRASI İSG NE ETKİ EĞİTİMİ",
+   "cell": "O51",
+   "items": [
+    {
+     "text": "Savunmacı sürüş teknikleri",
+     "cell": "R51"
+    },
+    {
+     "text": "Trafik işaretleri ve kuralları",
+     "cell": "R52"
+    },
+    {
+     "text": "Yaya geçişleri eğitimi",
+     "cell": "R53"
+    },
+    {
+     "text": "Yorgunluk ve dikkat dağınıklığının etkileri",
+     "cell": "R54"
+    },
+    {
+     "text": "Trafik işaretleri ve kuralları",
+     "cell": "R55"
+    },
+    {
+     "text": "Tali yoldan gelen giren araç eğitimi",
+     "cell": "R56"
+    },
+    {
+     "text": "Kontrolsüz kavşak eğitimi",
+     "cell": "R57"
+    }
+   ]
+  },
+  {
+   "title": "SABOTAJ-ACİL DURUMLAR ve  DİNLENME BEKLEME YERLERİ",
+   "cell": "O58",
+   "items": [
+    {
+     "text": "Uygun Değil",
+     "cell": "R58"
+    }
+   ]
+  },
+  {
+   "title": "OLABİLECEK KAZALARI ÖNLEME ÖNERİMİZ",
+   "cell": "O65",
+   "items": [
+    {
+     "text": "Önlenebilir",
+     "cell": "R65"
+    },
+    {
+     "text": "Makro Çalışma",
+     "cell": "R66"
+    },
+    {
+     "text": "Tehlike Önerileri",
+     "cell": "R67"
+    },
+    {
+     "text": "Yolda önleme öneri",
+     "cell": "R68"
+    },
+    {
+     "text": "İşaretlemelerde öneri",
+     "cell": "R69"
+    },
+    {
+     "text": "Bilgi Önerileri",
+     "cell": "R70"
+    }
+   ]
+  },
+  {
+   "title": "YOLUN YOĞUN ARAÇ CİNSLERİ",
+   "cell": "O71",
+   "items": [
+    {
+     "text": "Römorklu Traktör-Kamyon",
+     "cell": "R71"
+    },
+    {
+     "text": "Yarı Römork Traktör-Kamyon",
+     "cell": "R72"
+    },
+    {
+     "text": "Arazi Taşıtı",
+     "cell": "R73"
+    },
+    {
+     "text": "İş Makinası",
+     "cell": "R74"
+    },
+    {
+     "text": "Kamyon",
+     "cell": "R75"
+    },
+    {
+     "text": "Kamu Hizmeti Taşıtı: ",
+     "cell": "R76"
+    }
+   ]
+  },
+  {
+   "title": "KAZAYA YARDIM",
+   "cell": "O77",
+   "items": [
+    {
+     "text": "Afat - İtfaiye - Ambulans",
+     "cell": "R77"
+    },
+    {
+     "text": "Paydaş Firma - Dörtler Nakliyat",
+     "cell": "R78"
+    }
+   ]
+  },
+  {
+   "title": "KAZAYA GÜVENLİK",
+   "cell": "O79",
+   "items": [
+    {
+     "text": "Emniyet Karayollar Bölge Müd.",
+     "cell": "R79"
+    }
+   ]
+  },
+  {
+   "title": "YARDIM ZAMANLAMA",
+   "cell": "O80",
+   "items": [
+    {
+     "text": "Çok Yeterli 10< Dk AZ İSE",
+     "cell": "R80"
+    }
+   ]
+  },
+  {
+   "title": "ÖNLENEBİLECEK KAZALAR",
+   "cell": "O81",
+   "items": [
+    {
+     "text": "Yandan Çarpma",
+     "cell": "R81",
+     "weight": 0.5
+    },
+    {
+     "text": "Arkadan Çarpma",
+     "cell": "R82",
+     "weight": 0.5
+    },
+    {
+     "text": "Devrilme- Düşme",
+     "cell": "R83",
+     "weight": 0.2
+    }
+   ]
+  }
+ ],
+ "footnote": "         Yapılan çalışmalar sonucu ön görülen kaza düşme oranı verilmiştir.",
+ "basliklar": {
+  "B29": "İNCELEMENİN TEKNİK KAPSAMI",
+  "B31": "İNCELEME SINIRLARI",
+  "B33": "EKSİK/TALEP EDİLMESİ GEREKEN BİLGİ VE BELGELER",
+  "B35": "İNCELEMEYE ESAS ALINAN BELGELERİN TARİHİ/VERİ KESİM TARİHİ",
+  "B19": "1. Nüfus Üzerinden Kaza Oranı ",
+  "J19": "2. Taşıt Sayısı Üzerinden Kaza Oranı ",
+  "R19": "3. Taşıt-Km Üzerinden Verilen Kaza Oranı",
+  "B20": "Rn = ",
+  "J20": "Rt =",
+  "R20": "Rk= Dx100x10 000 000/SxMx365",
+  "B21": "P: Mukayeseye girecek toplam nüfus miktarı",
+  "J21": "M : Toplam taşıt sayısı ",
+  "R21": " M: Taşıt sayısı  ",
+  "B22": "D: Senelik kaza sayısı ",
+  "J22": "D  :Senelik kaza sayısı",
+  "R22": "S: Taşıt başına isabet eden günlük km miktarı",
+  "R23": "D: kaza sayısı"
+ }
+}

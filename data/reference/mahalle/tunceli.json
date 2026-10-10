@@ -1,0 +1,112 @@
+{
+ "il": "TUNCELİ",
+ "ilceler": {
+  "OVACIK": [
+   "94 MAHALLESİ",
+   "KANDOLAR",
+   "PULUR"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKTULUK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALİBABA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMET İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MOĞULTAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "PÜLÜMÜR": [
+   "ATATÜRK",
+   "ECEVİT",
+   "HİVER",
+   "MERKEZ",
+   "MEYDANLAR"
+  ],
+  "PERTEK": [
+   "CAMİİKEBİR",
+   "DEREBAŞI",
+   "İSTİKLAL",
+   "KALEDİBİ",
+   "SOĞUKPINAR"
+  ],
+  "MAZGİRT": [
+   {
+    "mahalle": "ÇARŞIBAŞI",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "ELMALIK",
+    "belde": "AKPAZAR"
+   },
+   "ELTİHATUN",
+   {
+    "mahalle": "GÜNEŞDERE",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "GÜNEYHARMAN",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "KARABULUT",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "KEPEKTAŞI",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "KUŞÇU",
+    "belde": "AKPAZAR"
+   },
+   {
+    "mahalle": "ÖRS",
+    "belde": "AKPAZAR"
+   },
+   "YENİMAHALLE"
+  ],
+  "ÇEMİŞGEZEK": [
+   "ÇUKUR",
+   "HACI CAMİ",
+   "HAMAMATİK",
+   "KALE",
+   "MESCİT",
+   "TEPEBAŞI",
+   "YENİMAHALLE"
+  ],
+  "HOZAT": [
+   "DİYAP AĞA",
+   "FİKRİPAŞA",
+   "KÖPRÜBAŞI",
+   "YENİMAHALLE"
+  ],
+  "NAZIMİYE": [
+   "MERKEZ"
+  ]
+ }
+}

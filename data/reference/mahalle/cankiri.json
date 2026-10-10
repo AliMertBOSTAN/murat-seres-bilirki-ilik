@@ -1,0 +1,218 @@
+{
+ "il": "ÇANKIRI",
+ "ilceler": {
+  "ATKARACALAR": [
+   {
+    "mahalle": "BOZKUŞ",
+    "belde": "ÇARDAKLI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ÇARDAKLI"
+   },
+   "GAZİBEY",
+   "HOCA",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "ÇARDAKLI"
+   },
+   "ILIPINAR",
+   "İLKER",
+   "KIRAN",
+   "MOLLAOSMAN",
+   {
+    "mahalle": "MUSTAFAKEMAL",
+    "belde": "ÇARDAKLI"
+   },
+   {
+    "mahalle": "NEVZATAYAZ",
+    "belde": "ÇARDAKLI"
+   }
+  ],
+  "BAYRAMÖREN": [
+   "KÖPRÜLÜBEY",
+   "MERKEZ",
+   "ZÜBEYDEHANIM"
+  ],
+  "ÇERKEŞ": [
+   "CUMHURİYET",
+   {
+    "mahalle": "GÜZELYURT",
+    "belde": "SAÇAK"
+   },
+   "İDRİS",
+   "İSTASYON",
+   "KARALAR",
+   "KARAMUKLU",
+   {
+    "mahalle": "KAYABAŞI",
+    "belde": "SAÇAK"
+   },
+   "KURTLAR",
+   "OKÇULAR",
+   "ULUSU",
+   {
+    "mahalle": "YALIÖZÜ",
+    "belde": "SAÇAK"
+   },
+   "YENİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "SAÇAK"
+   },
+   "YENİKENT"
+  ],
+  "ELDİVAN": [
+   "BAHÇELİEVLER",
+   "BEYDERE",
+   "CAMİ",
+   "ÇAY",
+   "DERE",
+   "TOPRAKLIK"
+  ],
+  "ILGAZ": [
+   "FATİH",
+   "GAZİDEDE",
+   "KARATAŞ",
+   "ŞENTEPE",
+   "ULUPINAR",
+   "YAVUZ",
+   "YENİ",
+   "YUKARI",
+   "ZİRAAT"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ABDULHALİKRENDA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BUĞDAYPAZARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNCİLİÇEŞME",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARATAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARATEKİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRKEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİMARSİNAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TABAKHANE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KIZILIRMAK": [
+   "HÜSEYİNLİ",
+   "OSMANLI",
+   "YENİ"
+  ],
+  "KORGUN": [
+   "BÜYÜK",
+   "DOĞU",
+   "ULUDAĞ"
+  ],
+  "KURŞUNLU": [
+   "BEŞPINAR",
+   "CÖMERTLER",
+   "ÇAL",
+   "ÇAVUNDUR",
+   "ÇİYNİ",
+   "ERENLER",
+   "HACIBEKİR",
+   "KALE",
+   "KALEKAPI",
+   "MÜSLÜM",
+   "YENİ",
+   "YEŞİL"
+  ],
+  "ORTA": [
+   "CEMSULTAN",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YAYLAKENT"
+   },
+   "ESKİYAYLA",
+   {
+    "mahalle": "HAMAMÖNÜ",
+    "belde": "DODURGA"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "YAYLAKENT"
+   },
+   {
+    "mahalle": "INKILAP",
+    "belde": "YAYLAKENT"
+   },
+   {
+    "mahalle": "KANARYA",
+    "belde": "DODURGA"
+   },
+   "KANLICA",
+   {
+    "mahalle": "KAYILAR",
+    "belde": "YAYLAKENT"
+   },
+   {
+    "mahalle": "NALTEPE",
+    "belde": "DODURGA"
+   },
+   "SULTANBEYAZIT"
+  ],
+  "ŞABANÖZÜ": [
+   "CUMHURİYET",
+   "GÜMERDİĞİN",
+   "GÜRPINAR",
+   "KARAÖREN",
+   "MAHMUDİYE",
+   "SAĞLIK",
+   "YENİ"
+  ],
+  "YAPRAKLI": [
+   "AKYAZI",
+   "AŞAĞI",
+   "CAMİKEBİR",
+   "İĞDİR",
+   "KAVAKKÖY",
+   "YUKARI"
+  ]
+ }
+}

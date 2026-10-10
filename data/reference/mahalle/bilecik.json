@@ -1,0 +1,162 @@
+{
+ "il": "BİLECİK",
+ "ilceler": {
+  "BOZÜYÜK": [
+   "4 EYLÜL",
+   "AKPINAR",
+   "BAHARÖZÜ",
+   "ÇARŞI",
+   "İÇKÖY",
+   "KASIMPAŞA",
+   {
+    "mahalle": "MEHMET AKİF",
+    "belde": "DODURGA"
+   },
+   {
+    "mahalle": "MİTHAT PAŞA",
+    "belde": "DODURGA"
+   },
+   {
+    "mahalle": "NAMIK KEMAL",
+    "belde": "DODURGA"
+   },
+   "TEKKE",
+   "YEDİLER",
+   "YENİ",
+   "YENİDOĞAN",
+   "YEŞİLKENT",
+   {
+    "mahalle": "ZİYA GÖKALP",
+    "belde": "DODURGA"
+   }
+  ],
+  "GÖLPAZARI": [
+   "BAHÇELİEVLER",
+   "İSMETPAŞA",
+   "İSTİKLAL",
+   "ORTA",
+   "REŞADİYE"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "BAHCELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞİKTAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERTUĞRULGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAYI BOYU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORHANGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PELİTÖZÜ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "İNHİSAR": [
+   "AKKUM",
+   "GÜNER ORBAY",
+   "KARAAĞAÇ",
+   "ZAFER"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ERTUĞRULGAZİ",
+    "belde": "VEZİRHAN"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "BAYIRKÖY"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "BAYIRKÖY"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "VEZİRHAN"
+   },
+   {
+    "mahalle": "KÖPRÜLÜMEHMETPAŞA",
+    "belde": "VEZİRHAN"
+   },
+   {
+    "mahalle": "MAHAN",
+    "belde": "VEZİRHAN"
+   },
+   {
+    "mahalle": "SARMAŞIK",
+    "belde": "BAYIRKÖY"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "VEZİRHAN"
+   }
+  ],
+  "OSMANELİ": [
+   "CAMİCEDİT",
+   "CAMİİKEBİR",
+   "HACELOĞLU",
+   "İNÖNÜ"
+  ],
+  "PAZARYERİ": [
+   "BEŞİKLİ",
+   "ÇARŞI",
+   "DEREBOĞAZ",
+   "DOĞANLAR",
+   "YENİ",
+   "YÜZBAŞI"
+  ],
+  "SÖĞÜT": [
+   "BALABAN",
+   "CUMHURİYET",
+   "KAYHAN",
+   "ORTA",
+   "TÜRKMENBAŞI"
+  ],
+  "YENİPAZAR": [
+   "ÇÖTE",
+   "OSMAN GAZİ",
+   "YENİ",
+   "ZAFER"
+  ]
+ }
+}

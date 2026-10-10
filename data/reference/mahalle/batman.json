@@ -1,0 +1,357 @@
+{
+ "il": "BATMAN ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "19 MAYIS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKYÜREK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLIKEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYINDIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BELDE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUDİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMLICA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMLITEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAP",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GİRBEREŞİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNEYKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HİLAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HUZUR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İLUH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İRMİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARDELEN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KISMET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KORİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEYDAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAZARYERİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PETROL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PETROLKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RAMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SAĞLIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEYİTLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SİTE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞAFAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİRİNEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TİLMERC",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZİYA GÖKALP",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "BEŞİRİ": [
+   "BAĞDU",
+   "BEHREM ",
+   "CUMHURİYET",
+   {
+    "mahalle": "KARADUMAN",
+    "belde": "İKİKÖPRÜ"
+   },
+   {
+    "mahalle": "KIYANÇ ",
+    "belde": "İKİKÖPRÜ"
+   },
+   "KOBİN",
+   "MEHMET YATKIN",
+   "MİLLİ EGEMENLİK",
+   {
+    "mahalle": "TURGUT ÖZAL",
+    "belde": "İKİKÖPRÜ"
+   }
+  ],
+  "GERCÜŞ": [
+   "BAĞLARBAŞI",
+   "ÇUKURÇEŞME",
+   "PINARBAŞI",
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "KAYAPINAR"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "KAYAPINAR"
+   },
+   "YOLAĞZI"
+  ],
+  "HASANKEYF": [
+   "DİCLE",
+   "EYYUBİ",
+   "KÜLTÜR",
+   "RAMAN"
+  ],
+  "KOZLUK": [
+   "75. YIL",
+   {
+    "mahalle": "ADNAN MENDERES",
+    "belde": "BEKİRHAN"
+   },
+   "AĞAÇLIK",
+   "AŞAĞI GÜNEŞLİ",
+   "BAHÇELİ",
+   "BEŞEVLER",
+   "ÇAYBAŞI",
+   "DEĞİRMENDERE",
+   {
+    "mahalle": "GÜLPINAR",
+    "belde": "BEKİRHAN"
+   },
+   "HAMAM",
+   "İSLAMBEY",
+   "KALE",
+   "KARPUZLU",
+   "KARŞIYAKA",
+   "KAVAKLI",
+   "KEMALPAŞA",
+   "KOMANDO",
+   "KÖPRÜBAŞI",
+   {
+    "mahalle": "ORTAÇAY",
+    "belde": "BEKİRHAN"
+   },
+   "PINARBAŞI",
+   "SAĞLIK",
+   "SELAHADDİNİ EYYÜBİ",
+   "ŞEMDİNAĞA",
+   "TEPECİK",
+   "TEPEÜSTÜ",
+   {
+    "mahalle": "TURGUT ÖZAL",
+    "belde": "BEKİRHAN"
+   },
+   "YAMAÇLI",
+   {
+    "mahalle": "YAPRAKLI",
+    "belde": "BEKİRHAN"
+   },
+   "YENİMAHALLE",
+   "YEŞİLTEPE",
+   "YOLALTI",
+   "YOLÜSTÜ",
+   "YUKARI GÜNEŞLİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "SEGİRKAN",
+    "belde": "BALPINAR"
+   },
+   {
+    "mahalle": "SEYRANTEPE",
+    "belde": "BALPINAR"
+   },
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "BALPINAR"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "BALPINAR"
+   }
+  ],
+  "SASON": [
+   "AŞAĞI",
+   {
+    "mahalle": "AYDINLIK",
+    "belde": "YÜCEBAĞ"
+   },
+   "AYKUT OZAN",
+   {
+    "mahalle": "BARIŞ",
+    "belde": "YÜCEBAĞ"
+   },
+   "BEŞEVLER",
+   {
+    "mahalle": "BİNEKLİ",
+    "belde": "YÜCEBAĞ"
+   },
+   "DEMETEVLER",
+   "DUMLUPINAR",
+   "EMEK",
+   "ERDEMLİ",
+   {
+    "mahalle": "GÜNLÜCE",
+    "belde": "YÜCEBAĞ"
+   },
+   "GÜRPINAR",
+   "HAYDAR",
+   "KARŞIYAKA",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "YÜCEBAĞ"
+   },
+   "KAYABAŞI",
+   {
+    "mahalle": "KOÇKAYA",
+    "belde": "YÜCEBAĞ"
+   },
+   "KURTULUŞ",
+   "MEHMET AKİF",
+   "ORTA",
+   "PINARBAŞI",
+   "SEVEK",
+   "ŞİRİNEVLER",
+   "TEKEVLER",
+   "TEKİNLER",
+   {
+    "mahalle": "TEPE",
+    "belde": "YÜCEBAĞ"
+   },
+   "YAYLATEPE",
+   "YENİ",
+   "YEŞİLEVLER",
+   "YEŞİLLER",
+   "YEŞİLOVA",
+   "YEŞİLTEPE",
+   "YILDIZ",
+   {
+    "mahalle": "YILDIZ",
+    "belde": "YÜCEBAĞ"
+   },
+   "YUKARI",
+   "ZAFER"
+  ]
+ }
+}

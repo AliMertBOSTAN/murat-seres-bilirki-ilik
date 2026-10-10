@@ -1,0 +1,193 @@
+{
+ "il": "BARTIN ",
+ "ilceler": {
+  "AMASRA": [
+   "BOZTEPE",
+   "FATİH",
+   "KALEİÇİ",
+   "KALEŞAH",
+   "KUM"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AĞDACI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALADAĞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYDÜZÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMİRCİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GECEN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLBUCAĞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜRGENPINARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAÇAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEMERKÖPRÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÖYORTASI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUTLUBEYDEMİRCİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OKULAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORDUYERİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİREMİRÇAVUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TUNA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "UZUNÖZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIZ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KURUCAŞİLE": [
+   "KARGACAK",
+   "LİMAN",
+   "ÖMERLER",
+   "ŞİLE"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "DEĞİRMENCİ",
+    "belde": "KOZCAĞIZ"
+   },
+   {
+    "mahalle": "DEMİRCİ AHMETLER",
+    "belde": "KOZCAĞIZ"
+   },
+   {
+    "mahalle": "ESKİHAMİDİYE",
+    "belde": "KOZCAĞIZ"
+   },
+   {
+    "mahalle": "GERİŞLİ",
+    "belde": "HASANKADI"
+   },
+   {
+    "mahalle": "KAVLAKLIK",
+    "belde": "KOZCAĞIZ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "HASANKADI"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KOZCAĞIZ"
+   },
+   {
+    "mahalle": "ŞABANKADI",
+    "belde": "HASANKADI"
+   },
+   {
+    "mahalle": "TÜLOĞLU",
+    "belde": "HASANKADI"
+   },
+   {
+    "mahalle": "YENİŞAR",
+    "belde": "KOZCAĞIZ"
+   }
+  ],
+  "ULUS": [
+   {
+    "mahalle": "DERECİK",
+    "belde": "ABDİPAŞA"
+   },
+   {
+    "mahalle": "KADIOĞLU",
+    "belde": "ABDİPAŞA"
+   },
+   "KALDIRIM",
+   {
+    "mahalle": "KARADİKEN",
+    "belde": "ABDİPAŞA"
+   },
+   "KASIMLAR",
+   {
+    "mahalle": "KAVAKLI KALDIRIM",
+    "belde": "KUMLUCA"
+   },
+   {
+    "mahalle": "KUMLUCA",
+    "belde": "KUMLUCA"
+   },
+   "MEZGELLER",
+   "SAMAT",
+   "SAZ",
+   {
+    "mahalle": "ULUPINAR",
+    "belde": "ABDİPAŞA"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "KUMLUCA"
+   },
+   {
+    "mahalle": "YEŞİLPAZAR",
+    "belde": "ABDİPAŞA"
+   }
+  ]
+ }
+}

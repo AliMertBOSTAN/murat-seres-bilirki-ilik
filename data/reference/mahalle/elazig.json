@@ -1,0 +1,456 @@
+{
+ "il": "ELAZIĞ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ABDULLAHPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKSARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALAYAPRAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIDEMİRTAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATAŞEHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇATALÇEŞME",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYDAÇIRA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞUKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLLÜBAĞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜMÜŞKAVAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNEYKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HANKENDİ ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HARPUT MERKEZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HİCRET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HİLALKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İCADİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İZZETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIZILAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUSTAFAPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAİLBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OLGUNLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RIZAİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RÜSTEMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SALİBABA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SANAYİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAYATİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SUGÖZÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜRSÜRÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞAHİNKAYA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ULUKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜNİVERSİTE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEMİŞLİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIZBAĞLARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZAFRAN",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "AĞIN": [
+   "AKPINAR",
+   "BAŞPINAR",
+   "MERKEZ",
+   "ŞENPINAR"
+  ],
+  "ALACAKAYA": [
+   "ALTINÇANAK",
+   "ALTIOLUK",
+   "GÜLEMAN",
+   "GÜNDOĞDU",
+   "MERKEZ",
+   "SULARBAŞI"
+  ],
+  "ARICAK": [
+   {
+    "mahalle": "BÖLÜKBAŞI",
+    "belde": "BÜKARDI"
+   },
+   {
+    "mahalle": "CAMİ",
+    "belde": "ERİMLİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ERİMLİ"
+   },
+   {
+    "mahalle": "ÇAY",
+    "belde": "ÜÇOCAK"
+   },
+   {
+    "mahalle": "GÜLEÇ",
+    "belde": "ERİMLİ"
+   },
+   "GÜMÜŞYAKA",
+   {
+    "mahalle": "GÜVENEVLER",
+    "belde": "ERİMLİ"
+   },
+   {
+    "mahalle": "HABERCİ",
+    "belde": "ÜÇOCAK"
+   },
+   "HALİLYAVUZ",
+   "HÜRRİYET",
+   {
+    "mahalle": "KAPLANBAĞ",
+    "belde": "BÜKARDI"
+   },
+   {
+    "mahalle": "KIŞLA",
+    "belde": "ERİMLİ"
+   },
+   {
+    "mahalle": "KUTLUDÜĞÜN",
+    "belde": "ÜÇOCAK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ÜÇOCAK"
+   },
+   "MUSTAFA ÇELEBİ",
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "BÜKARDI"
+   },
+   "SAMAN",
+   "SERİNEVLER",
+   "SİMSERKİS",
+   "VALİGÖKTAYOĞLU",
+   {
+    "mahalle": "YAYLABAŞI",
+    "belde": "BÜKARDI"
+   },
+   {
+    "mahalle": "ZEYNET",
+    "belde": "BÜKARDI"
+   },
+   {
+    "mahalle": "ZİYARET",
+    "belde": "ÜÇOCAK"
+   }
+  ],
+  "BASKİL": [
+   "BASKİL",
+   "CANBEYLER",
+   "CUMHURİYET",
+   "DEMİRELLER",
+   "ODABAŞI",
+   "ŞEFKAT"
+  ],
+  "KARAKOÇAN": [
+   "BAHÇELİEVLER",
+   {
+    "mahalle": "GÖL",
+    "belde": "SARICAN"
+   },
+   "GÖLPINARI",
+   "KARŞIYAKA",
+   "KIRKPINAR",
+   "KULUBABA",
+   {
+    "mahalle": "SUBAŞI",
+    "belde": "SARICAN"
+   },
+   "TEPE",
+   "YENİ"
+  ],
+  "KEBAN": [
+   "BARAJ",
+   "DEĞİRMENBAŞI",
+   "FIRAT",
+   "KALLAR"
+  ],
+  "KOVANCILAR": [
+   "BAĞLAR",
+   "BAHÇELİEVLER",
+   "ÇARŞIBAŞI",
+   "ÇAYBAŞI",
+   "FATİH",
+   "GÜLTEPE",
+   "HEYBET",
+   "İSMETPAŞA",
+   "KAPIAÇMAZ",
+   "KARACİMŞİT",
+   "TOKİ",
+   "TUNA",
+   "YENİ"
+  ],
+  "MADEN": [
+   "BAHÇELİEVLER",
+   "CAMİİKEBİR"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "AKMEZRA OR.GN.EŞREF BİTLİS",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "AKMEZRA SAHİLÖNÜ",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "BAHÇEKAPI",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "GÜLPINAR",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "GÜNTAŞI",
+    "belde": "MOLLAKENDİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "KARŞIBAĞ",
+    "belde": "MOLLAKENDİ"
+   },
+   {
+    "mahalle": "KIRAÇ",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "KONAK",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "MOLLAKENDİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "PAŞALAR",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "SANAYİ",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "SANAYİ",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "YURTBAŞI"
+   },
+   {
+    "mahalle": "YENİBAĞLAR",
+    "belde": "YAZIKONAK"
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "YEŞİLKUŞAK",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "YÜZBAŞI",
+    "belde": "AKÇAKİRAZ"
+   },
+   {
+    "mahalle": "ZAFER",
+    "belde": "AKÇAKİRAZ"
+   }
+  ],
+  "PALU": [
+   "AŞAĞI",
+   "CUMHURİYET",
+   "ÇARŞI",
+   "ESENTEPE",
+   {
+    "mahalle": "GİRNE",
+    "belde": "BEYHAN"
+   },
+   {
+    "mahalle": "GÜNEY",
+    "belde": "BEYHAN"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "BEYHAN"
+   },
+   "KALEKENT",
+   "KARŞIBAHÇELER",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "BEYHAN"
+   },
+   "KÜLTÜR",
+   "NUMUNE",
+   "YENİ",
+   "YUKARI PALU"
+  ],
+  "SİVRİCE": [
+   "AKPINAR",
+   "GÖLBAŞI",
+   "HAZAR",
+   "KARAÇALI",
+   "KÜLTÜR",
+   "OLGUNLAR",
+   "SANAYİ"
+  ]
+ }
+}

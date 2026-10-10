@@ -1,0 +1,4439 @@
+{
+ "version": "2023/2024",
+ "source": "EĞİTİM 001.xlsx › Tanım!G2:AA85 ve BY3:CN85",
+ "headers": {
+  "G": "İl\nProvinces",
+  "H": "2023",
+  "I": "Toplam",
+  "J": "Otomobil",
+  "K": "Minibüs",
+  "L": "Otobüs",
+  "M": "Kamyonet",
+  "N": "Kamyon (1)",
+  "O": "Motosiklet (2)",
+  "P": "Özel amaçlı",
+  "Q": "Traktör",
+  "R": "Toplam kaza sayısı ",
+  "S": "Araç sayısı",
+  "T": "",
+  "U": "Toplam",
+  "V": "Kaza yerinde",
+  "W": "Kaza sonrası",
+  "X": "Yaralı sayısı",
+  "Y": "Her 100 kişiye düşen taşıt sayısı",
+  "Z": "Otomobil sayısı",
+  "AA": "Nüfus/otomobil sayısı"
+ },
+ "constants": {
+  "CI1": 1,
+  "CJ1": 100
+ },
+ "ilceKazaLookupAL": [
+  {
+   "il": "Adana",
+   "row": 3,
+   "bw_ilceKazaSayisi": null,
+   "bx_yolKazaSayisi": null
+  },
+  {
+   "il": "Adıyaman",
+   "row": 4,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 19
+  },
+  {
+   "il": "Afyonkarahisar",
+   "row": 5,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Ağrı",
+   "row": 6,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Aksaray",
+   "row": 7,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Amasya",
+   "row": 8,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Ankara",
+   "row": 9,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Antalya",
+   "row": 10,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Ardahan",
+   "row": 11,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Artvin",
+   "row": 12,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Aydın",
+   "row": 13,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Balıkesir",
+   "row": 14,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bartın",
+   "row": 15,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bartın",
+   "row": 16,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Batman",
+   "row": 17,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bayburt",
+   "row": 18,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bilecik",
+   "row": 19,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bingöl",
+   "row": 20,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bitlis",
+   "row": 21,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bolu",
+   "row": 22,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Burdur",
+   "row": 23,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Bursa",
+   "row": 24,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Çanakkale",
+   "row": 25,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Çankırı",
+   "row": 26,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Çorum",
+   "row": 27,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Denizli",
+   "row": 28,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Diyarbakır",
+   "row": 29,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Düzce",
+   "row": 30,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Edirme",
+   "row": 31,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Elazığ",
+   "row": 32,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Erzincan",
+   "row": 33,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Erzurum",
+   "row": 34,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Eskişehir",
+   "row": 35,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Hatay",
+   "row": 36,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "IĞDIR",
+   "row": 37,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Isparta",
+   "row": 38,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "İstanbul",
+   "row": 39,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "İzmir",
+   "row": 40,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kahramanmaraş",
+   "row": 41,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Karabük",
+   "row": 42,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Karaman",
+   "row": 43,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kars",
+   "row": 44,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kastamonu",
+   "row": 45,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kayseri",
+   "row": 46,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kırıkkale",
+   "row": 47,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kırklareli",
+   "row": 48,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kırşehir",
+   "row": 49,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kilis",
+   "row": 50,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kocaeli",
+   "row": 51,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Konya",
+   "row": 52,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Kütahya",
+   "row": 53,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Malatya",
+   "row": 54,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Manisa",
+   "row": 55,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Mardin",
+   "row": 56,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Mersin",
+   "row": 57,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Muğla",
+   "row": 58,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Muş",
+   "row": 59,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Nevşehir",
+   "row": 60,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Niğde",
+   "row": 61,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Ordu",
+   "row": 62,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Osmaniye",
+   "row": 63,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Rize",
+   "row": 64,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Sakarya",
+   "row": 65,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Samsun",
+   "row": 66,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Siirt",
+   "row": 67,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Sinop",
+   "row": 68,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Sivas",
+   "row": 69,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Şanlıurfa",
+   "row": 70,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Şırnak",
+   "row": 71,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Tekirdağ",
+   "row": 72,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Tokat",
+   "row": 73,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Trabzon",
+   "row": 74,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Tunceli",
+   "row": 75,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Uşak",
+   "row": 76,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Van",
+   "row": 77,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Yalova",
+   "row": 78,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Yozgat",
+   "row": 79,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  },
+  {
+   "il": "Zonguldak",
+   "row": 80,
+   "bw_ilceKazaSayisi": 2,
+   "bx_yolKazaSayisi": 1
+  }
+ ],
+ "data": [
+  {
+   "il": "Toplam-Total",
+   "nufus2023": 85372377,
+   "tasit": {
+    "toplam": 28951792,
+    "otomobil": 15333952,
+    "minibus": 504810,
+    "otobus": 211254,
+    "kamyonet": 4513723,
+    "kamyon": 964691,
+    "motosiklet": 5138274,
+    "ozelAmacli": 94397,
+    "traktor": 2190691
+   },
+   "kaza": {
+    "toplam": 1314136,
+    "aracSayisi": 28740492,
+    "olumluYaralanmali": 235071,
+    "olu": {
+     "toplam": 6548,
+     "kazaYerinde": 2984,
+     "kazaSonrasi": 3564
+    },
+    "yarali": 350855,
+    "her100Kisi": 33.7,
+    "otomobilSayisi": 15221134,
+    "nufusOtomobil": 5.6
+   },
+   "by": {
+    "il": "Toplam-Total",
+    "kaza2023": 1314136,
+    "aracSayisi": 28740492,
+    "olumluYaralanmali": 235071,
+    "oluToplam": 6548,
+    "oluYerinde": 2984,
+    "oluSonrasi": 3564,
+    "yarali": 350855,
+    "nufus": 85372377,
+    "oran": {
+     "kazaAracPct": 4.572419985016262,
+     "olumluAracPct": 0.8179087539628758,
+     "oluOlumluPct": 2.78554138962271,
+     "yaraliOlumluPct": 149.2549059645809,
+     "yaraliOran": 1.492549059645809,
+     "fark": 1079065
+    }
+   }
+  },
+  {
+   "il": "Adana",
+   "nufus2023": 2270298,
+   "tasit": {
+    "toplam": 824618,
+    "otomobil": 404714,
+    "minibus": 11734,
+    "otobus": 4813,
+    "kamyonet": 120307,
+    "kamyon": 22973,
+    "motosiklet": 196799,
+    "ozelAmacli": 1874,
+    "traktor": 61404
+   },
+   "kaza": {
+    "toplam": 30147,
+    "aracSayisi": 818739,
+    "olumluYaralanmali": 6059,
+    "olu": {
+     "toplam": 235,
+     "kazaYerinde": 117,
+     "kazaSonrasi": 118
+    },
+    "yarali": 8872,
+    "her100Kisi": 36,
+    "otomobilSayisi": 402174,
+    "nufusOtomobil": 5.65
+   },
+   "by": {
+    "il": "Adana",
+    "kaza2023": 30147,
+    "aracSayisi": 818739,
+    "olumluYaralanmali": 6059,
+    "oluToplam": 235,
+    "oluYerinde": 117,
+    "oluSonrasi": 118,
+    "yarali": 8872,
+    "nufus": 2270298,
+    "oran": {
+     "kazaAracPct": 3.682125805659679,
+     "olumluAracPct": 0.7400404768796893,
+     "oluOlumluPct": 3.8785278098696154,
+     "yaraliOlumluPct": 146.42680310282225,
+     "yaraliOran": 1.4642680310282226,
+     "fark": 5942
+    }
+   }
+  },
+  {
+   "il": "Adıyaman",
+   "nufus2023": 604978,
+   "tasit": {
+    "toplam": 136615,
+    "otomobil": 59955,
+    "minibus": 4226,
+    "otobus": 363,
+    "kamyonet": 18615,
+    "kamyon": 4130,
+    "motosiklet": 27426,
+    "ozelAmacli": 377,
+    "traktor": 21523
+   },
+   "kaza": {
+    "toplam": 3841,
+    "aracSayisi": 135134,
+    "olumluYaralanmali": 1629,
+    "olu": {
+     "toplam": 67,
+     "kazaYerinde": 24,
+     "kazaSonrasi": 43
+    },
+    "yarali": 2638,
+    "her100Kisi": 21.28,
+    "otomobilSayisi": 59206,
+    "nufusOtomobil": 10.73
+   },
+   "by": {
+    "il": "Adıyaman",
+    "kaza2023": 3841,
+    "aracSayisi": 135134,
+    "olumluYaralanmali": 1629,
+    "oluToplam": 67,
+    "oluYerinde": 24,
+    "oluSonrasi": 43,
+    "yarali": 2638,
+    "nufus": 604978,
+    "oran": {
+     "kazaAracPct": 2.8423638758565573,
+     "olumluAracPct": 1.205470125949058,
+     "oluOlumluPct": 4.112952731737262,
+     "yaraliOlumluPct": 161.93984039287906,
+     "yaraliOran": 1.6193984039287905,
+     "fark": 1605
+    }
+   }
+  },
+  {
+   "il": "Afyonkarahisar",
+   "nufus2023": 751344,
+   "tasit": {
+    "toplam": 269002,
+    "otomobil": 103138,
+    "minibus": 4913,
+    "otobus": 1583,
+    "kamyonet": 42040,
+    "kamyon": 10700,
+    "motosiklet": 57303,
+    "ozelAmacli": 859,
+    "traktor": 48466
+   },
+   "kaza": {
+    "toplam": 8534,
+    "aracSayisi": 267276,
+    "olumluYaralanmali": 2486,
+    "olu": {
+     "toplam": 138,
+     "kazaYerinde": 45,
+     "kazaSonrasi": 93
+    },
+    "yarali": 4431,
+    "her100Kisi": 35.75,
+    "otomobilSayisi": 102411,
+    "nufusOtomobil": 7.3
+   },
+   "by": {
+    "il": "Afyonkarahisar",
+    "kaza2023": 8534,
+    "aracSayisi": 267276,
+    "olumluYaralanmali": 2486,
+    "oluToplam": 138,
+    "oluYerinde": 45,
+    "oluSonrasi": 93,
+    "yarali": 4431,
+    "nufus": 751344,
+    "oran": {
+     "kazaAracPct": 3.1929540998817703,
+     "olumluAracPct": 0.9301246651401548,
+     "oluOlumluPct": 5.551086082059534,
+     "yaraliOlumluPct": 178.23813354786807,
+     "yaraliOran": 1.7823813354786808,
+     "fark": 2441
+    }
+   }
+  },
+  {
+   "il": "Ağrı",
+   "nufus2023": 511238,
+   "tasit": {
+    "toplam": 32094,
+    "otomobil": 9245,
+    "minibus": 2136,
+    "otobus": 304,
+    "kamyonet": 6626,
+    "kamyon": 2123,
+    "motosiklet": 2172,
+    "ozelAmacli": 439,
+    "traktor": 9049
+   },
+   "kaza": {
+    "toplam": 1888,
+    "aracSayisi": 31896,
+    "olumluYaralanmali": 706,
+    "olu": {
+     "toplam": 17,
+     "kazaYerinde": 11,
+     "kazaSonrasi": 6
+    },
+    "yarali": 1389,
+    "her100Kisi": 6.25,
+    "otomobilSayisi": 9105,
+    "nufusOtomobil": 56.08
+   },
+   "by": {
+    "il": "Ağrı",
+    "kaza2023": 1888,
+    "aracSayisi": 31896,
+    "olumluYaralanmali": 706,
+    "oluToplam": 17,
+    "oluYerinde": 11,
+    "oluSonrasi": 6,
+    "yarali": 1389,
+    "nufus": 511238,
+    "oran": {
+     "kazaAracPct": 5.919237521946326,
+     "olumluAracPct": 2.2134436919989966,
+     "oluOlumluPct": 2.4079320113314444,
+     "yaraliOlumluPct": 196.74220963172803,
+     "yaraliOran": 1.9674220963172804,
+     "fark": 695
+    }
+   }
+  },
+  {
+   "il": "Aksaray",
+   "nufus2023": 438504,
+   "tasit": {
+    "toplam": 153777,
+    "otomobil": 77033,
+    "minibus": 1481,
+    "otobus": 1401,
+    "kamyonet": 21390,
+    "kamyon": 7507,
+    "motosiklet": 20706,
+    "ozelAmacli": 656,
+    "traktor": 23603
+   },
+   "kaza": {
+    "toplam": 6008,
+    "aracSayisi": 152536,
+    "olumluYaralanmali": 1596,
+    "olu": {
+     "toplam": 74,
+     "kazaYerinde": 29,
+     "kazaSonrasi": 45
+    },
+    "yarali": 2720,
+    "her100Kisi": 35.22,
+    "otomobilSayisi": 76447,
+    "nufusOtomobil": 5.66
+   },
+   "by": {
+    "il": "Aksaray",
+    "kaza2023": 6008,
+    "aracSayisi": 152536,
+    "olumluYaralanmali": 1596,
+    "oluToplam": 74,
+    "oluYerinde": 29,
+    "oluSonrasi": 45,
+    "yarali": 2720,
+    "nufus": 438504,
+    "oran": {
+     "kazaAracPct": 3.9387423296795507,
+     "olumluAracPct": 1.046310379189175,
+     "oluOlumluPct": 4.636591478696742,
+     "yaraliOlumluPct": 170.42606516290726,
+     "yaraliOran": 1.7042606516290726,
+     "fark": 1567
+    }
+   }
+  },
+  {
+   "il": "Amasya",
+   "nufus2023": 339529,
+   "tasit": {
+    "toplam": 142430,
+    "otomobil": 69081,
+    "minibus": 2702,
+    "otobus": 626,
+    "kamyonet": 19752,
+    "kamyon": 3782,
+    "motosiklet": 21841,
+    "ozelAmacli": 380,
+    "traktor": 24266
+   },
+   "kaza": {
+    "toplam": 4654,
+    "aracSayisi": 141592,
+    "olumluYaralanmali": 1348,
+    "olu": {
+     "toplam": 52,
+     "kazaYerinde": 26,
+     "kazaSonrasi": 26
+    },
+    "yarali": 2341,
+    "her100Kisi": 41.86,
+    "otomobilSayisi": 68746,
+    "nufusOtomobil": 4.92
+   },
+   "by": {
+    "il": "Amasya",
+    "kaza2023": 4654,
+    "aracSayisi": 141592,
+    "olumluYaralanmali": 1348,
+    "oluToplam": 52,
+    "oluYerinde": 26,
+    "oluSonrasi": 26,
+    "yarali": 2341,
+    "nufus": 339529,
+    "oran": {
+     "kazaAracPct": 3.286908864907622,
+     "olumluAracPct": 0.9520311882027233,
+     "oluOlumluPct": 3.857566765578635,
+     "yaraliOlumluPct": 173.6646884272997,
+     "yaraliOran": 1.736646884272997,
+     "fark": 1322
+    }
+   }
+  },
+  {
+   "il": "Ankara",
+   "nufus2023": 5803482,
+   "tasit": {
+    "toplam": 2596693,
+    "otomobil": 1883172,
+    "minibus": 27985,
+    "otobus": 18912,
+    "kamyonet": 385236,
+    "kamyon": 95234,
+    "motosiklet": 106394,
+    "ozelAmacli": 10647,
+    "traktor": 69113
+   },
+   "kaza": {
+    "toplam": 150438,
+    "aracSayisi": 2576835,
+    "olumluYaralanmali": 15351,
+    "olu": {
+     "toplam": 332,
+     "kazaYerinde": 167,
+     "kazaSonrasi": 165
+    },
+    "yarali": 21796,
+    "her100Kisi": 44.56,
+    "otomobilSayisi": 1870005,
+    "nufusOtomobil": 3.09
+   },
+   "by": {
+    "il": "Ankara",
+    "kaza2023": 150438,
+    "aracSayisi": 2576835,
+    "olumluYaralanmali": 15351,
+    "oluToplam": 332,
+    "oluYerinde": 167,
+    "oluSonrasi": 165,
+    "yarali": 21796,
+    "nufus": 5803482,
+    "oran": {
+     "kazaAracPct": 5.838092078072519,
+     "olumluAracPct": 0.5957308093067658,
+     "oluOlumluPct": 2.1627255553384144,
+     "yaraliOlumluPct": 141.984235554687,
+     "yaraliOran": 1.41984235554687,
+     "fark": 15184
+    }
+   }
+  },
+  {
+   "il": "Antalya",
+   "nufus2023": 2696249,
+   "tasit": {
+    "toplam": 1458228,
+    "otomobil": 670680,
+    "minibus": 20442,
+    "otobus": 12065,
+    "kamyonet": 230303,
+    "kamyon": 29237,
+    "motosiklet": 430054,
+    "ozelAmacli": 4463,
+    "traktor": 60984
+   },
+   "kaza": {
+    "toplam": 56728,
+    "aracSayisi": 1449356,
+    "olumluYaralanmali": 12045,
+    "olu": {
+     "toplam": 316,
+     "kazaYerinde": 142,
+     "kazaSonrasi": 174
+    },
+    "yarali": 16563,
+    "her100Kisi": 53.92,
+    "otomobilSayisi": 667123,
+    "nufusOtomobil": 4.03
+   },
+   "by": {
+    "il": "Antalya",
+    "kaza2023": 56728,
+    "aracSayisi": 1449356,
+    "olumluYaralanmali": 12045,
+    "oluToplam": 316,
+    "oluYerinde": 142,
+    "oluSonrasi": 174,
+    "yarali": 16563,
+    "nufus": 2696249,
+    "oran": {
+     "kazaAracPct": 3.914014224248563,
+     "olumluAracPct": 0.8310587598905997,
+     "oluOlumluPct": 2.6234952262349522,
+     "yaraliOlumluPct": 137.5093399750934,
+     "yaraliOran": 1.375093399750934,
+     "fark": 11903
+    }
+   }
+  },
+  {
+   "il": "Ardahan",
+   "nufus2023": 92819,
+   "tasit": {
+    "toplam": 19819,
+    "otomobil": 4158,
+    "minibus": 675,
+    "otobus": 53,
+    "kamyonet": 3101,
+    "kamyon": 469,
+    "motosiklet": 724,
+    "ozelAmacli": 155,
+    "traktor": 10484
+   },
+   "kaza": {
+    "toplam": 508,
+    "aracSayisi": 19715,
+    "olumluYaralanmali": 175,
+    "olu": {
+     "toplam": 8,
+     "kazaYerinde": 3,
+     "kazaSonrasi": 5
+    },
+    "yarali": 304,
+    "her100Kisi": 21.32,
+    "otomobilSayisi": 4105,
+    "nufusOtomobil": 22.53
+   },
+   "by": {
+    "il": "Ardahan",
+    "kaza2023": 508,
+    "aracSayisi": 19715,
+    "olumluYaralanmali": 175,
+    "oluToplam": 8,
+    "oluYerinde": 3,
+    "oluSonrasi": 5,
+    "yarali": 304,
+    "nufus": 92819,
+    "oran": {
+     "kazaAracPct": 2.5767182348465636,
+     "olumluAracPct": 0.8876489982247019,
+     "oluOlumluPct": 4.571428571428571,
+     "yaraliOlumluPct": 173.71428571428572,
+     "yaraliOran": 1.7371428571428573,
+     "fark": 172
+    }
+   }
+  },
+  {
+   "il": "Artvin",
+   "nufus2023": 172356,
+   "tasit": {
+    "toplam": 45332,
+    "otomobil": 19172,
+    "minibus": 1881,
+    "otobus": 312,
+    "kamyonet": 15507,
+    "kamyon": 4030,
+    "motosiklet": 2481,
+    "ozelAmacli": 304,
+    "traktor": 1645
+   },
+   "kaza": {
+    "toplam": 1518,
+    "aracSayisi": 45154,
+    "olumluYaralanmali": 369,
+    "olu": {
+     "toplam": 12,
+     "kazaYerinde": 6,
+     "kazaSonrasi": 6
+    },
+    "yarali": 618,
+    "her100Kisi": 26.65,
+    "otomobilSayisi": 19062,
+    "nufusOtomobil": 8.89
+   },
+   "by": {
+    "il": "Artvin",
+    "kaza2023": 1518,
+    "aracSayisi": 45154,
+    "olumluYaralanmali": 369,
+    "oluToplam": 12,
+    "oluYerinde": 6,
+    "oluSonrasi": 6,
+    "yarali": 618,
+    "nufus": 172356,
+    "oran": {
+     "kazaAracPct": 3.3618284094432385,
+     "olumluAracPct": 0.8172033485405501,
+     "oluOlumluPct": 3.2520325203252036,
+     "yaraliOlumluPct": 167.47967479674796,
+     "yaraliOran": 1.6747967479674797,
+     "fark": 363
+    }
+   }
+  },
+  {
+   "il": "Aydın",
+   "nufus2023": 1161702,
+   "tasit": {
+    "toplam": 576365,
+    "otomobil": 215838,
+    "minibus": 10615,
+    "otobus": 2799,
+    "kamyonet": 83158,
+    "kamyon": 10319,
+    "motosiklet": 194395,
+    "ozelAmacli": 1223,
+    "traktor": 58018
+   },
+   "kaza": {
+    "toplam": 16223,
+    "aracSayisi": 572863,
+    "olumluYaralanmali": 5032,
+    "olu": {
+     "toplam": 97,
+     "kazaYerinde": 44,
+     "kazaSonrasi": 53
+    },
+    "yarali": 6935,
+    "her100Kisi": 49.89,
+    "otomobilSayisi": 214668,
+    "nufusOtomobil": 5.35
+   },
+   "by": {
+    "il": "Aydın",
+    "kaza2023": 16223,
+    "aracSayisi": 572863,
+    "olumluYaralanmali": 5032,
+    "oluToplam": 97,
+    "oluYerinde": 44,
+    "oluSonrasi": 53,
+    "yarali": 6935,
+    "nufus": 1161702,
+    "oran": {
+     "kazaAracPct": 2.8319161824031225,
+     "olumluAracPct": 0.8783950089288364,
+     "oluOlumluPct": 1.9276629570747217,
+     "yaraliOlumluPct": 137.81796502384736,
+     "yaraliOran": 1.3781796502384736,
+     "fark": 4988
+    }
+   }
+  },
+  {
+   "il": "Balıkesir",
+   "nufus2023": 1273519,
+   "tasit": {
+    "toplam": 590179,
+    "otomobil": 246912,
+    "minibus": 6386,
+    "otobus": 3021,
+    "kamyonet": 78425,
+    "kamyon": 14202,
+    "motosiklet": 169636,
+    "ozelAmacli": 1515,
+    "traktor": 70082
+   },
+   "kaza": {
+    "toplam": 18307,
+    "aracSayisi": 586724,
+    "olumluYaralanmali": 5016,
+    "olu": {
+     "toplam": 136,
+     "kazaYerinde": 81,
+     "kazaSonrasi": 55
+    },
+    "yarali": 7350,
+    "her100Kisi": 46.65,
+    "otomobilSayisi": 245413,
+    "nufusOtomobil": 5.12
+   },
+   "by": {
+    "il": "Balıkesir",
+    "kaza2023": 18307,
+    "aracSayisi": 586724,
+    "olumluYaralanmali": 5016,
+    "oluToplam": 136,
+    "oluYerinde": 81,
+    "oluSonrasi": 55,
+    "yarali": 7350,
+    "nufus": 1273519,
+    "oran": {
+     "kazaAracPct": 3.1202064343711866,
+     "olumluAracPct": 0.8549164513468002,
+     "oluOlumluPct": 2.711323763955343,
+     "yaraliOlumluPct": 146.5311004784689,
+     "yaraliOran": 1.465311004784689,
+     "fark": 4935
+    }
+   }
+  },
+  {
+   "il": "Bartın",
+   "nufus2023": 207238,
+   "tasit": {
+    "toplam": 59774,
+    "otomobil": 32259,
+    "minibus": 1440,
+    "otobus": 536,
+    "kamyonet": 8137,
+    "kamyon": 1702,
+    "motosiklet": 9053,
+    "ozelAmacli": 243,
+    "traktor": 6404
+   },
+   "kaza": {
+    "toplam": 2194,
+    "aracSayisi": 59434,
+    "olumluYaralanmali": 611,
+    "olu": {
+     "toplam": 20,
+     "kazaYerinde": 9,
+     "kazaSonrasi": 11
+    },
+    "yarali": 899,
+    "her100Kisi": 29.23,
+    "otomobilSayisi": 32107,
+    "nufusOtomobil": 6.33
+   },
+   "by": {
+    "il": "Bartın",
+    "kaza2023": 2194,
+    "aracSayisi": 59434,
+    "olumluYaralanmali": 611,
+    "oluToplam": 20,
+    "oluYerinde": 9,
+    "oluSonrasi": 11,
+    "yarali": 899,
+    "nufus": 207238,
+    "oran": {
+     "kazaAracPct": 3.6914897196890664,
+     "olumluAracPct": 1.0280310933135914,
+     "oluOlumluPct": 3.273322422258593,
+     "yaraliOlumluPct": 147.13584288052374,
+     "yaraliOran": 1.4713584288052375,
+     "fark": 602
+    }
+   }
+  },
+  {
+   "il": "Batman",
+   "nufus2023": 647205,
+   "tasit": {
+    "toplam": 55847,
+    "otomobil": 18762,
+    "minibus": 2590,
+    "otobus": 348,
+    "kamyonet": 12895,
+    "kamyon": 2868,
+    "motosiklet": 10855,
+    "ozelAmacli": 370,
+    "traktor": 7159
+   },
+   "kaza": {
+    "toplam": 3510,
+    "aracSayisi": 54911,
+    "olumluYaralanmali": 1123,
+    "olu": {
+     "toplam": 31,
+     "kazaYerinde": 11,
+     "kazaSonrasi": 20
+    },
+    "yarali": 1845,
+    "her100Kisi": 8.65,
+    "otomobilSayisi": 18190,
+    "nufusOtomobil": 34.88
+   },
+   "by": {
+    "il": "Batman",
+    "kaza2023": 3510,
+    "aracSayisi": 54911,
+    "olumluYaralanmali": 1123,
+    "oluToplam": 31,
+    "oluYerinde": 11,
+    "oluSonrasi": 20,
+    "yarali": 1845,
+    "nufus": 647205,
+    "oran": {
+     "kazaAracPct": 6.392161861922019,
+     "olumluAracPct": 2.045127570067928,
+     "oluOlumluPct": 2.7604630454140695,
+     "yaraliOlumluPct": 164.2920747996438,
+     "yaraliOran": 1.642920747996438,
+     "fark": 1112
+    }
+   }
+  },
+  {
+   "il": "Bayburt",
+   "nufus2023": 86047,
+   "tasit": {
+    "toplam": 17422,
+    "otomobil": 7564,
+    "minibus": 524,
+    "otobus": 100,
+    "kamyonet": 3123,
+    "kamyon": 697,
+    "motosiklet": 1669,
+    "ozelAmacli": 98,
+    "traktor": 3647
+   },
+   "kaza": {
+    "toplam": 635,
+    "aracSayisi": 17328,
+    "olumluYaralanmali": 198,
+    "olu": {
+     "toplam": 8,
+     "kazaYerinde": 3,
+     "kazaSonrasi": 5
+    },
+    "yarali": 369,
+    "her100Kisi": 20.57,
+    "otomobilSayisi": 7509,
+    "nufusOtomobil": 11.22
+   },
+   "by": {
+    "il": "Bayburt",
+    "kaza2023": 635,
+    "aracSayisi": 17328,
+    "olumluYaralanmali": 198,
+    "oluToplam": 8,
+    "oluYerinde": 3,
+    "oluSonrasi": 5,
+    "yarali": 369,
+    "nufus": 86047,
+    "oran": {
+     "kazaAracPct": 3.6645891043397967,
+     "olumluAracPct": 1.1426592797783934,
+     "oluOlumluPct": 4.040404040404041,
+     "yaraliOlumluPct": 186.36363636363635,
+     "yaraliOran": 1.8636363636363635,
+     "fark": 195
+    }
+   }
+  },
+  {
+   "il": "Bilecik",
+   "nufus2023": 228058,
+   "tasit": {
+    "toplam": 81034,
+    "otomobil": 37774,
+    "minibus": 1038,
+    "otobus": 965,
+    "kamyonet": 13596,
+    "kamyon": 3354,
+    "motosiklet": 11819,
+    "ozelAmacli": 374,
+    "traktor": 12114
+   },
+   "kaza": {
+    "toplam": 2869,
+    "aracSayisi": 80618,
+    "olumluYaralanmali": 868,
+    "olu": {
+     "toplam": 20,
+     "kazaYerinde": 7,
+     "kazaSonrasi": 13
+    },
+    "yarali": 1366,
+    "her100Kisi": 35.25,
+    "otomobilSayisi": 37591,
+    "nufusOtomobil": 6.08
+   },
+   "by": {
+    "il": "Bilecik",
+    "kaza2023": 2869,
+    "aracSayisi": 80618,
+    "olumluYaralanmali": 868,
+    "oluToplam": 20,
+    "oluYerinde": 7,
+    "oluSonrasi": 13,
+    "yarali": 1366,
+    "nufus": 228058,
+    "oran": {
+     "kazaAracPct": 3.5587585898930763,
+     "olumluAracPct": 1.0766826267086755,
+     "oluOlumluPct": 2.3041474654377883,
+     "yaraliOlumluPct": 157.3732718894009,
+     "yaraliOran": 1.5737327188940091,
+     "fark": 861
+    }
+   }
+  },
+  {
+   "il": "Bingöl",
+   "nufus2023": 285655,
+   "tasit": {
+    "toplam": 20167,
+    "otomobil": 10161,
+    "minibus": 1112,
+    "otobus": 219,
+    "kamyonet": 4729,
+    "kamyon": 1219,
+    "motosiklet": 1196,
+    "ozelAmacli": 316,
+    "traktor": 1215
+   },
+   "kaza": {
+    "toplam": 1731,
+    "aracSayisi": 19856,
+    "olumluYaralanmali": 703,
+    "olu": {
+     "toplam": 14,
+     "kazaYerinde": 7,
+     "kazaSonrasi": 7
+    },
+    "yarali": 1333,
+    "her100Kisi": 7.03,
+    "otomobilSayisi": 9900,
+    "nufusOtomobil": 28.54
+   },
+   "by": {
+    "il": "Bingöl",
+    "kaza2023": 1731,
+    "aracSayisi": 19856,
+    "olumluYaralanmali": 703,
+    "oluToplam": 14,
+    "oluYerinde": 7,
+    "oluSonrasi": 7,
+    "yarali": 1333,
+    "nufus": 285655,
+    "oran": {
+     "kazaAracPct": 8.717767929089444,
+     "olumluAracPct": 3.540491539081386,
+     "oluOlumluPct": 1.991465149359886,
+     "yaraliOlumluPct": 189.6159317211949,
+     "yaraliOran": 1.896159317211949,
+     "fark": 696
+    }
+   }
+  },
+  {
+   "il": "Bitlis",
+   "nufus2023": 359747,
+   "tasit": {
+    "toplam": 25101,
+    "otomobil": 9206,
+    "minibus": 1529,
+    "otobus": 176,
+    "kamyonet": 6217,
+    "kamyon": 1965,
+    "motosiklet": 1151,
+    "ozelAmacli": 324,
+    "traktor": 4533
+   },
+   "kaza": {
+    "toplam": 1615,
+    "aracSayisi": 24780,
+    "olumluYaralanmali": 618,
+    "olu": {
+     "toplam": 22,
+     "kazaYerinde": 10,
+     "kazaSonrasi": 12
+    },
+    "yarali": 1193,
+    "her100Kisi": 7,
+    "otomobilSayisi": 8970,
+    "nufusOtomobil": 39.46
+   },
+   "by": {
+    "il": "Bitlis",
+    "kaza2023": 1615,
+    "aracSayisi": 24780,
+    "olumluYaralanmali": 618,
+    "oluToplam": 22,
+    "oluYerinde": 10,
+    "oluSonrasi": 12,
+    "yarali": 1193,
+    "nufus": 359747,
+    "oran": {
+     "kazaAracPct": 6.517352703793382,
+     "olumluAracPct": 2.4939467312348667,
+     "oluOlumluPct": 3.559870550161812,
+     "yaraliOlumluPct": 193.04207119741102,
+     "yaraliOran": 1.9304207119741101,
+     "fark": 608
+    }
+   }
+  },
+  {
+   "il": "Bolu",
+   "nufus2023": 324789,
+   "tasit": {
+    "toplam": 134690,
+    "otomobil": 64545,
+    "minibus": 1488,
+    "otobus": 907,
+    "kamyonet": 18702,
+    "kamyon": 6657,
+    "motosiklet": 17318,
+    "ozelAmacli": 626,
+    "traktor": 24447
+   },
+   "kaza": {
+    "toplam": 5467,
+    "aracSayisi": 133885,
+    "olumluYaralanmali": 915,
+    "olu": {
+     "toplam": 39,
+     "kazaYerinde": 23,
+     "kazaSonrasi": 16
+    },
+    "yarali": 1547,
+    "her100Kisi": 41.73,
+    "otomobilSayisi": 64173,
+    "nufusOtomobil": 5
+   },
+   "by": {
+    "il": "Bolu",
+    "kaza2023": 5467,
+    "aracSayisi": 133885,
+    "olumluYaralanmali": 915,
+    "oluToplam": 39,
+    "oluYerinde": 23,
+    "oluSonrasi": 16,
+    "yarali": 1547,
+    "nufus": 324789,
+    "oran": {
+     "kazaAracPct": 4.083355118198454,
+     "olumluAracPct": 0.6834223400679688,
+     "oluOlumluPct": 4.2622950819672125,
+     "yaraliOlumluPct": 169.0710382513661,
+     "yaraliOran": 1.6907103825136611,
+     "fark": 892
+    }
+   }
+  },
+  {
+   "il": "Burdur",
+   "nufus2023": 277452,
+   "tasit": {
+    "toplam": 161362,
+    "otomobil": 62428,
+    "minibus": 1292,
+    "otobus": 796,
+    "kamyonet": 17191,
+    "kamyon": 6057,
+    "motosiklet": 47882,
+    "ozelAmacli": 479,
+    "traktor": 25237
+   },
+   "kaza": {
+    "toplam": 3450,
+    "aracSayisi": 160355,
+    "olumluYaralanmali": 1349,
+    "olu": {
+     "toplam": 55,
+     "kazaYerinde": 30,
+     "kazaSonrasi": 25
+    },
+    "yarali": 2246,
+    "her100Kisi": 58.57,
+    "otomobilSayisi": 62074,
+    "nufusOtomobil": 4.41
+   },
+   "by": {
+    "il": "Burdur",
+    "kaza2023": 3450,
+    "aracSayisi": 160355,
+    "olumluYaralanmali": 1349,
+    "oluToplam": 55,
+    "oluYerinde": 30,
+    "oluSonrasi": 25,
+    "yarali": 2246,
+    "nufus": 277452,
+    "oran": {
+     "kazaAracPct": 2.151476411711515,
+     "olumluAracPct": 0.8412584577967634,
+     "oluOlumluPct": 4.077094143810229,
+     "yaraliOlumluPct": 166.4936990363232,
+     "yaraliOran": 1.6649369903632318,
+     "fark": 1319
+    }
+   }
+  },
+  {
+   "il": "Bursa",
+   "nufus2023": 3214571,
+   "tasit": {
+    "toplam": 1151246,
+    "otomobil": 633883,
+    "minibus": 16778,
+    "otobus": 7901,
+    "kamyonet": 206161,
+    "kamyon": 32305,
+    "motosiklet": 174720,
+    "ozelAmacli": 3640,
+    "traktor": 75858
+   },
+   "kaza": {
+    "toplam": 63581,
+    "aracSayisi": 1143096,
+    "olumluYaralanmali": 8467,
+    "olu": {
+     "toplam": 168,
+     "kazaYerinde": 97,
+     "kazaSonrasi": 71
+    },
+    "yarali": 12189,
+    "her100Kisi": 35.78,
+    "otomobilSayisi": 629450,
+    "nufusOtomobil": 5.08
+   },
+   "by": {
+    "il": "Bursa",
+    "kaza2023": 63581,
+    "aracSayisi": 1143096,
+    "olumluYaralanmali": 8467,
+    "oluToplam": 168,
+    "oluYerinde": 97,
+    "oluSonrasi": 71,
+    "yarali": 12189,
+    "nufus": 3214571,
+    "oran": {
+     "kazaAracPct": 5.562175005423867,
+     "olumluAracPct": 0.7407076920923527,
+     "oluOlumluPct": 1.9841738514231724,
+     "yaraliOlumluPct": 143.95889925593482,
+     "yaraliOran": 1.4395889925593481,
+     "fark": 8370
+    }
+   }
+  },
+  {
+   "il": "Çanakkale",
+   "nufus2023": 570499,
+   "tasit": {
+    "toplam": 282528,
+    "otomobil": 108595,
+    "minibus": 2796,
+    "otobus": 1660,
+    "kamyonet": 38292,
+    "kamyon": 6608,
+    "motosiklet": 86540,
+    "ozelAmacli": 874,
+    "traktor": 37163
+   },
+   "kaza": {
+    "toplam": 7059,
+    "aracSayisi": 280912,
+    "olumluYaralanmali": 2286,
+    "olu": {
+     "toplam": 71,
+     "kazaYerinde": 34,
+     "kazaSonrasi": 37
+    },
+    "yarali": 3313,
+    "her100Kisi": 50.22,
+    "otomobilSayisi": 107915,
+    "nufusOtomobil": 5.18
+   },
+   "by": {
+    "il": "Çanakkale",
+    "kaza2023": 7059,
+    "aracSayisi": 280912,
+    "olumluYaralanmali": 2286,
+    "oluToplam": 71,
+    "oluYerinde": 34,
+    "oluSonrasi": 37,
+    "yarali": 3313,
+    "nufus": 570499,
+    "oran": {
+     "kazaAracPct": 2.5128865979381443,
+     "olumluAracPct": 0.8137779802927607,
+     "oluOlumluPct": 3.10586176727909,
+     "yaraliOlumluPct": 144.92563429571302,
+     "yaraliOran": 1.4492563429571304,
+     "fark": 2252
+    }
+   }
+  },
+  {
+   "il": "Çankırı",
+   "nufus2023": 205501,
+   "tasit": {
+    "toplam": 63394,
+    "otomobil": 24142,
+    "minibus": 668,
+    "otobus": 515,
+    "kamyonet": 9124,
+    "kamyon": 2182,
+    "motosiklet": 9908,
+    "ozelAmacli": 300,
+    "traktor": 16555
+   },
+   "kaza": {
+    "toplam": 2293,
+    "aracSayisi": 63003,
+    "olumluYaralanmali": 733,
+    "olu": {
+     "toplam": 33,
+     "kazaYerinde": 15,
+     "kazaSonrasi": 18
+    },
+    "yarali": 1365,
+    "her100Kisi": 32.18,
+    "otomobilSayisi": 23998,
+    "nufusOtomobil": 8.16
+   },
+   "by": {
+    "il": "Çankırı",
+    "kaza2023": 2293,
+    "aracSayisi": 63003,
+    "olumluYaralanmali": 733,
+    "oluToplam": 33,
+    "oluYerinde": 15,
+    "oluSonrasi": 18,
+    "yarali": 1365,
+    "nufus": 205501,
+    "oran": {
+     "kazaAracPct": 3.63950922971922,
+     "olumluAracPct": 1.1634366617462661,
+     "oluOlumluPct": 4.502046384720328,
+     "yaraliOlumluPct": 186.22100954979538,
+     "yaraliOran": 1.862210095497954,
+     "fark": 718
+    }
+   }
+  },
+  {
+   "il": "Çorum",
+   "nufus2023": 528351,
+   "tasit": {
+    "toplam": 198280,
+    "otomobil": 91385,
+    "minibus": 2470,
+    "otobus": 1000,
+    "kamyonet": 24297,
+    "kamyon": 6029,
+    "motosiklet": 26033,
+    "ozelAmacli": 462,
+    "traktor": 46604
+   },
+   "kaza": {
+    "toplam": 7870,
+    "aracSayisi": 197111,
+    "olumluYaralanmali": 1980,
+    "olu": {
+     "toplam": 71,
+     "kazaYerinde": 32,
+     "kazaSonrasi": 39
+    },
+    "yarali": 3274,
+    "her100Kisi": 37.61,
+    "otomobilSayisi": 90847,
+    "nufusOtomobil": 5.77
+   },
+   "by": {
+    "il": "Çorum",
+    "kaza2023": 7870,
+    "aracSayisi": 197111,
+    "olumluYaralanmali": 1980,
+    "oluToplam": 71,
+    "oluYerinde": 32,
+    "oluSonrasi": 39,
+    "yarali": 3274,
+    "nufus": 528351,
+    "oran": {
+     "kazaAracPct": 3.992674178508556,
+     "olumluAracPct": 1.0045101491038044,
+     "oluOlumluPct": 3.585858585858586,
+     "yaraliOlumluPct": 165.35353535353536,
+     "yaraliOran": 1.6535353535353536,
+     "fark": 1948
+    }
+   }
+  },
+  {
+   "il": "Denizli",
+   "nufus2023": 1059082,
+   "tasit": {
+    "toplam": 503495,
+    "otomobil": 235769,
+    "minibus": 7332,
+    "otobus": 3936,
+    "kamyonet": 76136,
+    "kamyon": 13344,
+    "motosiklet": 103384,
+    "ozelAmacli": 1414,
+    "traktor": 62180
+   },
+   "kaza": {
+    "toplam": 18419,
+    "aracSayisi": 500634,
+    "olumluYaralanmali": 3770,
+    "olu": {
+     "toplam": 142,
+     "kazaYerinde": 78,
+     "kazaSonrasi": 64
+    },
+    "yarali": 5636,
+    "her100Kisi": 47.39,
+    "otomobilSayisi": 234548,
+    "nufusOtomobil": 4.5
+   },
+   "by": {
+    "il": "Denizli",
+    "kaza2023": 18419,
+    "aracSayisi": 500634,
+    "olumluYaralanmali": 3770,
+    "oluToplam": 142,
+    "oluYerinde": 78,
+    "oluSonrasi": 64,
+    "yarali": 5636,
+    "nufus": 1059082,
+    "oran": {
+     "kazaAracPct": 3.6791348570013227,
+     "olumluAracPct": 0.7530451387640472,
+     "oluOlumluPct": 3.7665782493368702,
+     "yaraliOlumluPct": 149.49602122015915,
+     "yaraliOran": 1.4949602122015915,
+     "fark": 3692
+    }
+   }
+  },
+  {
+   "il": "Diyarbakır",
+   "nufus2023": 1818133,
+   "tasit": {
+    "toplam": 152872,
+    "otomobil": 68053,
+    "minibus": 6329,
+    "otobus": 1550,
+    "kamyonet": 23804,
+    "kamyon": 7030,
+    "motosiklet": 18055,
+    "ozelAmacli": 1160,
+    "traktor": 26891
+   },
+   "kaza": {
+    "toplam": 12372,
+    "aracSayisi": 150631,
+    "olumluYaralanmali": 3238,
+    "olu": {
+     "toplam": 133,
+     "kazaYerinde": 48,
+     "kazaSonrasi": 85
+    },
+    "yarali": 5538,
+    "her100Kisi": 8.35,
+    "otomobilSayisi": 66497,
+    "nufusOtomobil": 27.14
+   },
+   "by": {
+    "il": "Diyarbakır",
+    "kaza2023": 12372,
+    "aracSayisi": 150631,
+    "olumluYaralanmali": 3238,
+    "oluToplam": 133,
+    "oluYerinde": 48,
+    "oluSonrasi": 85,
+    "yarali": 5538,
+    "nufus": 1818133,
+    "oran": {
+     "kazaAracPct": 8.213448758887614,
+     "olumluAracPct": 2.1496239153959014,
+     "oluOlumluPct": 4.1074737492279185,
+     "yaraliOlumluPct": 171.03150092649784,
+     "yaraliOran": 1.7103150092649784,
+     "fark": 3190
+    }
+   }
+  },
+  {
+   "il": "Düzce",
+   "nufus2023": 409865,
+   "tasit": {
+    "toplam": 137000,
+    "otomobil": 65164,
+    "minibus": 2709,
+    "otobus": 1494,
+    "kamyonet": 19891,
+    "kamyon": 5346,
+    "motosiklet": 28096,
+    "ozelAmacli": 502,
+    "traktor": 13798
+   },
+   "kaza": {
+    "toplam": 6740,
+    "aracSayisi": 136177,
+    "olumluYaralanmali": 1422,
+    "olu": {
+     "toplam": 44,
+     "kazaYerinde": 15,
+     "kazaSonrasi": 29
+    },
+    "yarali": 2143,
+    "her100Kisi": 33.61,
+    "otomobilSayisi": 64782,
+    "nufusOtomobil": 6.25
+   },
+   "by": {
+    "il": "Düzce",
+    "kaza2023": 6740,
+    "aracSayisi": 136177,
+    "olumluYaralanmali": 1422,
+    "oluToplam": 44,
+    "oluYerinde": 15,
+    "oluSonrasi": 29,
+    "yarali": 2143,
+    "nufus": 409865,
+    "oran": {
+     "kazaAracPct": 4.949440801310059,
+     "olumluAracPct": 1.0442292017007277,
+     "oluOlumluPct": 3.0942334739803097,
+     "yaraliOlumluPct": 150.70323488045008,
+     "yaraliOran": 1.5070323488045008,
+     "fark": 1407
+    }
+   }
+  },
+  {
+   "il": "Edirne",
+   "nufus2023": 419913,
+   "tasit": {
+    "toplam": 183949,
+    "otomobil": 78077,
+    "minibus": 2023,
+    "otobus": 1721,
+    "kamyonet": 24611,
+    "kamyon": 4800,
+    "motosiklet": 38078,
+    "ozelAmacli": 458,
+    "traktor": 34181
+   },
+   "kaza": {
+    "toplam": 5335,
+    "aracSayisi": 183071,
+    "olumluYaralanmali": 1191,
+    "olu": {
+     "toplam": 55,
+     "kazaYerinde": 23,
+     "kazaSonrasi": 32
+    },
+    "yarali": 1683,
+    "her100Kisi": 44.14,
+    "otomobilSayisi": 77654,
+    "nufusOtomobil": 5.34
+   },
+   "by": {
+    "il": "Edirne",
+    "kaza2023": 5335,
+    "aracSayisi": 183071,
+    "olumluYaralanmali": 1191,
+    "oluToplam": 55,
+    "oluYerinde": 23,
+    "oluSonrasi": 32,
+    "yarali": 1683,
+    "nufus": 419913,
+    "oran": {
+     "kazaAracPct": 2.9141699122198492,
+     "olumluAracPct": 0.6505672662518913,
+     "oluOlumluPct": 4.6179680940386225,
+     "yaraliOlumluPct": 141.30982367758187,
+     "yaraliOran": 1.4130982367758187,
+     "fark": 1168
+    }
+   }
+  },
+  {
+   "il": "Elazığ",
+   "nufus2023": 604411,
+   "tasit": {
+    "toplam": 152420,
+    "otomobil": 87276,
+    "minibus": 3605,
+    "otobus": 866,
+    "kamyonet": 29662,
+    "kamyon": 6202,
+    "motosiklet": 10539,
+    "ozelAmacli": 564,
+    "traktor": 13706
+   },
+   "kaza": {
+    "toplam": 6420,
+    "aracSayisi": 151057,
+    "olumluYaralanmali": 1319,
+    "olu": {
+     "toplam": 48,
+     "kazaYerinde": 14,
+     "kazaSonrasi": 34
+    },
+    "yarali": 2311,
+    "her100Kisi": 25.54,
+    "otomobilSayisi": 86363,
+    "nufusOtomobil": 6.85
+   },
+   "by": {
+    "il": "Elazığ",
+    "kaza2023": 6420,
+    "aracSayisi": 151057,
+    "olumluYaralanmali": 1319,
+    "oluToplam": 48,
+    "oluYerinde": 14,
+    "oluSonrasi": 34,
+    "yarali": 2311,
+    "nufus": 604411,
+    "oran": {
+     "kazaAracPct": 4.250051305136472,
+     "olumluAracPct": 0.8731803226596583,
+     "oluOlumluPct": 3.639120545868082,
+     "yaraliOlumluPct": 175.2084912812737,
+     "yaraliOran": 1.752084912812737,
+     "fark": 1305
+    }
+   }
+  },
+  {
+   "il": "Erzincan",
+   "nufus2023": 243399,
+   "tasit": {
+    "toplam": 70732,
+    "otomobil": 32657,
+    "minibus": 1487,
+    "otobus": 492,
+    "kamyonet": 12594,
+    "kamyon": 2056,
+    "motosiklet": 13010,
+    "ozelAmacli": 380,
+    "traktor": 8056
+   },
+   "kaza": {
+    "toplam": 3212,
+    "aracSayisi": 70211,
+    "olumluYaralanmali": 1018,
+    "olu": {
+     "toplam": 47,
+     "kazaYerinde": 23,
+     "kazaSonrasi": 24
+    },
+    "yarali": 1747,
+    "her100Kisi": 29.35,
+    "otomobilSayisi": 32414,
+    "nufusOtomobil": 7.38
+   },
+   "by": {
+    "il": "Erzincan",
+    "kaza2023": 3212,
+    "aracSayisi": 70211,
+    "olumluYaralanmali": 1018,
+    "oluToplam": 47,
+    "oluYerinde": 23,
+    "oluSonrasi": 24,
+    "yarali": 1747,
+    "nufus": 243399,
+    "oran": {
+     "kazaAracPct": 4.574781729358648,
+     "olumluAracPct": 1.4499152554443036,
+     "oluOlumluPct": 4.616895874263261,
+     "yaraliOlumluPct": 171.61100196463656,
+     "yaraliOran": 1.7161100196463657,
+     "fark": 995
+    }
+   }
+  },
+  {
+   "il": "Erzurum",
+   "nufus2023": 749993,
+   "tasit": {
+    "toplam": 133140,
+    "otomobil": 67445,
+    "minibus": 2409,
+    "otobus": 1232,
+    "kamyonet": 28923,
+    "kamyon": 6144,
+    "motosiklet": 4753,
+    "ozelAmacli": 749,
+    "traktor": 21485
+   },
+   "kaza": {
+    "toplam": 7268,
+    "aracSayisi": 132169,
+    "olumluYaralanmali": 1383,
+    "olu": {
+     "toplam": 69,
+     "kazaYerinde": 23,
+     "kazaSonrasi": 46
+    },
+    "yarali": 2447,
+    "her100Kisi": 17.63,
+    "otomobilSayisi": 66764,
+    "nufusOtomobil": 11.23
+   },
+   "by": {
+    "il": "Erzurum",
+    "kaza2023": 7268,
+    "aracSayisi": 132169,
+    "olumluYaralanmali": 1383,
+    "oluToplam": 69,
+    "oluYerinde": 23,
+    "oluSonrasi": 46,
+    "yarali": 2447,
+    "nufus": 749993,
+    "oran": {
+     "kazaAracPct": 5.499020193842732,
+     "olumluAracPct": 1.0463875795383184,
+     "oluOlumluPct": 4.989154013015185,
+     "yaraliOlumluPct": 176.9342010122921,
+     "yaraliOran": 1.7693420101229211,
+     "fark": 1360
+    }
+   }
+  },
+  {
+   "il": "Eskişehir",
+   "nufus2023": 915418,
+   "tasit": {
+    "toplam": 341156,
+    "otomobil": 193795,
+    "minibus": 4213,
+    "otobus": 2691,
+    "kamyonet": 52914,
+    "kamyon": 11380,
+    "motosiklet": 47623,
+    "ozelAmacli": 1073,
+    "traktor": 27467
+   },
+   "kaza": {
+    "toplam": 14603,
+    "aracSayisi": 339274,
+    "olumluYaralanmali": 2708,
+    "olu": {
+     "toplam": 76,
+     "kazaYerinde": 41,
+     "kazaSonrasi": 35
+    },
+    "yarali": 4211,
+    "her100Kisi": 37.42,
+    "otomobilSayisi": 192815,
+    "nufusOtomobil": 4.7
+   },
+   "by": {
+    "il": "Eskişehir",
+    "kaza2023": 14603,
+    "aracSayisi": 339274,
+    "olumluYaralanmali": 2708,
+    "oluToplam": 76,
+    "oluYerinde": 41,
+    "oluSonrasi": 35,
+    "yarali": 4211,
+    "nufus": 915418,
+    "oran": {
+     "kazaAracPct": 4.304190713110937,
+     "olumluAracPct": 0.7981749264606189,
+     "oluOlumluPct": 2.806499261447563,
+     "yaraliOlumluPct": 155.50221565731167,
+     "yaraliOran": 1.5550221565731166,
+     "fark": 2667
+    }
+   }
+  },
+  {
+   "il": "Gaziantep",
+   "nufus2023": 2164134,
+   "tasit": {
+    "toplam": 665634,
+    "otomobil": 288291,
+    "minibus": 12911,
+    "otobus": 4883,
+    "kamyonet": 112241,
+    "kamyon": 23742,
+    "motosiklet": 176243,
+    "ozelAmacli": 1450,
+    "traktor": 45873
+   },
+   "kaza": {
+    "toplam": 22291,
+    "aracSayisi": 660178,
+    "olumluYaralanmali": 5152,
+    "olu": {
+     "toplam": 125,
+     "kazaYerinde": 78,
+     "kazaSonrasi": 47
+    },
+    "yarali": 8258,
+    "her100Kisi": 30.65,
+    "otomobilSayisi": 286068,
+    "nufusOtomobil": 7.53
+   },
+   "by": {
+    "il": "Gaziantep",
+    "kaza2023": 22291,
+    "aracSayisi": 660178,
+    "olumluYaralanmali": 5152,
+    "oluToplam": 125,
+    "oluYerinde": 78,
+    "oluSonrasi": 47,
+    "yarali": 8258,
+    "nufus": 2164134,
+    "oran": {
+     "kazaAracPct": 3.3765136069363115,
+     "olumluAracPct": 0.7803955902801971,
+     "oluOlumluPct": 2.426242236024845,
+     "yaraliOlumluPct": 160.28726708074535,
+     "yaraliOran": 1.6028726708074534,
+     "fark": 5074
+    }
+   }
+  },
+  {
+   "il": "Giresun",
+   "nufus2023": 461712,
+   "tasit": {
+    "toplam": 108167,
+    "otomobil": 50052,
+    "minibus": 6871,
+    "otobus": 416,
+    "kamyonet": 34046,
+    "kamyon": 4761,
+    "motosiklet": 7732,
+    "ozelAmacli": 585,
+    "traktor": 3704
+   },
+   "kaza": {
+    "toplam": 4340,
+    "aracSayisi": 107541,
+    "olumluYaralanmali": 1052,
+    "olu": {
+     "toplam": 36,
+     "kazaYerinde": 22,
+     "kazaSonrasi": 14
+    },
+    "yarali": 1709,
+    "her100Kisi": 23.85,
+    "otomobilSayisi": 49716,
+    "nufusOtomobil": 9.07
+   },
+   "by": {
+    "il": "Giresun",
+    "kaza2023": 4340,
+    "aracSayisi": 107541,
+    "olumluYaralanmali": 1052,
+    "oluToplam": 36,
+    "oluYerinde": 22,
+    "oluSonrasi": 14,
+    "yarali": 1709,
+    "nufus": 461712,
+    "oran": {
+     "kazaAracPct": 4.0356701165137014,
+     "olumluAracPct": 0.9782315581964087,
+     "oluOlumluPct": 3.4220532319391634,
+     "yaraliOlumluPct": 162.45247148288973,
+     "yaraliOran": 1.6245247148288973,
+     "fark": 1030
+    }
+   }
+  },
+  {
+   "il": "Gümüşhane",
+   "nufus2023": 148539,
+   "tasit": {
+    "toplam": 28212,
+    "otomobil": 12374,
+    "minibus": 941,
+    "otobus": 193,
+    "kamyonet": 6656,
+    "kamyon": 1506,
+    "motosiklet": 2239,
+    "ozelAmacli": 229,
+    "traktor": 4074
+   },
+   "kaza": {
+    "toplam": 1028,
+    "aracSayisi": 28042,
+    "olumluYaralanmali": 378,
+    "olu": {
+     "toplam": 22,
+     "kazaYerinde": 8,
+     "kazaSonrasi": 14
+    },
+    "yarali": 635,
+    "her100Kisi": 19.4,
+    "otomobilSayisi": 12287,
+    "nufusOtomobil": 11.76
+   },
+   "by": {
+    "il": "Gümüşhane",
+    "kaza2023": 1028,
+    "aracSayisi": 28042,
+    "olumluYaralanmali": 378,
+    "oluToplam": 22,
+    "oluYerinde": 8,
+    "oluSonrasi": 14,
+    "yarali": 635,
+    "nufus": 148539,
+    "oran": {
+     "kazaAracPct": 3.6659296769132017,
+     "olumluAracPct": 1.3479780329505742,
+     "oluOlumluPct": 5.82010582010582,
+     "yaraliOlumluPct": 167.989417989418,
+     "yaraliOran": 1.67989417989418,
+     "fark": 370
+    }
+   }
+  },
+  {
+   "il": "Hakkari",
+   "nufus2023": 287625,
+   "tasit": {
+    "toplam": 9584,
+    "otomobil": 2406,
+    "minibus": 1214,
+    "otobus": 74,
+    "kamyonet": 2044,
+    "kamyon": 1180,
+    "motosiklet": 969,
+    "ozelAmacli": 564,
+    "traktor": 1133
+   },
+   "kaza": {
+    "toplam": 625,
+    "aracSayisi": 9470,
+    "olumluYaralanmali": 280,
+    "olu": {
+     "toplam": 12,
+     "kazaYerinde": 6,
+     "kazaSonrasi": 6
+    },
+    "yarali": 544,
+    "her100Kisi": 3.44,
+    "otomobilSayisi": 2346,
+    "nufusOtomobil": 117.36
+   },
+   "by": {
+    "il": "Hakkari",
+    "kaza2023": 625,
+    "aracSayisi": 9470,
+    "olumluYaralanmali": 280,
+    "oluToplam": 12,
+    "oluYerinde": 6,
+    "oluSonrasi": 6,
+    "yarali": 544,
+    "nufus": 287625,
+    "oran": {
+     "kazaAracPct": 6.599788806758183,
+     "olumluAracPct": 2.956705385427666,
+     "oluOlumluPct": 4.285714285714286,
+     "yaraliOlumluPct": 194.28571428571428,
+     "yaraliOran": 1.9428571428571428,
+     "fark": 274
+    }
+   }
+  },
+  {
+   "il": "Hatay",
+   "nufus2023": 1544640,
+   "tasit": {
+    "toplam": 608137,
+    "otomobil": 251057,
+    "minibus": 9606,
+    "otobus": 3827,
+    "kamyonet": 73460,
+    "kamyon": 24212,
+    "motosiklet": 218142,
+    "ozelAmacli": 1200,
+    "traktor": 26633
+   },
+   "kaza": {
+    "toplam": 15822,
+    "aracSayisi": 603212,
+    "olumluYaralanmali": 5510,
+    "olu": {
+     "toplam": 179,
+     "kazaYerinde": 62,
+     "kazaSonrasi": 117
+    },
+    "yarali": 8241,
+    "her100Kisi": 35.78,
+    "otomobilSayisi": 249236,
+    "nufusOtomobil": 6.76
+   },
+   "by": {
+    "il": "Hatay",
+    "kaza2023": 15822,
+    "aracSayisi": 603212,
+    "olumluYaralanmali": 5510,
+    "oluToplam": 179,
+    "oluYerinde": 62,
+    "oluSonrasi": 117,
+    "yarali": 8241,
+    "nufus": 1544640,
+    "oran": {
+     "kazaAracPct": 2.622958429208968,
+     "olumluAracPct": 0.9134433665112762,
+     "oluOlumluPct": 3.248638838475499,
+     "yaraliOlumluPct": 149.5644283121597,
+     "yaraliOran": 1.4956442831215968,
+     "fark": 5448
+    }
+   }
+  },
+  {
+   "il": "Iğdır",
+   "nufus2023": 209738,
+   "tasit": {
+    "toplam": 31969,
+    "otomobil": 7077,
+    "minibus": 1253,
+    "otobus": 250,
+    "kamyonet": 5797,
+    "kamyon": 3406,
+    "motosiklet": 8816,
+    "ozelAmacli": 200,
+    "traktor": 5170
+   },
+   "kaza": {
+    "toplam": 982,
+    "aracSayisi": 31682,
+    "olumluYaralanmali": 345,
+    "olu": {
+     "toplam": 19,
+     "kazaYerinde": 7,
+     "kazaSonrasi": 12
+    },
+    "yarali": 526,
+    "her100Kisi": 15.56,
+    "otomobilSayisi": 6964,
+    "nufusOtomobil": 29.24
+   },
+   "by": {
+    "il": "Iğdır",
+    "kaza2023": 982,
+    "aracSayisi": 31682,
+    "olumluYaralanmali": 345,
+    "oluToplam": 19,
+    "oluYerinde": 7,
+    "oluSonrasi": 12,
+    "yarali": 526,
+    "nufus": 209738,
+    "oran": {
+     "kazaAracPct": 3.0995517959724763,
+     "olumluAracPct": 1.0889464048986806,
+     "oluOlumluPct": 5.507246376811594,
+     "yaraliOlumluPct": 152.46376811594203,
+     "yaraliOran": 1.5246376811594202,
+     "fark": 338
+    }
+   }
+  },
+  {
+   "il": "Isparta",
+   "nufus2023": 449777,
+   "tasit": {
+    "toplam": 211959,
+    "otomobil": 94809,
+    "minibus": 2125,
+    "otobus": 1358,
+    "kamyonet": 26812,
+    "kamyon": 4979,
+    "motosiklet": 56045,
+    "ozelAmacli": 613,
+    "traktor": 25218
+   },
+   "kaza": {
+    "toplam": 4983,
+    "aracSayisi": 210743,
+    "olumluYaralanmali": 1666,
+    "olu": {
+     "toplam": 56,
+     "kazaYerinde": 23,
+     "kazaSonrasi": 33
+    },
+    "yarali": 2754,
+    "her100Kisi": 47.32,
+    "otomobilSayisi": 94310,
+    "nufusOtomobil": 4.72
+   },
+   "by": {
+    "il": "Isparta",
+    "kaza2023": 4983,
+    "aracSayisi": 210743,
+    "olumluYaralanmali": 1666,
+    "oluToplam": 56,
+    "oluYerinde": 23,
+    "oluSonrasi": 33,
+    "yarali": 2754,
+    "nufus": 449777,
+    "oran": {
+     "kazaAracPct": 2.3644913472808113,
+     "olumluAracPct": 0.7905363404715697,
+     "oluOlumluPct": 3.361344537815126,
+     "yaraliOlumluPct": 165.3061224489796,
+     "yaraliOran": 1.653061224489796,
+     "fark": 1643
+    }
+   }
+  },
+  {
+   "il": "İstanbul",
+   "nufus2023": 15655924,
+   "tasit": {
+    "toplam": 5455930,
+    "otomobil": 3629127,
+    "minibus": 105451,
+    "otobus": 36862,
+    "kamyonet": 833765,
+    "kamyon": 152954,
+    "motosiklet": 650783,
+    "ozelAmacli": 14905,
+    "traktor": 32083
+   },
+   "kaza": {
+    "toplam": 314266,
+    "aracSayisi": 5406820,
+    "olumluYaralanmali": 25622,
+    "olu": {
+     "toplam": 347,
+     "kazaYerinde": 157,
+     "kazaSonrasi": 190
+    },
+    "yarali": 32452,
+    "her100Kisi": 33.99,
+    "otomobilSayisi": 3597081,
+    "nufusOtomobil": 4.42
+   },
+   "by": {
+    "il": "İstanbul",
+    "kaza2023": 314266,
+    "aracSayisi": 5406820,
+    "olumluYaralanmali": 25622,
+    "oluToplam": 347,
+    "oluYerinde": 157,
+    "oluSonrasi": 190,
+    "yarali": 32452,
+    "nufus": 15655924,
+    "oran": {
+     "kazaAracPct": 5.812399894947492,
+     "olumluAracPct": 0.47388298482287183,
+     "oluOlumluPct": 1.35430489423152,
+     "yaraliOlumluPct": 126.65677933026305,
+     "yaraliOran": 1.2665677933026305,
+     "fark": 25465
+    }
+   }
+  },
+  {
+   "il": "İzmir",
+   "nufus2023": 4479525,
+   "tasit": {
+    "toplam": 1810537,
+    "otomobil": 961005,
+    "minibus": 19067,
+    "otobus": 14659,
+    "kamyonet": 285650,
+    "kamyon": 48992,
+    "motosiklet": 394560,
+    "ozelAmacli": 6072,
+    "traktor": 80532
+   },
+   "kaza": {
+    "toplam": 96893,
+    "aracSayisi": 1798709,
+    "olumluYaralanmali": 13477,
+    "olu": {
+     "toplam": 220,
+     "kazaYerinde": 125,
+     "kazaSonrasi": 95
+    },
+    "yarali": 17463,
+    "her100Kisi": 40.31,
+    "otomobilSayisi": 955517,
+    "nufusOtomobil": 4.67
+   },
+   "by": {
+    "il": "İzmir",
+    "kaza2023": 96893,
+    "aracSayisi": 1798709,
+    "olumluYaralanmali": 13477,
+    "oluToplam": 220,
+    "oluYerinde": 125,
+    "oluSonrasi": 95,
+    "yarali": 17463,
+    "nufus": 4479525,
+    "oran": {
+     "kazaAracPct": 5.386807982836579,
+     "olumluAracPct": 0.7492596078631952,
+     "oluOlumluPct": 1.6324107739111078,
+     "yaraliOlumluPct": 129.57631520368034,
+     "yaraliOran": 1.2957631520368034,
+     "fark": 13352
+    }
+   }
+  },
+  {
+   "il": "Kahramanmaraş",
+   "nufus2023": 1116618,
+   "tasit": {
+    "toplam": 298215,
+    "otomobil": 167446,
+    "minibus": 6882,
+    "otobus": 1904,
+    "kamyonet": 52082,
+    "kamyon": 9244,
+    "motosiklet": 32759,
+    "ozelAmacli": 959,
+    "traktor": 26939
+   },
+   "kaza": {
+    "toplam": 11890,
+    "aracSayisi": 295611,
+    "olumluYaralanmali": 3575,
+    "olu": {
+     "toplam": 120,
+     "kazaYerinde": 34,
+     "kazaSonrasi": 86
+    },
+    "yarali": 5921,
+    "her100Kisi": 25.11,
+    "otomobilSayisi": 165961,
+    "nufusOtomobil": 7.09
+   },
+   "by": {
+    "il": "K.Maraş",
+    "kaza2023": 11890,
+    "aracSayisi": 295611,
+    "olumluYaralanmali": 3575,
+    "oluToplam": 120,
+    "oluYerinde": 34,
+    "oluSonrasi": 86,
+    "yarali": 5921,
+    "nufus": 1116618,
+    "oran": {
+     "kazaAracPct": 4.022177794466376,
+     "olumluAracPct": 1.209359597579251,
+     "oluOlumluPct": 3.3566433566433567,
+     "yaraliOlumluPct": 165.62237762237763,
+     "yaraliOran": 1.6562237762237764,
+     "fark": 3541
+    }
+   }
+  },
+  {
+   "il": "Karabük",
+   "nufus2023": 255242,
+   "tasit": {
+    "toplam": 74260,
+    "otomobil": 43557,
+    "minibus": 1597,
+    "otobus": 579,
+    "kamyonet": 10095,
+    "kamyon": 3266,
+    "motosiklet": 8381,
+    "ozelAmacli": 315,
+    "traktor": 6470
+   },
+   "kaza": {
+    "toplam": 3193,
+    "aracSayisi": 73886,
+    "olumluYaralanmali": 761,
+    "olu": {
+     "toplam": 19,
+     "kazaYerinde": 6,
+     "kazaSonrasi": 13
+    },
+    "yarali": 1203,
+    "her100Kisi": 29.31,
+    "otomobilSayisi": 43376,
+    "nufusOtomobil": 5.81
+   },
+   "by": {
+    "il": "Karabük",
+    "kaza2023": 3193,
+    "aracSayisi": 73886,
+    "olumluYaralanmali": 761,
+    "oluToplam": 19,
+    "oluYerinde": 6,
+    "oluSonrasi": 13,
+    "yarali": 1203,
+    "nufus": 255242,
+    "oran": {
+     "kazaAracPct": 4.32152234523455,
+     "olumluAracPct": 1.0299650813415262,
+     "oluOlumluPct": 2.4967148488830486,
+     "yaraliOlumluPct": 158.0814717477004,
+     "yaraliOran": 1.580814717477004,
+     "fark": 755
+    }
+   }
+  },
+  {
+   "il": "Karaman",
+   "nufus2023": 263960,
+   "tasit": {
+    "toplam": 104203,
+    "otomobil": 41280,
+    "minibus": 1721,
+    "otobus": 535,
+    "kamyonet": 13524,
+    "kamyon": 2723,
+    "motosiklet": 30510,
+    "ozelAmacli": 321,
+    "traktor": 13589
+   },
+   "kaza": {
+    "toplam": 3546,
+    "aracSayisi": 103720,
+    "olumluYaralanmali": 1043,
+    "olu": {
+     "toplam": 31,
+     "kazaYerinde": 8,
+     "kazaSonrasi": 23
+    },
+    "yarali": 1591,
+    "her100Kisi": 39.76,
+    "otomobilSayisi": 41060,
+    "nufusOtomobil": 6.35
+   },
+   "by": {
+    "il": "Karaman",
+    "kaza2023": 3546,
+    "aracSayisi": 103720,
+    "olumluYaralanmali": 1043,
+    "oluToplam": 31,
+    "oluYerinde": 8,
+    "oluSonrasi": 23,
+    "yarali": 1591,
+    "nufus": 263960,
+    "oran": {
+     "kazaAracPct": 3.4188198997300425,
+     "olumluAracPct": 1.0055919784033938,
+     "oluOlumluPct": 2.972195589645254,
+     "yaraliOlumluPct": 152.54074784276125,
+     "yaraliOran": 1.5254074784276126,
+     "fark": 1035
+    }
+   }
+  },
+  {
+   "il": "Kars",
+   "nufus2023": 278335,
+   "tasit": {
+    "toplam": 48536,
+    "otomobil": 13247,
+    "minibus": 1489,
+    "otobus": 345,
+    "kamyonet": 8346,
+    "kamyon": 1876,
+    "motosiklet": 2421,
+    "ozelAmacli": 249,
+    "traktor": 20563
+   },
+   "kaza": {
+    "toplam": 1241,
+    "aracSayisi": 48257,
+    "olumluYaralanmali": 411,
+    "olu": {
+     "toplam": 34,
+     "kazaYerinde": 11,
+     "kazaSonrasi": 23
+    },
+    "yarali": 720,
+    "her100Kisi": 17.56,
+    "otomobilSayisi": 13105,
+    "nufusOtomobil": 20.97
+   },
+   "by": {
+    "il": "Kars",
+    "kaza2023": 1241,
+    "aracSayisi": 48257,
+    "olumluYaralanmali": 411,
+    "oluToplam": 34,
+    "oluYerinde": 11,
+    "oluSonrasi": 23,
+    "yarali": 720,
+    "nufus": 278335,
+    "oran": {
+     "kazaAracPct": 2.571647636612305,
+     "olumluAracPct": 0.8516899102720848,
+     "oluOlumluPct": 8.27250608272506,
+     "yaraliOlumluPct": 175.18248175182484,
+     "yaraliOran": 1.7518248175182485,
+     "fark": 400
+    }
+   }
+  },
+  {
+   "il": "Kastamonu",
+   "nufus2023": 388990,
+   "tasit": {
+    "toplam": 152480,
+    "otomobil": 69896,
+    "minibus": 2376,
+    "otobus": 925,
+    "kamyonet": 20560,
+    "kamyon": 5720,
+    "motosiklet": 16507,
+    "ozelAmacli": 606,
+    "traktor": 35890
+   },
+   "kaza": {
+    "toplam": 3976,
+    "aracSayisi": 151666,
+    "olumluYaralanmali": 1121,
+    "olu": {
+     "toplam": 46,
+     "kazaYerinde": 21,
+     "kazaSonrasi": 25
+    },
+    "yarali": 1910,
+    "her100Kisi": 40.11,
+    "otomobilSayisi": 69485,
+    "nufusOtomobil": 5.44
+   },
+   "by": {
+    "il": "Kastamonu",
+    "kaza2023": 3976,
+    "aracSayisi": 151666,
+    "olumluYaralanmali": 1121,
+    "oluToplam": 46,
+    "oluYerinde": 21,
+    "oluSonrasi": 25,
+    "yarali": 1910,
+    "nufus": 388990,
+    "oran": {
+     "kazaAracPct": 2.6215499848350983,
+     "olumluAracPct": 0.7391241280181452,
+     "oluOlumluPct": 4.1034790365744875,
+     "yaraliOlumluPct": 170.38358608385371,
+     "yaraliOran": 1.703835860838537,
+     "fark": 1100
+    }
+   }
+  },
+  {
+   "il": "Kayseri",
+   "nufus2023": 1445683,
+   "tasit": {
+    "toplam": 452294,
+    "otomobil": 279974,
+    "minibus": 6952,
+    "otobus": 5214,
+    "kamyonet": 75298,
+    "kamyon": 18680,
+    "motosiklet": 30283,
+    "ozelAmacli": 1224,
+    "traktor": 34669
+   },
+   "kaza": {
+    "toplam": 25617,
+    "aracSayisi": 449474,
+    "olumluYaralanmali": 4839,
+    "olu": {
+     "toplam": 152,
+     "kazaYerinde": 58,
+     "kazaSonrasi": 94
+    },
+    "yarali": 8109,
+    "her100Kisi": 31.18,
+    "otomobilSayisi": 278188,
+    "nufusOtomobil": 5.18
+   },
+   "by": {
+    "il": "Kayseri",
+    "kaza2023": 25617,
+    "aracSayisi": 449474,
+    "olumluYaralanmali": 4839,
+    "oluToplam": 152,
+    "oluYerinde": 58,
+    "oluSonrasi": 94,
+    "yarali": 8109,
+    "nufus": 1445683,
+    "oran": {
+     "kazaAracPct": 5.699328548481113,
+     "olumluAracPct": 1.076591749467155,
+     "oluOlumluPct": 3.141144864641455,
+     "yaraliOlumluPct": 167.5759454432734,
+     "yaraliOran": 1.675759454432734,
+     "fark": 4781
+    }
+   }
+  },
+  {
+   "il": "Kırıkkale",
+   "nufus2023": 285744,
+   "tasit": {
+    "toplam": 75462,
+    "otomobil": 42906,
+    "minibus": 1659,
+    "otobus": 556,
+    "kamyonet": 8582,
+    "kamyon": 2817,
+    "motosiklet": 7606,
+    "ozelAmacli": 293,
+    "traktor": 11043
+   },
+   "kaza": {
+    "toplam": 3764,
+    "aracSayisi": 75097,
+    "olumluYaralanmali": 997,
+    "olu": {
+     "toplam": 38,
+     "kazaYerinde": 14,
+     "kazaSonrasi": 24
+    },
+    "yarali": 1541,
+    "her100Kisi": 27.11,
+    "otomobilSayisi": 42753,
+    "nufusOtomobil": 6.48
+   },
+   "by": {
+    "il": "Kırıkkale",
+    "kaza2023": 3764,
+    "aracSayisi": 75097,
+    "olumluYaralanmali": 997,
+    "oluToplam": 38,
+    "oluYerinde": 14,
+    "oluSonrasi": 24,
+    "yarali": 1541,
+    "nufus": 285744,
+    "oran": {
+     "kazaAracPct": 5.012184241714049,
+     "olumluAracPct": 1.3276162829407299,
+     "oluOlumluPct": 3.8114343029087263,
+     "yaraliOlumluPct": 154.56369107321964,
+     "yaraliOran": 1.5456369107321963,
+     "fark": 983
+    }
+   }
+  },
+  {
+   "il": "Kırklareli",
+   "nufus2023": 377156,
+   "tasit": {
+    "toplam": 153688,
+    "otomobil": 68367,
+    "minibus": 2585,
+    "otobus": 1761,
+    "kamyonet": 18610,
+    "kamyon": 4632,
+    "motosiklet": 35230,
+    "ozelAmacli": 421,
+    "traktor": 22082
+   },
+   "kaza": {
+    "toplam": 3830,
+    "aracSayisi": 152823,
+    "olumluYaralanmali": 1088,
+    "olu": {
+     "toplam": 40,
+     "kazaYerinde": 20,
+     "kazaSonrasi": 20
+    },
+    "yarali": 1784,
+    "her100Kisi": 41.38,
+    "otomobilSayisi": 67979,
+    "nufusOtomobil": 5.43
+   },
+   "by": {
+    "il": "Kırklareli",
+    "kaza2023": 3830,
+    "aracSayisi": 152823,
+    "olumluYaralanmali": 1088,
+    "oluToplam": 40,
+    "oluYerinde": 20,
+    "oluSonrasi": 20,
+    "yarali": 1784,
+    "nufus": 377156,
+    "oran": {
+     "kazaAracPct": 2.506167265398533,
+     "olumluAracPct": 0.7119347218677817,
+     "oluOlumluPct": 3.6764705882352944,
+     "yaraliOlumluPct": 163.97058823529412,
+     "yaraliOran": 1.6397058823529411,
+     "fark": 1068
+    }
+   }
+  },
+  {
+   "il": "Kırşehir",
+   "nufus2023": 247179,
+   "tasit": {
+    "toplam": 78571,
+    "otomobil": 43138,
+    "minibus": 987,
+    "otobus": 497,
+    "kamyonet": 9744,
+    "kamyon": 2605,
+    "motosiklet": 7077,
+    "ozelAmacli": 221,
+    "traktor": 14302
+   },
+   "kaza": {
+    "toplam": 2629,
+    "aracSayisi": 78123,
+    "olumluYaralanmali": 721,
+    "olu": {
+     "toplam": 31,
+     "kazaYerinde": 16,
+     "kazaSonrasi": 15
+    },
+    "yarali": 1224,
+    "her100Kisi": 31.95,
+    "otomobilSayisi": 42886,
+    "nufusOtomobil": 5.7
+   },
+   "by": {
+    "il": "Kırşehir",
+    "kaza2023": 2629,
+    "aracSayisi": 78123,
+    "olumluYaralanmali": 721,
+    "oluToplam": 31,
+    "oluYerinde": 16,
+    "oluSonrasi": 15,
+    "yarali": 1224,
+    "nufus": 247179,
+    "oran": {
+     "kazaAracPct": 3.3652061492774212,
+     "olumluAracPct": 0.9229036263328341,
+     "oluOlumluPct": 4.2995839112343965,
+     "yaraliOlumluPct": 169.7642163661581,
+     "yaraliOran": 1.697642163661581,
+     "fark": 705
+    }
+   }
+  },
+  {
+   "il": "Kilis",
+   "nufus2023": 155179,
+   "tasit": {
+    "toplam": 60650,
+    "otomobil": 12541,
+    "minibus": 858,
+    "otobus": 178,
+    "kamyonet": 4372,
+    "kamyon": 1196,
+    "motosiklet": 33475,
+    "ozelAmacli": 226,
+    "traktor": 7804
+   },
+   "kaza": {
+    "toplam": 1468,
+    "aracSayisi": 60161,
+    "olumluYaralanmali": 913,
+    "olu": {
+     "toplam": 17,
+     "kazaYerinde": 6,
+     "kazaSonrasi": 11
+    },
+    "yarali": 1257,
+    "her100Kisi": 40.67,
+    "otomobilSayisi": 12408,
+    "nufusOtomobil": 11.92
+   },
+   "by": {
+    "il": "Kilis ",
+    "kaza2023": 1468,
+    "aracSayisi": 60161,
+    "olumluYaralanmali": 913,
+    "oluToplam": 17,
+    "oluYerinde": 6,
+    "oluSonrasi": 11,
+    "yarali": 1257,
+    "nufus": 155179,
+    "oran": {
+     "kazaAracPct": 2.440119013979156,
+     "olumluAracPct": 1.517594454879407,
+     "oluOlumluPct": 1.8619934282584885,
+     "yaraliOlumluPct": 137.6779846659365,
+     "yaraliOran": 1.3767798466593648,
+     "fark": 907
+    }
+   }
+  },
+  {
+   "il": "Kocaeli",
+   "nufus2023": 2102907,
+   "tasit": {
+    "toplam": 523041,
+    "otomobil": 300858,
+    "minibus": 10471,
+    "otobus": 7120,
+    "kamyonet": 89987,
+    "kamyon": 27436,
+    "motosiklet": 64312,
+    "ozelAmacli": 1988,
+    "traktor": 20869
+   },
+   "kaza": {
+    "toplam": 41498,
+    "aracSayisi": 518343,
+    "olumluYaralanmali": 5564,
+    "olu": {
+     "toplam": 115,
+     "kazaYerinde": 40,
+     "kazaSonrasi": 75
+    },
+    "yarali": 7773,
+    "her100Kisi": 24.93,
+    "otomobilSayisi": 298261,
+    "nufusOtomobil": 6.97
+   },
+   "by": {
+    "il": "Kocaeli",
+    "kaza2023": 41498,
+    "aracSayisi": 518343,
+    "olumluYaralanmali": 5564,
+    "oluToplam": 115,
+    "oluYerinde": 40,
+    "oluSonrasi": 75,
+    "yarali": 7773,
+    "nufus": 2102907,
+    "oran": {
+     "kazaAracPct": 8.005895709983543,
+     "olumluAracPct": 1.0734204956949356,
+     "oluOlumluPct": 2.0668583752695904,
+     "yaraliOlumluPct": 139.7016534867002,
+     "yaraliOran": 1.397016534867002,
+     "fark": 5524
+    }
+   }
+  },
+  {
+   "il": "Konya",
+   "nufus2023": 2320241,
+   "tasit": {
+    "toplam": 863769,
+    "otomobil": 418189,
+    "minibus": 11953,
+    "otobus": 5912,
+    "kamyonet": 144685,
+    "kamyon": 42708,
+    "motosiklet": 136183,
+    "ozelAmacli": 2826,
+    "traktor": 101313
+   },
+   "kaza": {
+    "toplam": 36190,
+    "aracSayisi": 858597,
+    "olumluYaralanmali": 7842,
+    "olu": {
+     "toplam": 307,
+     "kazaYerinde": 111,
+     "kazaSonrasi": 196
+    },
+    "yarali": 12318,
+    "her100Kisi": 37.39,
+    "otomobilSayisi": 415376,
+    "nufusOtomobil": 5.53
+   },
+   "by": {
+    "il": "Konya",
+    "kaza2023": 36190,
+    "aracSayisi": 858597,
+    "olumluYaralanmali": 7842,
+    "oluToplam": 307,
+    "oluYerinde": 111,
+    "oluSonrasi": 196,
+    "yarali": 12318,
+    "nufus": 2320241,
+    "oran": {
+     "kazaAracPct": 4.21501589220554,
+     "olumluAracPct": 0.9133505008752651,
+     "oluOlumluPct": 3.914817648559041,
+     "yaraliOlumluPct": 157.07727620504974,
+     "yaraliOran": 1.5707727620504974,
+     "fark": 7731
+    }
+   }
+  },
+  {
+   "il": "Kütahya",
+   "nufus2023": 575674,
+   "tasit": {
+    "toplam": 244608,
+    "otomobil": 117063,
+    "minibus": 3436,
+    "otobus": 1868,
+    "kamyonet": 29199,
+    "kamyon": 7892,
+    "motosiklet": 47731,
+    "ozelAmacli": 718,
+    "traktor": 36701
+   },
+   "kaza": {
+    "toplam": 6308,
+    "aracSayisi": 243351,
+    "olumluYaralanmali": 1562,
+    "olu": {
+     "toplam": 53,
+     "kazaYerinde": 20,
+     "kazaSonrasi": 33
+    },
+    "yarali": 2523,
+    "her100Kisi": 41.91,
+    "otomobilSayisi": 116572,
+    "nufusOtomobil": 4.98
+   },
+   "by": {
+    "il": "Kütahya",
+    "kaza2023": 6308,
+    "aracSayisi": 243351,
+    "olumluYaralanmali": 1562,
+    "oluToplam": 53,
+    "oluYerinde": 20,
+    "oluSonrasi": 33,
+    "yarali": 2523,
+    "nufus": 575674,
+    "oran": {
+     "kazaAracPct": 2.592140570616106,
+     "olumluAracPct": 0.6418712066110268,
+     "oluOlumluPct": 3.3930857874519846,
+     "yaraliOlumluPct": 161.5236875800256,
+     "yaraliOran": 1.615236875800256,
+     "fark": 1542
+    }
+   }
+  },
+  {
+   "il": "Malatya",
+   "nufus2023": 742725,
+   "tasit": {
+    "toplam": 217409,
+    "otomobil": 115341,
+    "minibus": 4347,
+    "otobus": 1744,
+    "kamyonet": 42194,
+    "kamyon": 6308,
+    "motosiklet": 16290,
+    "ozelAmacli": 650,
+    "traktor": 30535
+   },
+   "kaza": {
+    "toplam": 9291,
+    "aracSayisi": 215645,
+    "olumluYaralanmali": 2179,
+    "olu": {
+     "toplam": 81,
+     "kazaYerinde": 41,
+     "kazaSonrasi": 40
+    },
+    "yarali": 3628,
+    "her100Kisi": 26.54,
+    "otomobilSayisi": 114274,
+    "nufusOtomobil": 7.11
+   },
+   "by": {
+    "il": "Malatya",
+    "kaza2023": 9291,
+    "aracSayisi": 215645,
+    "olumluYaralanmali": 2179,
+    "oluToplam": 81,
+    "oluYerinde": 41,
+    "oluSonrasi": 40,
+    "yarali": 3628,
+    "nufus": 742725,
+    "oran": {
+     "kazaAracPct": 4.308469939020148,
+     "olumluAracPct": 1.010457001089754,
+     "oluOlumluPct": 3.7173015144561727,
+     "yaraliOlumluPct": 166.49839375860486,
+     "yaraliOran": 1.6649839375860487,
+     "fark": 2138
+    }
+   }
+  },
+  {
+   "il": "Manisa",
+   "nufus2023": 1475716,
+   "tasit": {
+    "toplam": 726288,
+    "otomobil": 249254,
+    "minibus": 7679,
+    "otobus": 6616,
+    "kamyonet": 82898,
+    "kamyon": 17289,
+    "motosiklet": 255550,
+    "ozelAmacli": 1495,
+    "traktor": 105507
+   },
+   "kaza": {
+    "toplam": 18453,
+    "aracSayisi": 722023,
+    "olumluYaralanmali": 5292,
+    "olu": {
+     "toplam": 146,
+     "kazaYerinde": 79,
+     "kazaSonrasi": 67
+    },
+    "yarali": 8146,
+    "her100Kisi": 49.17,
+    "otomobilSayisi": 247951,
+    "nufusOtomobil": 5.92
+   },
+   "by": {
+    "il": "Manisa",
+    "kaza2023": 18453,
+    "aracSayisi": 722023,
+    "olumluYaralanmali": 5292,
+    "oluToplam": 146,
+    "oluYerinde": 79,
+    "oluSonrasi": 67,
+    "yarali": 8146,
+    "nufus": 1475716,
+    "oran": {
+     "kazaAracPct": 2.5557357591101666,
+     "olumluAracPct": 0.7329406403951121,
+     "oluOlumluPct": 2.758881330309902,
+     "yaraliOlumluPct": 153.9304610733182,
+     "yaraliOran": 1.539304610733182,
+     "fark": 5213
+    }
+   }
+  },
+  {
+   "il": "Mardin",
+   "nufus2023": 888874,
+   "tasit": {
+    "toplam": 92705,
+    "otomobil": 29246,
+    "minibus": 3967,
+    "otobus": 697,
+    "kamyonet": 19658,
+    "kamyon": 11160,
+    "motosiklet": 13936,
+    "ozelAmacli": 569,
+    "traktor": 13472
+   },
+   "kaza": {
+    "toplam": 3864,
+    "aracSayisi": 91605,
+    "olumluYaralanmali": 1427,
+    "olu": {
+     "toplam": 22,
+     "kazaYerinde": 17,
+     "kazaSonrasi": 5
+    },
+    "yarali": 2553,
+    "her100Kisi": 10.52,
+    "otomobilSayisi": 28554,
+    "nufusOtomobil": 30.48
+   },
+   "by": {
+    "il": "Mardin",
+    "kaza2023": 3864,
+    "aracSayisi": 91605,
+    "olumluYaralanmali": 1427,
+    "oluToplam": 22,
+    "oluYerinde": 17,
+    "oluSonrasi": 5,
+    "yarali": 2553,
+    "nufus": 888874,
+    "oran": {
+     "kazaAracPct": 4.2181103651547405,
+     "olumluAracPct": 1.5577752306096828,
+     "oluOlumluPct": 1.5416958654519972,
+     "yaraliOlumluPct": 178.90679747722496,
+     "yaraliOran": 1.7890679747722495,
+     "fark": 1410
+    }
+   }
+  },
+  {
+   "il": "Mersin",
+   "nufus2023": 1938389,
+   "tasit": {
+    "toplam": 771095,
+    "otomobil": 340931,
+    "minibus": 9771,
+    "otobus": 5864,
+    "kamyonet": 126818,
+    "kamyon": 40640,
+    "motosiklet": 204687,
+    "ozelAmacli": 2011,
+    "traktor": 40373
+   },
+   "kaza": {
+    "toplam": 28019,
+    "aracSayisi": 766116,
+    "olumluYaralanmali": 8002,
+    "olu": {
+     "toplam": 239,
+     "kazaYerinde": 97,
+     "kazaSonrasi": 142
+    },
+    "yarali": 11532,
+    "her100Kisi": 39.98,
+    "otomobilSayisi": 338923,
+    "nufusOtomobil": 5.65
+   },
+   "by": {
+    "il": "Mersin",
+    "kaza2023": 28019,
+    "aracSayisi": 766116,
+    "olumluYaralanmali": 8002,
+    "oluToplam": 239,
+    "oluYerinde": 97,
+    "oluSonrasi": 142,
+    "yarali": 11532,
+    "nufus": 1938389,
+    "oran": {
+     "kazaAracPct": 3.657279054346861,
+     "olumluAracPct": 1.0444893462608795,
+     "oluOlumluPct": 2.9867533116720817,
+     "yaraliOlumluPct": 144.1139715071232,
+     "yaraliOran": 1.4411397150712322,
+     "fark": 7905
+    }
+   }
+  },
+  {
+   "il": "Muğla",
+   "nufus2023": 1066736,
+   "tasit": {
+    "toplam": 657818,
+    "otomobil": 251897,
+    "minibus": 9832,
+    "otobus": 4286,
+    "kamyonet": 90626,
+    "kamyon": 12017,
+    "motosiklet": 246762,
+    "ozelAmacli": 2206,
+    "traktor": 40192
+   },
+   "kaza": {
+    "toplam": 21648,
+    "aracSayisi": 653606,
+    "olumluYaralanmali": 6432,
+    "olu": {
+     "toplam": 180,
+     "kazaYerinde": 78,
+     "kazaSonrasi": 102
+    },
+    "yarali": 8905,
+    "her100Kisi": 62.36,
+    "otomobilSayisi": 250320,
+    "nufusOtomobil": 4.19
+   },
+   "by": {
+    "il": "Muğla",
+    "kaza2023": 21648,
+    "aracSayisi": 653606,
+    "olumluYaralanmali": 6432,
+    "oluToplam": 180,
+    "oluYerinde": 78,
+    "oluSonrasi": 102,
+    "yarali": 8905,
+    "nufus": 1066736,
+    "oran": {
+     "kazaAracPct": 3.31208709834365,
+     "olumluAracPct": 0.9840790935211733,
+     "oluOlumluPct": 2.798507462686567,
+     "yaraliOlumluPct": 138.44838308457713,
+     "yaraliOran": 1.3844838308457712,
+     "fark": 6354
+    }
+   }
+  },
+  {
+   "il": "Muş",
+   "nufus2023": 399879,
+   "tasit": {
+    "toplam": 37338,
+    "otomobil": 10578,
+    "minibus": 1357,
+    "otobus": 191,
+    "kamyonet": 7583,
+    "kamyon": 1779,
+    "motosiklet": 1566,
+    "ozelAmacli": 301,
+    "traktor": 13983
+   },
+   "kaza": {
+    "toplam": 1327,
+    "aracSayisi": 37051,
+    "olumluYaralanmali": 482,
+    "olu": {
+     "toplam": 14,
+     "kazaYerinde": 8,
+     "kazaSonrasi": 6
+    },
+    "yarali": 868,
+    "her100Kisi": 9.28,
+    "otomobilSayisi": 10370,
+    "nufusOtomobil": 38.5
+   },
+   "by": {
+    "il": "Muş",
+    "kaza2023": 1327,
+    "aracSayisi": 37051,
+    "olumluYaralanmali": 482,
+    "oluToplam": 14,
+    "oluYerinde": 8,
+    "oluSonrasi": 6,
+    "yarali": 868,
+    "nufus": 399879,
+    "oran": {
+     "kazaAracPct": 3.5815497557420852,
+     "olumluAracPct": 1.3009095570969744,
+     "oluOlumluPct": 2.904564315352697,
+     "yaraliOlumluPct": 180.08298755186723,
+     "yaraliOran": 1.8008298755186722,
+     "fark": 474
+    }
+   }
+  },
+  {
+   "il": "Nevşehir",
+   "nufus2023": 315994,
+   "tasit": {
+    "toplam": 147964,
+    "otomobil": 63234,
+    "minibus": 3890,
+    "otobus": 757,
+    "kamyonet": 23969,
+    "kamyon": 7586,
+    "motosiklet": 22319,
+    "ozelAmacli": 350,
+    "traktor": 25859
+   },
+   "kaza": {
+    "toplam": 4807,
+    "aracSayisi": 147126,
+    "olumluYaralanmali": 1452,
+    "olu": {
+     "toplam": 61,
+     "kazaYerinde": 28,
+     "kazaSonrasi": 33
+    },
+    "yarali": 2333,
+    "her100Kisi": 47.46,
+    "otomobilSayisi": 62858,
+    "nufusOtomobil": 4.93
+   },
+   "by": {
+    "il": "Nevşehir",
+    "kaza2023": 4807,
+    "aracSayisi": 147126,
+    "olumluYaralanmali": 1452,
+    "oluToplam": 61,
+    "oluYerinde": 28,
+    "oluSonrasi": 33,
+    "yarali": 2333,
+    "nufus": 315994,
+    "oran": {
+     "kazaAracPct": 3.2672675122004264,
+     "olumluAracPct": 0.9869091798866279,
+     "oluOlumluPct": 4.201101928374656,
+     "yaraliOlumluPct": 160.6749311294766,
+     "yaraliOran": 1.606749311294766,
+     "fark": 1424
+    }
+   }
+  },
+  {
+   "il": "Niğde",
+   "nufus2023": 377080,
+   "tasit": {
+    "toplam": 127971,
+    "otomobil": 55741,
+    "minibus": 2079,
+    "otobus": 982,
+    "kamyonet": 21809,
+    "kamyon": 6501,
+    "motosiklet": 19628,
+    "ozelAmacli": 418,
+    "traktor": 20813
+   },
+   "kaza": {
+    "toplam": 4287,
+    "aracSayisi": 127170,
+    "olumluYaralanmali": 1252,
+    "olu": {
+     "toplam": 48,
+     "kazaYerinde": 28,
+     "kazaSonrasi": 20
+    },
+    "yarali": 2047,
+    "her100Kisi": 34.8,
+    "otomobilSayisi": 55359,
+    "nufusOtomobil": 6.6
+   },
+   "by": {
+    "il": "Niğde",
+    "kaza2023": 4287,
+    "aracSayisi": 127170,
+    "olumluYaralanmali": 1252,
+    "oluToplam": 48,
+    "oluYerinde": 28,
+    "oluSonrasi": 20,
+    "yarali": 2047,
+    "nufus": 377080,
+    "oran": {
+     "kazaAracPct": 3.371078084453881,
+     "olumluAracPct": 0.984508925060942,
+     "oluOlumluPct": 3.8338658146964857,
+     "yaraliOlumluPct": 163.49840255591056,
+     "yaraliOran": 1.6349840255591055,
+     "fark": 1224
+    }
+   }
+  },
+  {
+   "il": "Ordu",
+   "nufus2023": 775800,
+   "tasit": {
+    "toplam": 174188,
+    "otomobil": 94928,
+    "minibus": 10389,
+    "otobus": 1120,
+    "kamyonet": 42330,
+    "kamyon": 6732,
+    "motosiklet": 15148,
+    "ozelAmacli": 610,
+    "traktor": 2931
+   },
+   "kaza": {
+    "toplam": 10295,
+    "aracSayisi": 172686,
+    "olumluYaralanmali": 2267,
+    "olu": {
+     "toplam": 61,
+     "kazaYerinde": 27,
+     "kazaSonrasi": 34
+    },
+    "yarali": 3441,
+    "her100Kisi": 22.63,
+    "otomobilSayisi": 94156,
+    "nufusOtomobil": 8.11
+   },
+   "by": {
+    "il": "Ordu",
+    "kaza2023": 10295,
+    "aracSayisi": 172686,
+    "olumluYaralanmali": 2267,
+    "oluToplam": 61,
+    "oluYerinde": 27,
+    "oluSonrasi": 34,
+    "yarali": 3441,
+    "nufus": 775800,
+    "oran": {
+     "kazaAracPct": 5.961687687479008,
+     "olumluAracPct": 1.3127873712981943,
+     "oluOlumluPct": 2.690780767534186,
+     "yaraliOlumluPct": 151.78650198500222,
+     "yaraliOran": 1.517865019850022,
+     "fark": 2240
+    }
+   }
+  },
+  {
+   "il": "Osmaniye",
+   "nufus2023": 557666,
+   "tasit": {
+    "toplam": 209451,
+    "otomobil": 99791,
+    "minibus": 3757,
+    "otobus": 1127,
+    "kamyonet": 27605,
+    "kamyon": 4643,
+    "motosiklet": 51861,
+    "ozelAmacli": 522,
+    "traktor": 20145
+   },
+   "kaza": {
+    "toplam": 6030,
+    "aracSayisi": 207870,
+    "olumluYaralanmali": 2616,
+    "olu": {
+     "toplam": 80,
+     "kazaYerinde": 36,
+     "kazaSonrasi": 44
+    },
+    "yarali": 3892,
+    "her100Kisi": 37.16,
+    "otomobilSayisi": 99154,
+    "nufusOtomobil": 5.64
+   },
+   "by": {
+    "il": "Osmaniye",
+    "kaza2023": 6030,
+    "aracSayisi": 207870,
+    "olumluYaralanmali": 2616,
+    "oluToplam": 80,
+    "oluYerinde": 36,
+    "oluSonrasi": 44,
+    "yarali": 3892,
+    "nufus": 557666,
+    "oran": {
+     "kazaAracPct": 2.9008514937220378,
+     "olumluAracPct": 1.2584788569779188,
+     "oluOlumluPct": 3.058103975535168,
+     "yaraliOlumluPct": 148.7767584097859,
+     "yaraliOran": 1.487767584097859,
+     "fark": 2580
+    }
+   }
+  },
+  {
+   "il": "Rize",
+   "nufus2023": 350506,
+   "tasit": {
+    "toplam": 92888,
+    "otomobil": 40911,
+    "minibus": 3300,
+    "otobus": 571,
+    "kamyonet": 36538,
+    "kamyon": 5866,
+    "motosiklet": 5110,
+    "ozelAmacli": 373,
+    "traktor": 219
+   },
+   "kaza": {
+    "toplam": 3780,
+    "aracSayisi": 92332,
+    "olumluYaralanmali": 937,
+    "olu": {
+     "toplam": 20,
+     "kazaYerinde": 15,
+     "kazaSonrasi": 5
+    },
+    "yarali": 1363,
+    "her100Kisi": 26.84,
+    "otomobilSayisi": 40588,
+    "nufusOtomobil": 8.48
+   },
+   "by": {
+    "il": "Rize",
+    "kaza2023": 3780,
+    "aracSayisi": 92332,
+    "olumluYaralanmali": 937,
+    "oluToplam": 20,
+    "oluYerinde": 15,
+    "oluSonrasi": 5,
+    "yarali": 1363,
+    "nufus": 350506,
+    "oran": {
+     "kazaAracPct": 4.093921933890742,
+     "olumluAracPct": 1.0148160984274142,
+     "oluOlumluPct": 2.134471718249733,
+     "yaraliOlumluPct": 145.4642475987193,
+     "yaraliOran": 1.4546424759871932,
+     "fark": 922
+    }
+   }
+  },
+  {
+   "il": "Sakarya",
+   "nufus2023": 1098115,
+   "tasit": {
+    "toplam": 359025,
+    "otomobil": 179562,
+    "minibus": 6201,
+    "otobus": 3043,
+    "kamyonet": 56095,
+    "kamyon": 12116,
+    "motosiklet": 54496,
+    "ozelAmacli": 1234,
+    "traktor": 46278
+   },
+   "kaza": {
+    "toplam": 17764,
+    "aracSayisi": 356322,
+    "olumluYaralanmali": 3530,
+    "olu": {
+     "toplam": 85,
+     "kazaYerinde": 36,
+     "kazaSonrasi": 49
+    },
+    "yarali": 5140,
+    "her100Kisi": 32.99,
+    "otomobilSayisi": 178230,
+    "nufusOtomobil": 6.06
+   },
+   "by": {
+    "il": "Sakarya",
+    "kaza2023": 17764,
+    "aracSayisi": 356322,
+    "olumluYaralanmali": 3530,
+    "oluToplam": 85,
+    "oluYerinde": 36,
+    "oluSonrasi": 49,
+    "yarali": 5140,
+    "nufus": 1098115,
+    "oran": {
+     "kazaAracPct": 4.98537839370008,
+     "olumluAracPct": 0.9906769719523352,
+     "oluOlumluPct": 2.4079320113314444,
+     "yaraliOlumluPct": 145.60906515580737,
+     "yaraliOran": 1.4560906515580738,
+     "fark": 3494
+    }
+   }
+  },
+  {
+   "il": "Samsun",
+   "nufus2023": 1377546,
+   "tasit": {
+    "toplam": 457291,
+    "otomobil": 223951,
+    "minibus": 12406,
+    "otobus": 1620,
+    "kamyonet": 82442,
+    "kamyon": 11677,
+    "motosiklet": 62349,
+    "ozelAmacli": 955,
+    "traktor": 61891
+   },
+   "kaza": {
+    "toplam": 21968,
+    "aracSayisi": 453751,
+    "olumluYaralanmali": 4414,
+    "olu": {
+     "toplam": 127,
+     "kazaYerinde": 34,
+     "kazaSonrasi": 93
+    },
+    "yarali": 6577,
+    "her100Kisi": 33.16,
+    "otomobilSayisi": 222195,
+    "nufusOtomobil": 6.16
+   },
+   "by": {
+    "il": "Samsun",
+    "kaza2023": 21968,
+    "aracSayisi": 453751,
+    "olumluYaralanmali": 4414,
+    "oluToplam": 127,
+    "oluYerinde": 34,
+    "oluSonrasi": 93,
+    "yarali": 6577,
+    "nufus": 1377546,
+    "oran": {
+     "kazaAracPct": 4.84142183708686,
+     "olumluAracPct": 0.9727802252777404,
+     "oluOlumluPct": 2.877208880833711,
+     "yaraliOlumluPct": 149.00317172632532,
+     "yaraliOran": 1.4900317172632531,
+     "fark": 4380
+    }
+   }
+  },
+  {
+   "il": "Siirt",
+   "nufus2023": 347412,
+   "tasit": {
+    "toplam": 24680,
+    "otomobil": 8047,
+    "minibus": 1386,
+    "otobus": 132,
+    "kamyonet": 5380,
+    "kamyon": 1011,
+    "motosiklet": 4196,
+    "ozelAmacli": 349,
+    "traktor": 4179
+   },
+   "kaza": {
+    "toplam": 1302,
+    "aracSayisi": 24310,
+    "olumluYaralanmali": 616,
+    "olu": {
+     "toplam": 18,
+     "kazaYerinde": 9,
+     "kazaSonrasi": 9
+    },
+    "yarali": 937,
+    "her100Kisi": 7.34,
+    "otomobilSayisi": 7849,
+    "nufusOtomobil": 42.21
+   },
+   "by": {
+    "il": "Siirt",
+    "kaza2023": 1302,
+    "aracSayisi": 24310,
+    "olumluYaralanmali": 616,
+    "oluToplam": 18,
+    "oluYerinde": 9,
+    "oluSonrasi": 9,
+    "yarali": 937,
+    "nufus": 347412,
+    "oran": {
+     "kazaAracPct": 5.3558206499382965,
+     "olumluAracPct": 2.5339366515837103,
+     "oluOlumluPct": 2.922077922077922,
+     "yaraliOlumluPct": 152.1103896103896,
+     "yaraliOran": 1.521103896103896,
+     "fark": 607
+    }
+   }
+  },
+  {
+   "il": "Sinop",
+   "nufus2023": 229716,
+   "tasit": {
+    "toplam": 71484,
+    "otomobil": 35130,
+    "minibus": 1790,
+    "otobus": 279,
+    "kamyonet": 10028,
+    "kamyon": 2281,
+    "motosiklet": 11640,
+    "ozelAmacli": 296,
+    "traktor": 10040
+   },
+   "kaza": {
+    "toplam": 2197,
+    "aracSayisi": 71025,
+    "olumluYaralanmali": 728,
+    "olu": {
+     "toplam": 22,
+     "kazaYerinde": 5,
+     "kazaSonrasi": 17
+    },
+    "yarali": 1118,
+    "her100Kisi": 32.17,
+    "otomobilSayisi": 34954,
+    "nufusOtomobil": 6.32
+   },
+   "by": {
+    "il": "Sinop",
+    "kaza2023": 2197,
+    "aracSayisi": 71025,
+    "olumluYaralanmali": 728,
+    "oluToplam": 22,
+    "oluYerinde": 5,
+    "oluSonrasi": 17,
+    "yarali": 1118,
+    "nufus": 229716,
+    "oran": {
+     "kazaAracPct": 3.0932770151355156,
+     "olumluAracPct": 1.024991200281591,
+     "oluOlumluPct": 3.021978021978022,
+     "yaraliOlumluPct": 153.57142857142858,
+     "yaraliOran": 1.5357142857142858,
+     "fark": 723
+    }
+   }
+  },
+  {
+   "il": "Sivas",
+   "nufus2023": 650401,
+   "tasit": {
+    "toplam": 187713,
+    "otomobil": 97988,
+    "minibus": 3028,
+    "otobus": 1279,
+    "kamyonet": 29221,
+    "kamyon": 6461,
+    "motosiklet": 12641,
+    "ozelAmacli": 653,
+    "traktor": 36442
+   },
+   "kaza": {
+    "toplam": 7117,
+    "aracSayisi": 186527,
+    "olumluYaralanmali": 1828,
+    "olu": {
+     "toplam": 86,
+     "kazaYerinde": 41,
+     "kazaSonrasi": 45
+    },
+    "yarali": 3318,
+    "her100Kisi": 29.38,
+    "otomobilSayisi": 97260,
+    "nufusOtomobil": 6.53
+   },
+   "by": {
+    "il": "Sivas",
+    "kaza2023": 7117,
+    "aracSayisi": 186527,
+    "olumluYaralanmali": 1828,
+    "oluToplam": 86,
+    "oluYerinde": 41,
+    "oluSonrasi": 45,
+    "yarali": 3318,
+    "nufus": 650401,
+    "oran": {
+     "kazaAracPct": 3.8155334080320813,
+     "olumluAracPct": 0.9800189784856883,
+     "oluOlumluPct": 4.704595185995624,
+     "yaraliOlumluPct": 181.50984682713346,
+     "yaraliOran": 1.8150984682713345,
+     "fark": 1787
+    }
+   }
+  },
+  {
+   "il": "Şanlıurfa",
+   "nufus2023": 2213964,
+   "tasit": {
+    "toplam": 299222,
+    "otomobil": 104178,
+    "minibus": 8540,
+    "otobus": 1704,
+    "kamyonet": 29224,
+    "kamyon": 16088,
+    "motosiklet": 93965,
+    "ozelAmacli": 1020,
+    "traktor": 44503
+   },
+   "kaza": {
+    "toplam": 11143,
+    "aracSayisi": 296874,
+    "olumluYaralanmali": 4780,
+    "olu": {
+     "toplam": 144,
+     "kazaYerinde": 68,
+     "kazaSonrasi": 76
+    },
+    "yarali": 7703,
+    "her100Kisi": 13.68,
+    "otomobilSayisi": 103057,
+    "nufusOtomobil": 21.06
+   },
+   "by": {
+    "il": "Ş.Urfa",
+    "kaza2023": 11143,
+    "aracSayisi": 296874,
+    "olumluYaralanmali": 4780,
+    "oluToplam": 144,
+    "oluYerinde": 68,
+    "oluSonrasi": 76,
+    "yarali": 7703,
+    "nufus": 2213964,
+    "oran": {
+     "kazaAracPct": 3.753444222127906,
+     "olumluAracPct": 1.6101106866886288,
+     "oluOlumluPct": 3.01255230125523,
+     "yaraliOlumluPct": 161.15062761506275,
+     "yaraliOran": 1.6115062761506274,
+     "fark": 4712
+    }
+   }
+  },
+  {
+   "il": "Şırnak",
+   "nufus2023": 570745,
+   "tasit": {
+    "toplam": 33142,
+    "otomobil": 6976,
+    "minibus": 1376,
+    "otobus": 196,
+    "kamyonet": 5254,
+    "kamyon": 10448,
+    "motosiklet": 4549,
+    "ozelAmacli": 1035,
+    "traktor": 3308
+   },
+   "kaza": {
+    "toplam": 1682,
+    "aracSayisi": 32582,
+    "olumluYaralanmali": 763,
+    "olu": {
+     "toplam": 31,
+     "kazaYerinde": 18,
+     "kazaSonrasi": 13
+    },
+    "yarali": 1388,
+    "her100Kisi": 5.84,
+    "otomobilSayisi": 6601,
+    "nufusOtomobil": 84.47
+   },
+   "by": {
+    "il": "Şırnak",
+    "kaza2023": 1682,
+    "aracSayisi": 32582,
+    "olumluYaralanmali": 763,
+    "oluToplam": 31,
+    "oluYerinde": 18,
+    "oluSonrasi": 13,
+    "yarali": 1388,
+    "nufus": 570745,
+    "oran": {
+     "kazaAracPct": 5.162359585046959,
+     "olumluAracPct": 2.3417838070100054,
+     "oluOlumluPct": 4.062909567496723,
+     "yaraliOlumluPct": 181.913499344692,
+     "yaraliOran": 1.81913499344692,
+     "fark": 745
+    }
+   }
+  },
+  {
+   "il": "Tekirdağ",
+   "nufus2023": 1167059,
+   "tasit": {
+    "toplam": 325882,
+    "otomobil": 168095,
+    "minibus": 5955,
+    "otobus": 5525,
+    "kamyonet": 51026,
+    "kamyon": 12416,
+    "motosiklet": 48190,
+    "ozelAmacli": 1186,
+    "traktor": 33489
+   },
+   "kaza": {
+    "toplam": 15782,
+    "aracSayisi": 323721,
+    "olumluYaralanmali": 3306,
+    "olu": {
+     "toplam": 78,
+     "kazaYerinde": 48,
+     "kazaSonrasi": 30
+    },
+    "yarali": 4786,
+    "her100Kisi": 28.34,
+    "otomobilSayisi": 167021,
+    "nufusOtomobil": 6.84
+   },
+   "by": {
+    "il": "Tekirdağ",
+    "kaza2023": 15782,
+    "aracSayisi": 323721,
+    "olumluYaralanmali": 3306,
+    "oluToplam": 78,
+    "oluYerinde": 48,
+    "oluSonrasi": 30,
+    "yarali": 4786,
+    "nufus": 1167059,
+    "oran": {
+     "kazaAracPct": 4.875185730922615,
+     "olumluAracPct": 1.0212497799030646,
+     "oluOlumluPct": 2.35934664246824,
+     "yaraliOlumluPct": 144.76709013914095,
+     "yaraliOran": 1.4476709013914095,
+     "fark": 3258
+    }
+   }
+  },
+  {
+   "il": "Tokat",
+   "nufus2023": 606934,
+   "tasit": {
+    "toplam": 218722,
+    "otomobil": 98292,
+    "minibus": 3775,
+    "otobus": 1108,
+    "kamyonet": 30619,
+    "kamyon": 4968,
+    "motosiklet": 31933,
+    "ozelAmacli": 572,
+    "traktor": 47455
+   },
+   "kaza": {
+    "toplam": 6016,
+    "aracSayisi": 217559,
+    "olumluYaralanmali": 2165,
+    "olu": {
+     "toplam": 84,
+     "kazaYerinde": 42,
+     "kazaSonrasi": 42
+    },
+    "yarali": 3390,
+    "her100Kisi": 36.48,
+    "otomobilSayisi": 97746,
+    "nufusOtomobil": 6.1
+   },
+   "by": {
+    "il": "Tokat",
+    "kaza2023": 6016,
+    "aracSayisi": 217559,
+    "olumluYaralanmali": 2165,
+    "oluToplam": 84,
+    "oluYerinde": 42,
+    "oluSonrasi": 42,
+    "yarali": 3390,
+    "nufus": 606934,
+    "oran": {
+     "kazaAracPct": 2.7652269039662802,
+     "olumluAracPct": 0.995132354901429,
+     "oluOlumluPct": 3.879907621247113,
+     "yaraliOlumluPct": 156.58198614318707,
+     "yaraliOran": 1.5658198614318706,
+     "fark": 2123
+    }
+   }
+  },
+  {
+   "il": "Trabzon",
+   "nufus2023": 824352,
+   "tasit": {
+    "toplam": 251138,
+    "otomobil": 141079,
+    "minibus": 10908,
+    "otobus": 1468,
+    "kamyonet": 68692,
+    "kamyon": 12314,
+    "motosiklet": 15066,
+    "ozelAmacli": 941,
+    "traktor": 670
+   },
+   "kaza": {
+    "toplam": 9570,
+    "aracSayisi": 249175,
+    "olumluYaralanmali": 1863,
+    "olu": {
+     "toplam": 46,
+     "kazaYerinde": 28,
+     "kazaSonrasi": 18
+    },
+    "yarali": 2907,
+    "her100Kisi": 30.46,
+    "otomobilSayisi": 139820,
+    "nufusOtomobil": 5.85
+   },
+   "by": {
+    "il": "Trabzon",
+    "kaza2023": 9570,
+    "aracSayisi": 249175,
+    "olumluYaralanmali": 1863,
+    "oluToplam": 46,
+    "oluYerinde": 28,
+    "oluSonrasi": 18,
+    "yarali": 2907,
+    "nufus": 824352,
+    "oran": {
+     "kazaAracPct": 3.8406742249423096,
+     "olumluAracPct": 0.7476673020969198,
+     "oluOlumluPct": 2.4691358024691357,
+     "yaraliOlumluPct": 156.03864734299518,
+     "yaraliOran": 1.5603864734299517,
+     "fark": 1835
+    }
+   }
+  },
+  {
+   "il": "Tunceli",
+   "nufus2023": 89317,
+   "tasit": {
+    "toplam": 11203,
+    "otomobil": 4361,
+    "minibus": 544,
+    "otobus": 117,
+    "kamyonet": 2148,
+    "kamyon": 454,
+    "motosiklet": 1055,
+    "ozelAmacli": 436,
+    "traktor": 2088
+   },
+   "kaza": {
+    "toplam": 597,
+    "aracSayisi": 11073,
+    "olumluYaralanmali": 200,
+    "olu": {
+     "toplam": 5,
+     "kazaYerinde": 5,
+     "kazaSonrasi": 0
+    },
+    "yarali": 350,
+    "her100Kisi": 13.12,
+    "otomobilSayisi": 4264,
+    "nufusOtomobil": 19.79
+   },
+   "by": {
+    "il": "Tunceli",
+    "kaza2023": 597,
+    "aracSayisi": 11073,
+    "olumluYaralanmali": 200,
+    "oluToplam": 5,
+    "oluYerinde": 5,
+    "oluSonrasi": 0,
+    "yarali": 350,
+    "nufus": 89317,
+    "oran": {
+     "kazaAracPct": 5.391492820373882,
+     "olumluAracPct": 1.8061952497064933,
+     "oluOlumluPct": 2.5,
+     "yaraliOlumluPct": 175,
+     "yaraliOran": 1.75,
+     "fark": 195
+    }
+   }
+  },
+  {
+   "il": "Uşak",
+   "nufus2023": 377001,
+   "tasit": {
+    "toplam": 162148,
+    "otomobil": 76983,
+    "minibus": 2117,
+    "otobus": 1371,
+    "kamyonet": 21556,
+    "kamyon": 4522,
+    "motosiklet": 33395,
+    "ozelAmacli": 455,
+    "traktor": 21749
+   },
+   "kaza": {
+    "toplam": 5279,
+    "aracSayisi": 161323,
+    "olumluYaralanmali": 1251,
+    "olu": {
+     "toplam": 38,
+     "kazaYerinde": 24,
+     "kazaSonrasi": 14
+    },
+    "yarali": 1902,
+    "her100Kisi": 42.97,
+    "otomobilSayisi": 76662,
+    "nufusOtomobil": 4.9
+   },
+   "by": {
+    "il": "Uşak",
+    "kaza2023": 5279,
+    "aracSayisi": 161323,
+    "olumluYaralanmali": 1251,
+    "oluToplam": 38,
+    "oluYerinde": 24,
+    "oluSonrasi": 14,
+    "yarali": 1902,
+    "nufus": 377001,
+    "oran": {
+     "kazaAracPct": 3.272317028570012,
+     "olumluAracPct": 0.7754628912182392,
+     "oluOlumluPct": 3.037569944044764,
+     "yaraliOlumluPct": 152.03836930455637,
+     "yaraliOran": 1.5203836930455636,
+     "fark": 1227
+    }
+   }
+  },
+  {
+   "il": "Van",
+   "nufus2023": 1127612,
+   "tasit": {
+    "toplam": 82235,
+    "otomobil": 30670,
+    "minibus": 6416,
+    "otobus": 813,
+    "kamyonet": 22616,
+    "kamyon": 5758,
+    "motosiklet": 5651,
+    "ozelAmacli": 858,
+    "traktor": 9453
+   },
+   "kaza": {
+    "toplam": 4990,
+    "aracSayisi": 81349,
+    "olumluYaralanmali": 1691,
+    "olu": {
+     "toplam": 34,
+     "kazaYerinde": 14,
+     "kazaSonrasi": 20
+    },
+    "yarali": 3080,
+    "her100Kisi": 7.21,
+    "otomobilSayisi": 30045,
+    "nufusOtomobil": 37.57
+   },
+   "by": {
+    "il": "Van",
+    "kaza2023": 4990,
+    "aracSayisi": 81349,
+    "olumluYaralanmali": 1691,
+    "oluToplam": 34,
+    "oluYerinde": 14,
+    "oluSonrasi": 20,
+    "yarali": 3080,
+    "nufus": 1127612,
+    "oran": {
+     "kazaAracPct": 6.134064340065644,
+     "olumluAracPct": 2.0786979557216436,
+     "oluOlumluPct": 2.0106445890005915,
+     "yaraliOlumluPct": 182.14074512123005,
+     "yaraliOran": 1.8214074512123006,
+     "fark": 1677
+    }
+   }
+  },
+  {
+   "il": "Yalova",
+   "nufus2023": 304780,
+   "tasit": {
+    "toplam": 83174,
+    "otomobil": 42446,
+    "minibus": 2334,
+    "otobus": 1042,
+    "kamyonet": 14821,
+    "kamyon": 2266,
+    "motosiklet": 16379,
+    "ozelAmacli": 386,
+    "traktor": 3500
+   },
+   "kaza": {
+    "toplam": 4726,
+    "aracSayisi": 82546,
+    "olumluYaralanmali": 1103,
+    "olu": {
+     "toplam": 27,
+     "kazaYerinde": 14,
+     "kazaSonrasi": 13
+    },
+    "yarali": 1580,
+    "her100Kisi": 27.86,
+    "otomobilSayisi": 42126,
+    "nufusOtomobil": 7.03
+   },
+   "by": {
+    "il": "Yalova ",
+    "kaza2023": 4726,
+    "aracSayisi": 82546,
+    "olumluYaralanmali": 1103,
+    "oluToplam": 27,
+    "oluYerinde": 14,
+    "oluSonrasi": 13,
+    "yarali": 1580,
+    "nufus": 304780,
+    "oran": {
+     "kazaAracPct": 5.725292564146052,
+     "olumluAracPct": 1.3362246504979043,
+     "oluOlumluPct": 2.447869446962829,
+     "yaraliOlumluPct": 143.24569356300998,
+     "yaraliOran": 1.4324569356300998,
+     "fark": 1089
+    }
+   }
+  },
+  {
+   "il": "Yozgat",
+   "nufus2023": 420699,
+   "tasit": {
+    "toplam": 120648,
+    "otomobil": 53237,
+    "minibus": 2075,
+    "otobus": 567,
+    "kamyonet": 14392,
+    "kamyon": 5531,
+    "motosiklet": 7248,
+    "ozelAmacli": 406,
+    "traktor": 37192
+   },
+   "kaza": {
+    "toplam": 3818,
+    "aracSayisi": 120016,
+    "olumluYaralanmali": 1270,
+    "olu": {
+     "toplam": 56,
+     "kazaYerinde": 39,
+     "kazaSonrasi": 17
+    },
+    "yarali": 2413,
+    "her100Kisi": 28.68,
+    "otomobilSayisi": 52936,
+    "nufusOtomobil": 7.9
+   },
+   "by": {
+    "il": "Yozgat",
+    "kaza2023": 3818,
+    "aracSayisi": 120016,
+    "olumluYaralanmali": 1270,
+    "oluToplam": 56,
+    "oluYerinde": 39,
+    "oluSonrasi": 17,
+    "yarali": 2413,
+    "nufus": 420699,
+    "oran": {
+     "kazaAracPct": 3.1812425009998666,
+     "olumluAracPct": 1.0581922410345288,
+     "oluOlumluPct": 4.409448818897638,
+     "yaraliOlumluPct": 190,
+     "yaraliOran": 1.9,
+     "fark": 1231
+    }
+   }
+  },
+  {
+   "il": "Zonguldak",
+   "nufus2023": 591492,
+   "tasit": {
+    "toplam": 178303,
+    "otomobil": 104407,
+    "minibus": 4178,
+    "otobus": 1762,
+    "kamyonet": 27167,
+    "kamyon": 6681,
+    "motosiklet": 23047,
+    "ozelAmacli": 627,
+    "traktor": 10434
+   },
+   "kaza": {
+    "toplam": 6567,
+    "aracSayisi": 177270,
+    "olumluYaralanmali": 1594,
+    "olu": {
+     "toplam": 46,
+     "kazaYerinde": 14,
+     "kazaSonrasi": 32
+    },
+    "yarali": 2490,
+    "her100Kisi": 30.12,
+    "otomobilSayisi": 103900,
+    "nufusOtomobil": 5.66
+   },
+   "by": {
+    "il": "Zonguldak",
+    "kaza2023": 6567,
+    "aracSayisi": 177270,
+    "olumluYaralanmali": 1594,
+    "oluToplam": 46,
+    "oluYerinde": 14,
+    "oluSonrasi": 32,
+    "yarali": 2490,
+    "nufus": 591492,
+    "oran": {
+     "kazaAracPct": 3.704518531054324,
+     "olumluAracPct": 0.8991933209228861,
+     "oluOlumluPct": 2.8858218318695106,
+     "yaraliOlumluPct": 156.21079046424092,
+     "yaraliOran": 1.5621079046424091,
+     "fark": 1580
+    }
+   }
+  }
+ ]
+}

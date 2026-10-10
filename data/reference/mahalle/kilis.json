@@ -1,0 +1,330 @@
+{
+ "il": "KİLİS ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ABDİOYMAĞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALBAY İBRAHİM KARAOĞLANOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALTINÜZÜM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ASLAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AŞİT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BARIŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BİLAL HABEŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÖLÜK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKKÜTAH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CANPOLAT PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYLAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMİRCİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEVECİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞAN GÜREŞ PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EBÜLÜLA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EKREM ÇETİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH SULTAN MEHMET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACI GÜMÜŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIİLYAS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAKVERDİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HASAN KAMİL DEMİRBAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HELVACIOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HİNDİOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNNAPLI KÜTAH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSLAMBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMET PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KANUNİ SULTAN SÜLEYMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAALİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARTALBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIM KARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KETENCİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "M.RIFAT KAZANCIOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MAREŞAL FEVZİ ÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET ABDİ BULUT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET SANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MERCİDABIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEŞHETLİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MIHALİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUALLİM RIFAT BİLGE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MULLAHAMİT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MÜCAHİTLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MÜSLÜMANBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NACAROĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAMIK KEMAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAMIK ÜNLER PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NECMETTİN ERBAKAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NEDİM ÖKMEN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NURETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OKÇULAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMAN GAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OYLUM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖNCÜPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "POLAT PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAÇ MEHMET ÇAVUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT SAKIP",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİTLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIHABDULLAH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIHAHMET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIHLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIHMEHMET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞÖRAHBİL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TABAKHANE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TEKYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TIRIKLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TOSYALI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VAİZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAŞAR AKTÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVUZ SULTAN SELİM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEDİ ARALIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZEYTİNLİ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "POLATELİ": [
+   "ATATÜRK",
+   "CUMHURİYET",
+   "EKREM ÇETİN",
+   "KAYMAKAM KÜRŞAT AĞCA",
+   "SOSYAL KONUTLAR",
+   "ŞEHİT ALİ"
+  ],
+  "MUSABEYLİ": [
+   "CUMHURİYET",
+   "MURATHÜYÜĞÜ",
+   "PINAR"
+  ],
+  "ELBEYLİ": [
+   "HÜRRİYET",
+   "İNÖNÜ",
+   "NECMETTİN ERBAKAN",
+   "YALÇIN NANE"
+  ]
+ }
+}

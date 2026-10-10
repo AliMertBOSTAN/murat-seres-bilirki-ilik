@@ -1,0 +1,279 @@
+{
+ "il": "KASTAMONU ",
+ "ilceler": {
+  "ABANA": [
+   "BAĞLIK",
+   "ÇAYIRCIK",
+   "HACIVELİ",
+   "KONAKÖREN",
+   "MERKEZ"
+  ],
+  "AĞLI": [
+   "ALINCA",
+   "DANACI",
+   "DİKMEN",
+   "KETENCİLER",
+   "KIRLARDERE",
+   "MERKEZ",
+   "ÖRENCİK",
+   "SELMANLI",
+   "SİNAN",
+   "YAĞLICA"
+  ],
+  "ARAÇ": [
+   "ÇAY",
+   "İNÖNÜ",
+   "MESUDİYE",
+   "YENİ",
+   "YEŞİL",
+   "YUKARIARAÇ"
+  ],
+  "AZDAVAY": [
+   "BAHÇELİEVLER",
+   "KARŞIYAKA",
+   "MERKEZ",
+   "YENİ MAHALLE"
+  ],
+  "BOZKURT": [
+   "HAMZA",
+   "MERKEZ",
+   "ŞEN",
+   "YENİMAHALLE",
+   "YÜKSEK"
+  ],
+  "CİDE": [
+   "BAĞYURDU",
+   "CUMHURİYET",
+   "ECE",
+   "GEBEŞ",
+   "IRMAK",
+   "KALAFAT",
+   "KASABA",
+   "KASIMKÖY",
+   "KEMERLİ",
+   "KIRCI",
+   "KUMLUCA",
+   "MEMİŞ",
+   "NASUH",
+   "SİPAHİ",
+   "SOFULAR",
+   "TARAKÇI"
+  ],
+  "ÇATALZEYTİN": [
+   "ÇELEBİLER",
+   "MERKEZ"
+  ],
+  "DADAY": [
+   "BEY",
+   "KALEM",
+   "KELEBEK",
+   "MERKEZ"
+  ],
+  "DEVREKANİ": [
+   "AHİÇELEBİ",
+   "ÇAYIRCIK",
+   "ETCİLER",
+   "İSMAİLBEY",
+   "KADİRBEY",
+   "KURTŞEYH",
+   "MÜTEVELLİ",
+   "SAZYAKA"
+  ],
+  "DOĞANYURT": [
+   "HOCAKÖY",
+   "MERKEZ"
+  ],
+  "HANÖNÜ": [
+   "GELİNBÜKÜ",
+   "MERKEZ",
+   "VAKIFGEYMENE"
+  ],
+  "İHSANGAZİ": [
+   "AVŞAR",
+   "ÇAY",
+   "ELÇELEBİ",
+   "İSALAR",
+   "KALFAT",
+   "KUŞCULAR",
+   "SEVİNDİK",
+   "SİPAHİLER",
+   "YENİMAHALLE",
+   "YEŞİLMAHALLE"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKMESCİT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKTEKKE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATABEYGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEYÇELEBİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BUDAMIŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CANDAROĞULLARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CEBRAİL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HEPKEBİRLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HİSARARDI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HONSALAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSFENDİYAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMAİLBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRKÇEŞME",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUZEYKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAÇLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TOPÇUOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVUZ SELİM",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "İNEBOLU": [
+   "AŞAĞIHATİPBAĞI",
+   "AVRARA",
+   "BOYRAN",
+   "CAMİKEBİR",
+   "CÜNÜRİYE",
+   "ÇAMLICA",
+   "KARACA",
+   "KARADENİZ",
+   "KIZILKARA",
+   "MUSAKÖY",
+   "Y.HATİPBAĞI",
+   "YAKABOYU",
+   "YENİMAHALLE",
+   "YEŞİLÖZ"
+  ],
+  "KÜRE": [
+   "CAMİEVSAT",
+   "CAMİKEBİR",
+   "MÜDERRİS",
+   "SAMAN"
+  ],
+  "PINARBAŞI": [
+   "ATATÜRK",
+   "CUMHURİYET",
+   "ÇALKAYA",
+   "ÇAMKIŞLA",
+   "FATİH",
+   "UZUNÇAM"
+  ],
+  "SEYDİLER": [
+   "AŞAĞIARSLANLI",
+   "AYVATLAR",
+   "BATIÖRCÜNLER",
+   "DELİHACILAR",
+   "DEMİRCİÖZÜ",
+   "HACIKAYALAR",
+   "MERKEZ",
+   "YAĞLAR",
+   "YAYLA",
+   "YUKARIARSLANLI"
+  ],
+  "ŞENPAZAR": [
+   "ÇEVRİK",
+   "DİBEKLİ",
+   "GÜNEYTEKKE",
+   "KARAMAN",
+   "KORUCAK",
+   "KUZTEKKE",
+   "MERKEZ"
+  ],
+  "TAŞKÖPRÜ": [
+   "AĞCIKİŞİ",
+   "BAHÇELİEVLER",
+   "CAMİKEBİR",
+   "ETHEM",
+   "GİZLİCE",
+   "GÖKIRMAK",
+   "HARMANCIK",
+   "KARASAİT",
+   "MUSALLA",
+   "PULCULAR",
+   "SÜMER",
+   "TABAKHANE",
+   "TEKKE",
+   "ÜSTATLAR"
+  ],
+  "TOSYA": [
+   "BAHÇELİEVLER",
+   "CAMİATİK",
+   "CUMHURİYET",
+   "ÇATMA",
+   "DERE",
+   "DİLKÜŞA",
+   "FEVZİPAŞA",
+   "HACIKEMAL",
+   "HACIPİR",
+   "HARSAT",
+   "HOCAFAKI",
+   "HOCAİMAT",
+   "İBNİSELİM",
+   "İLYASBEY",
+   "KARGI",
+   "KARŞIYAKA",
+   "KUZYAKA",
+   "MİMAR SİNAN",
+   "PINARBAŞI",
+   "ŞEH",
+   "ŞEHREKÜSTÜ",
+   "YAVUZ SELİM",
+   "YENİ SULUCA",
+   "YUNUS EMRE"
+  ]
+ }
+}

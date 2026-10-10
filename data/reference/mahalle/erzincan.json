@@ -1,0 +1,490 @@
+{
+ "il": "ERZİNCAN",
+ "ilceler": {
+  "ÇAYIRLI": [
+   "ATATÜRK",
+   "BARBAROS",
+   "FATİH"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKŞEMSETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKTOPRAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKYAZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALSANCAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ARSLANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AZİZ BABA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BARBAROS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BARIŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞBAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYRAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOZYAZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BUĞDAYLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BULUTLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜK ÇAKIRMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CEMAL GÜRSEL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇUKURKUYU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DAVARLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMETEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMİRKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEREYURT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERGENEKON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERSEVENLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERTUĞRUL GAZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLCÜK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLALİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLLÜCE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "H.AHMET YESEVİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALİTPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAMİDİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HANCI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HOCABEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRREMPALANGASI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "IŞIKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İZZETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAVAKYOLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIMKARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEKLİKKAYASI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIZILAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURUTİLEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MENDERES",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MENGÜCELİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİMARSİNAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUNZUR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUSTAFA KEMAL PAŞA ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMAN GAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZGÜRLÜK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SANCAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARIGÖL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELÇUKLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT CENGİZ TOPEL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT SERHAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT SERHAT YURTBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TAKSİM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TERZİBABA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ULALAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜÇKONAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YALNIZBAĞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVUZSELİM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİDOĞAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUNUSEMRE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "İLİÇ": [
+   "ABDULLAHPAŞA",
+   "FATİH",
+   "İBRAHİM ÇEÇEN",
+   "KAZIMKARABEKİR"
+  ],
+  "KEMAH": [
+   "AŞAĞIGEDİK",
+   "BEKLİMÇAY",
+   "CİRGİŞİN",
+   "ÇARŞI",
+   "GÖĞÜSBAĞI",
+   "KARŞIBAĞ",
+   "MEKTEPÖNÜ",
+   "ORTAGEDİK",
+   "PÖRHENKBAŞI",
+   "YUKARI"
+  ],
+  "KEMALİYE": [
+   "ARİKİ",
+   "BAHÇE",
+   "DÖRTYOLAĞZI",
+   "ESERTEPE",
+   "GENÇAĞA",
+   "HACIYUSUF",
+   "HALİLAĞA",
+   "İSAKPAŞA",
+   "NAİP",
+   "SANDIKBAĞI",
+   "TAŞDİBİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "MOLLAKÖY"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "MOLLAKÖY"
+   },
+   {
+    "mahalle": "DEREBAĞ",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "ERDENE",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "MAHMUTLU",
+    "belde": "MOLLAKÖY"
+   },
+   {
+    "mahalle": "MERTEKLİ",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "ŞELALE",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "TEPECİK",
+    "belde": "MOLLAKÖY"
+   },
+   {
+    "mahalle": "YAMAÇLI",
+    "belde": "ÇAĞLAYAN"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "MOLLAKÖY"
+   }
+  ],
+  "OTLUKBELİ": [
+   "FATİH",
+   "MEHMET AKİF ERSOY",
+   "ŞEHİTLER"
+  ],
+  "REFAHİYE": [
+   "BİNALİ YILDIRIM",
+   "CAMİİŞERİF",
+   "HAKOĞLU",
+   "HÖKÜMET",
+   "YENİDOĞAN"
+  ],
+  "TERCAN": [
+   "AHMET YESEVİ",
+   {
+    "mahalle": "AKŞEMSETTİN",
+    "belde": "MERCAN"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "MERCAN"
+   },
+   "ATATÜRK",
+   {
+    "mahalle": "CAMİİ KEBİR",
+    "belde": "ÇADIRKAYA"
+   },
+   {
+    "mahalle": "CAMİİ ŞERİF",
+    "belde": "KARGIN"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "MERCAN"
+   },
+   "FATİH",
+   {
+    "mahalle": "GÖZELER",
+    "belde": "ÇADIRKAYA"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "KARGIN"
+   },
+   "KAZIMKARABEKİR",
+   "MAMAHATUN",
+   {
+    "mahalle": "SUCUALİ",
+    "belde": "KARGIN"
+   },
+   {
+    "mahalle": "ŞEHİT AHMET AYTEKİN",
+    "belde": "KARGIN"
+   },
+   "YAVUZ SELİM",
+   {
+    "mahalle": "YENİ",
+    "belde": "ÇADIRKAYA"
+   },
+   {
+    "mahalle": "YOLLARÜSTÜ",
+    "belde": "KARGIN"
+   }
+  ],
+  "ÜZÜMLÜ": [
+   "BABACAN",
+   "BAHÇEŞEHİR",
+   {
+    "mahalle": "BÜYÜKKADAĞAN",
+    "belde": "ALTINBAŞAK"
+   },
+   "CİMİNLİBABA",
+   "ÇAVUŞLU",
+   "ÇAY",
+   "FATİH",
+   {
+    "mahalle": "FIRAT",
+    "belde": "ALTINBAŞAK"
+   },
+   "GEYİKLİ",
+   {
+    "mahalle": "İSTASYON",
+    "belde": "ALTINBAŞAK"
+   },
+   {
+    "mahalle": "KÜÇÜK KADAĞAN",
+    "belde": "ALTINBAŞAK"
+   },
+   "MİMAR SİNAN",
+   "MUHSİN YAZICIOĞLU",
+   "ORUÇLU",
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "ALTINBAŞAK"
+   },
+   "PİRİSAMİ",
+   {
+    "mahalle": "SÜLEYMANLI",
+    "belde": "ALTINBAŞAK"
+   },
+   "TERZİBABA",
+   "ÜÇLER",
+   "YAVUZ SELİM",
+   "YUNUSEMRE"
+  ]
+ }
+}

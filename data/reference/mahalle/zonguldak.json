@@ -1,0 +1,582 @@
+{
+ "il": "ZONGULDAK",
+ "ilceler": {
+  "KOZLU": [
+   {
+    "mahalle": "19 MAYIS",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ESENKÖY",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH SİTESİ",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNEY",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "İHSANİYE",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KILIÇ",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞBACA",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAHMA",
+    "belde": "KOZLU İLÇE MERKEZİ"
+   }
+  ],
+  "ÇAYCUMA": [
+   {
+    "mahalle": "ABACIK",
+    "belde": "FİLYOS"
+   },
+   "AHATLI",
+   "ALİKÖY",
+   {
+    "mahalle": "AŞAĞIÇUKUR",
+    "belde": "KARAPINAR"
+   },
+   "AYVAZLAR",
+   "ÇAY MAHALLESİ",
+   {
+    "mahalle": "DURMUŞLAR",
+    "belde": "KARAPINAR"
+   },
+   {
+    "mahalle": "DÜZ",
+    "belde": "SALTUKOVA"
+   },
+   "GEMİCİLER",
+   "GERİŞ",
+   {
+    "mahalle": "GERİŞ",
+    "belde": "FİLYOS"
+   },
+   {
+    "mahalle": "HACIKADI",
+    "belde": "PERŞEMBE"
+   },
+   {
+    "mahalle": "HİSARÖNÜ",
+    "belde": "FİLYOS"
+   },
+   "İSTASYON",
+   {
+    "mahalle": "KARAEVLİGERİŞ",
+    "belde": "NEBİOĞLU"
+   },
+   "KARALAR",
+   "KARAMUSA",
+   {
+    "mahalle": "KARBOĞAZ",
+    "belde": "SALTUKOVA"
+   },
+   "KAYIKÇILAR",
+   {
+    "mahalle": "KEÇECİOĞLU",
+    "belde": "PERŞEMBE"
+   },
+   {
+    "mahalle": "KOCALİ",
+    "belde": "FİLYOS"
+   },
+   {
+    "mahalle": "KOKAKSU",
+    "belde": "SALTUKOVA"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KARAPINAR"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "PERŞEMBE"
+   },
+   {
+    "mahalle": "ÖTEYÜZ",
+    "belde": "FİLYOS"
+   },
+   "PEHLİVANLAR",
+   {
+    "mahalle": "SARIKADI",
+    "belde": "PERŞEMBE"
+   },
+   {
+    "mahalle": "SARIKUM",
+    "belde": "SALTUKOVA"
+   },
+   {
+    "mahalle": "SEFERCİK",
+    "belde": "FİLYOS"
+   },
+   "SOFULAR",
+   {
+    "mahalle": "TERZİLER",
+    "belde": "NEBİOĞLU"
+   },
+   {
+    "mahalle": "TİLKİLER",
+    "belde": "KARAPINAR"
+   },
+   {
+    "mahalle": "TORLAKLAR",
+    "belde": "KARAPINAR"
+   },
+   "VELİKÖY",
+   "VELİOĞLU",
+   {
+    "mahalle": "YAZIBAŞI",
+    "belde": "PERŞEMBE"
+   },
+   "YENİ MAHALLE",
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "PERŞEMBE"
+   },
+   {
+    "mahalle": "YENİPAZAR",
+    "belde": "NEBİOĞLU"
+   },
+   "YEŞİLTEPE",
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "NEBİOĞLU"
+   },
+   {
+    "mahalle": "YUKARIÇUKUR",
+    "belde": "KARAPINAR"
+   }
+  ],
+  "DEVREK": [
+   "AĞALAR",
+   {
+    "mahalle": "ÇAY",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   "ESKİ",
+   {
+    "mahalle": "HÜMMETOĞLU",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   "İSMETPAŞA",
+   "KARŞIYAKA",
+   {
+    "mahalle": "KEMERLER",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   {
+    "mahalle": "RECEP TAYYİP ERDOĞAN",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "ÇAYDEĞİRMENİ"
+   },
+   "YENİ"
+  ],
+  "EREĞLİ": [
+   "AKARCA",
+   {
+    "mahalle": "ARMUTÇUK",
+    "belde": "KANDİLLİ"
+   },
+   "BAĞLIK",
+   "BALI",
+   {
+    "mahalle": "BEKYERİ",
+    "belde": "GÜLÜÇ"
+   },
+   "BELEN",
+   "BELEN YENİ",
+   "BÖLÜCEK",
+   {
+    "mahalle": "ÇENGEL",
+    "belde": "GÜLÜÇ"
+   },
+   "DAĞLAR",
+   "ELMATEPE",
+   {
+    "mahalle": "GEYİKBELİ",
+    "belde": "KANDİLLİ"
+   },
+   {
+    "mahalle": "GÖKÇELER",
+    "belde": "KANDİLLİ"
+   },
+   "GÖKTEPE",
+   "GÜLDERE",
+   "HAMZAFAKILI",
+   "KAVAKLIK",
+   "KEPEZ",
+   "KESTANECİ",
+   "KIRMACI",
+   "KIŞLA",
+   "KIYICAK",
+   "KİRMANLI",
+   "KOCAALİ",
+   "KORUBAŞI",
+   "KÖSELER",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "GÜLÜÇ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ORMANLI"
+   },
+   "MURTAZA",
+   "MÜFTÜ",
+   "ORHANLAR",
+   "ÖMERLİ",
+   "ÖREN",
+   {
+    "mahalle": "ÖRENCİK",
+    "belde": "GÜLÜÇ"
+   },
+   {
+    "mahalle": "SARIKAYA",
+    "belde": "ORMANLI"
+   },
+   "SARIKOKMAZ",
+   {
+    "mahalle": "SEYİT AHMETLİ",
+    "belde": "ORMANLI"
+   },
+   {
+    "mahalle": "SİNİTLİ",
+    "belde": "ORMANLI"
+   },
+   "SÜLEYMANLAR",
+   {
+    "mahalle": "ŞEHİTLİK",
+    "belde": "KANDİLLİ"
+   },
+   "TOPÇALI",
+   "UZUN MEHMET",
+   "UZUNÇAYIR",
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "KANDİLLİ"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ASMA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞTARLA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNAĞZI",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "ALAPLI": [
+   "AŞAĞIDOĞANCILAR",
+   {
+    "mahalle": "ERENKÖY",
+    "belde": "GÜMELİ"
+   },
+   {
+    "mahalle": "FINDIKAĞILI",
+    "belde": "GÜMELİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "GÜMELİ"
+   },
+   "KARŞIYAKA",
+   "MERKEZ",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "GÜMELİ"
+   },
+   "TEPEKÖY",
+   "YENİ SİTELER",
+   "YENİMAHALLE"
+  ],
+  "KİLİMLİ": [
+   {
+    "mahalle": "AYİÇİ",
+    "belde": "GELİK"
+   },
+   {
+    "mahalle": "BELEDİYE SİTESİ",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÖLÜM",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CUMAYANI",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "MUSLU"
+   },
+   {
+    "mahalle": "ÇAMLIK",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DAMARLI",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞANCILAR",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "EMİRLER",
+    "belde": "MUSLU"
+   },
+   {
+    "mahalle": "ESEN",
+    "belde": "GELİK"
+   },
+   {
+    "mahalle": "GÜNEY",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HACIOĞLU",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "HİSARARKASI",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARADON",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIRAT",
+    "belde": "GELİK"
+   },
+   {
+    "mahalle": "KIRIMSA",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "KOKURDAN",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "KUZYAKA",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ÇATALAĞZI"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "GELİK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "MUSLU"
+   },
+   {
+    "mahalle": "MERKEZ AYİÇİ",
+    "belde": "GELİK"
+   },
+   {
+    "mahalle": "SUBATAN",
+    "belde": "KİLİMLİ İLÇE MERKEZİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BEYTEPE",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "BİRLİK",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "CELEPCİOĞLU",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "ÇALCA",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "ÇAMLIK",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "ELVAN",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "HAYAT",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "KADI",
+    "belde": "KARAMAN"
+   },
+   {
+    "mahalle": "KARAMAN",
+    "belde": "KARAMAN"
+   },
+   {
+    "mahalle": "KASIMLAR",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KARAMAN"
+   },
+   {
+    "mahalle": "MURATLI",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "SADIKLI",
+    "belde": "KARAMAN"
+   },
+   {
+    "mahalle": "TASMACI ",
+    "belde": "ELVANPAZARCIK"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "BEYCUMA"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KARAMAN"
+   }
+  ],
+  "ZONGULDAK": [
+   {
+    "mahalle": "BİRLİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYDAMAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇINARTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DİLAVER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNCİVEZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAELMAS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEŞRUTİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİTHATPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ONTEMMUZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TEPEBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TERAKKİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAYLA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİL",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "GÖKÇEBEY": [
+   "ÇARŞI",
+   "ÇAY",
+   "ÇUKUR ",
+   "İSTASYON",
+   {
+    "mahalle": "KADIOĞLU",
+    "belde": "BAKACAKKADI"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "BAKACAKKADI"
+   },
+   "ON MAYIS",
+   {
+    "mahalle": "SATIBEYLER",
+    "belde": "BAKACAKKADI"
+   },
+   "ÜÇBURGU",
+   "YENİ"
+  ]
+ }
+}

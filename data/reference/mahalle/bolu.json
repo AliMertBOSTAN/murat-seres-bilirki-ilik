@@ -1,0 +1,281 @@
+{
+ "il": "BOLU ->",
+ "ilceler": {
+  "DÖRTDİVAN": [
+   "ADAKINIK",
+   "BAYRAMLAR",
+   "ÇAVUŞLAR",
+   "ÇİTLER",
+   "DEVECİLER",
+   "HACETLER",
+   "KADILAR",
+   "KARGIBAYRAMLAR"
+  ],
+  "GEREDE": [
+   "BAHÇELİEVLER",
+   "DAYIOĞLU",
+   "DEMİRCİLER",
+   "KABİLLER",
+   "KİTİRLER",
+   "ORTA",
+   "SEVİLLER",
+   "YENİ"
+  ],
+  "GÖYNÜK": [
+   "CUMA",
+   "ÇEŞME",
+   "HACIABDİ",
+   "KEPKEBİR",
+   "SOFUALİ",
+   "YENİCE"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKTAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALPAĞUT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALPAĞUTBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞISOKU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞKAVAKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BORAZANLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKCAMİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CİVRİL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAKMAKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇIKINLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DAĞKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DODURGA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLYÜZÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İHSANİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İZZET BAYSAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARACAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAÇAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAMANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KASAPLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KILIÇARSLAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÖROĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURUÇAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜKBERK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜRKÇÜLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OVADÜZÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SAĞLIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SALIBEYLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SANDALLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARICALAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEMERKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEYİT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜMER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TABAKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TEPECİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "UMUTKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAŞAMKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARISOKU",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KIBRISCIK": [
+   "KARADOĞAN",
+   "KÖROĞLU"
+  ],
+  "MENGEN": [
+   {
+    "mahalle": "ADASAL",
+    "belde": "GÖKÇESU"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "GÖKÇESU"
+   },
+   "BEŞLER",
+   {
+    "mahalle": "ÇAKIRLAR",
+    "belde": "GÖKÇESU"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "GÖKÇESU"
+   },
+   "KARAPINAR",
+   "TABAKLAR YAZIKAYA",
+   "TÜRKBEYLİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "FATİH",
+    "belde": "KARACASU"
+   },
+   {
+    "mahalle": "ILICAKINIK",
+    "belde": "KARACASU"
+   }
+  ],
+  "MUDURNU": [
+   "BÜYÜKCAMİ",
+   "HIZIRFAKI",
+   "KARACAKAYA",
+   {
+    "mahalle": "KARACASUMANDIRA",
+    "belde": "TAŞKESTİ"
+   },
+   {
+    "mahalle": "KARAÇOMAK",
+    "belde": "TAŞKESTİ"
+   },
+   "KAYGANA",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "TAŞKESTİ"
+   },
+   "MUSALLA",
+   "SEYRANCIK",
+   {
+    "mahalle": "TOSUNLAR",
+    "belde": "TAŞKESTİ"
+   },
+   {
+    "mahalle": "YEĞENDERESİ",
+    "belde": "TAŞKESTİ"
+   },
+   "YILDIRIMBEYAZIT"
+  ],
+  "SEBEN": [
+   "ÇARŞI",
+   "KESKİNLİ"
+  ],
+  "YENİÇAĞA": [
+   "ASİLBEY",
+   "CAMİATİK",
+   "GÖLYÜZÜ"
+  ]
+ }
+}

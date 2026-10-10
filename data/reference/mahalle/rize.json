@@ -1,0 +1,535 @@
+{
+ "il": "RİZE ",
+ "ilceler": {
+  "ARDEŞEN": [
+   {
+    "mahalle": "ADA",
+    "belde": "TUNCA"
+   },
+   "BAHAR",
+   "BARIŞ",
+   "BAŞMAHALLE",
+   "CAMİ",
+   "CUMHURİYET",
+   "ÇİFTEKAVAK",
+   "DENİZ",
+   "DÜZ",
+   {
+    "mahalle": "DÜZ MAHALLE",
+    "belde": "TUNCA"
+   },
+   "ELMALIK",
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "TUNCA"
+   },
+   "FATİH",
+   "FIRTINA",
+   "IŞIKLI",
+   "KAHVECİLER",
+   "KAVAKLIDERE",
+   {
+    "mahalle": "KONAK",
+    "belde": "TUNCA"
+   },
+   "KONAKTEPE",
+   "KUZEY",
+   "MERKEZ",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "TUNCA"
+   },
+   "MÜFTÜ",
+   {
+    "mahalle": "ORTA",
+    "belde": "TUNCA"
+   },
+   "ŞENTEPE",
+   {
+    "mahalle": "ŞENYUVA",
+    "belde": "TUNCA"
+   },
+   "TAŞBAŞI",
+   "YAVUZSELİM",
+   "YAYLA",
+   "YENİMAHALLE"
+  ],
+  "GÜNEYSU": [
+   "ADACAMİ",
+   "AŞAĞI KİREMİT",
+   "BAŞARAN",
+   "BİRLİK",
+   "ESKİCAMİ",
+   "GÜNELİ",
+   "KİREMİT",
+   "KÜÇÜKCAMİ",
+   "MERKEZ",
+   "SELAMET",
+   "ULUCAMİ",
+   "YENİCAMİ"
+  ],
+  "ÇAYELİ": [
+   "ADALAR",
+   {
+    "mahalle": "ALOĞLU",
+    "belde": "MADENLİ"
+   },
+   {
+    "mahalle": "ALTINTAŞ",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "ARKADERE",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "ARMUTLU",
+    "belde": "BÜYÜKKÖY"
+   },
+   "BÜYÜK CAFERPAŞA",
+   "BÜYÜKTAŞHANE",
+   {
+    "mahalle": "ÇAMLICA",
+    "belde": "MADENLİ"
+   },
+   "ÇATAKLIHOCA",
+   {
+    "mahalle": "ÇAVUŞLU",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "ÇAYCILAR",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "DEMİRCİLER",
+    "belde": "BÜYÜKKÖY"
+   },
+   "ESKİPAZAR",
+   {
+    "mahalle": "GÜMÜŞTAŞ",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "GÜRÇAM MAHALLESİ",
+    "belde": "MADENLİ"
+   },
+   {
+    "mahalle": "HABİBOĞLU",
+    "belde": "MADENLİ"
+   },
+   "HASSADIKLAR",
+   "İNCESIRT",
+   {
+    "mahalle": "KAZANCILAR",
+    "belde": "MADENLİ"
+   },
+   "KESMETAŞ",
+   "KÜÇÜKCAFERPAŞA",
+   "KÜÇÜKTAŞHANE",
+   "LİMANKÖY",
+   {
+    "mahalle": "MADENLİ",
+    "belde": "MADENLİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "BÜYÜKKÖY"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "MADENLİ"
+   },
+   "SABUNCULAR",
+   {
+    "mahalle": "SESLİDERE",
+    "belde": "MADENLİ"
+   },
+   {
+    "mahalle": "SOĞUKSU",
+    "belde": "BÜYÜKKÖY"
+   },
+   "ŞAİRLER",
+   "TAŞHANE",
+   {
+    "mahalle": "TOPKAYA",
+    "belde": "MADENLİ"
+   },
+   "YAKA",
+   "YALI",
+   {
+    "mahalle": "YAZICILAR",
+    "belde": "MADENLİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "MADENLİ"
+   },
+   "YENİCAMİ",
+   "YENİPAZAR",
+   {
+    "mahalle": "YEŞİLKÖY",
+    "belde": "BÜYÜKKÖY"
+   }
+  ],
+  "KALKANDERE": [
+   "ADALAR",
+   "AKSU",
+   "AŞAĞI TATLISU",
+   "CEVİZLİK",
+   "DAĞDİBİ",
+   "KIZILTOPRAK",
+   "KURUKÖY",
+   "MEDRESE",
+   "SOĞUKSU",
+   "TAŞCILAR",
+   "YENİMAHALLE",
+   "YUKARITATLISU"
+  ],
+  "FINDIKLI": [
+   "AKSU",
+   "HÜRRİYET",
+   "ILICA",
+   "LİMAN",
+   "MERKEZ",
+   "SAHİL",
+   "TATLISU",
+   "YENİMAHALLE"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ALİPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATMEYDANI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞDATLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BALSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOĞAZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOZKALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CAMİÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CANPOLAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMLIBEL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇİFTEKAVAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇORAPÇILAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DAĞINIKSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DAĞSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEĞİRMENDERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEREÜSTÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EKMEKÇİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EKREM ORHON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EMİNETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ENGİNDERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FENER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLBAHAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALATÇILAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAMİDİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAMZABEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAYRAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSLAMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAMBURSIRT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAPLICA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAVAKLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MERMER DELEN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEZRA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MÜFTÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKUYU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PEHLİVAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PEHLİVANTAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PİLAVDAĞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PİRİÇELEBİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PORTAKALLIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "REŞADİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞLIDERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TOPHANE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAĞLITAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ASMALIK",
+    "belde": "KENDİRLİ"
+   },
+   {
+    "mahalle": "DÜZ MAHALLE",
+    "belde": "KENDİRLİ"
+   },
+   {
+    "mahalle": "GÜNEŞLİ",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "GÜNEŞTEPE",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "HALASLAR",
+    "belde": "KENDİRLİ"
+   },
+   {
+    "mahalle": "KASARCILAR",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "KİREÇHANE",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "KOKULUKAYA",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "KÖMÜRCÜLER",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "KÖPRÜBAŞI",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "MESUDİYE",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "MÜDERRİSLER",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "ORTA MAHALLE",
+    "belde": "KENDİRLİ"
+   },
+   {
+    "mahalle": "ORTA MURADİYE",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "SIRT KASARCILAR",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "SIRT MAHALLE",
+    "belde": "KENDİRLİ"
+   },
+   {
+    "mahalle": "SOĞUKSU",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "TEKKE",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "ÜZÜMLÜ",
+    "belde": "SALARHA"
+   },
+   {
+    "mahalle": "YEŞİLDERE",
+    "belde": "MURADİYE"
+   },
+   {
+    "mahalle": "YEŞİLILICA",
+    "belde": "SALARHA"
+   }
+  ],
+  "ÇAMLIHEMŞİN": [
+   "AŞAĞI ŞİMŞİRLİ",
+   "AŞAĞIÇAMLICA",
+   "KADIKÖY",
+   "KAPLICA",
+   "KAVAK",
+   "KONAKLAR",
+   "MERKEZ",
+   "SIRT",
+   "YAĞMURLU",
+   "YUKARIÇAMLICA"
+  ],
+  "HEMŞİN": [
+   "BAHAR",
+   "MUTLU",
+   "ORTAKÖY",
+   "YENİKÖY"
+  ],
+  "PAZAR": [
+   "BEYAZTAŞ",
+   "CUMHURİYET",
+   "GAZİ",
+   "GÜZELYALI",
+   "İKİZTEPE",
+   "KİRAZLIK",
+   "KOCAKÖPRÜ",
+   "OCAK",
+   "PAZAR",
+   "SAHİLKÖY",
+   "SOĞUKSU",
+   "YUKARI SOĞUKSU",
+   "ZAFER"
+  ],
+  "İKİZDERE": [
+   "ÇAĞRANKAYA",
+   "ÇARŞI",
+   "GÜNDOĞDU",
+   "GÜNEY",
+   "KİRAZLI",
+   "YEŞİLYURT",
+   "ZAFER"
+  ],
+  "DEREPAZARI": [
+   "ÇALIŞKANLAR",
+   "ERİKLİMANI",
+   "FIÇIÇILAR",
+   "MERKEZ",
+   "SARIYER",
+   "SUBAŞI",
+   "TERSANE",
+   "YANIKTAŞ"
+  ],
+  "İYİDERE": [
+   "ÇANAKÇEŞME",
+   "FETHİYE",
+   "FIÇITAŞI",
+   "HAZAR",
+   "MERKEZ",
+   "SARAYKÖY",
+   "ÜSTÜPİLER",
+   "YALIKÖY",
+   "YAPRAKLAR"
+  ]
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "il": "AMASYA ",
+ "ilceler": {
+  "GÖYNÜCEK": [
+   "CUMHURİYET",
+   "MERKEZ",
+   "YENİMAHALLE"
+  ],
+  "GÜMÜŞHACIKÖY": [
+   "ADATEPE",
+   "AĞCADEDE",
+   "ARTIKABAT",
+   "CAMİKEBİR",
+   "CUMARA",
+   "ÇAY",
+   "HACIYAHYA",
+   "IRGAT",
+   "SARAY",
+   "ŞIHLAR",
+   "TEKKE",
+   "YENİCAMİ"
+  ],
+  "HAMAMÖZÜ": [
+   "ARKUTBEY",
+   "HAMİT KAPLAN",
+   "KÖPRÜBAŞI",
+   "SARAY"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKBİLEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELERİÇİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEYAZITPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOĞAZKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAKALLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMETEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ELLİBEŞEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FETHİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FINDIKLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖKMEDRESE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLLÜBAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜMÜŞLÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIİLYAS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACILAR MEYDANI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HATUNİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HELVACI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HIZIRPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İHSANİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARASENİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PİRİNÇCİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEVADİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SOFULAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞAMLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİRÜSTÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEYHCUİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜÇLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAZIBAĞLARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLYENİCE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YÜZEVLER",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "SARAYCIK",
+    "belde": "ZİYARET"
+   },
+   {
+    "mahalle": "SOĞUKPINAR",
+    "belde": "ZİYARET"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "ZİYARET"
+   }
+  ],
+  "MERZİFON": [
+   "ABİDEHATUN",
+   "BAĞLARBAŞI",
+   "BAHÇELİEVLER",
+   "BUĞDAYLI",
+   "CAMİCEDİT",
+   "ESKİCAMİ",
+   "GAZİMAHBUP",
+   "HACIBALI",
+   "HACIHASAN",
+   "HARMANLAR",
+   "HOCASÜLEYMAN",
+   "KÜMBETHATUN",
+   "MAHSEN",
+   "MEHMET AKİF ERSOY",
+   "NACCAR",
+   "NUSRATİYE",
+   "SOFULAR",
+   "TAVŞAN",
+   "YENİ",
+   "YUNUSEMRE"
+  ],
+  "SULUOVA": [
+   "ATA",
+   "BEYAZIT",
+   "BİREYLÜL",
+   "BORSA",
+   "CEVİZDİBİ",
+   "CUMHURİYET",
+   "E.ÇELTEK",
+   "EYMİR",
+   "FATİH",
+   "GİRNE",
+   "HACIBAYRAM",
+   "HACIHAYTA",
+   "HÜRRİYET",
+   "MAARİF",
+   "MAGOSA",
+   "ORTA",
+   "PAZAR",
+   "SARAYDÜZÜ",
+   "ŞEKER",
+   "YENİ",
+   "YENİDOĞAN"
+  ],
+  "TAŞOVA": [
+   "CUMHURİYET",
+   "DOĞU",
+   "SANAYİİ",
+   "TEPE",
+   "YEMİŞEN",
+   "YENİ",
+   "YEŞİLIRMAK"
+  ]
+ }
+}

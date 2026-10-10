@@ -1,0 +1,532 @@
+{
+ "il": "OSMANİYE",
+ "ilceler": {
+  "KADİRLİ": [
+   {
+    "mahalle": "7 MART",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "BAĞ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "CEMALPAŞA",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "CENGİZ TOPEL",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "DERE",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "DERVİŞPAŞA",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "PAZAR",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "SAVRUN",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT HALİS ŞİŞMAN",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT İBRAHİM KUNDAKÇI",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT KANSU KÜÇÜKATEŞ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT MEHMET DELİKUŞ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT MEHMET HALLAÇ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT MUSTAFA YAĞIZ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT ORHAN GÖK",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "ŞEHİT VEDAT KOCADALLI",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "TUFANPAŞA",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KADİRLİ"
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "KADİRLİ"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ADNAN MENDERES",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AHMET YESEVİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKYAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALİBEKİRLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALİBEYLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DR.İHSAN GÖKNEL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DUMLUPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EYÜP SULTAN ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FAKIUŞAĞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GEBELİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIOSMANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HARAZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAÇAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIM KARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KORKUT ATA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MARAŞAL FEVZİ ÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEVLANA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİMAR SİNAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RAHİME HATUN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RAUF BEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RIZAİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELİMİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİRİNEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ULAŞLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VATAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVERPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEDİOCAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIRIM BEYAZIT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUNUS EMRE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "SUMBAS": [
+   {
+    "mahalle": "ARMAĞANLI",
+    "belde": "MEHMETLİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "MEHMETLİ"
+   },
+   {
+    "mahalle": "DÖĞENLİ",
+    "belde": "SUMBAS"
+   },
+   {
+    "mahalle": "KARAÖMERLİ",
+    "belde": "SUMBAS"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "MEHMETLİ"
+   }
+  ],
+  "BAHÇE": [
+   "ASLANLI",
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   "ÇAMLICA",
+   "ESENTEPE",
+   "İSLAM",
+   "İSTİKLAL",
+   "KALE",
+   "KARŞIYAKA",
+   "YENİ",
+   "YEŞİLYURT"
+  ],
+  "DÜZİÇİ": [
+   {
+    "mahalle": "AYDINLAR",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "BOĞAZİÇİ",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "BOYALI",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "CELLİLER",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "ÇAMİÇİ",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "ÇEVLİK",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "ÇİFTLİK",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "ÇİRAZ",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "ÇUKUROBA",
+    "belde": "ATALAN"
+   },
+   {
+    "mahalle": "DEMİRCİLER",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "DÜMBÜRDEK",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "GÖKYILDIZ",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "HACILAR",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "HARUNİYE",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "İRFANLI",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KARACAOĞLAN",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KARACAÖREN",
+    "belde": "YARBAŞI"
+   },
+   {
+    "mahalle": "KARAÇARLI",
+    "belde": "YARBAŞI"
+   },
+   {
+    "mahalle": "KARLICA",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KATOBASI",
+    "belde": "ATALAN"
+   },
+   {
+    "mahalle": "KURTBEYOĞLU",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "KÜRT MAHMUTLAR",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ATALAN"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "YARBAŞI"
+   },
+   {
+    "mahalle": "PEÇENEK",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "SOYLAR",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "ŞEHİT ALİ GÖKÇE",
+    "belde": "ELLEK"
+   },
+   {
+    "mahalle": "ŞEHİT HÜSEYİN SARI",
+    "belde": "ATALAN"
+   },
+   {
+    "mahalle": "ŞEHİT KEMAL KESKİN",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "UZUNBANI",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "ÜZÜMLÜ",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "YENİCE HARUNİYE",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "YEŞİLBAYIR",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "DÜZİÇİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "BÖCEKLİ"
+   },
+   {
+    "mahalle": "YÜZÜNCÜ YIL",
+    "belde": "DÜZİÇİ"
+   }
+  ],
+  "TOPRAKKALE": [
+   {
+    "mahalle": "BÜYÜKTÜYSÜZ",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "ÇAMLIKEVLER",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "DAĞISTAN",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "FATİH SULTAN MEHMET",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "GÖÇMENLER",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "KARATAŞ",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "KIŞLA",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "KUMARLI",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "SAZLIK",
+    "belde": "TOPRAKKALE"
+   },
+   {
+    "mahalle": "TEPE",
+    "belde": "TOPRAKKALE"
+   }
+  ],
+  "HASANBEYLİ": [
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "HASANBEYLİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "HASANBEYLİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "HASANBEYLİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "HASANBEYLİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "CEVDETİYE"
+   },
+   {
+    "mahalle": "KARATAŞ",
+    "belde": "CEVDETİYE"
+   },
+   {
+    "mahalle": "KOCATEPE",
+    "belde": "CEVDETİYE"
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "CEVDETİYE"
+   }
+  ]
+ }
+}

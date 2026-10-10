@@ -1,0 +1,202 @@
+{
+ "il": "KARABÜK",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "100. YIL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "5000 EVLER  75. YIL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "5000 EVLER BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "5000 EVLER CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ADATEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLIKEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BELENKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇERÇİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERGENEKON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAPULLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARABÜKKÖYÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARTALTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAYABAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KILAVUZLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAMIK KEMAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖĞLEBELİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SOĞUKSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİRİNEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜNİVERSİTE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİL",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "EFLANİ": [
+   "CANDAROĞULLARI",
+   "ÇALIŞLAR",
+   "ÇELEBİLER",
+   "KAYADİBİ",
+   "TABAKLAR",
+   "YALACIK"
+  ],
+  "ESKİPAZAR": [
+   "BAHÇEPINAR",
+   "İSTASYON",
+   "KIRANKÖY",
+   "MERKEZ",
+   "MERMER",
+   "YAMANLAR",
+   "YENİMAHALLE"
+  ],
+  "OVACIK": [
+   "MERKEZ"
+  ],
+  "SAFRANBOLU": [
+   "15 TEMMUZ",
+   "AKÇASU",
+   "AŞAĞI TOKATLI",
+   "ATATÜRK",
+   "BABASULTAN",
+   "BAĞLARBAŞI",
+   "BARIŞ",
+   "CAMİKEBİR",
+   "CEMAL CAYMAZ",
+   "ÇAVUŞ",
+   "ÇEŞME",
+   "EMEK",
+   "ESENTEPE",
+   "HACIHALİL",
+   "HÜSEYİN ÇELEBİ",
+   "İSMET PAŞA",
+   "İZZET PAŞA",
+   "KARAALİ",
+   "KİRKİLLE",
+   "MUSALLA",
+   "YENİ"
+  ],
+  "YENİCE": [
+   "ATATÜRK MAHALLESİ",
+   {
+    "mahalle": "ATATÜRK MAHALLESİ",
+    "belde": "YORTAN"
+   },
+   {
+    "mahalle": "ÇENGELLER",
+    "belde": "YORTAN"
+   },
+   {
+    "mahalle": "DERE ",
+    "belde": "YORTAN"
+   },
+   {
+    "mahalle": "DÖNGELLER ",
+    "belde": "YORTAN"
+   },
+   "FATİH ",
+   "İSMETPAŞA",
+   "KALAYCILAR",
+   "KARAKIRIKLAR ",
+   {
+    "mahalle": "KARAÖMERLER MAHALLESİ",
+    "belde": "YORTAN"
+   },
+   "KARŞIYAKA ",
+   "MENDERES MAHALLESİ",
+   "MERKEZ MAHALLESİ",
+   {
+    "mahalle": "MERKEZ MAHALLESİ",
+    "belde": "YORTAN"
+   },
+   "ÖZAL",
+   {
+    "mahalle": "SİPAHİLER MAHALLESİ",
+    "belde": "YORTAN"
+   },
+   "YİRMİBEŞLER"
+  ]
+ }
+}

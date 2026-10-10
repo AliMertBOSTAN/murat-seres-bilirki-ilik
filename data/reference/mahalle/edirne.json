@@ -1,0 +1,273 @@
+{
+ "il": "EDİRNE",
+ "ilceler": {
+  "ENEZ": [
+   "ÇATALTEPE",
+   "GAZİÖMERBEY",
+   "YENİ"
+  ],
+  "HAVSA": [
+   "CUMHURİYET",
+   "HACIGAZİ",
+   "HACIİSA",
+   "HELVACI",
+   "VAROŞ",
+   "YENİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "1. MURAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "100. YIL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ABDURRAHMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BABADEMİRTAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BARUTLUK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAVUŞBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DİLAVERBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KOCASİNAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEDRESEALİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MENZİLAHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEYDAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİTHATPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NİŞANCIPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SABUNİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARICAPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞÜKRÜPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TALATPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "UMURBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YANCIKÇIŞAHİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİİMARET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIRIMBEYAZIT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIRIMHACISARRAF",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "İPSALA": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "ESETÇE"
+   },
+   "ATATÜRK",
+   "BAYRAMBEY",
+   "BOZKURT",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ESETÇE"
+   },
+   "FATİH",
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "YENİKARPUZLU"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "YENİKARPUZLU"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "YENİKARPUZLU"
+   },
+   "KAPUCU",
+   "KÖPRÜ",
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "ESETÇE"
+   },
+   "SARAÇİLYAS"
+  ],
+  "KEŞAN": [
+   "AŞAĞIZAFERİYE",
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "YENİMUHACİR"
+   },
+   {
+    "mahalle": "AYDOĞAN",
+    "belde": "BEĞENDİK"
+   },
+   {
+    "mahalle": "BEYKENT MAHALLESİ",
+    "belde": "BEĞENDİK"
+   },
+   "BÜYÜKCAMİ",
+   "CUMHURİYET",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YENİMUHACİR"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "YENİMUHACİR"
+   },
+   "İSPATCAMİ",
+   "İSTASYON",
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "YENİMUHACİR"
+   },
+   "İZZETİYE",
+   {
+    "mahalle": "KEMALPAŞA",
+    "belde": "BEĞENDİK"
+   },
+   "MUSTAFA KEMAL PAŞA",
+   "PAŞAYİĞİT",
+   {
+    "mahalle": "YENİ",
+    "belde": "BEĞENDİK"
+   },
+   "YENİMAHALLE",
+   "YÖRÜK",
+   "YUKARIZAFERİYE"
+  ],
+  "LALAPAŞA": [
+   "MERKEZ"
+  ],
+  "MERİÇ": [
+   "BÜYÜKDOĞANCA",
+   {
+    "mahalle": "GAZİ",
+    "belde": "KÜPLÜ"
+   },
+   {
+    "mahalle": "İZZETPAŞA",
+    "belde": "SUBAŞI"
+   },
+   "KÜÇÜKDOĞANCA",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KÜPLÜ"
+   },
+   {
+    "mahalle": "ŞEHİT MEHMET AYDIN",
+    "belde": "SUBAŞI"
+   }
+  ],
+  "SÜLOĞLU": [
+   "CUMHURİYET",
+   "MERKEZ",
+   "ŞAFAK",
+   "YENİ"
+  ],
+  "UZUNKÖPRÜ": [
+   "AŞÇIOĞLU",
+   "ATATÜRK",
+   {
+    "mahalle": "BALABAN",
+    "belde": "KIRCASALİH"
+   },
+   "BÜYÜKŞEHSUVARBEY",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KIRCASALİH"
+   },
+   "CUMHURİYET",
+   "ÇÖPKÖY",
+   "DEMİRTAŞ",
+   "HABİBHOCA",
+   "HALİSEHATUN",
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "KIRCASALİH"
+   },
+   "KAVAK",
+   "KÜÇÜKŞEHSUVARBEY",
+   "MAREŞALFEVZİÇAKMAK",
+   "MESCİT",
+   "MURADİYE",
+   "MURADİYECAMİİ",
+   {
+    "mahalle": "OKULLAR",
+    "belde": "KIRCASALİH"
+   },
+   "RIZAEFENDİ",
+   "YENİKÖY"
+  ]
+ }
+}

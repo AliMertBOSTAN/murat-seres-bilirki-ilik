@@ -1,0 +1,72 @@
+{
+ "version": "1.0.0",
+ "groups": [
+  {
+   "group": "yol-cevre",
+   "file": "yol-cevre.json",
+   "count": 31,
+   "drafts": 3
+  },
+  {
+   "group": "arac",
+   "file": "arac.json",
+   "count": 50,
+   "drafts": 7
+  },
+  {
+   "group": "dorse",
+   "file": "dorse.json",
+   "count": 11,
+   "drafts": 11
+  },
+  {
+   "group": "surucu",
+   "file": "surucu.json",
+   "count": 22,
+   "drafts": 0
+  },
+  {
+   "group": "yolcu",
+   "file": "yolcu.json",
+   "count": 15,
+   "drafts": 9
+  },
+  {
+   "group": "yaya",
+   "file": "yaya.json",
+   "count": 22,
+   "drafts": 16
+  },
+  {
+   "group": "iz",
+   "file": "iz.json",
+   "count": 17,
+   "drafts": 17
+  },
+  {
+   "group": "olu-yarali",
+   "file": "olu-yarali.json",
+   "count": 4,
+   "drafts": 4
+  },
+  {
+   "group": "kaza-nedeni",
+   "file": "kaza-nedeni.json",
+   "count": 6,
+   "drafts": 6
+  }
+ ],
+ "groupTitles": {
+  "yer-zaman": "1. Kazanın Yeri ve Zamanı",
+  "yol-cevre": "2. Yol ve Çevre",
+  "arac": "4. Araç",
+  "dorse": "4.35 Dorse",
+  "surucu": "5. Sürücü",
+  "yolcu": "8. Yolcu",
+  "yaya": "9. Yaya",
+  "iz": "6–7. İzler",
+  "olu-yarali": "10. Ölü-Yaralıya Ait İzler",
+  "kaza-nedeni": "11. Kaza Nedeni Mütalaası",
+  "diger": "Diğer"
+ }
+}

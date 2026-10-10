@@ -1,0 +1,236 @@
+{
+ "il": "AĞRI",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "100.YIL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ABİDE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALPARSLAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FIRAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIM KARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜPKIRAN ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "LEYLEKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MURAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SITKİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVUZ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "DİYADİN": [
+   "14 NİSAN",
+   "ATATÜRK",
+   "FATİH",
+   "GÖL",
+   "İSAAĞA",
+   "KETENPINAR",
+   "MURAT"
+  ],
+  "DOĞUBAYAZIT": [
+   "ABDİGÖR",
+   "AHMEDİHANİ",
+   "BARIŞ",
+   "BÜYÜK AĞRI",
+   "ÇİFTEPINAR",
+   "HASANKEYF",
+   "HÜRRİYET",
+   "İSHAKPAŞA",
+   "KOÇKIRAN",
+   "SANAYİ",
+   "SARIGÜL",
+   "ULUYOL",
+   "VATAN",
+   "YENİ"
+  ],
+  "ELEŞKİRT": [
+   {
+    "mahalle": "AŞAĞICİHANBEY",
+    "belde": "YAYLADÜZÜ"
+   },
+   {
+    "mahalle": "AYDINTEPE",
+    "belde": "TAHİR"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YAYLADÜZÜ"
+   },
+   {
+    "mahalle": "DEĞİRMENGEÇİDİ",
+    "belde": "YAYLADÜZÜ"
+   },
+   "ESENTEPE",
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "YÜCEKAPI"
+   },
+   "FATİH",
+   {
+    "mahalle": "GÖKÇAYIR",
+    "belde": "YAYLADÜZÜ"
+   },
+   "HÜRRİYET",
+   "İSTİKLAL",
+   "KARŞIYAKA",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "TAHİR"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "YAYLADÜZÜ"
+   },
+   "KAZIMKARABEKİR",
+   "LOZAN",
+   "MÜFTÜSELİM",
+   {
+    "mahalle": "OKLAVALI",
+    "belde": "YÜCEKAPI"
+   },
+   {
+    "mahalle": "ŞEHİT ENGİN",
+    "belde": "YÜCEKAPI"
+   },
+   {
+    "mahalle": "YEŞİL",
+    "belde": "TAHİR"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "YÜCEKAPI"
+   }
+  ],
+  "HAMUR": [
+   "BUZHANE",
+   "KALE",
+   "KÜMBET",
+   "MERKEZ",
+   "YENİ"
+  ],
+  "PATNOS": [
+   "14 NİSAN",
+   "ABDÜLVEHAP KÜFREVİ",
+   "AHMED-İ HANİ",
+   {
+    "mahalle": "AKBULUT",
+    "belde": "DEDELİ"
+   },
+   "ALPASLAN",
+   "ATATÜRK",
+   "BADİŞAN",
+   {
+    "mahalle": "BUDAK",
+    "belde": "DEDELİ"
+   },
+   "CAMİ",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "DEDELİ"
+   },
+   "CUMHURİYET",
+   "ÇAY",
+   {
+    "mahalle": "ÇAYBAŞI",
+    "belde": "DEDELİ"
+   },
+   {
+    "mahalle": "DEĞİRMEN",
+    "belde": "DEDELİ"
+   },
+   "İNÖNÜ",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "DEDELİ"
+   },
+   "SANAYİ",
+   "SARISU",
+   "SELAHADDİNİ EYYUBİ",
+   "SERHAD",
+   "SÜPHANDAĞI",
+   "SÜTLÜPINAR",
+   "TURGUT ÖZAL",
+   {
+    "mahalle": "ÜZÜMLÜ",
+    "belde": "DEDELİ"
+   },
+   "YENİ",
+   "YEŞİLÇİMEN",
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "DEDELİ"
+   },
+   "YUNUS EMRE"
+  ],
+  "TAŞLIÇAY": [
+   "15 TEMMUZ ŞEHİTLER MAHALLESİ",
+   "ADNAN MENDERES MAHALLESİ",
+   "CUMHURİYET",
+   "HÜRRİYET"
+  ],
+  "TUTAK": [
+   "CAMİ",
+   "KARŞIYAKA",
+   "MURAT",
+   "PINAR",
+   "YENİ"
+  ]
+ }
+}

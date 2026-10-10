@@ -1,0 +1,1849 @@
+{
+ "version": "1.0.0",
+ "giris": {
+  "J2": "dosya.firma",
+  "J4": "dosya.raporTuru",
+  "M7": "dosya.personel",
+  "M8": "dosya.il",
+  "M9": "dosya.ilce",
+  "M10": "dosya.mahalle",
+  "M11": "dosya.mahkemeNoVeDosyaTuru",
+  "N11": "dosya.mahkemeAdi",
+  "M12": "dosya.dosyaNo",
+  "M13": "dosya.suc"
+ },
+ "grs1": {
+  "6": {
+   "path": "taraflar.slot1",
+   "kind": "scalar"
+  },
+  "7": {
+   "path": "taraflar.slot2",
+   "kind": "scalar"
+  },
+  "8": {
+   "path": "taraflar.slot3",
+   "kind": "scalar"
+  },
+  "9": {
+   "path": "taraflar.slot4",
+   "kind": "scalar"
+  },
+  "10": {
+   "path": "taraflar.slot5",
+   "kind": "scalar"
+  },
+  "11": {
+   "path": "taraflar.slot6",
+   "kind": "scalar"
+  },
+  "12": {
+   "path": "taraflar.slot7",
+   "kind": "scalar"
+  },
+  "13": {
+   "path": "taraflar.slot8",
+   "kind": "scalar"
+  },
+  "14": {
+   "path": "taraflar.slot9",
+   "kind": "scalar"
+  },
+  "15": {
+   "path": "taraflar.slot10",
+   "kind": "scalar"
+  },
+  "16": {
+   "path": "taraflar.slot11",
+   "kind": "scalar"
+  },
+  "17": {
+   "path": "taraflar.slot12",
+   "kind": "scalar"
+  },
+  "18": {
+   "path": "bilirkisi.ad",
+   "kind": "scalar"
+  },
+  "19": {
+   "path": "bilirkisi.uzmanlik",
+   "kind": "scalar"
+  },
+  "20": {
+   "path": "bilirkisi.sicilNo",
+   "kind": "scalar"
+  },
+  "21": {
+   "path": "gorevlendirme.incelemeTuru",
+   "kind": "scalar"
+  },
+  "22": {
+   "path": "gorevlendirme.dayanak",
+   "kind": "scalar"
+  },
+  "23": {
+   "path": "gorevlendirme.konu",
+   "kind": "scalar"
+  },
+  "24": {
+   "path": "gorevlendirme.sorular",
+   "kind": "scalar"
+  },
+  "27": {
+   "path": "kazaYeri.tarih",
+   "kind": "scalar"
+  },
+  "28": {
+   "path": "kazaYeri.haftaninGunu",
+   "kind": "derived"
+  },
+  "29": {
+   "path": "kazaYeri.saat",
+   "kind": "scalar"
+  },
+  "30": {
+   "path": "dosya.il",
+   "kind": "scalar"
+  },
+  "31": {
+   "path": "dosya.ilce",
+   "kind": "scalar"
+  },
+  "32": {
+   "path": "kazaYeri.mahalle",
+   "kind": "scalar"
+  },
+  "33": {
+   "path": "kazaYeri.adres",
+   "kind": "scalar"
+  },
+  "38": {
+   "path": "kazaYeri.yerlesim",
+   "kind": "scalar"
+  },
+  "39": {
+   "path": "kazaYeri.azamiHiz",
+   "kind": "scalar"
+  },
+  "40": {
+   "path": "kazaYeri.azamiHizOnerisi",
+   "kind": "scalar"
+  },
+  "42": {
+   "path": "yolCevre.gunDurumu",
+   "kind": "scalar"
+  },
+  "43": {
+   "path": "yolCevre.havaDurumu",
+   "kind": "scalar"
+  },
+  "44": {
+   "path": "yolCevre.yolSinifi",
+   "kind": "scalar"
+  },
+  "45": {
+   "path": "yolCevre.akisYonu",
+   "kind": "scalar"
+  },
+  "46": {
+   "path": "yolCevre.kaplamaTipi",
+   "kind": "scalar"
+  },
+  "47": {
+   "path": "yolCevre.yolYuzeyi",
+   "kind": "scalar"
+  },
+  "48": {
+   "path": "yolCevre.yolYuzeyHatalari",
+   "kind": "scalar"
+  },
+  "49": {
+   "path": "yolCevre.yerinKonumu",
+   "kind": "scalar"
+  },
+  "50": {
+   "path": "yolCevre.cevreOzelligi",
+   "kind": "scalar"
+  },
+  "51": {
+   "path": "yolCevre.seritSayisi",
+   "kind": "scalar"
+  },
+  "52": {
+   "path": "yolCevre.platform",
+   "kind": "scalar"
+  },
+  "53": {
+   "path": "yolCevre.yolElemanlari",
+   "kind": "scalar"
+  },
+  "54": {
+   "path": "yolCevre.yatayDikeyEgim",
+   "kind": "scalar"
+  },
+  "55": {
+   "path": "yolCevre.kazaYeriIsaretleme",
+   "kind": "scalar"
+  },
+  "56": {
+   "path": "yolCevre.isikliSesliUyari",
+   "kind": "scalar"
+  },
+  "57": {
+   "path": "yolCevre.korNokta",
+   "kind": "scalar"
+  },
+  "58": {
+   "path": "yolCevre.yoldaCalisma",
+   "kind": "scalar"
+  },
+  "59": {
+   "path": "yolCevre.yoldaCalismaIsaretleme",
+   "kind": "scalar"
+  },
+  "60": {
+   "path": "yolCevre.gecitOzellikleri",
+   "kind": "scalar"
+  },
+  "61": {
+   "path": "yolCevre.aydinlatma",
+   "kind": "scalar"
+  },
+  "62": {
+   "path": "yolCevre.cevreDiger",
+   "kind": "scalar"
+  },
+  "63": {
+   "path": "yolCevre.yolunOzelligi",
+   "kind": "scalar"
+  },
+  "64": {
+   "path": "yolCevre.yolunYapiOzelligi",
+   "kind": "scalar"
+  },
+  "71": {
+   "path": "guzergah.yatayDikey",
+   "kind": "scalar"
+  },
+  "72": {
+   "path": "guzergah.yatay",
+   "kind": "scalar"
+  },
+  "73": {
+   "path": "guzergah.dikey",
+   "kind": "scalar"
+  },
+  "75": {
+   "path": "yolEkipman.otoKorkuluk",
+   "kind": "scalar"
+  },
+  "76": {
+   "path": "yolEkipman.yayaYolu",
+   "kind": "scalar"
+  },
+  "77": {
+   "path": "yolEkipman.emniyetSeridi",
+   "kind": "scalar"
+  },
+  "78": {
+   "path": "yolEkipman.yolSeritCizgisi",
+   "kind": "scalar"
+  },
+  "79": {
+   "path": "yolEkipman.trafikIsaretLevhasi",
+   "kind": "scalar"
+  },
+  "80": {
+   "path": "yolEkipman.isikliSesliIsaret",
+   "kind": "scalar"
+  },
+  "81": {
+   "path": "yolEkipman.yolAydinlatmasi",
+   "kind": "scalar"
+  },
+  "82": {
+   "path": "yolEkipman.trafikGorevlisi",
+   "kind": "scalar"
+  },
+  "83": {
+   "path": "yolEkipman.goruseEngelCisim",
+   "kind": "scalar"
+  },
+  "85": {
+   "path": "yolEkipman.yoldaCalisma",
+   "kind": "scalar"
+  },
+  "86": {
+   "path": "yolEkipman.yoldaCalismaIsaretleme",
+   "kind": "scalar"
+  },
+  "87": {
+   "path": "yolEkipman.yolSorunu",
+   "kind": "scalar"
+  },
+  "88": {
+   "path": "yolEkipman.yolSorunuIsaretleme",
+   "kind": "scalar"
+  },
+  "89": {
+   "path": "kaza.olusSekli",
+   "kind": "scalar"
+  },
+  "90": {
+   "path": "kaza.aracSayisinaGore",
+   "kind": "scalar"
+  },
+  "91": {
+   "path": "kaza.ilkCarpismaYeri",
+   "kind": "scalar"
+  },
+  "92": {
+   "path": "kaza.yayaGecidiOzellikleri",
+   "kind": "scalar"
+  },
+  "93": {
+   "path": "kaza.gecitDurumu",
+   "kind": "scalar"
+  },
+  "94": {
+   "path": "kaza.ilkYardim",
+   "kind": "scalar"
+  },
+  "95": {
+   "path": "kaza.digerOzellik",
+   "kind": "scalar"
+  },
+  "96": {
+   "path": "kaza.fotoKameraKayitlari",
+   "kind": "scalar"
+  },
+  "100": {
+   "path": "araclar[].aracNo",
+   "kind": "arac"
+  },
+  "101": {
+   "path": "araclar[].plaka",
+   "kind": "arac"
+  },
+  "102": {
+   "path": "araclar[].modelYili",
+   "kind": "arac"
+  },
+  "103": {
+   "path": "araclar[].tescilUlkesi",
+   "kind": "arac"
+  },
+  "104": {
+   "path": "araclar[].cinsi",
+   "kind": "arac"
+  },
+  "105": {
+   "path": "araclar[].motorGucu",
+   "kind": "arac"
+  },
+  "106": {
+   "path": "araclar[].kullanimAmaci",
+   "kind": "arac"
+  },
+  "107": {
+   "path": "araclar[].kameraKaydi",
+   "kind": "arac"
+  },
+  "108": {
+   "path": "araclar[].kullanimSekli",
+   "kind": "arac"
+  },
+  "109": {
+   "path": "araclar[].kazaOncesiHareket",
+   "kind": "arac"
+  },
+  "110": {
+   "path": "araclar[].hiz",
+   "kind": "arac"
+  },
+  "111": {
+   "path": "araclar[].frenUzunlugu",
+   "kind": "arac"
+  },
+  "112": {
+   "path": "araclar[].yukCinsi",
+   "kind": "arac"
+  },
+  "113": {
+   "path": "araclar[].istihapAsimi",
+   "kind": "arac"
+  },
+  "114": {
+   "path": "araclar[].ilkDarbeBolumu",
+   "kind": "arac"
+  },
+  "115": {
+   "path": "araclar[].sigortaTuru",
+   "kind": "arac"
+  },
+  "116": {
+   "path": "araclar[].sigortaSirketi",
+   "kind": "arac"
+  },
+  "117": {
+   "path": "araclar[].policeNo",
+   "kind": "arac"
+  },
+  "118": {
+   "path": "araclar[].sigortaBitis",
+   "kind": "arac"
+  },
+  "119": {
+   "path": "araclar[].etkenAksamlar",
+   "kind": "arac"
+  },
+  "120": {
+   "path": "araclar[].fenniMuayeneBitis",
+   "kind": "arac"
+  },
+  "121": {
+   "path": "araclar[].hasarDerecesi",
+   "kind": "arac"
+  },
+  "122": {
+   "path": "araclar[].yakitCinsi",
+   "kind": "arac"
+  },
+  "123": {
+   "path": "araclar[].lastikDurumu",
+   "kind": "arac"
+  },
+  "124": {
+   "path": "araclar[].lastikDisDerinligi",
+   "kind": "arac"
+  },
+  "125": {
+   "path": "araclar[].camDurumu",
+   "kind": "arac"
+  },
+  "126": {
+   "path": "araclar[].dikizAynaDurumu",
+   "kind": "arac"
+  },
+  "128": {
+   "path": "araclar[].sahibi",
+   "kind": "arac"
+  },
+  "129": {
+   "path": "araclar[].firmaIsletme",
+   "kind": "arac"
+  },
+  "132": {
+   "path": "araclar[].kazaSonrasiKonum",
+   "kind": "arac"
+  },
+  "134": {
+   "path": "suruculer[].adi",
+   "kind": "surucu"
+  },
+  "135": {
+   "path": "suruculer[].tckn",
+   "kind": "surucu"
+  },
+  "136": {
+   "path": "suruculer[].dogumTarihi",
+   "kind": "surucu"
+  },
+  "137": {
+   "path": "suruculer[].cinsiyet",
+   "kind": "surucu"
+  },
+  "138": {
+   "path": "suruculer[].kazaSonucu",
+   "kind": "surucu"
+  },
+  "139": {
+   "path": "suruculer[].belgeDurumu",
+   "kind": "surucu"
+  },
+  "140": {
+   "path": "suruculer[].belgeIli",
+   "kind": "surucu"
+  },
+  "141": {
+   "path": "suruculer[].belgeIlcesi",
+   "kind": "surucu"
+  },
+  "142": {
+   "path": "suruculer[].adaylik",
+   "kind": "surucu"
+  },
+  "143": {
+   "path": "suruculer[].ogrenim",
+   "kind": "surucu"
+  },
+  "144": {
+   "path": "suruculer[].alkol",
+   "kind": "surucu"
+  },
+  "145": {
+   "path": "suruculer[].psikoFizikselSuphe",
+   "kind": "surucu"
+  },
+  "146": {
+   "path": "suruculer[].koruyucuTertibat",
+   "kind": "surucu"
+  },
+  "147": {
+   "path": "suruculer[].meslek",
+   "kind": "surucu"
+  },
+  "155": {
+   "path": "yayalar[].adSoyad",
+   "kind": "yaya"
+  },
+  "156": {
+   "path": "yayalar[].tckn",
+   "kind": "yaya"
+  },
+  "157": {
+   "path": "yayalar[].dogumTarihi",
+   "kind": "yaya"
+  },
+  "158": {
+   "path": "yayalar[].cinsiyet",
+   "kind": "yaya"
+  },
+  "159": {
+   "path": "yayalar[].kazaSonucu",
+   "kind": "yaya"
+  },
+  "160": {
+   "path": "yayalar[].kurallar",
+   "kind": "yaya"
+  },
+  "161": {
+   "path": "yayalar[].kazaOncesiHareket",
+   "kind": "yaya"
+  },
+  "162": {
+   "path": "yayalar[].giysi",
+   "kind": "yaya"
+  },
+  "163": {
+   "path": "yayalar[].alkol",
+   "kind": "yaya"
+  },
+  "164": {
+   "path": "yayalar[].kusurlar",
+   "kind": "yaya"
+  },
+  "165": {
+   "path": "yayalar[].meslek",
+   "kind": "yaya"
+  },
+  "166": {
+   "path": "yolcular[].adi",
+   "kind": "yolcu"
+  },
+  "167": {
+   "path": "yolcular[].adSoyad",
+   "kind": "yolcu"
+  },
+  "168": {
+   "path": "yolcular[].tckn",
+   "kind": "yolcu"
+  },
+  "169": {
+   "path": "yolcular[].dogumTarihi",
+   "kind": "yolcu"
+  },
+  "170": {
+   "path": "yolcular[].kazaSonucu",
+   "kind": "yolcu"
+  },
+  "171": {
+   "path": "yolcular[].kurallar",
+   "kind": "yolcu"
+  },
+  "172": {
+   "path": "yolcular[].aractaYer",
+   "kind": "yolcu"
+  },
+  "173": {
+   "path": "yolcular[].guvenlikEkipmani",
+   "kind": "yolcu"
+  },
+  "174": {
+   "path": "yolcular[].kusurlar",
+   "kind": "yolcu"
+  },
+  "175": {
+   "path": "yolcular[].meslek",
+   "kind": "yolcu"
+  }
+ },
+ "cards": [
+  {
+   "factorId": "yol-cevre.gun-durumu",
+   "sheet": "3",
+   "titleRow": 9,
+   "valueRow": 10,
+   "statusRow": 11,
+   "cells": {
+    "incelemeDurumu": "E11",
+    "muteala": "E14",
+    "durum": "V11"
+   }
+  },
+  {
+   "factorId": "yol-cevre.saat-dakika",
+   "sheet": "3",
+   "titleRow": 19,
+   "valueRow": 20,
+   "statusRow": 21,
+   "cells": {
+    "incelemeDurumu": "E21",
+    "muteala": "E24",
+    "durum": "V21"
+   }
+  },
+  {
+   "factorId": "yol-cevre.hava-durumu",
+   "sheet": "3",
+   "titleRow": 29,
+   "valueRow": 30,
+   "statusRow": 31,
+   "cells": {
+    "incelemeDurumu": "E31",
+    "muteala": "E34",
+    "durum": "V31"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-sinifi",
+   "sheet": "3",
+   "titleRow": 39,
+   "valueRow": 40,
+   "statusRow": 41,
+   "cells": {
+    "incelemeDurumu": "E41",
+    "muteala": "E44",
+    "durum": "V41"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-akis-yonu",
+   "sheet": "3",
+   "titleRow": 51,
+   "valueRow": 52,
+   "statusRow": 53,
+   "cells": {
+    "incelemeDurumu": "E53",
+    "muteala": "E56",
+    "durum": "V53"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-kaplama-tipi",
+   "sheet": "3",
+   "titleRow": 61,
+   "valueRow": 62,
+   "statusRow": 63,
+   "cells": {
+    "incelemeDurumu": "E63",
+    "muteala": "E66",
+    "durum": "V63"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-yuzeyi",
+   "sheet": "3",
+   "titleRow": 72,
+   "valueRow": 73,
+   "statusRow": 74,
+   "cells": {
+    "incelemeDurumu": "E74",
+    "muteala": "E77",
+    "durum": "V74"
+   }
+  },
+  {
+   "factorId": "yol-cevre.kazaya-etki-eden-yol-yuzey-hatalari",
+   "sheet": "3",
+   "titleRow": 82,
+   "valueRow": 83,
+   "statusRow": 84,
+   "cells": {
+    "incelemeDurumu": "E84",
+    "muteala": "E87",
+    "durum": "V84"
+   }
+  },
+  {
+   "factorId": "yol-cevre.kazanin-meydana-geldigi-yerin-konumu",
+   "sheet": "3",
+   "titleRow": 92,
+   "valueRow": 93,
+   "statusRow": 94,
+   "cells": {
+    "incelemeDurumu": "E94",
+    "muteala": "E97",
+    "durum": "V94"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-cevre-ozelligi",
+   "sheet": "3",
+   "titleRow": 102,
+   "valueRow": 103,
+   "statusRow": 104,
+   "cells": {
+    "incelemeDurumu": "E104",
+    "muteala": "E107",
+    "durum": "V104"
+   }
+  },
+  {
+   "factorId": "yol-cevre.serit-cizgisi",
+   "sheet": "3",
+   "titleRow": 116,
+   "valueRow": 117,
+   "statusRow": 118,
+   "cells": {
+    "incelemeDurumu": "E118",
+    "muteala": "E121",
+    "durum": "V118"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yol-elemanlari",
+   "sheet": "3",
+   "titleRow": 133,
+   "valueRow": 134,
+   "statusRow": 135,
+   "cells": {
+    "incelemeDurumu": "E135",
+    "muteala": "E138",
+    "durum": "V135"
+   }
+  },
+  {
+   "factorId": "yol-cevre.kaza-yeri-yatay-dikey-egimi",
+   "sheet": "3",
+   "titleRow": 143,
+   "valueRow": 144,
+   "statusRow": 145,
+   "cells": {
+    "incelemeDurumu": "E145",
+    "muteala": "E148",
+    "durum": "V145"
+   }
+  },
+  {
+   "factorId": "yol-cevre.kaza-yeri-isaretleme",
+   "sheet": "3",
+   "titleRow": 153,
+   "valueRow": 154,
+   "statusRow": 155,
+   "cells": {
+    "incelemeDurumu": "E155",
+    "muteala": "E158",
+    "durum": "V155"
+   }
+  },
+  {
+   "factorId": "yol-cevre.isikli-sesli-uyarilar",
+   "sheet": "3",
+   "titleRow": 164,
+   "valueRow": 165,
+   "statusRow": 166,
+   "cells": {
+    "incelemeDurumu": "E166",
+    "muteala": "E169",
+    "durum": "V166"
+   }
+  },
+  {
+   "factorId": "yol-cevre.kor-nokta-ve-gorus-engelleri",
+   "sheet": "3",
+   "titleRow": 175,
+   "valueRow": 176,
+   "statusRow": 177,
+   "cells": {
+    "incelemeDurumu": "E177",
+    "muteala": "E180",
+    "durum": "V177"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolda-calisma",
+   "sheet": "3",
+   "titleRow": 185,
+   "valueRow": 186,
+   "statusRow": 187,
+   "cells": {
+    "incelemeDurumu": "E187",
+    "muteala": "E190",
+    "durum": "V187"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolda-calisma-isaretleme-durumu",
+   "sheet": "3",
+   "titleRow": 195,
+   "valueRow": 196,
+   "statusRow": 197,
+   "cells": {
+    "incelemeDurumu": "E197",
+    "muteala": "E200",
+    "durum": "V197"
+   }
+  },
+  {
+   "factorId": "yol-cevre.gecit-ozellikleri",
+   "sheet": "3",
+   "titleRow": 205,
+   "valueRow": 206,
+   "statusRow": 207,
+   "cells": {
+    "incelemeDurumu": "E207",
+    "muteala": "E210",
+    "durum": "V207"
+   }
+  },
+  {
+   "factorId": "yol-cevre.aydinlatma-durumu",
+   "sheet": "3",
+   "titleRow": 215,
+   "valueRow": 216,
+   "statusRow": 217,
+   "cells": {
+    "incelemeDurumu": "E217",
+    "muteala": "E220",
+    "durum": "V217"
+   }
+  },
+  {
+   "factorId": "yol-cevre.cevre-ve-diger-ozellikler",
+   "sheet": "3",
+   "titleRow": 225,
+   "valueRow": 226,
+   "statusRow": 227,
+   "cells": {
+    "incelemeDurumu": "E227",
+    "muteala": "E230",
+    "durum": "V227"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yolun-ozelligi",
+   "sheet": "3",
+   "titleRow": 235,
+   "valueRow": 236,
+   "statusRow": 237,
+   "cells": {
+    "incelemeDurumu": "E237",
+    "muteala": "E240",
+    "durum": "V237"
+   }
+  },
+  {
+   "factorId": "yol-cevre.viraj",
+   "sheet": "3",
+   "titleRow": 244,
+   "valueRow": 245,
+   "statusRow": 246,
+   "cells": {
+    "incelemeDurumu": "E246",
+    "muteala": "E249",
+    "durum": "V246"
+   }
+  },
+  {
+   "factorId": "yol-cevre.duz-yol",
+   "sheet": "3",
+   "titleRow": 253,
+   "valueRow": 254,
+   "statusRow": 255,
+   "cells": {
+    "incelemeDurumu": "E255",
+    "muteala": "E258",
+    "durum": "V255"
+   }
+  },
+  {
+   "factorId": "yol-cevre.isikli-kontrol",
+   "sheet": "3",
+   "titleRow": 263,
+   "valueRow": 264,
+   "statusRow": 265,
+   "cells": {
+    "incelemeDurumu": "E265",
+    "muteala": "E268",
+    "durum": "V265"
+   }
+  },
+  {
+   "factorId": "yol-cevre.egimli-yol",
+   "sheet": "3",
+   "titleRow": 272,
+   "valueRow": 273,
+   "statusRow": 274,
+   "cells": {
+    "incelemeDurumu": "E274",
+    "muteala": "E277",
+    "durum": "V274"
+   }
+  },
+  {
+   "factorId": "yol-cevre.yaya-gecidi",
+   "sheet": "3",
+   "titleRow": 281,
+   "valueRow": 282,
+   "statusRow": 283,
+   "cells": {
+    "incelemeDurumu": "E283",
+    "muteala": "E286",
+    "durum": "V283"
+   }
+  },
+  {
+   "factorId": "yol-cevre.diger",
+   "sheet": "3",
+   "titleRow": 290,
+   "valueRow": 291,
+   "statusRow": 292,
+   "cells": {
+    "incelemeDurumu": "E292",
+    "muteala": "E295",
+    "durum": "V292"
+   }
+  },
+  {
+   "factorId": "arac.arac-cinsi",
+   "sheet": "4",
+   "titleRow": 11,
+   "valueRow": 12,
+   "statusRow": 13,
+   "cells": {
+    "incelemeDurumu": "E13",
+    "muteala": "E16",
+    "durum": "V13"
+   }
+  },
+  {
+   "factorId": "arac.modeli-motor-gucu",
+   "sheet": "4",
+   "titleRow": 21,
+   "valueRow": 22,
+   "statusRow": 23,
+   "cells": {
+    "incelemeDurumu": "E23",
+    "muteala": "E26",
+    "durum": "V23"
+   }
+  },
+  {
+   "factorId": "arac.markasi-rengi-tipi-kg",
+   "sheet": "4",
+   "titleRow": 31,
+   "valueRow": 32,
+   "statusRow": 33,
+   "cells": {
+    "incelemeDurumu": "E33",
+    "muteala": "E36",
+    "durum": "V33"
+   }
+  },
+  {
+   "factorId": "arac.kullanim-amaci",
+   "sheet": "4",
+   "titleRow": 41,
+   "valueRow": 42,
+   "statusRow": 43,
+   "cells": {
+    "incelemeDurumu": "E43",
+    "muteala": "E46",
+    "durum": "V43"
+   }
+  },
+  {
+   "factorId": "arac.aracin-fenni-muayenesi",
+   "sheet": "4",
+   "titleRow": 51,
+   "valueRow": 52,
+   "statusRow": 53,
+   "cells": {
+    "incelemeDurumu": "E53",
+    "muteala": "E56",
+    "durum": "V53"
+   }
+  },
+  {
+   "factorId": "arac.tasit-sahibi",
+   "sheet": "4",
+   "titleRow": 61,
+   "valueRow": 62,
+   "statusRow": 63,
+   "cells": {
+    "incelemeDurumu": "E63",
+    "muteala": "E66",
+    "durum": "V63"
+   }
+  },
+  {
+   "factorId": "arac.arac-emniyet-kemeri",
+   "sheet": "4",
+   "titleRow": 71,
+   "valueRow": 72,
+   "statusRow": 73,
+   "cells": {
+    "incelemeDurumu": "E73",
+    "muteala": "E76",
+    "durum": "V73"
+   }
+  },
+  {
+   "factorId": "arac.yolcu-adedi",
+   "sheet": "4",
+   "titleRow": 81,
+   "valueRow": 82,
+   "statusRow": 83,
+   "cells": {
+    "incelemeDurumu": "E83",
+    "muteala": "E86",
+    "durum": "V83"
+   }
+  },
+  {
+   "factorId": "arac.araca-ait-ozel-koruyucu-tertibatlar",
+   "sheet": "4",
+   "titleRow": 91,
+   "valueRow": 92,
+   "statusRow": 93,
+   "cells": {
+    "incelemeDurumu": "E93",
+    "muteala": "E96",
+    "durum": "V93"
+   }
+  },
+  {
+   "factorId": "arac.aracin-istihap-haddi",
+   "sheet": "4",
+   "titleRow": 101,
+   "valueRow": 102,
+   "statusRow": 103,
+   "cells": {
+    "incelemeDurumu": "E103",
+    "muteala": "E106",
+    "durum": "V103"
+   }
+  },
+  {
+   "factorId": "arac.gabari-asilmismi-veya-yukleme-durumu",
+   "sheet": "4",
+   "titleRow": 111,
+   "valueRow": 112,
+   "statusRow": 113,
+   "cells": {
+    "incelemeDurumu": "E113",
+    "muteala": "E116",
+    "durum": "V113"
+   }
+  },
+  {
+   "factorId": "arac.mali-sigorta-adi-police-no-tarihi",
+   "sheet": "4",
+   "titleRow": 121,
+   "valueRow": 122,
+   "statusRow": 123,
+   "cells": {
+    "incelemeDurumu": "E123",
+    "muteala": "E126",
+    "durum": "V123"
+   }
+  },
+  {
+   "factorId": "arac.kasko-sigorta",
+   "sheet": "4",
+   "titleRow": 131,
+   "valueRow": 132,
+   "statusRow": 133,
+   "cells": {
+    "incelemeDurumu": "E133",
+    "muteala": "E136",
+    "durum": "V133"
+   }
+  },
+  {
+   "factorId": "arac.ihtiyari-mali-sigorta",
+   "sheet": "4",
+   "titleRow": 141,
+   "valueRow": 142,
+   "statusRow": 143,
+   "cells": {
+    "incelemeDurumu": "E143",
+    "muteala": "E146",
+    "durum": "V143"
+   }
+  },
+  {
+   "factorId": "arac.zorunlu-koltuk-ferdi-kaza-sigortasi",
+   "sheet": "4",
+   "titleRow": 151,
+   "valueRow": 152,
+   "statusRow": 153,
+   "cells": {
+    "incelemeDurumu": "E153",
+    "muteala": "E156",
+    "durum": "V153"
+   }
+  },
+  {
+   "factorId": "arac.arac-yol-yetki-belgesi",
+   "sheet": "4",
+   "titleRow": 161,
+   "valueRow": 162,
+   "statusRow": 163,
+   "cells": {
+    "incelemeDurumu": "E163",
+    "muteala": "E166",
+    "durum": "V163"
+   }
+  },
+  {
+   "factorId": "arac.yukun-degeri",
+   "sheet": "4",
+   "titleRow": 171,
+   "valueRow": 172,
+   "statusRow": 173,
+   "cells": {
+    "incelemeDurumu": "E173",
+    "muteala": "E176",
+    "durum": "V173"
+   }
+  },
+  {
+   "factorId": "arac.yukun-cinsi",
+   "sheet": "4",
+   "titleRow": 181,
+   "valueRow": 182,
+   "statusRow": 183,
+   "cells": {
+    "incelemeDurumu": "E183",
+    "muteala": "E186",
+    "durum": "V183"
+   }
+  },
+  {
+   "factorId": "arac.yukun-son-hali",
+   "sheet": "4",
+   "titleRow": 191,
+   "valueRow": 192,
+   "statusRow": 193,
+   "cells": {
+    "incelemeDurumu": "E193",
+    "muteala": "E196",
+    "durum": "V193"
+   }
+  },
+  {
+   "factorId": "arac.arac-avadanliklari-mevcutmu",
+   "sheet": "4",
+   "titleRow": 201,
+   "valueRow": 202,
+   "statusRow": 203,
+   "cells": {
+    "incelemeDurumu": "E203",
+    "muteala": "E206",
+    "durum": "V203"
+   }
+  },
+  {
+   "factorId": "arac.arac-yetki-belgesi",
+   "sheet": "4",
+   "titleRow": 211,
+   "valueRow": 212,
+   "statusRow": 213,
+   "cells": {
+    "incelemeDurumu": "E213",
+    "muteala": "E216",
+    "durum": "V213"
+   }
+  },
+  {
+   "factorId": "arac.aracin-son-bakim-tarihi-ozel-araclarda-muyene-aranacak-resmi-sirket-veya-ozel-kurum-kuruluslarda-son-bakim-tarihi-aranacak",
+   "sheet": "4",
+   "titleRow": 221,
+   "valueRow": 222,
+   "statusRow": 223,
+   "cells": {
+    "incelemeDurumu": "E223",
+    "muteala": "E226",
+    "durum": "V223"
+   }
+  },
+  {
+   "factorId": "arac.servis-aracinda-rehber-varmi",
+   "sheet": "4",
+   "titleRow": 231,
+   "valueRow": 232,
+   "statusRow": 233,
+   "cells": {
+    "incelemeDurumu": "E233",
+    "muteala": "E236",
+    "durum": "V233"
+   }
+  },
+  {
+   "factorId": "arac.eskortluk-hizmeti",
+   "sheet": "4",
+   "titleRow": 241,
+   "valueRow": 242,
+   "statusRow": 243,
+   "cells": {
+    "incelemeDurumu": "E243",
+    "muteala": "E246",
+    "durum": "V243"
+   }
+  },
+  {
+   "factorId": "arac.arac-ici-kamera",
+   "sheet": "4",
+   "titleRow": 251,
+   "valueRow": 252,
+   "statusRow": 253,
+   "cells": {
+    "incelemeDurumu": "E253",
+    "muteala": "E256",
+    "durum": "V253"
+   }
+  },
+  {
+   "factorId": "arac.arac-far-ve-sis-lambalari",
+   "sheet": "4",
+   "titleRow": 261,
+   "valueRow": 262,
+   "statusRow": 263,
+   "cells": {
+    "incelemeDurumu": "E263",
+    "muteala": "E266",
+    "durum": "V263"
+   }
+  },
+  {
+   "factorId": "arac.arac-dur-sinyalleri",
+   "sheet": "4",
+   "titleRow": 271,
+   "valueRow": 272,
+   "statusRow": 273,
+   "cells": {
+    "incelemeDurumu": "E273",
+    "muteala": "E276",
+    "durum": "V273"
+   }
+  },
+  {
+   "factorId": "arac.arac-sinyal-lambalari",
+   "sheet": "4",
+   "titleRow": 281,
+   "valueRow": 282,
+   "statusRow": 283,
+   "cells": {
+    "incelemeDurumu": "E283",
+    "muteala": "E286",
+    "durum": "V283"
+   }
+  },
+  {
+   "factorId": "arac.arac-cam-filmleri",
+   "sheet": "4",
+   "titleRow": 291,
+   "valueRow": 292,
+   "statusRow": 293,
+   "cells": {
+    "incelemeDurumu": "E293",
+    "muteala": "E296",
+    "durum": "V293"
+   }
+  },
+  {
+   "factorId": "arac.amortisor-makas-arizalari",
+   "sheet": "4",
+   "titleRow": 301,
+   "valueRow": 302,
+   "statusRow": 303,
+   "cells": {
+    "incelemeDurumu": "E303",
+    "muteala": "E306",
+    "durum": "V303"
+   }
+  },
+  {
+   "factorId": "arac.direksiyon-rot-ve-rotil-arizalari",
+   "sheet": "4",
+   "titleRow": 311,
+   "valueRow": 312,
+   "statusRow": 313,
+   "cells": {
+    "incelemeDurumu": "E313",
+    "muteala": "E316",
+    "durum": "V313"
+   }
+  },
+  {
+   "factorId": "arac.frenler",
+   "sheet": "4",
+   "titleRow": 321,
+   "valueRow": 322,
+   "statusRow": 323,
+   "cells": {
+    "incelemeDurumu": "E323",
+    "muteala": "E326",
+    "durum": "V323"
+   }
+  },
+  {
+   "factorId": "arac.motor-ve-diferansiyel-arizalari",
+   "sheet": "4",
+   "titleRow": 331,
+   "valueRow": 332,
+   "statusRow": 333,
+   "cells": {
+    "incelemeDurumu": "E333",
+    "muteala": "E336",
+    "durum": "V333"
+   }
+  },
+  {
+   "factorId": "arac.sanzuman-hidrolik-saft-arizalari",
+   "sheet": "4",
+   "titleRow": 341,
+   "valueRow": 342,
+   "statusRow": 343,
+   "cells": {
+    "incelemeDurumu": "E343",
+    "muteala": "E346",
+    "durum": "V343"
+   }
+  },
+  {
+   "factorId": "arac.elektrik-donanimina-bagli-arizalar",
+   "sheet": "4",
+   "titleRow": 351,
+   "valueRow": 352,
+   "statusRow": 353,
+   "cells": {
+    "incelemeDurumu": "E353",
+    "muteala": "E356",
+    "durum": "V353"
+   }
+  },
+  {
+   "factorId": "arac.arac-hiz-metre-gostergesi",
+   "sheet": "4",
+   "titleRow": 361,
+   "valueRow": 362,
+   "statusRow": 363,
+   "cells": {
+    "incelemeDurumu": "E363",
+    "muteala": "E366",
+    "durum": "V363"
+   }
+  },
+  {
+   "factorId": "arac.arac-hiz-vites-konumu",
+   "sheet": "4",
+   "titleRow": 371,
+   "valueRow": 372,
+   "statusRow": 373,
+   "cells": {
+    "incelemeDurumu": "E373",
+    "muteala": "E376",
+    "durum": "V373"
+   }
+  },
+  {
+   "factorId": "arac.takograf-kontrolu",
+   "sheet": "4",
+   "titleRow": 381,
+   "valueRow": 382,
+   "statusRow": 383,
+   "cells": {
+    "incelemeDurumu": "E383",
+    "muteala": "E386",
+    "durum": "V383"
+   }
+  },
+  {
+   "factorId": "arac.arac-aynalari",
+   "sheet": "4",
+   "titleRow": 391,
+   "valueRow": 392,
+   "statusRow": 393,
+   "cells": {
+    "incelemeDurumu": "E393",
+    "muteala": "E396",
+    "durum": "V393"
+   }
+  },
+  {
+   "factorId": "arac.arac-cam-silecekleri",
+   "sheet": "4",
+   "titleRow": 401,
+   "valueRow": 402,
+   "statusRow": 403,
+   "cells": {
+    "incelemeDurumu": "E403",
+    "muteala": "E406",
+    "durum": "V403"
+   }
+  },
+  {
+   "factorId": "arac.digerleri",
+   "sheet": "4",
+   "titleRow": 411,
+   "valueRow": 412,
+   "statusRow": 413,
+   "cells": {
+    "incelemeDurumu": "E413",
+    "muteala": "E416",
+    "durum": "V413"
+   }
+  },
+  {
+   "factorId": "arac.d-r-plakasi-plakasi-modeli",
+   "sheet": "4",
+   "titleRow": 421,
+   "valueRow": 422,
+   "statusRow": 423,
+   "cells": {
+    "incelemeDurumu": "E423",
+    "muteala": "E426",
+    "durum": "V423"
+   }
+  },
+  {
+   "factorId": "arac.kapali-kasa-dorse-dry-van-box-trailer",
+   "sheet": "4",
+   "titleRow": 431,
+   "valueRow": 432,
+   "statusRow": 433,
+   "cells": {
+    "incelemeDurumu": "E433",
+    "muteala": "E436",
+    "durum": "V433"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-cinsiyeti-yasi",
+   "sheet": "5",
+   "titleRow": 14,
+   "valueRow": 15,
+   "statusRow": 16,
+   "cells": {
+    "incelemeDurumu": "E16",
+    "muteala": "E19",
+    "durum": "V16"
+   }
+  },
+  {
+   "factorId": "surucu.boyu-kilosu-ten-rengi",
+   "sheet": "5",
+   "titleRow": 24,
+   "valueRow": 25,
+   "statusRow": 26,
+   "cells": {
+    "incelemeDurumu": "E26",
+    "muteala": "E29",
+    "durum": "V26"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-son-saglik-tarihi",
+   "sheet": "5",
+   "titleRow": 34,
+   "valueRow": 35,
+   "statusRow": 36,
+   "cells": {
+    "incelemeDurumu": "E36",
+    "muteala": "E39",
+    "durum": "V36"
+   }
+  },
+  {
+   "factorId": "surucu.egitimi-calistigi-kurumu-veya-kurulusu-meslegi-gorevi",
+   "sheet": "5",
+   "titleRow": 44,
+   "valueRow": 45,
+   "statusRow": 46,
+   "cells": {
+    "incelemeDurumu": "E46",
+    "muteala": "E49",
+    "durum": "V46"
+   }
+  },
+  {
+   "factorId": "surucu.surucu-reaksiyon-suresi",
+   "sheet": "5",
+   "titleRow": 54,
+   "valueRow": 55,
+   "statusRow": 56,
+   "cells": {
+    "incelemeDurumu": "E56",
+    "muteala": "E59",
+    "durum": "V56"
+   }
+  },
+  {
+   "factorId": "surucu.psikoteknik",
+   "sheet": "5",
+   "titleRow": 64,
+   "valueRow": 65,
+   "statusRow": 66,
+   "cells": {
+    "incelemeDurumu": "E66",
+    "muteala": "E69",
+    "durum": "V66"
+   }
+  },
+  {
+   "factorId": "surucu.ticari-resmi-arac-kullanma-ehliyeti",
+   "sheet": "5",
+   "titleRow": 74,
+   "valueRow": 75,
+   "statusRow": 76,
+   "cells": {
+    "incelemeDurumu": "E76",
+    "muteala": "E79",
+    "durum": "V76"
+   }
+  },
+  {
+   "factorId": "surucu.surucu-ozel-izinli",
+   "sheet": "5",
+   "titleRow": 83,
+   "valueRow": 84,
+   "statusRow": 85,
+   "cells": {
+    "incelemeDurumu": "E85",
+    "muteala": "E88",
+    "durum": "V85"
+   }
+  },
+  {
+   "factorId": "surucu.surucu-kisisel-koruyucu-ekipmanlari",
+   "sheet": "5",
+   "titleRow": 93,
+   "valueRow": 94,
+   "statusRow": 95,
+   "cells": {
+    "incelemeDurumu": "E95",
+    "muteala": "E98",
+    "durum": "V95"
+   }
+  },
+  {
+   "factorId": "surucu.surucu-guzergah-formu",
+   "sheet": "5",
+   "titleRow": 103,
+   "valueRow": 104,
+   "statusRow": 105,
+   "cells": {
+    "incelemeDurumu": "E105",
+    "muteala": "E108",
+    "durum": "V105"
+   }
+  },
+  {
+   "factorId": "surucu.emniyet-kemeri",
+   "sheet": "5",
+   "titleRow": 113,
+   "valueRow": 114,
+   "statusRow": 115,
+   "cells": {
+    "incelemeDurumu": "E115",
+    "muteala": "E118",
+    "durum": "V115"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-alkol-kontrolu",
+   "sheet": "5",
+   "titleRow": 123,
+   "valueRow": 124,
+   "statusRow": 125,
+   "cells": {
+    "incelemeDurumu": "E125",
+    "muteala": "E128",
+    "durum": "V125"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-beklenmedik-davranislari",
+   "sheet": "5",
+   "titleRow": 133,
+   "valueRow": 134,
+   "statusRow": 135,
+   "cells": {
+    "incelemeDurumu": "E135",
+    "muteala": "E138",
+    "durum": "V135"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-son-sefer-gorev-gunu",
+   "sheet": "5",
+   "titleRow": 143,
+   "valueRow": 144,
+   "statusRow": 145,
+   "cells": {
+    "incelemeDurumu": "E145",
+    "muteala": "E148",
+    "durum": "V145"
+   }
+  },
+  {
+   "factorId": "surucu.surucu-kaza-sonrasi-onlemi",
+   "sheet": "5",
+   "titleRow": 153,
+   "valueRow": 154,
+   "statusRow": 155,
+   "cells": {
+    "incelemeDurumu": "E155",
+    "muteala": "E158",
+    "durum": "V155"
+   }
+  },
+  {
+   "factorId": "surucu.src-tasidigi-yolcu-yuk-hakkinda-egitimi-mevcutmu",
+   "sheet": "5",
+   "titleRow": 163,
+   "valueRow": 164,
+   "statusRow": 165,
+   "cells": {
+    "incelemeDurumu": "E165",
+    "muteala": "E168",
+    "durum": "V165"
+   }
+  },
+  {
+   "factorId": "surucu.carpmadan-sonra-surucu-durumu",
+   "sheet": "5",
+   "titleRow": 173,
+   "valueRow": 174,
+   "statusRow": 175,
+   "cells": {
+    "incelemeDurumu": "E175",
+    "muteala": "E178",
+    "durum": "V175"
+   }
+  },
+  {
+   "factorId": "surucu.carpmadan-sonra-surucu-hastane-deyse-elbisesi-pantolon-rengi-kriminal-112-dr-beyani",
+   "sheet": "5",
+   "titleRow": 183,
+   "valueRow": 184,
+   "statusRow": 185,
+   "cells": {
+    "incelemeDurumu": "E185",
+    "muteala": "E188",
+    "durum": "V185"
+   }
+  },
+  {
+   "factorId": "surucu.suruculerin-araclara-gore-gorus-mesafesi",
+   "sheet": "5",
+   "titleRow": 193,
+   "valueRow": 194,
+   "statusRow": 195,
+   "cells": {
+    "incelemeDurumu": "E195",
+    "muteala": "E198",
+    "durum": "V195"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-surucu-belgesi-herhangi-bir-suctan-geri-alinma-islemi-varmi",
+   "sheet": "5",
+   "titleRow": 203,
+   "valueRow": 204,
+   "statusRow": 205,
+   "cells": {
+    "incelemeDurumu": "E205",
+    "muteala": "E208",
+    "durum": "V205"
+   }
+  },
+  {
+   "factorId": "surucu.surucunun-daha-once-kazasi-varmi",
+   "sheet": "5",
+   "titleRow": 213,
+   "valueRow": 214,
+   "statusRow": 215,
+   "cells": {
+    "incelemeDurumu": "E215",
+    "muteala": "E218",
+    "durum": "V215"
+   }
+  },
+  {
+   "factorId": "surucu.sucta-tekerrur-ve-ozel-tehlikeli-sucu-varmi",
+   "sheet": "5",
+   "titleRow": 223,
+   "valueRow": 224,
+   "statusRow": 225,
+   "cells": {
+    "incelemeDurumu": "E225",
+    "muteala": "E228",
+    "durum": "V225"
+   }
+  },
+  {
+   "factorId": "yolcu.yolcunun-yasi",
+   "sheet": "6",
+   "titleRow": 13,
+   "valueRow": 14,
+   "statusRow": 15,
+   "cells": {
+    "incelemeDurumu": "E15",
+    "muteala": "E18",
+    "durum": "V15"
+   }
+  },
+  {
+   "factorId": "yolcu.yolcunun-bulundugu-arac",
+   "sheet": "6",
+   "titleRow": 23,
+   "valueRow": 24,
+   "statusRow": 25,
+   "cells": {
+    "incelemeDurumu": "E25",
+    "muteala": "E28",
+    "durum": "V25"
+   }
+  },
+  {
+   "factorId": "yolcu.yolcunun-emniyet-kemeri",
+   "sheet": "6",
+   "titleRow": 33,
+   "valueRow": 34,
+   "statusRow": 35,
+   "cells": {
+    "incelemeDurumu": "E35",
+    "muteala": "E38",
+    "durum": "V35"
+   }
+  },
+  {
+   "factorId": "yolcu.yolcununalkol-ilac-veya-uyusturucu-etkisi-altinda-kas-kontrolundeki-bozukluk",
+   "sheet": "6",
+   "titleRow": 43,
+   "valueRow": 44,
+   "statusRow": 45,
+   "cells": {
+    "incelemeDurumu": "E45",
+    "muteala": "E48",
+    "durum": "V45"
+   }
+  },
+  {
+   "factorId": "yolcu.carpmadan-sonra-yolcularin-durumu",
+   "sheet": "6",
+   "titleRow": 53,
+   "valueRow": 54,
+   "statusRow": 55,
+   "cells": {
+    "incelemeDurumu": "E55",
+    "muteala": "E58",
+    "durum": "V55"
+   }
+  },
+  {
+   "factorId": "yolcu.yolcu-oturma-pozisyonu-ve-sirt-dayama-durumu-durumu",
+   "sheet": "6",
+   "titleRow": 63,
+   "valueRow": 64,
+   "statusRow": 65,
+   "cells": {
+    "incelemeDurumu": "E65",
+    "muteala": "E68",
+    "durum": "V65"
+   }
+  },
+  {
+   "factorId": "yaya.dogum-tarihi-yasi",
+   "sheet": "9Y",
+   "titleRow": 13,
+   "valueRow": 14,
+   "statusRow": 15,
+   "cells": {
+    "incelemeDurumu": "E15",
+    "muteala": "E18",
+    "durum": "V15"
+   }
+  },
+  {
+   "factorId": "yaya.yayanin-boyu",
+   "sheet": "9Y",
+   "titleRow": 23,
+   "valueRow": 24,
+   "statusRow": 25,
+   "cells": {
+    "incelemeDurumu": "E25",
+    "muteala": "E28",
+    "durum": "V25"
+   }
+  },
+  {
+   "factorId": "yaya.yayanin-kilosu",
+   "sheet": "9Y",
+   "titleRow": 33,
+   "valueRow": 34,
+   "statusRow": 35,
+   "cells": {
+    "incelemeDurumu": "E35",
+    "muteala": "E38",
+    "durum": "V35"
+   }
+  },
+  {
+   "factorId": "yaya.yayanin-giysi-rengi",
+   "sheet": "9Y",
+   "titleRow": 43,
+   "valueRow": 44,
+   "statusRow": 45,
+   "cells": {
+    "incelemeDurumu": "E45",
+    "muteala": "E48",
+    "durum": "V45"
+   }
+  },
+  {
+   "factorId": "yaya.yayanin-carpilma-noktasi",
+   "sheet": "9Y",
+   "titleRow": 53,
+   "valueRow": 54,
+   "statusRow": 55,
+   "cells": {
+    "incelemeDurumu": "E55",
+    "muteala": "E58",
+    "durum": "V55"
+   }
+  },
+  {
+   "factorId": "yaya.yayanin-alkol-durumu",
+   "sheet": "9Y",
+   "titleRow": 63,
+   "valueRow": 64,
+   "statusRow": 65,
+   "cells": {
+    "incelemeDurumu": "E65",
+    "muteala": "E68",
+    "durum": "V65"
+   }
+  }
+ ],
+ "entityColumns": {
+  "D": 0,
+  "E": 1,
+  "F": 2
+ },
+ "sheet4EntityOffset": 26
+}

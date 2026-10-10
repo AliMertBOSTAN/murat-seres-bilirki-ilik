@@ -1,0 +1,394 @@
+{
+ "il": "NİĞDE ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "A.KAYABAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EFENDİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FERTEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İLHANLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAYAARDI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUMLUCA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARIKÖPRÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELÇUK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "Ş.SÜLEYMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİTLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "Y.KAYABAŞI",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "BOR": [
+   "ACIGÖL",
+   "AHMET KUDDUSİ",
+   {
+    "mahalle": "B.EVLER",
+    "belde": "ÇUKURKUYU"
+   },
+   "BAŞPINAR",
+   {
+    "mahalle": "BEKTİK",
+    "belde": "ÇUKURKUYU"
+   },
+   "BUĞDÜZ",
+   {
+    "mahalle": "CAMİ",
+    "belde": "ÇUKURKUYU"
+   },
+   {
+    "mahalle": "CAMİ",
+    "belde": "KEMERHİSAR"
+   },
+   "CIĞIZOĞLU OSMAN EFENDİ",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "BAHÇELİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KEMERHİSAR"
+   },
+   {
+    "mahalle": "ÇAYIR",
+    "belde": "KEMERHİSAR"
+   },
+   "FATİH",
+   {
+    "mahalle": "HAN",
+    "belde": "KEMERHİSAR"
+   },
+   "İFTİYAN",
+   {
+    "mahalle": "KEMER",
+    "belde": "KEMERHİSAR"
+   },
+   {
+    "mahalle": "SARAY",
+    "belde": "BAHÇELİ"
+   },
+   "SELÇUK",
+   {
+    "mahalle": "ŞEKER",
+    "belde": "BAHÇELİ"
+   },
+   {
+    "mahalle": "TEPE",
+    "belde": "KEMERHİSAR"
+   },
+   "TOPLU KONUT",
+   {
+    "mahalle": "TÜRKMEN YURDU",
+    "belde": "ÇUKURKUYU"
+   },
+   "YENİ HARIM",
+   {
+    "mahalle": "ZAFER",
+    "belde": "BAHÇELİ"
+   },
+   {
+    "mahalle": "ZAFER",
+    "belde": "ÇUKURKUYU"
+   }
+  ],
+  "ULUKIŞLA": [
+   "ALPAGUT",
+   "KEMALPAŞA"
+  ],
+  "ÇİFTLİK": [
+   {
+    "mahalle": "ALPASLAN",
+    "belde": "DİVARLI"
+   },
+   "ASMASIZ",
+   "ÇARŞI",
+   {
+    "mahalle": "ÇAYIR",
+    "belde": "AZATLI"
+   },
+   "ÇİFTÇİ",
+   {
+    "mahalle": "FATİH",
+    "belde": "DİVARLI"
+   },
+   {
+    "mahalle": "KÜLLÜCE",
+    "belde": "AZATLI"
+   },
+   {
+    "mahalle": "SAĞIRGÖL",
+    "belde": "AZATLI"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "AZATLI"
+   },
+   "YENİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "DİVARLI"
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "BOZKÖY"
+   },
+   {
+    "mahalle": "YENİKENT",
+    "belde": "BOZKÖY"
+   },
+   {
+    "mahalle": "YEŞİLKENT",
+    "belde": "AZATLI"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "BOZKÖY"
+   }
+  ],
+  "ALTUNHİSAR": [
+   "AŞAĞI",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KARAKAPI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KEÇİKALESİ"
+   },
+   {
+    "mahalle": "ERENLER",
+    "belde": "KEÇİKALESİ"
+   },
+   "İSTİKLAL",
+   "ORTA",
+   "SAĞLIK",
+   {
+    "mahalle": "SELÇUK",
+    "belde": "KEÇİKALESİ"
+   },
+   {
+    "mahalle": "YAKA",
+    "belde": "KARAKAPI"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KARAKAPI"
+   },
+   "YUKARI"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "AŞAĞI",
+    "belde": "DEĞİRMENLİ"
+   },
+   {
+    "mahalle": "AŞAĞI",
+    "belde": "SAZLICA"
+   },
+   {
+    "mahalle": "AŞAĞI",
+    "belde": "YEŞİLGÖLCÜK"
+   },
+   {
+    "mahalle": "B.EVLER",
+    "belde": "YILDIZTEPE"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "AKTAŞ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ALAY"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "BAĞLAMA"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "DÜNDARLI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "EDİKLİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KİLEDERE"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KONAKLI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YEŞİLGÖLCÜK"
+   },
+   {
+    "mahalle": "DEVLET",
+    "belde": "AKTAŞ"
+   },
+   {
+    "mahalle": "DUMLUPINAR",
+    "belde": "KARAATLI"
+   },
+   {
+    "mahalle": "ESKİGÜMÜŞ",
+    "belde": "GÜMÜŞLER"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "DÜNDARLI"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "KARAATLI"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "ORHANLI"
+   },
+   {
+    "mahalle": "FEVZİPAŞA",
+    "belde": "EDİKLİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "ALAY"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "BAĞLAMA"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "EDİKLİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KİLEDERE"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KONAKLI"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "YEŞİLGÖLCÜK"
+   },
+   {
+    "mahalle": "HÜYÜK",
+    "belde": "KONAKLI"
+   },
+   {
+    "mahalle": "MİLLİYET",
+    "belde": "ALAY"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "DEĞİRMENLİ"
+   },
+   {
+    "mahalle": "YAVUZ",
+    "belde": "ORHANLI"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "AKTAŞ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "EDİKLİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "HACIABDULLAH"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "SAZLICA"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "YEŞİLGÖLCÜK"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "YILDIZTEPE"
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "DÜNDARLI"
+   },
+   {
+    "mahalle": "YENİGÜMÜŞ",
+    "belde": "GÜMÜŞLER"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "DEĞİRMENLİ"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "SAZLICA"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "YEŞİLGÖLCÜK"
+   },
+   {
+    "mahalle": "ZAFER",
+    "belde": "DÜNDARLI"
+   },
+   {
+    "mahalle": "ZAFER",
+    "belde": "KARAATLI"
+   }
+  ],
+  "ÇAMARDI": [
+   "BEREKETLİ",
+   "MADEN"
+  ]
+ }
+}

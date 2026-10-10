@@ -1,0 +1,118 @@
+{
+ "version": "1.0.0",
+ "excelCompatible": true,
+ "profiles": [
+  {
+   "id": "yol-cevre",
+   "mapping": {
+    "": "",
+    "Yeterli": "ETKEN DEĞİL",
+    "Yetersiz": "İNCELENMELİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "Yok": "ETKEN",
+    "Davranış": "İNCELENMELİ",
+    "Var": "ETKEN DEĞİL",
+    "Belirsiz": "İNCELENMELİ"
+   },
+   "else": "FALSE",
+   "rawKeys": {
+    "": "",
+    "YETERLİ": "ETKEN DEĞİL",
+    "YETERSİZ": "İNCELENMELİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "YOK": "ETKEN",
+    "Davranış": "İNCELENMELİ",
+    "Var": "ETKEN DEĞİL",
+    "Belirsiz": "İNCELENMELİ"
+   },
+   "excelFormula": "IF(E11=\"\",\"\",IF(E11=\"YETERLİ\",\"ETKEN DEĞİL\",IF(E11=\"YETERSİZ\",\"İNCELENMELİ\",IF(E11=\"Aranmadı\",\"ETKEN DEĞİL\",IF(E11=\"YOK\",\"ETKEN\",IF(E11=\"Davranış\",\"İNCELENMELİ\",IF(E11=\"Var\",\"ETKEN DEĞİL\",IF(E11=\"Belirsiz\",\"İNCELENMELİ\"))))))))",
+   "firstSeen": "3!V11",
+   "sheets": [
+    "3"
+   ]
+  },
+  {
+   "id": "arac",
+   "mapping": {
+    "": "",
+    "Yeterli": "ETKEN DEĞİL",
+    "Yetersiz": "ÖZEL İSTEMLİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "Yok": "ETKEN",
+    "Belirsiz": "İNCELEMELİ",
+    "Var": "ETKEN DEĞİL"
+   },
+   "else": "FALSE",
+   "rawKeys": {
+    "": "",
+    "YETERLİ": "ETKEN DEĞİL",
+    "YETERSİZ": "ÖZEL İSTEMLİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "YOK": "ETKEN",
+    "Belirsiz": "İNCELEMELİ",
+    "Var": "ETKEN DEĞİL"
+   },
+   "excelFormula": "IF(E13=\"\",\"\",IF(E13=\"YETERLİ\",\"ETKEN DEĞİL\",IF(E13=\"YETERSİZ\",\"ÖZEL İSTEMLİ\",IF(E13=\"Aranmadı\",\"ETKEN DEĞİL\",IF(E13=\"YOK\",\"ETKEN\",IF(E13=\"Belirsiz\",\"İNCELEMELİ\",IF(E13=\"Var\",\"ETKEN DEĞİL\")))))))",
+   "firstSeen": "4!V13",
+   "sheets": [
+    "4"
+   ]
+  },
+  {
+   "id": "kisi",
+   "mapping": {
+    "": "",
+    "Yeterli": "ETKEN DEĞİL",
+    "Yetersiz": "İNCELENMELİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "Yok": "ETKEN",
+    "Belirsiz": "ÖZEL İSTEMLİ",
+    "Var": "ETKEN DEĞİL"
+   },
+   "else": "FALSE",
+   "rawKeys": {
+    "": "",
+    "YETERLİ": "ETKEN DEĞİL",
+    "YETERSİZ": "İNCELENMELİ",
+    "Aranmadı": "ETKEN DEĞİL",
+    "YOK": "ETKEN",
+    "Belirsiz": "ÖZEL İSTEMLİ",
+    "Var": "ETKEN DEĞİL"
+   },
+   "excelFormula": "IF(E16=\"\",\"\",IF(E16=\"YETERLİ\",\"ETKEN DEĞİL\",IF(E16=\"YETERSİZ\",\"İNCELENMELİ\",IF(E16=\"Aranmadı\",\"ETKEN DEĞİL\",IF(E16=\"YOK\",\"ETKEN\",IF(E16=\"Belirsiz\",\"ÖZEL İSTEMLİ\",IF(E16=\"Var\",\"ETKEN DEĞİL\")))))))",
+   "firstSeen": "5!V16",
+   "sheets": [
+    "5",
+    "6",
+    "9Y"
+   ]
+  }
+ ],
+ "inputs": [
+  "",
+  "Yeterli",
+  "Yetersiz",
+  "Var",
+  "Yok",
+  "Yapıldı",
+  "Aranmadı",
+  "Belirsiz",
+  "Davranış"
+ ],
+ "merged": {
+  "id": "birlesik",
+  "note": "Öneri: ürün sahibi onayı bekler (docs/acik-sorular.md)",
+  "mapping": {
+   "": "",
+   "Yeterli": "ETKEN DEĞİL",
+   "Yetersiz": "İNCELENMELİ",
+   "Aranmadı": "ETKEN DEĞİL",
+   "Yok": "ETKEN",
+   "Davranış": "İNCELENMELİ",
+   "Var": "ETKEN DEĞİL",
+   "Belirsiz": "İNCELENMELİ",
+   "Yapıldı": "ETKEN DEĞİL"
+  },
+  "else": ""
+ }
+}

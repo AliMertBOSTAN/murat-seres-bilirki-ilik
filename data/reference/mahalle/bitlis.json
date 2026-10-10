@@ -1,0 +1,311 @@
+{
+ "il": "BİTLİS ",
+ "ilceler": {
+  "ADİLCEVAZ": [
+   "ALACAATLI",
+   "ATATÜRK",
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "AYDINLAR"
+   },
+   {
+    "mahalle": "BUDAKLI",
+    "belde": "AYDINLAR"
+   },
+   "CEVİZLİ",
+   "ÇAYIR",
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "AYDINLAR"
+   },
+   "EVRENPAŞA",
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "AYDINLAR"
+   },
+   "HIDIRŞAH",
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "AYDINLAR"
+   },
+   "KALEBOYNU",
+   {
+    "mahalle": "KIŞIKLI",
+    "belde": "AYDINLAR"
+   },
+   {
+    "mahalle": "MENDERES",
+    "belde": "AYDINLAR"
+   },
+   "ORTA"
+  ],
+  "AHLAT": [
+   "ERKİZAN",
+   "HARABAŞEHİR",
+   "İKİKUBBE",
+   "KACER",
+   "KALE",
+   "KIRKLAR",
+   "KULAKSIZ",
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "OVAKIŞLA"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "OVAKIŞLA"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "OVAKIŞLA"
+   },
+   {
+    "mahalle": "SARAY",
+    "belde": "OVAKIŞLA"
+   },
+   "SELÇUKLU",
+   "TAHTISÜLEYMAN",
+   "TUNUS",
+   {
+    "mahalle": "YILDIZLAR",
+    "belde": "OVAKIŞLA"
+   }
+  ],
+  "GÜROYMAK": [
+   "BAĞLAR",
+   "BARAJYOLU",
+   "BARIŞ",
+   "BÖLMEDERE",
+   {
+    "mahalle": "CAMİ",
+    "belde": "GÜNKIRI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "GÜNKIRI"
+   },
+   "DEĞİRMEN",
+   "ERENTEPE",
+   "GİRNE",
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "GÖLBAŞI"
+   },
+   "HAYDAR",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "GÜNKIRI"
+   },
+   {
+    "mahalle": "KÖŞK",
+    "belde": "GÖLBAŞI"
+   },
+   "KÜMBET",
+   "NURTEPE",
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "GÜNKIRI"
+   },
+   {
+    "mahalle": "REFAHİYE",
+    "belde": "GÜNKIRI"
+   },
+   "ŞENEVLER",
+   {
+    "mahalle": "ŞENKAYA",
+    "belde": "GÖLBAŞI"
+   },
+   "ŞENOVA",
+   "ŞENTEPE",
+   {
+    "mahalle": "ŞENYAYLA",
+    "belde": "GÖLBAŞI"
+   },
+   {
+    "mahalle": "ŞENYURT",
+    "belde": "GÜNKIRI"
+   },
+   "ŞİRİNTEPE",
+   "UĞURLU",
+   {
+    "mahalle": "YENİ",
+    "belde": "GÖLBAŞI"
+   },
+   {
+    "mahalle": "YEŞİLLİ",
+    "belde": "GÖLBAŞI"
+   },
+   "YEŞİLOVA",
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "GÖLBAŞI"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "GÜNKIRI"
+   }
+  ],
+  "HİZAN": [
+   "ALTINOLUK",
+   "AŞAĞIKARASU",
+   "BAHÇELİEVLER",
+   "ESENTEPE",
+   "GÖKÇİMEN",
+   "KÜLTÜR",
+   "TAŞLIPINAR",
+   "YEMİŞLİ",
+   "YENİKENT",
+   "YEŞİLOVA"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞMİNARE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HERSAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜSREVPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUŞTAKBABA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEKİZ AĞUSTOS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEMSİ-İ BİTLİS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YÜKSELİŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZEYDAN",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BOZTEPE",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "ÇINARBAŞI",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "DÜZ",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "KONAÇ",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "ÜÇKARDEŞ",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "YOLALAN"
+   },
+   {
+    "mahalle": "YOLALAN",
+    "belde": "YOLALAN"
+   }
+  ],
+  "MUTKİ": [
+   {
+    "mahalle": "ARPALISEKİ",
+    "belde": "KAVAKBAŞI"
+   },
+   {
+    "mahalle": "CAMİİ",
+    "belde": "KAVAKBAŞI"
+   },
+   {
+    "mahalle": "ÇİMEN ",
+    "belde": "KAVAKBAŞI"
+   },
+   {
+    "mahalle": "GÖLBAŞI",
+    "belde": "KAVAKBAŞI"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "KAVAKBAŞI"
+   },
+   "PINARBAŞI",
+   "TAŞLIPINAR",
+   {
+    "mahalle": "YENİ",
+    "belde": "KAVAKBAŞI"
+   },
+   "YENİ",
+   "YENİBAĞ",
+   {
+    "mahalle": "YÜKSEKOVA",
+    "belde": "KAVAKBAŞI"
+   }
+  ],
+  "TATVAN": [
+   "AYDINLAR",
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   "ÇAĞLAYAN",
+   "DUMLUPINAR",
+   "ESENTEPE",
+   "FATİH",
+   "FUAR",
+   "HİDAYET",
+   "İŞLETME",
+   "KALE",
+   "KARATAŞ",
+   "KARŞIYAKA",
+   "KÜLTÜR",
+   "PINARBAŞI",
+   "SAHİL",
+   "SARAY",
+   "SOSYAL",
+   "ŞİRİNEVLER",
+   "TUĞ",
+   "YENİ",
+   "YEŞİLMEZRA"
+  ]
+ }
+}

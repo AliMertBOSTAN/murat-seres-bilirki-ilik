@@ -1,0 +1,150 @@
+{
+ "il": "KARS ",
+ "ilceler": {
+  "AKYAKA": [
+   "İSTASYON",
+   "TEPE",
+   "TOPKAYA"
+  ],
+  "ARPAÇAY": [
+   "BAHÇELER",
+   "ORTA",
+   "YALINÇAYIR",
+   "YENİ"
+  ],
+  "DİGOR": [
+   {
+    "mahalle": "DAĞPINAR",
+    "belde": "DAĞPINAR"
+   },
+   "MERKEZ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "30 EKİM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALPASLAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLIKEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYRAMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÜLBÜL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAFIZPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALİTPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSTASYON",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALEİÇİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARADAĞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORTAKAPI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖRNEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAÇAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SUKAPI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİTLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUSUFPAŞA",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KAĞIZMAN": [
+   "AŞAĞIDERE",
+   "AŞAĞIKÜMBET",
+   "BAYAM",
+   "HAZNEDAR",
+   "ŞAHİNDERE",
+   "TOPRAKKALE",
+   "YUKARIDERE",
+   "YUKARIKÜMBET",
+   "ZUVAR"
+  ],
+  "SARIKAMIŞ": [
+   "CUMHURİYET",
+   "ERENLER",
+   "İNÖNÜ",
+   "İSTASYON",
+   "İSTİKLAL",
+   "KAZIMKARABEKİR",
+   "ŞEHİTLER MAHALLESİ",
+   "TEPE",
+   "YENİ"
+  ],
+  "SELİM": [
+   "CUMHURİYET",
+   "ÇARŞI",
+   "KÖPRÜBAŞI"
+  ],
+  "SUSUZ": [
+   "CUMHURİYET",
+   "İNKİLAP",
+   "İNÖNÜ",
+   "KAZIMKARABEKİR"
+  ]
+ }
+}

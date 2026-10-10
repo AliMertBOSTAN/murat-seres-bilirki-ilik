@@ -1,0 +1,178 @@
+{
+ "il": "KIRŞEHİR ",
+ "ilceler": {
+  "MUCUR": [
+   "ACIÖZ",
+   "HAMİDİYE",
+   "KARŞIYAKA",
+   "OSMANGAZİ",
+   "SOLAKLI",
+   "ŞATIROĞLU",
+   "YENİCE"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AHİEVRAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AŞIKPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇUKURÇAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLHİSAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLDİKEN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAYABAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KERVANSARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KINDAM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUŞDİLLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEDRESE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NASUHDEDE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "AKPINAR": [
+   "ALİPAŞA",
+   "CUMHURİYET",
+   "HACI HÜSEYİN EFENDİ",
+   "KALEYAZI",
+   "ŞİRİNEVLER",
+   "YENİDOĞAN"
+  ],
+  "BOZTEPE": [
+   "BAĞBAŞI",
+   "ORTA",
+   "YENİ"
+  ],
+  "ÇİÇEKDAĞI": [
+   "BAĞLARBAŞI",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KÖSELİ"
+   },
+   "BOYALIK",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KÖSELİ"
+   },
+   {
+    "mahalle": "ÇİÇEK",
+    "belde": "KÖSELİ"
+   },
+   {
+    "mahalle": "ÇİFTLİK",
+    "belde": "KÖSELİ"
+   },
+   {
+    "mahalle": "DEVRECEK",
+    "belde": "KÖSELİ"
+   },
+   "FATİH",
+   "FEVZİ ÇAKMAK",
+   "OSMAN ŞEVKİ",
+   "YENİ",
+   "YENİŞEHİR"
+  ],
+  "KAMAN": [
+   "BAHÇELİEVLER",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KURANCILI"
+   },
+   "CUMA",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KURANCILI"
+   },
+   "ÇİFTLİKLİ",
+   "DARIÖZÜ",
+   "GAFFAR",
+   "HACIPINAR",
+   "MÜDERRİS",
+   "ORTA",
+   {
+    "mahalle": "ORTA",
+    "belde": "KURANCILI"
+   },
+   "SARIUŞAĞI",
+   "YENİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "KURANCILI"
+   },
+   "ZİYARETTEPE"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "HELVACILAR",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "KIŞLAPINAR",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "KIZILCA",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "ÖRCÜN",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "SARAYLAR",
+    "belde": "ÖZBAĞ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "ÖZBAĞ"
+   }
+  ],
+  "AKÇAKENT": [
+   "ŞEHRİCEDİT",
+   "YENİKENT",
+   "YENİYAPAN"
+  ]
+ }
+}

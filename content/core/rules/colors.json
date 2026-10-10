@@ -1,0 +1,6048 @@
+{
+ "source": "x14 koşullu biçimlendirme (sayfa 3/4/5/6/9Y/Grş 1/2.)",
+ "theme": {
+  "dk1": "000000",
+  "lt1": "FFFFFF",
+  "dk2": "44546A",
+  "lt2": "E7E6E6",
+  "accent1": "5B9BD5",
+  "accent2": "ED7D31",
+  "accent3": "A5A5A5",
+  "accent4": "FFC000",
+  "accent5": "4472C4",
+  "accent6": "70AD47",
+  "hlink": "0563C1",
+  "folHlink": "954F72"
+ },
+ "statusColors": {
+  "ETKEN": "#FF0000",
+  "Yok": "#FF0000",
+  "ETKEN DEĞİL": "#92D050",
+  "Yeterli": "#92D050",
+  "Var": "#92D050",
+  "Aranmadı": "#92D050",
+  "İNCELENMELİ": "#00B0F0",
+  "İNCELEMELİ": "#00B0F0",
+  "Yetersiz": "#00B0F0",
+  "Davranış": "#5B9BD5",
+  "Belirsiz": "#5B9BD5",
+  "ÖZEL İSTEMLİ": "#8497B0"
+ },
+ "scale5": {
+  "Çok İyi": "#00B050",
+  "İyi": "#92D050",
+  "Normal": "#00B0F0",
+  "Kötü": "#FFC000",
+  "Çok Kötü": "#FF0000"
+ },
+ "rules": [
+  {
+   "sheet": "3",
+   "sqref": "E117",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "E117",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "E117",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "E117",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "E117",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H11",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H11",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H11",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H11",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H21",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H21",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H21",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H21",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H31",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H31",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H31",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H31",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H41",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H41",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H41",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H41",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H53",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H53",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H53",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H53",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H63",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H63",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H63",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H63",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H74",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E1)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H74",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E1)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H74",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E1)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H74",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E1)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H84",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E90)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H84",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E90)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H84",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E90)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H84",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E90)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H94 H104",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E99)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H94 H104",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E99)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H94 H104",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E99)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H94 H104",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E99)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H118",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H118",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H118",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H118",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H135",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H135",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H135",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H135",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!#REF!)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H145",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E35)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H145",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E35)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H145",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E35)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H145",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E35)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H187",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E141)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H187",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E141)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H187",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E141)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H187",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E141)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H197",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yetersiz\",'Grş 1'!E155)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H197",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yeterli\",'Grş 1'!E155)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H197",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Yok\",'Grş 1'!E155)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "H197",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH(\"Aranmadı\",'Grş 1'!E155)))"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S83",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!J89)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S83",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!J89)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S83",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!J89)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S83",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!J89)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S83",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!J89)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S93 S103",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!J98)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S93 S103",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!J98)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S93 S103",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!J98)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S93 S103",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!J98)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S93 S103",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!J98)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S144",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S144",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S144",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S144",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S144",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S154",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S154",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S154",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S154",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S154",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S165",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S165",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S165",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S165",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S165",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S176",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S176",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S176",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S176",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S176",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S186",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S186",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S186",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S186",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S186",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S196",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S196",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S196",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S196",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S196",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S206",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S206",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S206",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S206",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S206",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S216",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S216",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S216",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S216",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S216",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S226",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S226",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S226",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S226",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S226",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S236",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S236",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S236",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S236",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S236",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S245",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S245",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S245",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S245",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S245",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S254",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S254",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S254",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S254",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S254",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S264",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S264",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S264",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S264",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S264",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S273",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S273",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S273",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S273",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S273",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S282",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S282",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S282",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S282",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S282",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S291",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S291",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S291",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S291",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "3",
+   "sqref": "S291",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,'Grş 1'!#REF!)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J28",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,J28)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J28",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,J28)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J28",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,J28)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J28",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,J28)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J28",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,J28)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J113",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,J113)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J113",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,J113)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J113",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,J113)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J113",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,J113)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J113",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,J113)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J122",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,J122)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J122",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,J122)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J122",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,J122)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J122",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,J122)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J122",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,J122)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J131",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$72,J131)))",
+    "'BİLGİ HESAP'!$B$72"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF92D050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF92D050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J131",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$73,J131)))",
+    "'BİLGİ HESAP'!$B$73"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B0F0"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B0F0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J131",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$74,J131)))",
+    "'BİLGİ HESAP'!$B$74"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFFC000"
+    },
+    {
+     "gradient": {
+      "degree": "90"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFFC000"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J131",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$71,J131)))",
+    "'BİLGİ HESAP'!$B$71"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FF00B050"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FF00B050"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": "Grş 1",
+   "sqref": "J131",
+   "operator": "containsText",
+   "formulas": [
+    "NOT(ISERROR(SEARCH('BİLGİ HESAP'!$B$75,J131)))",
+    "'BİLGİ HESAP'!$B$75"
+   ],
+   "fill": [
+    {
+     "theme": "0"
+    },
+    {
+     "rgb": "FFFF0000"
+    },
+    {
+     "gradient": {
+      "type": "path",
+      "left": "0.5",
+      "right": "0.5",
+      "top": "0.5",
+      "bottom": "0.5"
+     },
+     "stops": [
+      {
+       "pos": "0",
+       "theme": "0"
+      },
+      {
+       "pos": "1",
+       "rgb": "FFFF0000"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

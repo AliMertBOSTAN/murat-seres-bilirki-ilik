@@ -1,0 +1,85 @@
+{
+ "il": "ARDAHAN",
+ "ilceler": {
+  "ÇILDIR": [
+   "AŞIKŞENLİK",
+   "ÇILDIR MERKEZ",
+   "KUZUKAYA",
+   "YILDIRIMTEPE"
+  ],
+  "DAMAL": [
+   "ATA",
+   "CUMHURİYET",
+   "ÇAYBAŞI",
+   "İNÖNÜ",
+   "KALENDER",
+   "KONUKSEVER",
+   "MUSTAFA KEMAL",
+   "SERHAT"
+  ],
+  "GÖLE": [
+   {
+    "mahalle": "DEDEŞEN",
+    "belde": "KÖPRÜLÜ"
+   },
+   {
+    "mahalle": "DURANÇAM",
+    "belde": "KÖPRÜLÜ"
+   },
+   "FEVZİ ÇAKMAK",
+   "KAZIM KARABEKİR",
+   {
+    "mahalle": "KÖPRÜLÜMERKEZ",
+    "belde": "KÖPRÜLÜ"
+   },
+   "KUBİLAYBEY",
+   {
+    "mahalle": "KUZUPINARI",
+    "belde": "KÖPRÜLÜ"
+   },
+   "SALİMBEY"
+  ],
+  "HANAK": [
+   "ALAÇAM MAHALLESİ",
+   "ATALAR",
+   "AVCILAR MAHALLESİ",
+   "HÜRRİYET",
+   "ORTAKENT",
+   "SELAMVERDİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜRÇAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALİLEFENDİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAPTANPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAGÖL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "POSOF": [
+   "DOĞRULAR",
+   "MERKEZ"
+  ]
+ }
+}

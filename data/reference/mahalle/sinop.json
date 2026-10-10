@@ -1,0 +1,118 @@
+{
+ "il": "SİNOP ",
+ "ilceler": {
+  "GERZE": [
+   "19 MAYIS",
+   "ATATÜRK",
+   "CUMHURİYET",
+   "ÇARŞI",
+   "HAMİDİYE",
+   "KÖŞK",
+   "YENİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ADA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOSTANCILI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CAMİKEBİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESKİCUMA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GELİNCİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNCEDAYI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALEYAZISI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEFEVİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KORUCUK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEYDANKAPI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORDUKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZEYTİNLİK",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "DURAĞAN": [
+   "ALTINKAYA",
+   "BUZLUK",
+   "GÖKIRMAK",
+   "MERKEZ",
+   "YANDAK",
+   "YEŞİLYURT"
+  ],
+  "DİKMEN": [
+   "BABALIOĞLU",
+   "ÇORAK",
+   "KIRÇAL"
+  ],
+  "AYANCIK": [
+   "BEŞİKTAŞ",
+   "CEVİZLİ",
+   "ÇAYİÇİ",
+   "DENİZCİLER",
+   "YALI"
+  ],
+  "BOYABAT": [
+   "CAMİKEBİR",
+   "ÇAMLICA",
+   "ESENTEPE",
+   "GÖKDERE",
+   "KUMLUK",
+   "SEFA",
+   "YENİMAHALLE",
+   "YILDIZ",
+   "ZİNCİRLİKUYU"
+  ],
+  "TÜRKELİ": [
+   "GEMİYANI",
+   "GÜZELKENT",
+   "GÜZELYURT",
+   "MEHMET TÜMERKAN",
+   "YALI"
+  ],
+  "ERFELEK": [
+   "KINIK",
+   "MERKEZ",
+   "SALAVAT"
+  ],
+  "SARAYDÜZÜ": [
+   "MERKEZ"
+  ]
+ }
+}

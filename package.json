@@ -1,0 +1,48 @@
+{
+  "name": "seres-bilirkisilik",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SERESLER BİLİRKİŞİLİK — trafik kazası bilirkişilik sisteminin web uygulaması",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "extract": "python3 scripts/extract/extract_workbook.py \"EĞİTİM 001.xlsx\" scripts/extract/out/core && python3 scripts/extract/extract_workbook.py \"2.2 Gunes_Etkenligi_Model.xlsx\" scripts/extract/out/gunes",
+    "build:content": "python3 scripts/extract/build_content.py",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.2.0",
+    "@netlify/functions": "^3.1.10",
+    "@xyflow/react": "^12.6.0",
+    "dexie": "^4.0.11",
+    "docx": "^9.5.0",
+    "framer-motion": "^12.23.0",
+    "immer": "^10.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.525.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.3",
+    "recharts": "^3.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zod": "^3.25.76",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/leaflet": "^1.9.19",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^3.2.4"
+  }
+}

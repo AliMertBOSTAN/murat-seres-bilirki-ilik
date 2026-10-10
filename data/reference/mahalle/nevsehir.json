@@ -1,0 +1,339 @@
+{
+ "il": "NEVŞEHİR",
+ "ilceler": {
+  "MERKEZ": [
+   {
+    "mahalle": "15 TEMMUZ",
+    "belde": "ÇAT"
+   },
+   {
+    "mahalle": "AFETEVLERİ",
+    "belde": "GÖRE"
+   },
+   {
+    "mahalle": "AŞAĞI",
+    "belde": "KAVAK"
+   },
+   {
+    "mahalle": "AŞAĞI-DERE",
+    "belde": "UÇHİSAR"
+   },
+   {
+    "mahalle": "AŞAĞIMAHALLE",
+    "belde": "NAR"
+   },
+   {
+    "mahalle": "BAŞMAHALLE",
+    "belde": "NAR"
+   },
+   {
+    "mahalle": "BEKİRAĞA",
+    "belde": "KAYMAKLI"
+   },
+   {
+    "mahalle": "CAMİKEBİR",
+    "belde": "KAYMAKLI"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ÇAT"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "SULUSARAY"
+   },
+   {
+    "mahalle": "HATİPOĞLU",
+    "belde": "KAYMAKLI"
+   },
+   {
+    "mahalle": "İSALLİ-GAFELLİ-AVCILAR",
+    "belde": "GÖREME"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "ÇAT"
+   },
+   {
+    "mahalle": "KASAPOĞLU",
+    "belde": "GÖRE"
+   },
+   {
+    "mahalle": "ORTA-AYDINLI",
+    "belde": "GÖREME"
+   },
+   {
+    "mahalle": "ORTAMAHALLE",
+    "belde": "NAR"
+   },
+   {
+    "mahalle": "SULTAN ALAATTİN",
+    "belde": "SULUSARAY"
+   },
+   {
+    "mahalle": "TEKELİ",
+    "belde": "UÇHİSAR"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "SULUSARAY"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "NAR"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "KAVAK"
+   },
+   {
+    "mahalle": "YUKARI",
+    "belde": "UÇHİSAR"
+   }
+  ],
+  "ÜRGÜP": [
+   "15 TEMMUZ",
+   "AKSALUR AĞCAŞAR",
+   "AKSALUR SALUR",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "ORTAHİSAR"
+   },
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   "DUAYERİ",
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "ORTAHİSAR"
+   },
+   {
+    "mahalle": "ESKİ",
+    "belde": "ORTAHİSAR"
+   },
+   "EVKA",
+   "FATİH",
+   "KAVAKLIÖNÜ",
+   "TEMENNİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "ORTAHİSAR"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "15 TEMMUZ MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "20 TEMMUZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "2000 EVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "350 EVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEKDİK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CAMİCEDİT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CEVHER DUDAYEV",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "EMEK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH SULTAN MEHMET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELYURT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIRÜŞTÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HERİKLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İBRAHİMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAPUCUBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARASOKU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRATLIOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RAŞİTBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜMER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "AVANOS": [
+   {
+    "mahalle": "50. YIL",
+    "belde": "KALABA"
+   },
+   "ALAATTİN",
+   {
+    "mahalle": "AŞAĞI",
+    "belde": "TÜRKELİ"
+   },
+   "BAHÇELİEVLER",
+   {
+    "mahalle": "CAMİİCEDİT",
+    "belde": "ÖZKONAK"
+   },
+   {
+    "mahalle": "CAMİİKEBİR",
+    "belde": "ÖZKONAK"
+   },
+   "CUMHURİYET",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KALABA"
+   },
+   "KARASEKİ",
+   {
+    "mahalle": "KARAYUSUF",
+    "belde": "KALABA"
+   },
+   "ORTA ",
+   {
+    "mahalle": "ORTA",
+    "belde": "ÖZKONAK"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "TÜRKELİ"
+   },
+   {
+    "mahalle": "TOPAKLI",
+    "belde": "TÜRKELİ"
+   },
+   "YENİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "KALABA"
+   },
+   "YUKARI",
+   {
+    "mahalle": "YUKARI",
+    "belde": "TÜRKELİ"
+   }
+  ],
+  "GÜLŞEHİR": [
+   "AÇIKSARAY",
+   "CUMHURİYET",
+   "ÇALIŞANLAR",
+   "ÇAYIR",
+   "EROL ÜNLÜSOY",
+   "FATİH",
+   "KARAVEZİR",
+   "ORUÇREİS",
+   "TUZKÖY",
+   "YENİYAYLACIK"
+  ],
+  "DERİNKUYU": [
+   {
+    "mahalle": "ALPARSLAN",
+    "belde": "YAZIHÜYÜK"
+   },
+   "BAŞ",
+   "BAYRAMLI",
+   {
+    "mahalle": "BOZKIR",
+    "belde": "YAZIHÜYÜK"
+   },
+   "CUMHURİYET",
+   "DEMİRCİ",
+   "ESENTEPE",
+   "FATİH",
+   {
+    "mahalle": "GÖKTÜRK",
+    "belde": "YAZIHÜYÜK"
+   },
+   "NAMIK KEMAL",
+   {
+    "mahalle": "POLATKAN",
+    "belde": "YAZIHÜYÜK"
+   },
+   "YENİ"
+  ],
+  "KOZAKLI": [
+   "ALTINSU",
+   "BAĞLICA",
+   "BAHÇELİEVLER",
+   "BURUNCUK",
+   "EMEK",
+   "HAMAMORTA",
+   "HOCA AHMET YESEVİ",
+   "KIZILKOYUNLU",
+   "YABANLI",
+   "YENİ"
+  ],
+  "ACIGÖL": [
+   "BAHÇELİ",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KARAPINAR"
+   },
+   {
+    "mahalle": "BALLIK ",
+    "belde": "TATLARİN"
+   },
+   "CUMHURİYET",
+   "ÇAYIRLI",
+   {
+    "mahalle": "MUSTAFAPAŞA",
+    "belde": "KARAPINAR"
+   },
+   "YUKARI"
+  ],
+  "HACIBEKTAŞ": [
+   "BALA",
+   "SAVAT",
+   "ZİR"
+  ]
+ }
+}

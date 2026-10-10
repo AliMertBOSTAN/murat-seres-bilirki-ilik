@@ -1,0 +1,101 @@
+{
+ "source": "Sayfa4!B3:G16",
+ "columns": [
+  "Belge Kodu",
+  "Belge Adı",
+  "Açıklama ve Kapsam"
+ ],
+ "rows": [
+  {
+   "kod": "C1",
+   "ad": "Yurtiçi Ticari Eşya Taşımacılığı",
+   "aciklama": "Sadece kendi esas iştigal konusu ile ilgili eşya taşımacılığı yapacak firmalara verilir (Örn: Bir fabrika kendi ürettiği malları taşıyorsa).",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "C2",
+   "ad": "Uluslararası Ticari Eşya Taşımacılığı",
+   "aciklama": "Yurtiçi ve uluslararası alanda, ücret karşılığında ticari eşya taşımacılığı yapacak firmalara verilir. (Uluslararası taşımacılık yapan lojistik şirketleri için temel belge).",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "C3",
+   "ad": "Uluslararası Ev/Büro Eşyası Taşımacılığı",
+   "aciklama": "Uluslararası alanda, ücret karşılığında ev ve büro eşyası taşımacılığı yapacak firmalara verilir.",
+   "F": 3600,
+   "G": 55000
+  },
+  {
+   "kod": "K1",
+   "ad": "Yurtiçi Ticari Eşya Taşımacılığı (Taşıyıcının İşi)",
+   "aciklama": "Yurtiçinde, ücret karşılığında ticari eşya taşımacılığı yapacak firmalara verilir (Standart kargo ve lojistik şirketleri).",
+   "F": 1,
+   "G": 15.277777777777779
+  },
+  {
+   "kod": "K2",
+   "ad": "Yurtiçi Sadece Kendi Eşyasını Taşıma",
+   "aciklama": "Sadece kendi esas iştigal konusu ile ilgili eşya taşımacılığı yapacak firmalara verilir (C1'e benzer, ancak yönetmelik kapsamı farklılık gösterebilir).",
+   "F": 20,
+   "G": 18333.333333333336
+  },
+  {
+   "kod": "L1",
+   "ad": "Yurtiçi Lojistik İşletmeciliği",
+   "aciklama": "Yurtiçi lojistik hizmeti sunacak firmalara verilir (Depolama, elleçleme ve taşıma hizmetlerini bir arada sunanlar).",
+   "F": 60,
+   "G": 916.6666666666667
+  },
+  {
+   "kod": "M",
+   "ad": "Dağıtım İşletmeciliği",
+   "aciklama": "Yurtiçinde, ticari amaçla kargo işletmeciliği yapan (kargo dağıtım zincirleri) firmalara verilir.",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "R1 / R2",
+   "ad": "Yurtiçi / Uluslararası Taşıma İşleri Organizatörlüğü",
+   "aciklama": "Taşıma işlerini organize eden, ancak bizzat taşımayı yapmayan aracı (komisyoncu) firmalara verilir.",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "A1",
+   "ad": "Otomobille Yurtiçi Yolcu Taşımacılığı",
+   "aciklama": "Otomobillerle uluslararası ve yurtiçi yolcu taşımacılığı yapacak firmalara verilir (Örn: Lüks transfer, özel kiralama).",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "D1",
+   "ad": "Şehirlerarası Tarifeli Yolcu Taşımacılığı",
+   "aciklama": "Türkiye sınırları içinde şehirlerarası tarifeli yolcu taşımacılığı yapacak firmalara verilir (Standart otobüs firmaları).",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "D2",
+   "ad": "Şehirlerarası Tarifesiz Yolcu Taşımacılığı",
+   "aciklama": "Yurtiçinde, tarifesiz (özel tur, servis vb.) yolcu taşımacılığı yapacak firmalara verilir.",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "D4",
+   "ad": "İl İçi ve Kırsal Alan Yolcu Taşımacılığı",
+   "aciklama": "Belirli bir il sınırları içinde yolcu taşımacılığı yapacak firmalara verilir (Minibüs, servis vb.).",
+   "F": null,
+   "G": null
+  },
+  {
+   "kod": "B1 / B2",
+   "ad": "Uluslararası / Yurtiçi Tarifeli Yolcu Taşımacılığı",
+   "aciklama": "Uluslararası (B1) veya yurtiçi (B2) tarifeli yolcu taşımacılığı yapacak firmalara verilir.",
+   "F": null,
+   "G": null
+  }
+ ]
+}

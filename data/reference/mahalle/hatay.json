@@ -1,0 +1,1588 @@
+{
+ "il": "HATAY ",
+ "ilceler": {
+  "ALTINÖZÜ": [
+   "AKAMBER",
+   "AKDARI",
+   "ALAKENT",
+   "ALTINKAYA",
+   "ATAYURDU",
+   "AVUTTEPE",
+   "BABATORUN",
+   "BOYNUYOĞUN",
+   "BÜYÜKBURÇ",
+   "ÇETENLİ",
+   "DOKUZDAL",
+   "ENEK",
+   "ERBAŞI",
+   "FATİKLİ",
+   "GÖZECİK",
+   "GÜNVURAN",
+   "HACIPAŞA",
+   "HANYOLU",
+   "KAMBERLİ",
+   "KANSU",
+   "KARBEYAZ",
+   "KARSU",
+   "KAZANCIK",
+   "KESKİNCİK",
+   "KILIÇTUTAN",
+   "KIYIGÖREN",
+   "KOLCULAR",
+   "KOZKALESİ",
+   "KURTMEZRAASI",
+   "MAYADALI",
+   "OYMAKLI",
+   "SARIBÜK",
+   "SARILAR",
+   "SEFERLİ",
+   "SİVRİKAVAK",
+   "SOFULAR",
+   "TEPEHAN",
+   "TOKAÇLI",
+   "TOKDEMİR",
+   "TOPRAKHİSAR",
+   "TÜRKMENMEZRAASI",
+   "YANIKPINAR",
+   "YARSELİ",
+   "YENİHİSAR",
+   "YENİŞEHİR",
+   "YOLAĞZI",
+   "YUNUSHANI",
+   "ZEYTİNDALI",
+   "ZİYARET"
+  ],
+  "ANTAKYA": [
+   {
+    "mahalle": "AÇIKDERE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKASYA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKCURUN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKÇAOVA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKEVLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKHİSAR",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKSARAY",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALAATTİN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALAHAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALAZI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALTINÇAY",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ANAYAZI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "APAYDIN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ARPAHAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIOBA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AVSUYU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLIKEVLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞRIYANIK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BARBAROS",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BİNİCİLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BİTİREN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BOŞİN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BOZHÜYÜK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKDALYAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CEBRAİL",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEMİRKÖPRÜ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DERİNCE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DİKMECE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞANKÖY",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DUTDİBİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "EKİNCİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "EMEK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ESENLİK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİPAŞA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GENERAL ŞÜKRÜ KANATLI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖKÇEGÖZ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLDEREN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLLÜBAHÇE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNYAZI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELBURÇ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HABİB-İ NECCAR",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HACI ÖMER ALPAGOT",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HARAPARASI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HASANLI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HAVUZLAR",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "İPLİK PAZARI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KANTARA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAALİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAALİ BÖLÜĞÜ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARDEŞLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARLISU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIŞLASARAY",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KİSECİK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KOCAABDİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURUYER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KUYULU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KUZEYTEPE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜKDALYAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MADENBOYU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MANSURLU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MARAŞBOĞAZI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MAŞUKLU",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MELEKLİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MEYDAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "NARLICA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ODABAŞI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OĞLAKÖREN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ORHANLI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OVAKENT",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKÖY",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SAÇAKLI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SARAYCIK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SARAYKENT",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SERİNYOL",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SOFULAR",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SUVATLI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİTLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEYHALİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİRİNCE",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAHTAKÖPRÜ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TANIŞMA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ULUCAMİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "UZUNALİÇ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜÇGEDİK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜRGENPAŞA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜZÜMDALI",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAYLACIK",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİCAMİ",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ZENGİNLER",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ZÜLÜFLÜHAN",
+    "belde": "ANTAKYA- İLÇE MERKEZİ"
+   }
+  ],
+  "ARSUZ": [
+   "AKÇALI",
+   "ARPAÇİFTLİK",
+   "ARPADERESİ",
+   "ARPAGEDİK",
+   "AŞAĞI KEPİRCE",
+   "AVCILARSUYU",
+   "BEYKÖYÜ",
+   "ÇETİLLİK",
+   "DEREKUYU",
+   "GÖKMEYDAN",
+   "GÖZCÜLER",
+   "GÜLCİHAN",
+   "HACIAHMETLİ",
+   "HARLISU",
+   "HAYMASEKİ",
+   "HELVALI",
+   "HÜYÜK",
+   "IŞIKLI",
+   "KALE",
+   "KARAAĞAÇ CUMHURİYET MAHALLESİ",
+   "KARAAĞAÇ KONARLI",
+   "KARAAĞAÇ ÖVÜNDÜK MAHALLESİ",
+   "KARAAĞAÇ ŞARKKONAK ",
+   "KARAGÖZ",
+   "KARAHÜSEYİNLİ",
+   "KIŞLA",
+   "KONACIK",
+   "KOZAKLI",
+   "KURTBAĞI",
+   "MADENLİ",
+   "NARDÜZÜ",
+   "NERGİZLİK",
+   "PİRİNÇLİK",
+   "TATARLI",
+   "TÜLEK",
+   "ULUÇINAR",
+   "ÜÇGÜLLÜK",
+   "YUKARIKEPİRCE"
+  ],
+  "BELEN": [
+   "ATİK",
+   "BAKRAS",
+   "BENLİDERE",
+   "CUMHURİYET",
+   "ÇAKALLI",
+   "ÇERÇİKAYA",
+   "DEREBAHÇE",
+   "FATİH",
+   "HALİLBEY",
+   "İSSUME",
+   "KICI",
+   "KÖMÜRÇUKURU",
+   "MUHLİSALİ",
+   "MÜFTÜLER",
+   "ÖTENÇAY",
+   "SARIMAZI",
+   "SOĞUKOLUK",
+   "ŞEKERE",
+   "ŞENBÜK"
+  ],
+  "DEFNE": [
+   {
+    "mahalle": "AKDENİZ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKNEHİR",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ARMUTLU",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIOKÇULAR",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇEKÖY",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BALIKLIDERE",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BALLIÖZ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BOSTANCIK",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKÇAT",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARDAKLI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇEKMECE",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇINARLI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇÖKEK",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEĞİRMENYOLU",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DÖVER",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DURSUNLU",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ELEKTRİK",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜMÜŞGÖZE",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNEYSÖĞÜT",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HANCAĞIZ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HARBİYE",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HÜSEYİNLİ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KOÇÖREN",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MEYDANCIK",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ORHANLI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZBEK",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SAMANKAYA",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SİNANLI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SUBAŞI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SÜMERLER",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAVLA",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TOYGARLI",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TURUNÇLU",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜZENGİLİ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİÇAĞ",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLPINAR",
+    "belde": "DEFNE - İLÇE MERKEZİ"
+   }
+  ],
+  "DÖRTYOL": [
+   "ALTINÇAĞ",
+   "ÇATKÖY",
+   "ÇAYLI",
+   "KAPILI",
+   "KARAKESE",
+   "KIŞLALAR",
+   "KONAKLI",
+   "KUZUCULU",
+   "NUMUNE EVLER",
+   "OCAKLI",
+   "ÖZERLİ",
+   "SANAYİ",
+   "YENİYURT",
+   "YEŞİL",
+   "YEŞİLKÖY"
+  ],
+  "ERZİN": [
+   "AŞAĞIBURNAZ",
+   "BAHÇELİEVLER",
+   "BAŞLAMIŞ",
+   "CUMHURİYET",
+   "GÖKDERE",
+   "GÖKGÖL",
+   "HÜRRİYET",
+   "İSALI",
+   "İSTİKLAL",
+   "KARAMUSTAFALI",
+   "KIZLARÇAYI",
+   "KUYULUK",
+   "MAHMUTLU",
+   "MUSTAFALI",
+   "ŞÜKRÜ PAŞA",
+   "TURUNÇLU",
+   "YENİ",
+   "YEŞİLTEPE",
+   "YONCADÜZÜ",
+   "YUKARIBURNAZ"
+  ],
+  "HASSA": [
+   "AKBEZ",
+   "AKTEPE",
+   "ARDIÇLI",
+   "ARPALIUŞAĞI",
+   "AŞAĞIKARAFAKILI",
+   "BADEMLİ",
+   "BİNTAŞ",
+   "BUHARA",
+   "ÇAY",
+   "ÇINARBAŞI",
+   "DEDEMLİ",
+   "DEMREK",
+   "DERVİŞPAŞA",
+   "EĞRİBUCAK",
+   "GAZELUŞAĞI",
+   "GİRNE",
+   "GÜLKENT",
+   "GÜLPINAR",
+   "GÜVENÇ",
+   "HACILAR",
+   "HALALLAR",
+   "HAYDARLAR",
+   "KATRANLIK",
+   "KORUHÖYÜK",
+   "KÜRECİ",
+   "MAZMANLI",
+   "ONBEŞKASIM",
+   "SAPANÖZÜ",
+   "SÖĞÜT",
+   "SUGEDİĞİ",
+   "TEPEBAŞI",
+   "TİYEK",
+   "YENİ",
+   "YENİYAPAN",
+   "YOLÇATI",
+   "YOLUKLAR",
+   "YUKARIBUCAK",
+   "YUKARIKARAFAKILI",
+   "YUVALI",
+   "ZEYTİNOBA"
+  ],
+  "İSKENDERUN": [
+   "AKARCA",
+   "AKÇAY",
+   "AŞKARBEYLİ",
+   "AZGANLIK",
+   "BARBAROS",
+   "BARIŞTEPE",
+   "BEKBELE",
+   "BİTİŞİK",
+   "BULUTTEPE",
+   "BÜYÜKDERE",
+   "CEBİKE",
+   "CIRTIMAN",
+   "CUMHURİYET",
+   "ÇAY",
+   "ÇINARLI",
+   "DENİZCİLER",
+   "DUMLUPINAR",
+   "ESENTEPE",
+   "FATİH SULTAN MEHMET",
+   "GÜLTEPE",
+   "GÜRSEL",
+   "GÜZELÇAY",
+   "HÜRRİYET",
+   "İSMET İNÖNÜ",
+   "KALEDİBİ",
+   "KARAYILAN",
+   "KAVAKLIOLUK",
+   "KOCATEPE",
+   "KURTULUŞ",
+   "MEYDAN",
+   "MODERNEVLER",
+   "MURADİYE",
+   "MUSTAFA KEMAL",
+   "NUMUNE",
+   "ORHANGAZİ",
+   "PINARBAŞI",
+   "PİRİREİS",
+   "SAKARYA",
+   "SARISEKİ",
+   "SAVAŞ",
+   "SUÇIKAĞI",
+   "SÜLEYMANİYE",
+   "YENİŞEHİR",
+   "YILDIRIMTEPE",
+   "YUNUS EMRE"
+  ],
+  "KIRIKHAN": [
+   {
+    "mahalle": "408 EVLER",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ABALAKLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ADALAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKTUTAN",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALAYBEYLİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALİBEYÇAĞILLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALPARSLAN",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALSANCAK",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ARKITÇA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AYGIRGÖLÜ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BALARMUDU",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BALDIRAN",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BARBAROS",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞPINAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BEKTAŞLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CAMUZKIŞLASI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CEYLANLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMSARI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMSEKİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇANKAYA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇATALTEPE",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇİLOĞLANHÜYÜĞÜ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DANAAHMETLİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEDEÇINAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DELİBEKİRLİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEMİRKONAK",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLBAŞI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNDÜZ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜVENTAŞI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELCE",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ILIKPINAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "İÇADA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "İNCİRLİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KALETEPE",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KAMBERLİKAYA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KAMIŞLAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KANGALLAR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAÇAĞIL",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARADURMUŞLU",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAELMASLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAMAĞARA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAMANKAŞI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARATAŞ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KAZKELİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIZILKAYA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KODALLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURTLUSARIMAZI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURTLUSOĞUKSU",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MAHMUTLU",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MENDERES",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MİMAR SİNAN",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MURATPAŞA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "NARLIHOPUR",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZKIZILKAYA",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZSOĞUKSU",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZYÖRÜK",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "REŞATLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SAYLAK",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SÖĞÜTLÜÖZ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SUCUKÖY",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞOLUK",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TOPBOĞAZI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TORUN",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YALANGOZ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YILANLI",
+    "belde": "KIRIKHAN- İLÇE MERKEZİ"
+   }
+  ],
+  "KUMLU": [
+   {
+    "mahalle": "AKKERPİÇ",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKKUYU",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKPINAR",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKTAŞ",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BATIAYRANCI",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞUAYRANCI",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖKÇEOĞLU",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLOVA",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HATAYHAMAMI",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KALETEPE",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KELLİ",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIRCAOĞLU",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MUHARREM",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "KUMLU- İLÇE MERKEZİ"
+   }
+  ],
+  "PAYAS": [
+   "BAYRAKTEPE",
+   "CUMHURİYET",
+   "ÇAĞLALIK",
+   "FATİH",
+   "İSTİKLAL",
+   "KARACAMİ",
+   "KARBEYAZ",
+   "KARŞI",
+   "KOZLUDERE",
+   "KÜRTÜL",
+   "SİNCAN",
+   "YENİŞEHİR",
+   "YILDIRIM BEYAZIT"
+  ],
+  "REYHANLI": [
+   {
+    "mahalle": "15 TEMMUZ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ADABUCAĞI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AHMETBEYLİ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKYAYLA",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALAKUZU",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAYIR",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞASLAN",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜKÜLMEZ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CİLVEGÖZÜ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CÜDEYDE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAKIRYİĞİT",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DAVUTPAŞA HÜYÜĞÜ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEĞİRMENKAŞI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİPAŞA",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "FİDANLIK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİMÜRSELTEPESİ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖKTEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HARRAN",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARACANLIK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAHÜYÜK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARASÜLEYMANLI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KONUK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KULETEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KUMTEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KUŞAKLI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMETBEYLİ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MUSTAFA KEMAL",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "NERGİZLİ MAHALLESİ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OĞULPINAR",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZ KURTULUŞ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAHÖYÜK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKÖY",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SULUKÖY",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAYFUR SÖKMEN",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TERZİHÜYÜK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "UZUNKAVAK",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜÇTEPE",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "VARIŞLI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YILDIZ",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ZEYTİN DALI",
+    "belde": "REYHANLI- İLÇE MERKEZİ"
+   }
+  ],
+  "SAMANDAĞ": [
+   "ATAKÖY",
+   "ATATÜRK",
+   "AVCILAR",
+   "BATIAYAZ",
+   "BÜYÜKOBA",
+   "CEMAL GÜRSEL",
+   "CEYLANDERE",
+   "CUMHURİYET",
+   "ÇAMLIYAYLA",
+   "ÇANAKOLUK",
+   "ÇİĞDEDE",
+   "ÇÖĞÜRLÜ",
+   "ÇUBUKLU",
+   "DEĞİRMENBAŞI",
+   "DENİZ",
+   "ERİKLİKUYU",
+   "FİDANLI",
+   "GÖZENE",
+   "HIDIRBEY",
+   "HUZURLU",
+   "KAPISUYU",
+   "KARAÇAY",
+   "KOYUNOĞLU",
+   "KURTDERESİ",
+   "KUŞALANI",
+   "MAĞARACIK",
+   "MEYDAN",
+   "MIZRAKLI",
+   "SELDİREN",
+   "SUTAŞI",
+   "ŞÜKRÜ KANATLI",
+   "TEKEBAŞI",
+   "TOMRUKSUYU",
+   "UZUNBAĞ",
+   "VAKIFKÖY",
+   "YAYLICA",
+   "YENİ",
+   "YENİKÖY",
+   "YEŞİLADA",
+   "YEŞİLKÖY",
+   "YEŞİLYAZI",
+   "YOĞUNOLUK"
+  ],
+  "YAYLADAĞI": [
+   {
+    "mahalle": "ARSLANYAZI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AŞAĞIPULLUYAZI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AYDINBAHÇE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AYIŞIĞI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BEZGE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BOZLU",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇABALA",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇAKIKÖY",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇAKSINA",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇAMALTI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇANDIR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇATBAŞI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇAYIR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DENİZGÖREN",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DUSDURU",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "EĞERCİ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÖRENTAŞ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÖZLÜCE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜRIŞIK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜVEÇÇİ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜZELYURT",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "HİSARCIK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARACURUN",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARAKÖSE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KIŞLAK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KIZILÇAT",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KÖSRELİK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KULAÇ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "LEYLEKLİ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "OLGUNLAR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SEBENOBA",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SUNGUR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SÜRÜTME",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞAKŞAK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞENKÖY",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TURFANDA",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TUTLUBAHÇE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ULUYOL",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÜÇIRMAK",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YALAZ",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YAYIKDAMLAR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YENİCEKÖY",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YONCAKAYA",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YUKARIOKÇULAR",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YUKARIPULLUYAZI",
+    "belde": "YAYLADAĞI-İLÇE MERKEZİ "
+   }
+  ]
+ }
+}

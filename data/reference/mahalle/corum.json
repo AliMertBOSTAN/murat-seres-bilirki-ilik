@@ -1,0 +1,242 @@
+{
+ "il": "ÇORUM ",
+ "ilceler": {
+  "ALACA": [
+   "AYHAN",
+   "CENGİZHAN",
+   "CUMHURİYET",
+   "DENİZHAN",
+   "GÜNHAN",
+   "ÖZHAN",
+   "YILDIZHAN"
+  ],
+  "BAYAT": [
+   "DERE",
+   "KAYABAŞI",
+   "TEPEBAYAT",
+   "YATUKCU",
+   "YENİ"
+  ],
+  "BOĞAZKALE": [
+   "ÇARŞI",
+   "HATTUSAS",
+   "HİSAR",
+   "YEKBAS"
+  ],
+  "DODURGA": [
+   "ÇATAR",
+   "DOĞU",
+   "ESENTEPE",
+   "FATİH",
+   "OKUL",
+   "ULUCAMİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BUHARAEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇEPNİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇÖPLÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜLABİBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAKEÇİLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÖPRÜALAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUNDUZHAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİMARSİNAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ULUKAVAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜÇTUTLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAVRUTURNA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİYOL",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "İSKİLİP": [
+   "BAHABEY",
+   "BÜYÜKTAŞ",
+   "ÇAVUŞ",
+   "EKİZOĞLU",
+   "ERENLER",
+   "HACIPİRİ",
+   "KALEBOĞAZI",
+   "MEYDAN",
+   "MUTAFLAR",
+   "SAKARYA",
+   "TABAKHANE",
+   "ULAŞTEPE",
+   "ULUDERE",
+   "YENİCAMİ"
+  ],
+  "KARGI": [
+   "BAHÇELİEVLER",
+   "FATİH",
+   "İMAMBEY",
+   "MİHRİHATUN",
+   "ORTA",
+   "YENİ"
+  ],
+  "LAÇİN": [
+   "BAHÇELİEVLER",
+   "FATİH",
+   "YENİMAHALLE"
+  ],
+  "MECİTÖZÜ": [
+   "BAHÇELİEVLER",
+   "CAMİKEBİR",
+   "DOĞU",
+   "HIDIRLIK",
+   "MESCİT",
+   "SARIDEDE",
+   "ŞEYHLER",
+   "TUTLUK"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ATAKÖY",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "FATİHSULTANMEHMET",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "GEDİKBEKİR",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "İKİPINAR",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "KIŞLADERESİ",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "KULTAK",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "MİMARSİNAN",
+    "belde": "DÜVENCİ"
+   },
+   {
+    "mahalle": "YUNUSEMRE",
+    "belde": "DÜVENCİ"
+   }
+  ],
+  "OĞUZLAR": [
+   "ASARÇAY",
+   "BİRTATLI",
+   "ÇARŞI",
+   "ÇEŞME",
+   "GÖLBAŞI",
+   "KARADONLU",
+   "KIZILCAPELİT"
+  ],
+  "ORTAKÖY": [
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "AŞTAVUL"
+   },
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   "SUYOLU",
+   {
+    "mahalle": "ŞİRİNEVLER",
+    "belde": "AŞTAVUL"
+   }
+  ],
+  "OSMANCIK": [
+   "CUMHURİYET",
+   "ÇAY",
+   "ÇİFTLİKLER",
+   "ESENTEPE",
+   "EYMİR",
+   "GEMİCİ",
+   "GÜNEY",
+   "GÜRLEYİK",
+   "HIDIRLIK",
+   "KARAPINAR",
+   "KIZILIRMAK",
+   "KOYUNBABA",
+   "ŞENYURT",
+   "TEMENÇE",
+   "ULUCAMİ",
+   "YAZI",
+   "YENİ",
+   "YEŞİLÇATMA"
+  ],
+  "SUNGURLU": [
+   "AKÇAKENT",
+   "AKÇAY",
+   "BAHÇELİEVLER",
+   "BAŞPINAR",
+   "CEVHERİ",
+   "ÇİFTLİK",
+   "FATİH",
+   "FEVZİPAŞA",
+   "GÜRPINAR",
+   "HACETTEPE",
+   "İSMETPAŞA",
+   "ÖRNEKEVLER",
+   "SUNGUROĞLU",
+   "ŞEKERPINAR",
+   "TURAN",
+   "YENİDOĞAN",
+   "YENİHAYAT"
+  ],
+  "UĞURLUDAĞ": [
+   "KARŞIYAKA",
+   "TUTPINAR",
+   "YENİCAMİ",
+   "YEŞİLYURT",
+   "YÜZGEÇ"
+  ]
+ }
+}

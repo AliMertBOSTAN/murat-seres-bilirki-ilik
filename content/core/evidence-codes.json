@@ -1,0 +1,703 @@
+{
+ "source": "Tanım!C2000:E2080 + Sayfa5!B41:D83",
+ "codes": [
+  {
+   "kod": "ÇEV-02",
+   "sira": 2,
+   "not": "",
+   "row": 2001
+  },
+  {
+   "kod": "ZMN-KYN-02",
+   "sira": 3,
+   "not": "",
+   "row": 2002
+  },
+  {
+   "kod": "ÇEV-01",
+   "sira": 4,
+   "not": "TIME-REF-02",
+   "row": 2003
+  },
+  {
+   "kod": "ÇEV-03",
+   "sira": 5,
+   "not": "ROAD-ELEMENTS-01",
+   "row": 2004
+  },
+  {
+   "kod": "YOL-01",
+   "sira": 6,
+   "not": "LAND-01",
+   "row": 2005
+  },
+  {
+   "kod": "YOL-02",
+   "sira": 7,
+   "not": "IMPACT-01",
+   "row": 2006
+  },
+  {
+   "kod": "ÇEV-04",
+   "sira": 8,
+   "not": "POS-01",
+   "row": 2007
+  },
+  {
+   "kod": "YOL-06",
+   "sira": 9,
+   "not": "CONTR-01",
+   "row": 2008
+  },
+  {
+   "kod": "YÜZ-01",
+   "sira": 10,
+   "not": "WORK-01",
+   "row": 2009
+  },
+  {
+   "kod": "YOL-07",
+   "sira": 11,
+   "not": "WORKMARK-01",
+   "row": 2010
+  },
+  {
+   "kod": "TRF-02",
+   "sira": 12,
+   "not": "CROSS-01",
+   "row": 2011
+  },
+  {
+   "kod": "ÇRP-01",
+   "sira": 13,
+   "not": "AUS-01",
+   "row": 2012
+  },
+  {
+   "kod": "KON-01",
+   "sira": 14,
+   "not": "OBS-01",
+   "row": 2013
+  },
+  {
+   "kod": "TRF-01",
+   "sira": 15,
+   "not": "LIM-01",
+   "row": 2014
+  },
+  {
+   "kod": "ÇEV-KUL-01",
+   "sira": 16,
+   "not": "ROAD-FEATURES-01",
+   "row": 2015
+  },
+  {
+   "kod": "YOL-03",
+   "sira": 17,
+   "not": "",
+   "row": 2016
+  },
+  {
+   "kod": "YOL-08",
+   "sira": 18,
+   "not": "Ancak burada bir düzeltme yapmayı öneriyorum: ÇAL-01 yerine YÇL-01 daha doğru. Çünkü ileride ST-02 içinde “çalışma” sözcüğü başka teknik faaliyetler için de kullanılabilir. YÇL = Yol Çalışması kodu çakışmayı önler.",
+   "row": 2017
+  },
+  {
+   "kod": "YOL-05",
+   "sira": 19,
+   "not": "",
+   "row": 2018
+  },
+  {
+   "kod": "YOL-ELM-01",
+   "sira": 20,
+   "not": "Aynı nedenle kod sisteminin nihai ana sözlüğünü şöyle sabitlemek daha sağlam olur:",
+   "row": 2019
+  },
+  {
+   "kod": "YOL-04",
+   "sira": 21,
+   "not": "",
+   "row": 2020
+  },
+  {
+   "kod": "YOL-09",
+   "sira": 22,
+   "not": "",
+   "row": 2021
+  },
+  {
+   "kod": "SNY-01",
+   "sira": 23,
+   "not": "",
+   "row": 2022
+  },
+  {
+   "kod": "GRŞ-01",
+   "sira": 24,
+   "not": "",
+   "row": 2023
+  },
+  {
+   "kod": "GRŞ-02",
+   "sira": 25,
+   "not": "",
+   "row": 2024
+  },
+  {
+   "kod": "GRŞ-03",
+   "sira": 26,
+   "not": "",
+   "row": 2025
+  },
+  {
+   "kod": "GRŞ-04",
+   "sira": 27,
+   "not": "",
+   "row": 2026
+  },
+  {
+   "kod": "YOL-11",
+   "sira": 28,
+   "not": "",
+   "row": 2027
+  },
+  {
+   "kod": "BKM-KYT-01",
+   "sira": 29,
+   "not": "",
+   "row": 2028
+  },
+  {
+   "kod": "ÇAL-01",
+   "sira": 30,
+   "not": "",
+   "row": 2029
+  },
+  {
+   "kod": "ÇAL-İŞR-01",
+   "sira": 31,
+   "not": "",
+   "row": 2030
+  },
+  {
+   "kod": "GÇT-01",
+   "sira": 32,
+   "not": "",
+   "row": 2031
+  },
+  {
+   "kod": "YOL-10",
+   "sira": 33,
+   "not": "",
+   "row": 2032
+  },
+  {
+   "kod": "YOL-12",
+   "sira": 34,
+   "not": "",
+   "row": 2033
+  },
+  {
+   "kod": "RSK-01",
+   "sira": 35,
+   "not": "",
+   "row": 2034
+  },
+  {
+   "kod": "ÇEV-05",
+   "sira": 36,
+   "not": "",
+   "row": 2035
+  },
+  {
+   "kod": "ETS-01",
+   "sira": 37,
+   "not": "",
+   "row": 2036
+  },
+  {
+   "kod": "HIZ-01",
+   "sira": 38,
+   "not": "",
+   "row": 2037
+  },
+  {
+   "kod": "YOL-13",
+   "sira": 39,
+   "not": "",
+   "row": 2038
+  },
+  {
+   "kod": "GÖZ-01",
+   "sira": 40,
+   "not": "",
+   "row": 2039
+  },
+  {
+   "kod": "SIN-01",
+   "sira": 41,
+   "not": "",
+   "row": 2040
+  },
+  {
+   "kod": "YOL-ÖZL-01",
+   "sira": 42,
+   "not": "Bir noktayı da özellikle koruyalım: ST02-04 ve ST02-11 Türkçeleştirilecek kodlar değildir. Bunlar ST-02 sistemindeki bölüm/referans kimlikleridir ve aynen kalmalıdır.",
+   "row": 2041
+  },
+  {
+   "kod": "ST02-04",
+   "sira": 43,
+   "not": "",
+   "row": 2042
+  },
+  {
+   "kod": "ST02-11",
+   "sira": 44,
+   "not": "Bundan sonra yeni kod üretirken de İngilizce kökenli kod kullanmayalım; önce bu sözlüğe bakalım, mevcut aile yoksa yeni Türkçe kod ailesi tanımlayalım. Bu, ileride yüzlerce ST-02 kodunun birbirinden kopmasını engeller.",
+   "row": 2043
+  },
+  {
+   "kod": "ZMN-KYN-02",
+   "sira": 45,
+   "not": "",
+   "row": 2044
+  },
+  {
+   "kod": "YOL-ELM-01",
+   "sira": 46,
+   "not": "",
+   "row": 2045
+  },
+  {
+   "kod": "ÇEV-KUL-01",
+   "sira": 47,
+   "not": "",
+   "row": 2046
+  },
+  {
+   "kod": "ÇRP-01",
+   "sira": 48,
+   "not": "",
+   "row": 2047
+  },
+  {
+   "kod": "KON-01",
+   "sira": 49,
+   "not": "",
+   "row": 2048
+  },
+  {
+   "kod": "BKM-KYT-01",
+   "sira": 50,
+   "not": "",
+   "row": 2049
+  },
+  {
+   "kod": "YÇL-01",
+   "sira": 51,
+   "not": "",
+   "row": 2050
+  },
+  {
+   "kod": "YÇL-İŞR-01",
+   "sira": 52,
+   "not": "",
+   "row": 2051
+  },
+  {
+   "kod": "GÇT-01",
+   "sira": 53,
+   "not": "",
+   "row": 2052
+  },
+  {
+   "kod": "ETS-01",
+   "sira": 54,
+   "not": "",
+   "row": 2053
+  },
+  {
+   "kod": "GÖZ-01",
+   "sira": 55,
+   "not": "",
+   "row": 2054
+  },
+  {
+   "kod": "SIN-01",
+   "sira": 56,
+   "not": "",
+   "row": 2055
+  },
+  {
+   "kod": "YOL-ÖZL-01",
+   "sira": 57,
+   "not": "",
+   "row": 2056
+  },
+  {
+   "kod": "ÇEV",
+   "sira": 58,
+   "not": "",
+   "row": 2057
+  },
+  {
+   "kod": "ZMN",
+   "sira": 59,
+   "not": "",
+   "row": 2058
+  },
+  {
+   "kod": "YOL",
+   "sira": 60,
+   "not": "",
+   "row": 2059
+  },
+  {
+   "kod": "YÜZ",
+   "sira": null,
+   "not": "",
+   "row": 2060
+  },
+  {
+   "kod": "TRF",
+   "sira": null,
+   "not": "",
+   "row": 2061
+  },
+  {
+   "kod": "ÇRP",
+   "sira": null,
+   "not": "",
+   "row": 2062
+  },
+  {
+   "kod": "KON",
+   "sira": null,
+   "not": "",
+   "row": 2063
+  },
+  {
+   "kod": "GRŞ",
+   "sira": null,
+   "not": "",
+   "row": 2064
+  },
+  {
+   "kod": "SNY",
+   "sira": null,
+   "not": "",
+   "row": 2065
+  },
+  {
+   "kod": "BKM",
+   "sira": null,
+   "not": "",
+   "row": 2066
+  },
+  {
+   "kod": "YÇL",
+   "sira": null,
+   "not": "",
+   "row": 2067
+  },
+  {
+   "kod": "İŞR",
+   "sira": null,
+   "not": "",
+   "row": 2068
+  },
+  {
+   "kod": "GÇT",
+   "sira": null,
+   "not": "",
+   "row": 2069
+  },
+  {
+   "kod": "RSK",
+   "sira": null,
+   "not": "",
+   "row": 2070
+  },
+  {
+   "kod": "ETS",
+   "sira": null,
+   "not": "",
+   "row": 2071
+  },
+  {
+   "kod": "HIZ",
+   "sira": null,
+   "not": "",
+   "row": 2072
+  },
+  {
+   "kod": "GÖZ",
+   "sira": null,
+   "not": "",
+   "row": 2073
+  },
+  {
+   "kod": "SIN",
+   "sira": null,
+   "not": "",
+   "row": 2074
+  },
+  {
+   "kod": "ÖZL",
+   "sira": null,
+   "not": "",
+   "row": 2075
+  },
+  {
+   "kod": "OBS-01",
+   "sira": null,
+   "not": "",
+   "row": 2076
+  },
+  {
+   "kod": "LIM-01",
+   "sira": null,
+   "not": "",
+   "row": 2077
+  },
+  {
+   "kod": "ROAD-FEATURES-01",
+   "sira": null,
+   "not": "",
+   "row": 2078
+  },
+  {
+   "kod": "ST02-04",
+   "sira": null,
+   "not": "",
+   "row": 2079
+  },
+  {
+   "kod": "ST02-11",
+   "sira": null,
+   "not": "",
+   "row": 2080
+  }
+ ],
+ "mapping": [
+  {
+   "eskiKod": "ENV-02",
+   "turkceKod": "ÇEV-02",
+   "ad": "Doğal aydınlık: gündüz/alacakaranlık/gece; yapay ışık durumu"
+  },
+  {
+   "eskiKod": "TIME-REF-02",
+   "turkceKod": "ZMN-KYN-02",
+   "ad": "Kaza anı saati ve zaman kaynağı"
+  },
+  {
+   "eskiKod": "ENV-01",
+   "turkceKod": "ÇEV-01",
+   "ad": "Hava: yağış, sis, rüzgâr, güneş, sıcaklık gibi gözlenen koşullar"
+  },
+  {
+   "eskiKod": "ENV-03",
+   "turkceKod": "ÇEV-03",
+   "ad": "Görüş mesafesini azaltan sis, duman, toz, yağış veya başka unsur"
+  },
+  {
+   "eskiKod": "ROAD-01",
+   "turkceKod": "YOL-01",
+   "ad": "Yol numarası, yol sınıfı ve işletici/bakım birimi"
+  },
+  {
+   "eskiKod": "ROAD-02",
+   "turkceKod": "YOL-02",
+   "ad": "Yol tipi: tek/çift yön, bölünmüş, kavşak, geçit ve bağlantı"
+  },
+  {
+   "eskiKod": "ENV-04",
+   "turkceKod": "ÇEV-04",
+   "ad": "Trafik işaretlerinin ön bilgilendirme/uyarı sağladığı güzergâh"
+  },
+  {
+   "eskiKod": "ROAD-06",
+   "turkceKod": "YOL-06",
+   "ad": "Kaplama türü ve olay anında gözlenen yol yüzeyi"
+  },
+  {
+   "eskiKod": "SURF-01",
+   "turkceKod": "YÜZ-01",
+   "ad": "Fren/kayma/lastik izi, sürtünme, sıvı/döküntü, cam/parça izi"
+  },
+  {
+   "eskiKod": "ROAD-07",
+   "turkceKod": "YOL-07",
+   "ad": "Çukur, çökme, gevşek malzeme, su birikmesi veya başka kusur"
+  },
+  {
+   "eskiKod": "TRAFF-02",
+   "turkceKod": "TRF-02",
+   "ad": "Yol kullanıcılarının olay öncesi yaklaşım yönleri ve şerit konumları"
+  },
+  {
+   "eskiKod": "IMPACT-01",
+   "turkceKod": "ÇRP-01",
+   "ad": "Çarpışma/çatışma noktası ve temas izleri"
+  },
+  {
+   "eskiKod": "POS-01",
+   "turkceKod": "KON-01",
+   "ad": "Araçların ve kişilerin son duruş/tespit konumları"
+  },
+  {
+   "eskiKod": "TRAFF-01",
+   "turkceKod": "TRF-01",
+   "ad": "Trafik yoğunluğu, kuyruk, park hareketi veya görüşü etkileyen akış"
+  },
+  {
+   "eskiKod": "LAND-01",
+   "turkceKod": "ÇEV-KUL-01",
+   "ad": "Görüşe etki eden özel kullanım/park/yükleme veya çevre faaliyeti"
+  },
+  {
+   "eskiKod": "ROAD-03",
+   "turkceKod": "YOL-03",
+   "ad": "Şerit sayısı, şerit genişliği ve yönlerin ayrımı"
+  },
+  {
+   "eskiKod": "ROAD-08",
+   "turkceKod": "YOL-08",
+   "ad": "İşaret çizgileri, görünürlüğü, aşınması ve yerleşimi"
+  },
+  {
+   "eskiKod": "ROAD-05",
+   "turkceKod": "YOL-05",
+   "ad": "Yol platformu, banket/emniyet şeridi, kaldırım/yaya yolu"
+  },
+  {
+   "eskiKod": "ROAD-ELEMENTS-01",
+   "turkceKod": "YOL-ELM-01",
+   "ad": "Yol kenarı elemanları: bariyer, bordür, refüj, yaya yolu ve yakın yapılar"
+  },
+  {
+   "eskiKod": "ROAD-04",
+   "turkceKod": "YOL-04",
+   "ad": "Yatay/düşey güzergâh: kurp, eğim, tepe/dip, görüş kesimi"
+  },
+  {
+   "eskiKod": "ROAD-09",
+   "turkceKod": "YOL-09",
+   "ad": "Levha, ışıklı işaret, sinyal fazı ve çalışır durumu"
+  },
+  {
+   "eskiKod": "SIGN-01",
+   "turkceKod": "SNY-01",
+   "ad": "Sinyalizasyon/kavşak kontrolünün olay anındaki kaydı"
+  },
+  {
+   "eskiKod": "VIEW-01",
+   "turkceKod": "GRŞ-01",
+   "ad": "Görüşü kesen unsurun türü, yeri, boyutu ve tarafı"
+  },
+  {
+   "eskiKod": "VIEW-02",
+   "turkceKod": "GRŞ-02",
+   "ad": "Sürücü görüşü: ilgili araç tipi, sürücü göz noktası ve bakış yönü"
+  },
+  {
+   "eskiKod": "VIEW-03",
+   "turkceKod": "GRŞ-03",
+   "ad": "Sürücü göz noktası–hedef noktası arasındaki kullanılabilir görüş mesafesi"
+  },
+  {
+   "eskiKod": "VIEW-04",
+   "turkceKod": "GRŞ-04",
+   "ad": "Görüş hattı boyunca aydınlanma, gölge, kamaşma veya yansıma gözlemi"
+  },
+  {
+   "eskiKod": "ROAD-11",
+   "turkceKod": "YOL-11",
+   "ad": "Yol çalışması, işaretleme, bariyer ve işaretçi personel"
+  },
+  {
+   "eskiKod": "CONTR-01",
+   "turkceKod": "BKM-KYT-01",
+   "ad": "Yol bakım, işaret, aydınlatma veya arıza bildirim kayıtları"
+  },
+  {
+   "eskiKod": "WORK-01",
+   "turkceKod": "ÇAL-01",
+   "ad": "Yol çalışması/izin/işletme ve geçici trafik düzeni belgeleri"
+  },
+  {
+   "eskiKod": "WORKMARK-01",
+   "turkceKod": "ÇAL-İŞR-01",
+   "ad": "Yol çalışması işaretleme durumu: levha, koni, bariyer ve yönlendirme"
+  },
+  {
+   "eskiKod": "CROSS-01",
+   "turkceKod": "GÇT-01",
+   "ad": "Geçit özelliği: yaya geçidi, hemzemin geçit veya diğer geçiş alanı"
+  },
+  {
+   "eskiKod": "ROAD-10",
+   "turkceKod": "YOL-10",
+   "ad": "Aydınlatma armatürü, çalışır durum ve yanma/arıza kaydı"
+  },
+  {
+   "eskiKod": "ROAD-12",
+   "turkceKod": "YOL-12",
+   "ad": "Kaza alanında park etmiş araç/sabit nesne/yapı/bitki örtüsü"
+  },
+  {
+   "eskiKod": "RISK-01",
+   "turkceKod": "RSK-01",
+   "ad": "Önceki kaza/şikâyet/arıza/çalışma kaydı"
+  },
+  {
+   "eskiKod": "ENV-05",
+   "turkceKod": "ÇEV-05",
+   "ad": "Olay anı ile sonradan yapılan inceleme arasındaki çevre değişikliği"
+  },
+  {
+   "eskiKod": "AUS-01",
+   "turkceKod": "ETS-01",
+   "ad": "Elektronik trafik/kamera/araç algılama kayıtları"
+  },
+  {
+   "eskiKod": "SPEED-01",
+   "turkceKod": "HIZ-01",
+   "ad": "Hızla ilgili doğrudan kayıt/ölçüm/video referansı"
+  },
+  {
+   "eskiKod": "ROAD-13",
+   "turkceKod": "YOL-13",
+   "ad": "Yolun geometrik/proje/kabul/bakım dosyası"
+  },
+  {
+   "eskiKod": "OBS-01",
+   "turkceKod": "GÖZ-01",
+   "ad": "Kolluğun yol/çevre hakkında doğrudan gözlemi"
+  },
+  {
+   "eskiKod": "LIM-01",
+   "turkceKod": "SIN-01",
+   "ad": "Ölçülemeyen veya olay zamanına taşınamayan çevresel veri"
+  },
+  {
+   "eskiKod": "ROAD-FEATURES-01",
+   "turkceKod": "YOL-ÖZL-01",
+   "ad": "Yol özelliği: kavşak, viraj, düz kesim, eğim, köprü/tünel veya ışıklı kontrol"
+  },
+  {
+   "eskiKod": "ST02-04",
+   "turkceKod": "ST02-04",
+   "ad": "ST-02.04 için saha koşulu referans grubu"
+  },
+  {
+   "eskiKod": "ST02-11",
+   "turkceKod": "ST02-11",
+   "ad": "ZMN5 için zaman–mesafe–görüş girdi adayları"
+  }
+ ],
+ "sayfa5Diger": []
+}

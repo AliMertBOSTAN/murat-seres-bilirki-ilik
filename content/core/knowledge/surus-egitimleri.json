@@ -1,0 +1,670 @@
+{
+ "source": "Sayfa3!A1:D91",
+ "rows": [
+  {
+   "row": 1,
+   "cells": {
+    "A": "Resmi Görev ve Araç Tipine Göre Özelleştirilmiş Sürüş Eğitimleri"
+   }
+  },
+  {
+   "row": 2,
+   "cells": {
+    "A": "Grup A: Hafif Ticari ve Makam Araçları (Özel Hizmet)"
+   }
+  },
+  {
+   "row": 3,
+   "cells": {
+    "A": "Kapsar: Makam araçları (Sedan/SUV), standart hizmet araçları (Binek, Panelvan)."
+   }
+  },
+  {
+   "row": 4,
+   "cells": {
+    "B": "Makam Sürüş Protokolleri",
+    "C": "Güvenli takip mesafesi, konvoy sürüş teknikleri, güzergah güvenliği analizi ve yolcu konforunu ön planda tutan yumuşak sürüş (smooth driving).",
+    "D": "Yolcu konforu, dikkat çekmeme, güzergah güvenliğini sağlama."
+   }
+  },
+  {
+   "row": 5,
+   "cells": {
+    "B": "Gelişmiş Defansif Sürüş",
+    "C": "Şehir içi yoğun trafikte ani karar verme ve hız limitlerine uyarak risklerden kaçınma.",
+    "D": "Hızlı şerit değiştirme ihtiyacında kör nokta yönetimi."
+   }
+  },
+  {
+   "row": 6,
+   "cells": {
+    "B": "Yakıt ve Lastik Yönetimi",
+    "C": "Aracın ömrünü uzatacak ve maliyetleri düşürecek ekonomik ve çevre dostu sürüş teknikleri.",
+    "D": "Kurum bütçesine katkı."
+   }
+  },
+  {
+   "row": 7,
+   "cells": {
+    "A": "Grup B: Ağır Ticari ve Özel Donanımlı Araçlar (Yük/Yolcu Taşıma)"
+   }
+  },
+  {
+   "row": 8,
+   "cells": {
+    "A": "Kapsar: Kamyonet, Kamyon, Minibüs, Otobüs (Personel Taşıma)."
+   }
+  },
+  {
+   "row": 9,
+   "cells": {
+    "B": "Ağırlık Transferi ve Frenleme",
+    "C": "Ağır yük veya yolcu kaynaklı uzayan fren mesafeleri ve yüksek ağırlık merkezinin virajlardaki savrulma riski (Devrilme önleme)."
+   }
+  },
+  {
+   "row": 10,
+   "cells": {
+    "B": "Şerit Takibi ve Yan Rüzgar",
+    "C": "Büyük araçlarda oluşan hava akımının ve rüzgarın aracı etkileme dinamikleri.",
+    "D": "Karayolu seyir güvenliğini artırma, diğer araçları etkilememe."
+   }
+  },
+  {
+   "row": 11,
+   "cells": {
+    "B": "Kapsamlı Kör Nokta Farkındalığı",
+    "C": "Büyük araçların etrafındaki kritik kör noktaları anlamak ve özellikle manevra sırasında bu alanları kontrol etmek.",
+    "D": "Özellikle otobüslerde ve kamyonlarda yaya/bisikletçi güvenliği."
+   }
+  },
+  {
+   "row": 12,
+   "cells": {
+    "B": "Geri Manevra Yardımcıları",
+    "C": "Geri manevrada yardımcı sistemleri (kamera, sensör) kullanma ve bir gözcü eşliğinde güvenli manevra yapma protokolleri.",
+    "D": "Dar alanlarda kaza riskini azaltma."
+   }
+  },
+  {
+   "row": 13,
+   "cells": {
+    "A": "Grup C: Acil Durum ve Özel Amaçlı Araçlar"
+   }
+  },
+  {
+   "row": 14,
+   "cells": {
+    "A": "Kapsar: Ambulans, İtfaiye Aracı, Polis/Jandarma Devriye Araçları, İş Makineleri."
+   }
+  },
+  {
+   "row": 15,
+   "cells": {
+    "B": "Yüksek Hızda Kontrol ve Konvoy",
+    "C": "Sivil araçların beklentilerini yöneterek, siren ve tepe lambası eşliğinde yasal hız limitlerini aşarak güvenli ilerleme.",
+    "D": "Zamandan tasarruf ederken kaza riskini minimuma indirme."
+   }
+  },
+  {
+   "row": 16,
+   "cells": {
+    "B": "Acil Durum Frenleme (Kaygan Zemin)",
+    "C": "Özellikle itfaiye ve kurtarma araçlarının dolu depo ve yüksek ağırlıkla kaygan zeminde güvenli duruşu.",
+    "D": "Görev yerinde güvenli ve hızlı pozisyon alma."
+   }
+  },
+  {
+   "row": 17,
+   "cells": {
+    "B": "Teknik Donanım Kullanımı",
+    "C": "Vinç, pompa, sepet, medikal ekipman gibi araç üstü özel donanımları kullanırken aracın denge ve stabilitesini koruma.",
+    "D": "İş makinesi ve itfaiye araçlarında operasyonel güvenlik."
+   }
+  },
+  {
+   "row": 18,
+   "cells": {
+    "B": "Hukuki Sorumluluklar",
+    "C": "Acil durum geçiş üstünlüğü kurallarının sınırları ve kaza anında yasal sorumluluklar.",
+    "D": "Sürücünün kişisel ve kurumsal yükümlülükleri."
+   }
+  },
+  {
+   "row": 19,
+   "cells": {
+    "A": "Resmi Araç Sürücüleri Ortak Eğitim Modülü (Çekirdek Beceriler)"
+   }
+  },
+  {
+   "row": 20,
+   "cells": {
+    "A": "Bu modül, teorik ve pratik bölümleri içerir ve tüm sürücülerin Defansif Sürüş felsefesini benimsemesini hedefler."
+   }
+  },
+  {
+   "row": 21,
+   "cells": {
+    "B": "Eğitim Konu Başlığı",
+    "C": "Odak Noktası ve Öğrenim Çıktısı"
+   }
+  },
+  {
+   "row": 22,
+   "cells": {
+    "B": "Defansif Sürüş Felsefesi ve Kurum Kültürü",
+    "C": "Sürücünün ana hedefinin kazasız bir sürüş olduğunu içselleştirmesi. Başkalarının hatalarını öngörme ve reaktif değil, proaktif sürüş geliştirme. Kurumu temsil bilinci."
+   }
+  },
+  {
+   "row": 23,
+   "cells": {
+    "B": "Ergonomi ve Sürücü Yorgunluğu Yönetimi",
+    "C": "Doğru koltuk, ayna ve direksiyon ayarları ile uzun süreli görevlerde yorgunluğu ve kas gerginliğini azaltma teknikleri. Yorgunluk belirtileri ve mola verme zorunluluğu."
+   }
+  },
+  {
+   "row": 24,
+   "cells": {
+    "B": "Trafik Psikolojisi ve Öfke Kontrolü",
+    "C": "Yoğun trafikte sakin kalma, diğer sürücülerin agresif davranışlarına karşı doğru tepki verme (misillemeden kaçınma). Görev baskısı altında duygusal dengeyi koruma."
+   }
+  },
+  {
+   "row": 25,
+   "cells": {
+    "B": "Tehlike Algılama ve Hız Yönetimi",
+    "C": "Aracın duruş mesafesini (tepki + fren) anlama. Hava ve yol koşullarına göre hızı otomatik olarak ayarlama becerisi. Takip mesafesinin metre ve saniye cinsinden doğru hesaplanması."
+   }
+  },
+  {
+   "row": 26,
+   "cells": {
+    "B": "Fren Sistemleri ve Doğru Frenaj",
+    "C": "ABS, EBD, ESP gibi araç güvenlik sistemlerinin çalışma prensiplerini anlama ve panik anında doğru fren pedalına basma tekniği. (Motor freninin kullanımı dahil)."
+   }
+  },
+  {
+   "row": 27,
+   "cells": {
+    "B": "Kavşak ve Şerit Değiştirme Güvenliği",
+    "C": "Kavşaklara yaklaşırken \"360 derece farkındalık\" geliştirme. Kör noktaları sistematik olarak kontrol etme ve güvenli şerit değiştirme protokolleri."
+   }
+  },
+  {
+   "row": 28,
+   "cells": {
+    "B": "Yol Kenarı ve Kaza Yeri Protokolü",
+    "C": "Kaza veya arıza durumunda aracın güvenli bir şekilde durdurulması, çevrenin emniyete alınması (reflektör/üçgen kullanımı) ve kurum içi raporlama zincirinin başlatılması."
+   }
+  },
+  {
+   "row": 29,
+   "cells": {
+    "B": "Temel Araç Bakımı ve Kontrolü (T.A.K.)",
+    "C": "Görev öncesi lastik basıncı, yağ seviyesi, aydınlatma ve fren sistemlerinin temel kontrollerini yapma yeteneği. Seyir halindeyken arızaları tanıma."
+   }
+  },
+  {
+   "row": 30,
+   "cells": {
+    "A": "Bu sekiz temel başlık, hangi kurumda veya hangi araçla çalışırsa çalışsın, her resmi sürücünün güvenliğini, verimliliğini ve kurumsal sorumluluğunu artırmak için bir temel oluşturacaktır"
+   }
+  },
+  {
+   "row": 32,
+   "cells": {
+    "A": "Motorlu ve Motorsuz Taşıt Sürücüsü Kişisel Koruyucu Ekipmanları (KKE)"
+   }
+  },
+  {
+   "row": 34,
+   "cells": {
+    "A": "Bu analiz, sürücünün vücudunu doğrudan korumayı, görünürlüğünü artırmayı ve mesleki riskleri (İSG) en aza indirmeyi amaçlayan ekipmanları listelemektedir."
+   }
+  },
+  {
+   "row": 36,
+   "cells": {
+    "A": "KKE Kategori (Bölge / Risk)",
+    "B": "KKE Adı",
+    "C": "KKE Amacı",
+    "D": "Uygulama Zorunluluğu / Kullanım Alanları"
+   }
+  },
+  {
+   "row": 37,
+   "cells": {
+    "A": "I. Hayati Çarpışma ve Devrilme Koruması"
+   }
+  },
+  {
+   "row": 38,
+   "cells": {
+    "A": "Baş Koruması",
+    "B": "Sürüş Kaskı",
+    "C": "Kafa, beyin ve yüz yaralanmalarını önleme, darbe enerjisini emme.",
+    "D": "Motosiklet (Yasal Zorunlu), Yarış/Ralli Otomobilleri, At Arabası (Tavsiye Edilen), Bisiklet/Kaykay/Scooter (Hayati Tavsiye / Yasal Zorunluluk Durumuna Bağlı). Askeri Karayolu Taşıtları (Trafik)."
+   }
+  },
+  {
+   "row": 39,
+   "cells": {
+    "A": "Vücut Sabitleme",
+    "B": "Emniyet Kemeri",
+    "C": "Çarpışma anında sürücüyü koltuğa sabitleme, kabin içinde savrulmayı önleme.",
+    "D": "Otomobil, Kamyon, Otobüs, Minibüs, İş Makinaları, Askeri Karayolu Taşıtları (Yasal Zorunlu)."
+   }
+  },
+  {
+   "row": 40,
+   "cells": {
+    "A": "Vücut Koruması",
+    "B": "Koruyucu Mont/Tulum",
+    "C": "Sürtünme yanıklarını ve darbe yaralanmalarını (pedler aracılığıyla) önleme.",
+    "D": "Motosiklet (Hayati Tavsiye), Yarış/Ralli Otomobilleri (Yangın geciktirici tulum)."
+   }
+  },
+  {
+   "row": 41,
+   "cells": {
+    "A": "II. Uzuv ve Eklemlerin Koruması"
+   }
+  },
+  {
+   "row": 42,
+   "cells": {
+    "A": "El Koruması",
+    "B": "Motosiklet Eldiveni",
+    "C": "El eklemlerini koruma, sürtünmeyi önleme, sürüş kontrolünü artırma.",
+    "D": "Motosiklet (Hayati Tavsiye)."
+   }
+  },
+  {
+   "row": 43,
+   "cells": {
+    "A": "Eklem Koruması",
+    "B": "Dizlik, Dirseklik, Bileklik",
+    "C": "Düşme anında eklem kırıklarını ve şiddetli sürtünme yaralarını önleme.",
+    "D": "Bisiklet (Tavsiye Edilen/MTB), Kaykay/Scooter (Hayati Tavsiye)."
+   }
+  },
+  {
+   "row": 44,
+   "cells": {
+    "A": "Ayak Koruması",
+    "B": "Motosiklet Botu",
+    "C": "Ayak bileği burkulmalarını ve sürtünme yanıklarını önleme.",
+    "D": "Motosiklet (Hayati Tavsiye)."
+   }
+  },
+  {
+   "row": 45,
+   "cells": {
+    "A": "Mesleki Ayak Koruması",
+    "B": "İş Güvenliği Ayakkabısı",
+    "C": "Yükleme, boşaltma ve bakım sırasında ayakları ezilme ve düşen ağır cisimlere karşı koruma.",
+    "D": "Kamyon, Otobüs, Traktör, İş Makinaları ve Ticari araç sürücüleri (Görev sırasında)."
+   }
+  },
+  {
+   "row": 46,
+   "cells": {
+    "A": "III. Görünürlük ve Çevresel Korumalar"
+   }
+  },
+  {
+   "row": 47,
+   "cells": {
+    "A": "Kişisel Görünürlük",
+    "B": "Reflektif Yelek",
+    "C": "Sürücünün araçtan inerek karayolunda veya arıza şeridinde bulunduğu sırada görünürlüğünü en üst düzeye çıkarma.",
+    "D": "Tüm Taşıtlar (Arıza/Kaza anında yasal zorunluluk). Bisiklet/Scooter/İş Makinaları Operatörleri (Düşük Işıkta Hayati)."
+   }
+  },
+  {
+   "row": 48,
+   "cells": {
+    "A": "Göz Koruması",
+    "B": "Koruyucu Gözlük / Vizör",
+    "C": "Gözleri rüzgar, toz, kimyasal ve yabancı cisimlerden koruma.",
+    "D": "Motosiklet, Traktör (Tozlu ortamda), At Arabası, Bisiklet/Scooter, İş Makinaları (Tozlu Ortam). Askeri Karayolu (Toz/Koruma)."
+   }
+  },
+  {
+   "row": 49,
+   "cells": {
+    "A": "IV. Mesleki İş Güvenliği (İSG)"
+   }
+  },
+  {
+   "row": 50,
+   "cells": {
+    "A": "Şantiye Baş Koruması",
+    "B": "Baret (Koruyucu Başlık)",
+    "C": "Düşen cisimler ve alçak engellere karşı koruma.",
+    "D": "İş Makinaları Operatörleri (Kabin dışına çıktıklarında şantiye sahasında zorunludur)."
+   }
+  },
+  {
+   "row": 51,
+   "cells": {
+    "A": "İşitme Koruması",
+    "B": "Kulak Tıkaçları / Kulaklık",
+    "C": "Uzun süreli yüksek motor ve iş makinesi gürültüsüne karşı işitme sağlığını koruma.",
+    "D": "Traktör, Ağır Vasıta, İş Makinaları, Zırhlı Muharebe Araçları (Kabin içi gürültü/telsiz iletişimi)."
+   }
+  },
+  {
+   "row": 52,
+   "cells": {
+    "A": "Solunum Koruması",
+    "B": "Koruyucu Maske",
+    "C": "Tozlu çalışma ortamlarında veya tehlikeli kimyasalların (ilaçlama, yük) elleçlenmesi sırasında solunum yollarını koruma.",
+    "D": "Traktör (Tarım), Tehlikeli Yük Taşıyanlar, İş Makinaları Operatörleri (Tozlu Şantiye)."
+   }
+  },
+  {
+   "row": 53,
+   "cells": {
+    "A": "El İş Koruması",
+    "B": "İş Eldiveni",
+    "C": "Basit bakım, zincir takma, lastik değiştirme veya yük elleçleme sırasında elleri kesik ve sürtünmeye karşı koruma.",
+    "D": "Tüm Taşıtlar (Arıza/Bakım anında bulundurulması tavsiye edilir). İş Makinaları (Mekanik Bakım)."
+   }
+  },
+  {
+   "row": 54,
+   "cells": {
+    "A": "V. Motorlu Olmayan Taşıt Kontrol KKE'si"
+   }
+  },
+  {
+   "row": 55,
+   "cells": {
+    "A": "Tutuş Koruması",
+    "B": "Güçlendirilmiş İş Eldiveni",
+    "C": "Dizgin, ip ve halatları tutarken elleri sürtünme ve nasırlara karşı koruma.",
+    "D": "At Arabası (Zorunlu Fonksiyonel KKE)."
+   }
+  },
+  {
+   "row": 56,
+   "cells": {
+    "A": "Zemin Koruması",
+    "B": "Sağlam Ayakkabı / Bot",
+    "C": "Hayvan basması ve zorlu arazi koşullarında ayakları koruma.",
+    "D": "At Arabası (Hayati Tavsiye)."
+   }
+  },
+  {
+   "row": 57,
+   "cells": {
+    "A": "VI. Hafif Kişisel Taşıtlar (Kaykay/Bisiklet/Scooter) Ek KKE"
+   }
+  },
+  {
+   "row": 58,
+   "cells": {
+    "A": "El Koruması (Özel)",
+    "B": "Kaykay/Bisiklet/Scooter Eldiveni",
+    "C": "Gidonda tutuş sağlama; düşme anında avuç içi koruma ve yaralanmayı azaltma.",
+    "D": "Bisiklet, Kaykay, Scooter (Tavsiye Edilen)."
+   }
+  },
+  {
+   "row": 59,
+   "cells": {
+    "A": "VII. Askeri Görev Odaklı KKE (Karayolu ve Zırhlı)"
+   }
+  },
+  {
+   "row": 60,
+   "cells": {
+    "A": "Balistik Baş Koruması",
+    "B": "Taktik Kask",
+    "C": "Mermi, şarapnel ve darbelere karşı koruma.",
+    "D": "Tüm Askeri Araçlar (Özellikle açık kulelerde ve sevk sırasında)."
+   }
+  },
+  {
+   "row": 61,
+   "cells": {
+    "A": "Balistik Vücut Koruması",
+    "B": "Balistik Yelek / Plaka",
+    "C": "Vücudu mermi ve şarapnel etkilerine karşı koruma.",
+    "D": "Tüm Askeri Araçlar (Görev ve çatışma bölgelerinde zorunlu)."
+   }
+  },
+  {
+   "row": 62,
+   "cells": {
+    "A": "Termal Korumalı Kıyafet",
+    "B": "Ateşe Dayanıklı Tulum",
+    "C": "Araç yangınları veya patlamaları sırasında yanıklara karşı koruma.",
+    "D": "Zırhlı Muharebe Araçları (Yangın riski yüksek kapalı kabinler)."
+   }
+  },
+  {
+   "row": 63,
+   "cells": {
+    "A": "Düşük Işık Görüşü",
+    "B": "Gece Görüş Gözlüğü (NVG)",
+    "C": "Gece ve düşük ışık koşullarında araç sevk ve idaresi.",
+    "D": "Tüm Askeri Araçlar (Taktik görevlerde zorunlu)."
+   }
+  },
+  {
+   "row": 64,
+   "cells": {
+    "A": "Kimyasal/Biyolojik Koruması",
+    "B": "NBC Maskesi/Filtresi",
+    "C": "Kimyasal, biyolojik ve nükleer tehdit altında solunum ve yüz koruması.",
+    "D": "Zırhlı Muharebe Araçları (Kollektif koruma sisteminin parçası olarak veya kişisel olarak)."
+   }
+  },
+  {
+   "row": 65,
+   "cells": {
+    "A": "VIII. Tehlikeli Madde Taşıyıcıları KKE (ADR/TMGD)"
+   }
+  },
+  {
+   "row": 66,
+   "cells": {
+    "A": "Radyasyon Koruması",
+    "B": "Dozimetre / Radyasyon Dedektörü",
+    "C": "Sürücünün maruz kaldığı radyasyon seviyesini izleme ve kayıt altına alma.",
+    "D": "Tehlikeli Maddeler (Özellikle Radyoaktif/Nükleer Atık) taşıyan sürücüler (Zorunlu)."
+   }
+  },
+  {
+   "row": 67,
+   "cells": {
+    "A": "Kimyasal Vücut Koruması",
+    "B": "Kimyasal Koruyucu Tulum (Tek Kullanımlık)",
+    "C": "Sızıntı, dökülme ve sıçramaya karşı cildi ve giysiyi koruma (Tip 3/4/5).",
+    "D": "Tehlikeli Maddeler (Akaryakıt, Kimyasal, Radyoaktif Atık) taşıyan sürücüler (Acil müdahale seti Zorunlu)."
+   }
+  },
+  {
+   "row": 68,
+   "cells": {
+    "A": "Kimyasal El Koruması",
+    "B": "Kimyasal Dirençli Eldiven",
+    "C": "Kimyasal sıçrama ve temas anında elleri koruma.",
+    "D": "Tehlikeli Maddeler taşıyan sürücüler (Acil müdahale seti Zorunlu)."
+   }
+  },
+  {
+   "row": 69,
+   "cells": {
+    "A": "Solunum Koruması (Özel)",
+    "B": "Yarım/Tam Yüz Maskesi ve Filtre",
+    "C": "Zehirli gaz, buhar ve partiküllere karşı solunum yollarını koruma (Taşınan maddeye uygun filtre).",
+    "D": "Tehlikeli Maddeler (Gaz, Kimyasal, Biyolojik, Radyoaktif) taşıyan sürücüler (Acil müdahale seti Zorunlu)."
+   }
+  },
+  {
+   "row": 70,
+   "cells": {
+    "A": "Göz ve Yüz Koruması",
+    "B": "Sıçrama Gözlüğü / Yüz Siperliği",
+    "C": "Kimyasal ve tehlikeli atık sıçramalarına karşı göz ve yüzü koruma.",
+    "D": "Tehlikeli Maddeler taşıyan sürücüler (Acil müdahale seti Zorunlu)."
+   }
+  },
+  {
+   "row": 71,
+   "cells": {
+    "A": "IX. Mesleki Kurye/Dağıtım Operatörleri KKE (Yiyecek/Kargo)"
+   }
+  },
+  {
+   "row": 72,
+   "cells": {
+    "A": "Yüksek Görünürlüklü Dış Giysi",
+    "B": "Yansıtıcı/Su Geçirmez Üniforma",
+    "C": "Gece ve kötü hava koşullarında trafik içinde maksimum görünürlük sağlama.",
+    "D": "Tüm Kuryeler/Dağıtım Personeli (Mesleki Zorunluluk)."
+   }
+  },
+  {
+   "row": 73,
+   "cells": {
+    "A": "Ergonomik Bel Desteği",
+    "B": "Ergonomik Bel/Sırt Kemeri",
+    "C": "Ağır yük (Kargo/Termal kutu) elleçleme ve uzun süreli taşıma zorlanmasını azaltma.",
+    "D": "Kargo Van/Kamyonet Sürücüleri (Kaldırma sırasında), Motosiklet/Bisiklet Kuryeleri (Tavsiye Edilen)."
+   }
+  },
+  {
+   "row": 74,
+   "cells": {
+    "A": "Kargo Elleçleme Eldiveni",
+    "B": "Darbeye/Kesilmeye Dirençli Eldiven",
+    "C": "Ağır, kaba veya keskin kenarlı kargoların yüklenmesi ve boşaltılması sırasında el yaralanmalarını önleme.",
+    "D": "Kargo Van/Kamyonet/Lojistik Sürücüleri (Yükleme/Boşaltma sırasında zorunlu)."
+   }
+  },
+  {
+   "row": 75,
+   "cells": {
+    "A": "Termal El Koruması",
+    "B": "Sıcak/Soğuk Hava Uyumlu Eldiven",
+    "C": "Uzun süreli motosiklet/bisiklet sürüşünde elleri soğuktan koruma.",
+    "D": "Yiyecek/Hafif Paket Kuryeleri (Hayati Tavsiye)."
+   }
+  },
+  {
+   "row": 77,
+   "cells": {
+    "A": "Taşıt Türüne Göre Kişisel Koruyucu Ekipmanlar (KKE) Analizi"
+   }
+  },
+  {
+   "row": 79,
+   "cells": {
+    "A": "Bu tablo, taşıt türüne göre zorunlu veya hayati önem taşıyan Kişisel Koruyucu Ekipmanları (KKE) listelemektedir."
+   }
+  },
+  {
+   "row": 81,
+   "cells": {
+    "A": "Araç Tipi (Risk Grubu)",
+    "B": "Zorunlu Hayati KKE (Sürüş/Trafik)",
+    "C": "Mesleki / Çevresel KKE (İSG / Elleçleme)",
+    "D": "Ek Balistik / Kimyasal KKE (Özel Görevler)"
+   }
+  },
+  {
+   "row": 82,
+   "cells": {
+    "A": "Otomobil / Minibüs",
+    "B": "Emniyet Kemeri (Yasal Zorunlu)",
+    "C": "İlk Yardım Kiti, Reflektif Yelek (Arıza anında)",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 83,
+   "cells": {
+    "A": "Kamyon / Ağır Vasıta",
+    "B": "Emniyet Kemeri (Yasal Zorunlu), İş Güvenliği Ayakkabısı (Yükleme/Boşaltma)",
+    "C": "Kulak Tıkaçları/Kulaklık (Yüksek Gürültü), İş Eldiveni (Mekanik bakım/zincir takma)",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 84,
+   "cells": {
+    "A": "Motosiklet",
+    "B": "Sürüş Kaskı (Yasal Zorunlu), Koruyucu Eldiven (Hayati), Koruyucu Mont (Hayati), Motosiklet Botu/Ayakkabısı (Hayati)",
+    "C": "Reflektif Yelek (Düşük ışıkta tavsiye)",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 85,
+   "cells": {
+    "A": "Bisiklet / Scooter / Kaykay",
+    "B": "Sürüş Kaskı (Hayati Tavsiye), Dizlik, Dirseklik, Bileklik (Düşme anı için)",
+    "C": "Reflektif Yelek / Giysi (Düşük Işıkta), Koruyucu Gözlük (Rüzgar/Toz)",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 86,
+   "cells": {
+    "A": "İş Makinaları (Dozer/Ekskavatör/Forklift)",
+    "B": "Emniyet Kemeri (Zorunlu), İş Güvenliği Ayakkabısı",
+    "C": "Baret (Şantiye sahasında kabin dışı), Kulaklık/Kulak Tıkacı (Gürültü), Koruyucu Gözlük/Toz Maskesi",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 87,
+   "cells": {
+    "A": "Askeri Karayolu Taşıtları",
+    "B": "Sürüş Kaskı (Trafik/Devrilme), Emniyet Kemeri (Zorunlu)",
+    "C": "Taktik Kask, Balistik Yelek/Plaka, Gece Görüş Gözlüğü (NVG)",
+    "D": "Ateşe Dayanıklı Tulum (Termal Koruma), NBC Maskesi/Filtresi (Kimyasal/Biyolojik)"
+   }
+  },
+  {
+   "row": 88,
+   "cells": {
+    "A": "Zırhlı Muharebe Araçları (Tank/ZMA)",
+    "B": "Taktik Kask (Darbe), Emniyet Kemeri",
+    "C": "Ateşe Dayanıklı Tulum (Yangın), Yüksek Performanslı İşitme Koruması (Telsiz Uyumlu)",
+    "D": "Balistik Yelek/Plaka, NBC Maskesi/Filtresi (Kimyasal/Biyolojik/Nükleer)"
+   }
+  },
+  {
+   "row": 89,
+   "cells": {
+    "A": "Tehlikeli Madde Taşıyıcıları (ADR/HazMat)",
+    "B": "Emniyet Kemeri, İş Güvenliği Ayakkabısı, Reflektif Yelek",
+    "C": "Kimyasal Koruyucu Tulum (Tek Kullanımlık), Kimyasal Dirençli Eldiven, Sıçrama Gözlüğü / Yüz Siperliği",
+    "D": "Solunum Maskesi ve Filtre (Zehirli buhar), Dozimetre (Radyoaktif madde için)"
+   }
+  },
+  {
+   "row": 90,
+   "cells": {
+    "A": "Kuryeler (Yiyecek / Hafif Paket)",
+    "B": "Sürüş Kaskı, Motosiklet/Bisiklet Eldiveni, Yansıtıcı Üniforma/Yelek (Hayati)",
+    "C": "Ergonomik Bel Kemeri (Ağır çanta/kutu), Sıcak/Soğuk Hava Uyumlu Eldiven (Termal konfor)",
+    "D": "Yok"
+   }
+  },
+  {
+   "row": 91,
+   "cells": {
+    "A": "Kuryeler (Ağır Kargo / Lojistik)",
+    "B": "Emniyet Kemeri, İş Güvenliği Ayakkabısı",
+    "C": "Kargo Elleçleme Eldiveni (Kesilmeye/Darbeye dirençli), Ergonomik Bel Kemeri (Ağır kaldırma)"
+   }
+  }
+ ]
+}

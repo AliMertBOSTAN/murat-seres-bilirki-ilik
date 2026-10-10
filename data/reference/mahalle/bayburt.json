@@ -1,0 +1,101 @@
+{
+ "il": "BAYBURT",
+ "ilceler": {
+  "AYDINTEPE": [
+   "AHMETYESEVİ",
+   "H.ALİ EFENDİ",
+   "KALE",
+   "YAKUTİYE"
+  ],
+  "DEMİRÖZÜ": [
+   "ÇİFTETAŞ",
+   "ESENTEPE",
+   "GÜNEŞLİ",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "GÖKÇEDERE"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "GÖKÇEDERE"
+   },
+   "ŞİRİN",
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "GÖKÇEDERE"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "CAMİİKEBİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GENÇOSMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KADIZADE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALEARDI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARASAKAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMETÇELEBİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEYHHAYRAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞİNGAH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TUZCUZADE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "UZUNGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VELİŞABAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VEYSEL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZAHİT",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ARPALI"
+   },
+   {
+    "mahalle": "ÇİÇEKLİ",
+    "belde": "ARPALI"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "ARPALI"
+   }
+  ]
+ }
+}

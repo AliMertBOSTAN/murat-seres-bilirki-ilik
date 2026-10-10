@@ -1,0 +1,188 @@
+{
+ "il": "BİNGÖL ",
+ "ilceler": {
+  "ADAKLI": [
+   "AFET KONUTLARI",
+   "ARICI",
+   "DEMİROLUK",
+   "DÖŞLÜCE",
+   "GÜNGÖRSÜN",
+   "MERKEZ",
+   "YEŞİLTEPE"
+  ],
+  "GENÇ": [
+   "CUMHURİYET",
+   "KÜLTÜR",
+   "YENİŞEHİR",
+   "YEŞİLDERE",
+   "YOLDAŞAN"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İÇMELER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNALI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİRZAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RECEP TAYYİP ERDOĞAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELADDİN-İ EYYUBİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SİMANİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT MUSTAFA GÜNDOĞDU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KARLIOVA": [
+   "KALE",
+   "KANİREŞ",
+   "KANİTAHT",
+   "SEYRANTEPE",
+   "TURGUT ÖZAL",
+   "YEŞİLYURT"
+  ],
+  "KİĞI": [
+   "ABAR",
+   "ESKİŞEHİR",
+   "YENİŞEHİR",
+   "YEŞİLYURT"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "AKBUDAK",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "BÜYÜKBAŞKÖY",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "ÇAY",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "ÇİMENLİ",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "HOŞKAR",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "ILICA",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "İÇPINAR",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "KAMIŞLI",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "KARAPINAR",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "KILIÇLI",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "KÜÇÜKTBAŞKÖY",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "SARIGÜMÜŞ",
+    "belde": "SANCAK"
+   },
+   {
+    "mahalle": "UZUNDERE",
+    "belde": "ILICALAR"
+   },
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "SANCAK"
+   }
+  ],
+  "SOLHAN": [
+   "BOĞLAN",
+   "HALİMEPINAR",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "ARAKONAK"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "ARAKONAK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ARAKONAK"
+   },
+   "YENİMAHALLE",
+   "YEŞİLOVA"
+  ],
+  "YAYLADERE": [
+   "AKÇADAMLAR",
+   "CONAG",
+   "HAKTANIR",
+   "HASKÖY",
+   "MERKEZ",
+   "YOLGÜDEN"
+  ],
+  "YEDİSU": [
+   "DÜŞENGİ",
+   "KABAOLUK",
+   "KOŞAN",
+   "MERKEZ",
+   "YENİ MAHALLE"
+  ]
+ }
+}

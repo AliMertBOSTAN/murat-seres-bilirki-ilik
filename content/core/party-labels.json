@@ -1,0 +1,95 @@
+{
+ "source": "Tanım!A64:D79 (Grş 1!B6:B20 formülleri)",
+ "selectorCell": "Giriş!M11",
+ "sets": [
+  {
+   "id": "ceza",
+   "title": "CEZA MAHKEMESİ ",
+   "labels": [
+    "DOSYA NO",
+    "MÜŞTEKİ/MAĞDUR",
+    "/KATILAN",
+    "VEKİLİ",
+    "SANIK",
+    "SANIK VEKİLİ",
+    "SUÇ TARİHİ",
+    "GÖREVLENDİRME ",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ",
+    "Bilirkişi Ad Soyadı",
+    "Uzmanlık Alanı",
+    "Bilirkişi Sicil No: ……"
+   ],
+   "excelIndex": 1
+  },
+  {
+   "id": "hukuk",
+   "title": "HUKUK MAHKEMELERİ",
+   "labels": [
+    "DOSYA NO",
+    "DAVACI",
+    "DAVACI VEKİLİ",
+    "DAVALI",
+    "DAVALI VEKİLİ",
+    "DAVA KONUSU",
+    "DAVA TARİHİ",
+    "GÖREVLENDİRME",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ",
+    "Bilirkişi Ad Soyadı",
+    "Uzmanlık Alanı",
+    "Bilirkişi Sicil No"
+   ],
+   "excelIndex": 2
+  },
+  {
+   "id": "savcilik",
+   "title": "CUMHURİYET BAŞSAVCILIĞI",
+   "labels": [
+    "SORUŞTURMA NO",
+    "MÜŞTEKİ/MAĞDUR",
+    "VEKİLİ",
+    "ŞÜPHELİ",
+    "ŞÜPHELİ VEKİLİ",
+    "SORUŞTURMA KONUSU",
+    "SUÇ TARİHİ",
+    "GÖREVLENDİRME ",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ",
+    "Bilirkişi Ad Soyadı",
+    "Uzmanlık Alanı",
+    "Bilirkişi Sicil No"
+   ],
+   "excelIndex": 3
+  },
+  {
+   "id": "icra",
+   "title": "İCRA MAHKEMELERİ",
+   "labels": [
+    "DOSYA NO",
+    "ALACAKLI",
+    "ALACAKLI VEKİLİ",
+    "BORÇLU",
+    "BORÇLU VEKİLİ",
+    "TAKİP KONUSU",
+    "TAKİP TARİHİ",
+    "GÖREVLENDİRME",
+    "TARİHİ",
+    "VERİLEN SÜRE",
+    "KEŞİF TARİHİ",
+    "RAPOR TARİHİ",
+    "Bilirkişi Ad Soyadı",
+    "Uzmanlık Alanı",
+    "Bilirkişi Sicil No"
+   ],
+   "excelIndex": 4
+  }
+ ],
+ "note": "Giriş!M11 hem mahkeme numarası hem etiket seti seçicidir (§3.4). Webde iki alan: mahkemeNo ve dosyaTuru."
+}

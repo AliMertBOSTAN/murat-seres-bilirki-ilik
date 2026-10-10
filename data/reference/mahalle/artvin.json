@@ -1,0 +1,83 @@
+{
+ "il": "ARTVİN ",
+ "ilceler": {
+  "ARDANUÇ": [
+   "MERKEZ"
+  ],
+  "ARHAVİ": [
+   "AŞAĞI HACILAR",
+   "BOĞAZİÇİ",
+   "CUMHURİYET",
+   "KALE",
+   "MUSAZADE",
+   "YEMİŞLİK",
+   "YUKARI HACILAR"
+  ],
+  "BORÇKA": [
+   "AKSU",
+   "GÜNDOĞDU",
+   "MERKEZ",
+   "YENİYOL"
+  ],
+  "HOPA": [
+   "BUCAK",
+   "CUMHURİYET",
+   "MERKEZ KULEDİBİ",
+   "ORTAHOPA",
+   "SUGÖREN",
+   "SUNDURA",
+   "YUKARI KULEDİBİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "BALCIOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMLIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇARŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYAĞZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KEMALPAŞA": [
+   "CUMHURİYET",
+   "SELİMİYE",
+   "UZUNYALI "
+  ],
+  "MURGUL": [
+   "DAMAR",
+   "KÜRE"
+  ],
+  "ŞAVŞAT": [
+   "ARMUTLU",
+   "SÖĞÜTLÜ",
+   "YENİKÖY"
+  ],
+  "YUSUFELİ": [
+   "ÇORUH",
+   "ERDEMLER",
+   "KAÇKAR",
+   "LİVANE",
+   "SANCAK"
+  ]
+ }
+}

@@ -1,0 +1,3015 @@
+{
+ "id": "ornek-excel",
+ "title": "Excel örnek dosyası (EĞİTİM 001)",
+ "createdAt": "2025-09-01",
+ "excelCached": true,
+ "dosya": {
+  "firma": "SERESLER BİLİRKİŞİLİK",
+  "raporTuru": "BİLİRKİŞİ RAPORUDUR",
+  "personel": "Murat Rasim SERES",
+  "il": "Bursa",
+  "ilce": "İnegöl",
+  "mahalle": "CEBECİ",
+  "mahkemeNoVeDosyaTuru": 3,
+  "mahkemeAdi": "AĞIR CEZA MAHKEMESİ",
+  "suc": "Araç Kazası",
+  "mahkemeNo": 3,
+  "dosyaTuru": "savcilik",
+  "dosyaNo": ""
+ },
+ "taraflar": {
+  "slot1": 1,
+  "slot2": 2,
+  "slot3": 3,
+  "slot4": 4,
+  "slot5": 5,
+  "slot6": 6,
+  "slot7": 7,
+  "slot8": 8,
+  "slot9": 9,
+  "slot10": 10,
+  "slot11": 11,
+  "slot12": 12
+ },
+ "bilirkisi": {
+  "ad": "Murat Rasim SERES",
+  "uzmanlik": "Trafik Kazaları",
+  "sicilNo": 109249
+ },
+ "kazaYeri": {
+  "tarih": "2025-09-01T00:00:00",
+  "saat": "17:45:00",
+  "mahalle": "Merkez",
+  "adres": "Köy hizmetleri misafir hanesi "
+ },
+ "yolCevre": {
+  "gunDurumu": "Şafak Vakti",
+  "havaDurumu": "Açık ve Güneşli ",
+  "yolSinifi": "2 Sokak",
+  "akisYonu": "Tek Yönlü Yol",
+  "yerinKonumu": "1. Kuru "
+ },
+ "guzergah": {
+  "yatayDikey": "VAR",
+  "yatay": "YATAY EĞİMSİZ",
+  "dikey": "DİKEY EĞİMSİZ"
+ },
+ "yolEkipman": {
+  "otoKorkuluk": "Aranmadı",
+  "yayaYolu": "Belirsiz",
+  "emniyetSeridi": "Belirsiz",
+  "yolSeritCizgisi": "Yetersiz",
+  "trafikIsaretLevhasi": "Aranmadı",
+  "isikliSesliIsaret": "Aranmadı",
+  "yolAydinlatmasi": "Yetersiz",
+  "trafikGorevlisi": "Aranmadı",
+  "goruseEngelCisim": "Davranış",
+  "yoldaCalisma": "Aranmadı",
+  "yoldaCalismaIsaretleme": "Aranmadı",
+  "yolSorunu": "Aranmadı",
+  "yolSorunuIsaretleme": "Aranmadı"
+ },
+ "kaza": {
+  "olusSekli": "3. Yandan Çarpma",
+  "aracSayisinaGore": "3. İki raçlı kaza",
+  "ilkCarpismaYeri": "1. Yol  Üzerinde",
+  "yayaGecidiOzellikleri": "Aranmadı",
+  "gecitDurumu": "Aranmadı",
+  "ilkYardim": "Aranmadı",
+  "digerOzellik": "Aranmadı",
+  "fotoKameraKayitlari": "Aranmadı"
+ },
+ "araclar": [
+  {
+   "aracNo": "1. Araç",
+   "plaka": "06…….",
+   "modelYili": 1989,
+   "tescilUlkesi": "TC",
+   "cinsi": "1- Otomobil",
+   "motorGucu": 1600,
+   "kullanimAmaci": "1. Hususi (Özel)",
+   "kameraKaydi": "Aranmadı",
+   "kullanimSekli": "1. Hususi (Özel)",
+   "yukCinsi": "Yükün Cinsi Kategorisi"
+  },
+  {
+   "plaka": "06…….",
+   "yukCinsi": "Yükün Cinsi Kategorisi"
+  },
+  {
+   "plaka": "06…….",
+   "yukCinsi": "Yükün Cinsi Kategorisi"
+  }
+ ],
+ "suruculer": [
+  {
+   "adi": "a…..",
+   "tckn": "***********",
+   "dogumTarihi": "1975-11-24T00:00:00",
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "belgeDurumu": "1. Yeterli Belge",
+   "belgeIli": "Kırşehir",
+   "adaylik": "SÜRÜCÜ",
+   "ogrenim": "3. Lise",
+   "alkol": "O \"Sıfır\"",
+   "psikoFizikselSuphe": "TESPİT EDİLEMEDİ",
+   "koruyucuTertibat": "VAR",
+   "meslek": "İŞLETMECİ"
+  },
+  {
+   "adi": "b…………",
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "belgeDurumu": "2. Yeterli Belge",
+   "belgeIli": "Iğdır",
+   "adaylik": "SÜRÜCÜ",
+   "ogrenim": "4. Lise",
+   "alkol": "O \"Sıfır\"",
+   "psikoFizikselSuphe": "TESPİT EDİLEMEDİ",
+   "koruyucuTertibat": "VAR",
+   "meslek": "………….2"
+  },
+  {
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "belgeDurumu": "3. Yeterli Belge",
+   "belgeIli": "Kırşehir",
+   "adaylik": "SÜRÜCÜ",
+   "ogrenim": "5. Lise",
+   "alkol": "O \"Sıfır\"",
+   "psikoFizikselSuphe": "TESPİT EDİLEMEDİ",
+   "koruyucuTertibat": "YETERSİZ",
+   "meslek": "………….3"
+  }
+ ],
+ "yayalar": [
+  {
+   "adSoyad": "1. DMS\"",
+   "tckn": "***********",
+   "dogumTarihi": "1970-11-24T00:00:00",
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "kurallar": "RRRRR  1",
+   "kazaOncesiHareket": "RRRRR  2",
+   "giysi": "RRRRR  3",
+   "alkol": "O \"Sıfır\"",
+   "kusurlar": "RRRRR  4",
+   "meslek": "RRRRR  5"
+  },
+  {
+   "adSoyad": "2. DMS\"",
+   "tckn": "***********",
+   "dogumTarihi": "1970-11-25T00:00:00",
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "alkol": "O \"Sıfır\""
+  },
+  {
+   "adSoyad": "3. DMS\"",
+   "tckn": "***********",
+   "dogumTarihi": "1970-11-26T00:00:00",
+   "cinsiyet": "ERKEK",
+   "kazaSonucu": "SAĞLAM",
+   "alkol": "O \"Sıfır\""
+  }
+ ],
+ "yolcular": [
+  {
+   "adi": "SERES 1",
+   "adSoyad": "SERES 2",
+   "tckn": "***********",
+   "dogumTarihi": "SERES 4",
+   "kazaSonucu": "SERES 5",
+   "kurallar": "SERES 6",
+   "aractaYer": "SERES 7",
+   "guvenlikEkipmani": "SERES 8",
+   "kusurlar": "SERES 9",
+   "meslek": "SERES 10"
+  },
+  {
+   "adSoyad": "SERES 3"
+  }
+ ],
+ "istatistik": {
+  "yolKesimNo": "750-09.0",
+  "yon": 1,
+  "hareket": 1,
+  "yayaKatsayi": 11,
+  "aracKatsayi": 6,
+  "siklikArac": "1 Hafta",
+  "siklikYaya": "3 Ay",
+  "siklikAracCarpan": 1.25,
+  "siklikYayaCarpan": 1.25,
+  "saatler": {
+   "olay": "05:55:00",
+   "incelemeBaslama": "06:20:00",
+   "ambulans": "00:20:00",
+   "ihbar": "01:20:00"
+  },
+  "metinSecimleri": {},
+  "dagitim": {
+   "geregiIcin": [
+    "Bölge karayolları Müdürlüğü"
+   ],
+   "bilgiIcin": [
+    "Jandarma Genel Komutanlığı",
+    "Air Liquide A.Ş.",
+    "Ulaştırma Bakanlığı",
+    "Çevre ve şehircilik bakanlığı",
+    "Tarım Bakanlığı",
+    "Büyükşehir Belediyesi",
+    "Karayolları Genel Müdürlüğü",
+    "Polis Akadesi Trafik Ensitisü",
+    "Ufuk Üniversitesi",
+    "Arem ARAŞTIRMA ve ETÜTLER MERKEZİ "
+   ]
+  }
+ },
+ "modules": {
+  "kacinma-mutalaa": {
+   "yolHizi": 50,
+   "kavsakHizi": 30,
+   "suruculer": [
+    {
+     "aldigiYol": 7.5,
+     "yolunZamani": 0.67,
+     "temelKusurPuani": 791,
+     "senaryoPuanlari": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "senaryoMutealalari": [
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Sola hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Sağa hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Fren tertibatını ve yol kontrol hareketini yapsa bile kazadan KAÇINABİLİRDİ.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. İleri hızlanma hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Normatif hareketini yapsa bile kazadan KAÇINAMAYACAKTIR."
+     ],
+     "muteala": "        Sürücü (  7,5 ) metre geriden kazadan kaçınma durumu değerlendirme yapılmıştır. Aracının kazanın şiddet düzeyine göre en yüksek 40 asgari  41 km hızlı olduğu kanaati oluşmuştur. kamera kayıtlarından 0,67 saniyede 7,5 metrelik yolu kat ettiği üzerine yapılan hesaplarda bulunmuş ve sürücü kendi aracının hızı ve çarpışmanın etkisiyle kendi istikametinde çarpışma noktasının ilerisinde (tahmini 3.50 mt) düz durarak kalmıştır. Bu hareketin sonucunda aracının fren izinin olmadığı tutanaktan tespiti vardır. Sürücünün,sorumlu olduğu yol üzerinde 5 adet kazadan kaçınma hikayesi vardır. Buna göre 1 adet kazadan kaçınması mevcuttur.",
+     "sonucMuteala": "         Yapılan incelemeye göre 5 senaryodan 4 ünde KAZADAN KAÇINAMAZ, durumu mevcuttur. Bu durumda sürücünün kazadan kaçınabilecek hareketin 1 adet olduğunun tespiti vardır. ",
+     "frenIzi": "Fren izi yok"
+    },
+    {
+     "aldigiYol": 8,
+     "yolunZamani": 0.67,
+     "temelKusurPuani": 446,
+     "senaryoPuanlari": [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     "senaryoMutealalari": [
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Sola hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Sağa hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Fren tertibatını ve yol kontrol hareketini yapsa bile kazadan KAÇINABİLİRDİ olacaktır..",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. İleri hızlanma hareketini yapsa bile kazadan KAÇINAMAYACAKTIR.",
+      "Sürücü: Diğer sürücülerin çarpışması azami 1 ( bir ) saniye zamanı vardır. Normatif hareketini yapsa bile kazadan KAÇINAMA olacaktır."
+     ],
+     "muteala": "        Sürücü ( 8 ) metre geriden kazadan kaçınma durumu değerlendirmesi yapılmıştır. Aracının kazanın şiddet düzeyine göre EN YÜKSEK 42 asgari  43 km hızlı olduğu 8 metrelik görüş mesafesinde alınarak kanaati oluşmuştur. Sürücü kendi aracının hızı ve çarpışmanın etkisiyle kendi istikametinde çarpışma noktasından ayrılarak sola gitmiş ters istikametine dönerek çarpışma noktasından tahmini 2 mt solunda durmuştur. Sürücünün,sorumlu olduğu yol üzerinde 5 adet kazadan kaçınması vardır.",
+     "sonucMuteala": "         Yapılan incelemeye göre 5 senaryodan 4 tanesinde KAZADAN KAÇINAMAZ, 1 tanesinde  KAZADAN KAÇINABİLİRDİ, durumu mevcuttur. Bu durumda sürücünün kazadan kaçınabilmesi için normatif kurallara göre yavaşlama durma frene göre hareket etmesi gerekmektedir.",
+     "frenIzi": "Fren izi yok"
+    }
+   ],
+   "kurumlar": [
+    {
+     "kurum": "KAYSERİ BÜYÜK ŞEHİR",
+     "sube": "Kocasinan  Belediyesi",
+     "zilyetlik": "YOL ZİLYETLİĞİ",
+     "temelKusur": 426,
+     "bilgiSuresi": "Belirsiz",
+     "senaryoPuani": 5,
+     "senaryoIndex": 2,
+     "muteala": "Karayolunnun bakım onarım ve yapımından sorumlu kuruluşlar görevleri gereği sürücülerin güvenli seyahat etmeleri için gerekli güvenlik önlemini almak zorundadırlar. Aksi takdirde Maddi hasarlı, Yaralanma ve ölüm ile sonuçlanacak kazalar ile karşı karşıya kalınacaktır. Bu tip kazalarda yatay ve Dikey işaretlerle Çevre - Aydınlatma - Hava durumu vb durumların kazaya etkenliği ve önlenebilir tedbirlerin alınıp alınmadığı, alınmamış ise alınabilirliği veya önerileri yaptırımı-yapılmasını sağlamaktır. Bu kazanın 5 adet  önleme çalışması vardır."
+    },
+    {
+     "kurum": "Müteahit firma",
+     "sube": "Apartman Sakinleri",
+     "zilyetlik": "10 NUMARA",
+     "temelKusur": 280,
+     "bilgiSuresi": "Belirsiz",
+     "senaryoPuani": 5,
+     "senaryoIndex": 2,
+     "muteala": "Apartman bakım onarım ve yapımından sorumlu kuruluşlar görevleri gereği sürücülerin güvenli seyahat etmeleri için gerekli güvenlik önlemini almak zorundadırlar. Aksi takdirde Maddi hasarlı, Yaralanma ve ölüm ile sonuçlanacak kazalar ile karşı karşıya kalınacaktır. Bu tip kazalarda Bahçe Duvarları Çevre - Aydınlatma - Hava durumu vb durumların kazaya etkenliği ve önlenebilir tedbirlerin alınıp alınmadığı, alınmamış ise alınabilirliği veya önerileri yaptırımı-yapılmasını sağlamaktır. Bu kazanın 5 adet  önleme çalışması vardır."
+    }
+   ]
+  }
+ },
+ "factorEntries": [
+  {
+   "factorId": "yol-cevre.gun-durumu",
+   "entityIndex": null,
+   "selectedValue": null,
+   "incelemeDurumu": "Yok",
+   "muteala": "",
+   "excelMuteala": "murat rasim seres",
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.saat-dakika",
+   "entityIndex": null,
+   "selectedValue": null,
+   "incelemeDurumu": "Belirsiz",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.hava-durumu",
+   "entityIndex": null,
+   "selectedValue": null,
+   "incelemeDurumu": "Belirsiz",
+   "muteala": "",
+   "excelMuteala": "havanın uygun olması nedeniyle etkenlik olmadığından Müteala yapılmamıştır.",
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolun-sinifi",
+   "entityIndex": null,
+   "selectedValue": null,
+   "incelemeDurumu": "Yetersiz",
+   "muteala": "",
+   "excelMuteala": "havanın uygun olması nedeniyle etkenlik olmadığından Müteala yapılmamıştır.",
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": "İki Yönlü Yol"
+  },
+  {
+   "factorId": "yol-cevre.yolun-akis-yonu",
+   "entityIndex": null,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolun-kaplama-tipi",
+   "entityIndex": null,
+   "selectedValue": "Asfalt",
+   "incelemeDurumu": "Belirsiz",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Aranmadı",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolun-yuzeyi",
+   "entityIndex": null,
+   "selectedValue": "Kuru ",
+   "incelemeDurumu": "Yok",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.kazaya-etki-eden-yol-yuzey-hatalari",
+   "entityIndex": null,
+   "selectedValue": "Yol üzerindeki döküntü veya yabancı maddeler",
+   "incelemeDurumu": "Belirsiz",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.kazanin-meydana-geldigi-yerin-konumu",
+   "entityIndex": null,
+   "selectedValue": "·         Yolun ortası: ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolun-cevre-ozelligi",
+   "entityIndex": null,
+   "selectedValue": "Park ",
+   "incelemeDurumu": "Davranış",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.serit-cizgisi",
+   "entityIndex": null,
+   "selectedValue": "Çok İyi",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yol-elemanlari",
+   "entityIndex": null,
+   "selectedValue": "Yaya Geçidi",
+   "incelemeDurumu": "Yetersiz",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.kaza-yeri-yatay-dikey-egimi",
+   "entityIndex": null,
+   "selectedValue": "Dikey eğim",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.kaza-yeri-isaretleme",
+   "entityIndex": null,
+   "selectedValue": "Yatay Levhalar",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.isikli-sesli-uyarilar",
+   "entityIndex": null,
+   "selectedValue": "Trafik Işığı ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.kor-nokta-ve-gorus-engelleri",
+   "entityIndex": null,
+   "selectedValue": "Bina/Duvar ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolda-calisma",
+   "entityIndex": null,
+   "selectedValue": "Yol Çalışması Var ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolda-calisma-isaretleme-durumu",
+   "entityIndex": null,
+   "selectedValue": "Tam işaretleme ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.gecit-ozellikleri",
+   "entityIndex": null,
+   "selectedValue": "Demiryolu Geçidi (Hemzemin Geçit)",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.aydinlatma-durumu",
+   "entityIndex": null,
+   "selectedValue": "Parıltı (Yan Yansıma) Etkisi",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.cevre-ve-diger-ozellikler",
+   "entityIndex": null,
+   "selectedValue": "Diğer: .....",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yolun-ozelligi",
+   "entityIndex": null,
+   "selectedValue": "Kavşak ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.viraj",
+   "entityIndex": null,
+   "selectedValue": "Viraj ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.duz-yol",
+   "entityIndex": null,
+   "selectedValue": "Düz Yol ",
+   "incelemeDurumu": "Yok",
+   "muteala": "",
+   "excelMuteala": "sakıncası yok",
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.isikli-kontrol",
+   "entityIndex": null,
+   "selectedValue": "Işıklı Kontrol ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.egimli-yol",
+   "entityIndex": null,
+   "selectedValue": "Yaya Geçidi ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.yaya-gecidi",
+   "entityIndex": null,
+   "selectedValue": "Yaya Geçidi ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [],
+    "delilKodu": null,
+    "puanlar": null,
+    "dogrulama": null
+   },
+   "sorumlu": null,
+   "hakimSavciTespit": null,
+   "altSecim": null
+  },
+  {
+   "factorId": "yol-cevre.diger",
+   "entityIndex": null,
+   "selectedValue": "Yaya Geçidi ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "ÇEV-02",
+    "puanlar": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-cinsi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.modeli-motor-gucu",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.markasi-rengi-tipi-kg",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.kullanim-amaci",
+   "entityIndex": 0,
+   "selectedValue": "1 Hususi (Özel)      ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.aracin-fenni-muayenesi",
+   "entityIndex": 0,
+   "selectedValue": "1. Periyodik Araç Muayenesi ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.tasit-sahibi",
+   "entityIndex": 0,
+   "selectedValue": "1. Periyodik Araç Muayenesi ",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-emniyet-kemeri",
+   "entityIndex": 0,
+   "selectedValue": "Kontrol",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.yolcu-adedi",
+   "entityIndex": 0,
+   "selectedValue": "Yolcu adedi",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.araca-ait-ozel-koruyucu-tertibatlar",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.aracin-istihap-haddi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.gabari-asilmismi-veya-yukleme-durumu",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.mali-sigorta-adi-police-no-tarihi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.kasko-sigorta",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.ihtiyari-mali-sigorta",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.zorunlu-koltuk-ferdi-kaza-sigortasi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-yol-yetki-belgesi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.yukun-degeri",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.yukun-cinsi",
+   "entityIndex": 0,
+   "selectedValue": "Atık/Çöp",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.yukun-son-hali",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-avadanliklari-mevcutmu",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-yetki-belgesi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.aracin-son-bakim-tarihi-ozel-araclarda-muyene-aranacak-resmi-sirket-veya-ozel-kurum-kuruluslarda-son-bakim-tarihi-aranacak",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.servis-aracinda-rehber-varmi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.eskortluk-hizmeti",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-ici-kamera",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-far-ve-sis-lambalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-dur-sinyalleri",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-sinyal-lambalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-cam-filmleri",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.amortisor-makas-arizalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.direksiyon-rot-ve-rotil-arizalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.frenler",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.motor-ve-diferansiyel-arizalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.sanzuman-hidrolik-saft-arizalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.elektrik-donanimina-bagli-arizalar",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-hiz-metre-gostergesi",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-hiz-vites-konumu",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.takograf-kontrolu",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Uzman Tarafından inceleme yapılasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-aynalari",
+   "entityIndex": 0,
+   "selectedValue": null,
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.arac-cam-silecekleri",
+   "entityIndex": 0,
+   "selectedValue": "Aynalar",
+   "incelemeDurumu": "Belirsiz",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.digerleri",
+   "entityIndex": 0,
+   "selectedValue": "Aynalar",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.d-r-plakasi-plakasi-modeli",
+   "entityIndex": 0,
+   "selectedValue": "Aynalar",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "arac.kapali-kasa-dorse-dry-van-box-trailer",
+   "entityIndex": 0,
+   "selectedValue": "2. Kapalı Kasa Dorse (Dry Van/Box Trailer)",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-cinsiyeti-yasi",
+   "entityIndex": 0,
+   "selectedValue": "Reşit",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.boyu-kilosu-ten-rengi",
+   "entityIndex": 0,
+   "selectedValue": "Boyu",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-son-saglik-tarihi",
+   "entityIndex": 0,
+   "selectedValue": "5 Yıllık var",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.egitimi-calistigi-kurumu-veya-kurulusu-meslegi-gorevi",
+   "entityIndex": 0,
+   "selectedValue": "Sürüş eğitimli",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucu-reaksiyon-suresi",
+   "entityIndex": 0,
+   "selectedValue": "Yeterli Reaksiyon",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.psikoteknik",
+   "entityIndex": 0,
+   "selectedValue": "Psiko Teknik",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.ticari-resmi-arac-kullanma-ehliyeti",
+   "entityIndex": 0,
+   "selectedValue": "Hususi",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [],
+    "delilKodu": null,
+    "puanlar": null,
+    "dogrulama": null
+   },
+   "sorumlu": null,
+   "hakimSavciTespit": null,
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucu-ozel-izinli",
+   "entityIndex": 0,
+   "selectedValue": "Hususi",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucu-kisisel-koruyucu-ekipmanlari",
+   "entityIndex": 0,
+   "selectedValue": "1. Taklı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucu-guzergah-formu",
+   "entityIndex": 0,
+   "selectedValue": "1. Taklı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.emniyet-kemeri",
+   "entityIndex": 0,
+   "selectedValue": "1. Taklı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-alkol-kontrolu",
+   "entityIndex": 0,
+   "selectedValue": "1. Taklı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-beklenmedik-davranislari",
+   "entityIndex": 0,
+   "selectedValue": "1. Taklı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-son-sefer-gorev-gunu",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucu-kaza-sonrasi-onlemi",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.src-tasidigi-yolcu-yuk-hakkinda-egitimi-mevcutmu",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.carpmadan-sonra-surucu-durumu",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.carpmadan-sonra-surucu-hastane-deyse-elbisesi-pantolon-rengi-kriminal-112-dr-beyani",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.suruculerin-araclara-gore-gorus-mesafesi",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-surucu-belgesi-herhangi-bir-suctan-geri-alinma-islemi-varmi",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "SAT",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Kolluk ve Adalet sorgusu",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.surucunun-daha-once-kazasi-varmi",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "surucu.sucta-tekerrur-ve-ozel-tehlikeli-sucu-varmi",
+   "entityIndex": 0,
+   "selectedValue": "Aranmadı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Kolluk ve Adalet sorgusu",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.yolcunun-yasi",
+   "entityIndex": 0,
+   "selectedValue": "Reşit",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.yolcunun-bulundugu-arac",
+   "entityIndex": 0,
+   "selectedValue": "Yolcu Koltuğunda",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.yolcunun-emniyet-kemeri",
+   "entityIndex": 0,
+   "selectedValue": "Tespit edilemedi",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.yolcununalkol-ilac-veya-uyusturucu-etkisi-altinda-kas-kontrolundeki-bozukluk",
+   "entityIndex": 0,
+   "selectedValue": "0 \"Sıfır\"",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.carpmadan-sonra-yolcularin-durumu",
+   "entityIndex": 0,
+   "selectedValue": "Sağlam",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yolcu.yolcu-oturma-pozisyonu-ve-sirt-dayama-durumu-durumu",
+   "entityIndex": 0,
+   "selectedValue": "Sağlam",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.dogum-tarihi-yasi",
+   "entityIndex": 0,
+   "selectedValue": "Reşit",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.yayanin-boyu",
+   "entityIndex": 0,
+   "selectedValue": "Soldan Geliyor",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.yayanin-kilosu",
+   "entityIndex": 0,
+   "selectedValue": "Tespit edilemedi",
+   "incelemeDurumu": "Var",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.yayanin-giysi-rengi",
+   "entityIndex": 0,
+   "selectedValue": "0 \"Sıfır\"",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.yayanin-carpilma-noktasi",
+   "entityIndex": 0,
+   "selectedValue": "Yaralı",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  },
+  {
+   "factorId": "yaya.yayanin-alkol-durumu",
+   "entityIndex": 0,
+   "selectedValue": "Sağlam",
+   "incelemeDurumu": "Aranmadı",
+   "muteala": "",
+   "excelMuteala": null,
+   "tespit": {
+    "yontemler": [
+     "Olay tutanakları,",
+     "Kamera kayıtları,",
+     "Tanık ifadeleri,"
+    ],
+    "delilKodu": "DSN",
+    "puanlar": [
+     3,
+     3,
+     3,
+     3
+    ],
+    "dogrulama": "Doğrulandı"
+   },
+   "sorumlu": "Sorumlu tespit edilemedi",
+   "hakimSavciTespit": "Savcılık Tarafından araştırılmasına",
+   "altSecim": null
+  }
+ ]
+}

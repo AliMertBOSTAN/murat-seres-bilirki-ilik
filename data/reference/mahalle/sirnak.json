@@ -1,0 +1,284 @@
+{
+ "il": "ŞIRNAK ",
+ "ilceler": {
+  "BEYTÜŞŞEBAP": [
+   "ALİ ÇAVUŞ",
+   "ELKİ",
+   "KARŞIYAKA",
+   "PINARBAŞI"
+  ],
+  "CİZRE": [
+   "ALİBEY",
+   "CAFERİ SADIK",
+   "CUDİ",
+   "CUMHURİYET",
+   "ÇATALKÖY",
+   "DAĞKAPI",
+   "DİCLE",
+   "DİRSEKLİ",
+   "FATİH",
+   "KALE",
+   "KONAK",
+   "KURTULUŞ",
+   "KUŞTEPE",
+   "NUR",
+   "SUR",
+   "ŞAH",
+   "VATAN",
+   "YAFES"
+  ],
+  "İDİL": [
+   "AŞAĞI",
+   "ATAKENT",
+   {
+    "mahalle": "DİCLE",
+    "belde": "SIRTKÖY"
+   },
+   {
+    "mahalle": "FIRAT",
+    "belde": "SIRTKÖY"
+   },
+   {
+    "mahalle": "ŞAMİL",
+    "belde": "KARALAR"
+   },
+   {
+    "mahalle": "TEMEL",
+    "belde": "KARALAR"
+   },
+   "TURGUT ÖZAL",
+   "YENİ",
+   "YUKARI"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "AŞAĞIHAN",
+    "belde": "KUMÇATI"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "KUMÇATI"
+   },
+   {
+    "mahalle": "AYDINLAR",
+    "belde": "BALVEREN"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KASRİK"
+   },
+   {
+    "mahalle": "BOĞAZ",
+    "belde": "KASRİK"
+   },
+   {
+    "mahalle": "ÇADIRLI",
+    "belde": "KUMÇATI"
+   },
+   {
+    "mahalle": "ÇAVUŞHAN",
+    "belde": "KUMÇATI"
+   },
+   {
+    "mahalle": "HATİPLER",
+    "belde": "BALVEREN"
+   },
+   {
+    "mahalle": "NASIRHAN",
+    "belde": "KUMÇATI"
+   },
+   {
+    "mahalle": "ŞAFAK",
+    "belde": "BALVEREN"
+   },
+   {
+    "mahalle": "YAYLA",
+    "belde": "BALVEREN"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KASRİK"
+   }
+  ],
+  "SİLOPİ": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "BAŞVERİMLİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "ÇALIŞKAN"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "BAŞVERİMLİ"
+   },
+   "BARBAROS",
+   "BAŞAK",
+   {
+    "mahalle": "BOĞAZ",
+    "belde": "GÖRÜMLÜ"
+   },
+   "CUDİ",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "BAŞVERİMLİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ÇALIŞKAN"
+   },
+   "CUMHURİYET",
+   "DİCLE",
+   {
+    "mahalle": "FATİH",
+    "belde": "ÇALIŞKAN"
+   },
+   "KARŞIYAKA",
+   {
+    "mahalle": "KÖPRÜBAŞI",
+    "belde": "BAŞVERİMLİ"
+   },
+   "NUH",
+   "OFİS",
+   "ŞEHİT HARUN BOY",
+   {
+    "mahalle": "VATAN",
+    "belde": "ÇALIŞKAN"
+   },
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "GÖRÜMLÜ"
+   },
+   "YENİŞEHİR",
+   "YEŞİLTEPE",
+   {
+    "mahalle": "YOLAĞIZI",
+    "belde": "GÖRÜMLÜ"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLIKEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DİCLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNDOĞDU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHRİ NUH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VAKIFKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "ULUDERE": [
+   {
+    "mahalle": "AYYILDIZ",
+    "belde": "ŞENOBA"
+   },
+   {
+    "mahalle": "AYYILDIZ",
+    "belde": "UZUNGEÇİT"
+   },
+   {
+    "mahalle": "BAŞKAYA",
+    "belde": "ŞENOBA"
+   },
+   "BULAKBAŞI",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ŞENOBA"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "ŞENOBA"
+   },
+   "GÜNDOĞDU",
+   {
+    "mahalle": "GÜNEŞLİ",
+    "belde": "HİLAL"
+   },
+   "KILABAN",
+   "KÜÇÜKÇAY",
+   "ÖDÜL",
+   "ÖZELLİ",
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "UZUNGEÇİT"
+   },
+   {
+    "mahalle": "ŞİHAN",
+    "belde": "HİLAL"
+   },
+   {
+    "mahalle": "TANİN",
+    "belde": "UZUNGEÇİT"
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "UZUNGEÇİT"
+   },
+   "YEŞİLOVA",
+   {
+    "mahalle": "YILDIZ",
+    "belde": "HİLAL"
+   }
+  ],
+  "GÜÇLÜKONAK": [
+   "BAĞLAR",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "FINDIK"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "FINDIK"
+   },
+   {
+    "mahalle": "GÜMÜŞYAZI",
+    "belde": "FINDIK"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "FINDIK"
+   },
+   "YENİ MAHALLE"
+  ]
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "il": "HAKKARİ ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BERÇELAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BİÇER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BULAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DAĞGÖL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALİFE DERVİŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEKLİKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEDRESE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MERZAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PEHLİVAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜMBÜL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "ÇUKURCA": [
+   "CUMHURİYET",
+   "EMİRŞABAN",
+   "YEŞİLÇEŞME"
+  ],
+  "DERECİK": [
+   "BALKAYA",
+   "GÜNEY",
+   "GÜRMEŞE",
+   "HACIBEY",
+   "MERKEZ",
+   "ORTA",
+   "RİZE",
+   "ÜÇYAN",
+   "VAPURTEPE"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BAĞLARBAŞI",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "BİÇENEK",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "ÇAYLICA",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "KÖYİÇİ",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "DURANKAYA"
+   },
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "DURANKAYA"
+   }
+  ],
+  "ŞEMDİNLİ": [
+   "BEŞEVLER",
+   "KARŞIYAKA",
+   "MODA",
+   "YAYLA",
+   "YENİ"
+  ],
+  "YÜKSEKOVA": [
+   "CUMHURİYET",
+   "DİLEKLİ YAZILI",
+   "DİZE",
+   "ESENTEPE",
+   "ESENYURT",
+   "ESKİKIŞLA",
+   "GÜNGÖR",
+   {
+    "mahalle": "GÜVENLİ",
+    "belde": "ESENDERE"
+   },
+   "İPEK",
+   {
+    "mahalle": "KEREM ZEYDAN",
+    "belde": "BÜYÜKÇİFTLİK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "BÜYÜKÇİFTLİK"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ESENDERE"
+   },
+   "MEZARLIK",
+   {
+    "mahalle": "SARIYILDIZ",
+    "belde": "ESENDERE"
+   },
+   "YENİ",
+   "YEŞİLDERE",
+   {
+    "mahalle": "YEŞİLOVA",
+    "belde": "BÜYÜKÇİFTLİK"
+   },
+   {
+    "mahalle": "YILMAZ",
+    "belde": "ESENDERE"
+   }
+  ]
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "il": "YALOVA",
+ "ilceler": {
+  "ARMUTLU": [
+   "50. YIL",
+   "BAYIR",
+   "KARŞIYAKA",
+   "50. YIL",
+   "BAYIR",
+   "KARŞIYAKA"
+  ],
+  "ÇİFTLİKKÖY": [
+   "500 EVLER",
+   "ÇİFTLİK",
+   "MEHMET AKİF ERSOY",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "TAŞKÖPRÜ"
+   },
+   "SAHİL",
+   "SİTELER",
+   "SULTANİYE",
+   {
+    "mahalle": "YENİ",
+    "belde": "TAŞKÖPRÜ"
+   },
+   "500 EVLER",
+   "ÇİFTLİK",
+   "MEHMET AKİF ERSOY",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "TAŞKÖPRÜ"
+   },
+   "SAHİL",
+   "SİTELER",
+   "SULTANİYE",
+   {
+    "mahalle": "YENİ",
+    "belde": "TAŞKÖPRÜ"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "ADNAN MENDERES MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLARBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYRAKTEPE MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERE MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİOSMANPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIM KARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUSTAFA KEMAL PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RÜSTEMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEYRANTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜLEYMANBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ADNAN MENDERES MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLARBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAYRAKTEPE MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERE MAHALLESİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİOSMANPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZIM KARABEKİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUSTAFA KEMAL PAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "PAŞAKENT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "RÜSTEMPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SEYRANTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜLEYMANBEY",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "ÇINARCIK": [
+   {
+    "mahalle": "ALİYEHANIM",
+    "belde": "ESENKÖY"
+   },
+   {
+    "mahalle": "ATAKENT",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "TEŞVİKİYE"
+   },
+   "ÇAMLIK",
+   "HARMAN",
+   "HASANBABA",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "TEŞVİKİYE"
+   },
+   "KARPUZDERE",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "TEŞVİKİYE"
+   },
+   {
+    "mahalle": "LİMAN",
+    "belde": "ESENKÖY"
+   },
+   "TAŞLİMAN",
+   {
+    "mahalle": "ALİYEHANIM",
+    "belde": "ESENKÖY"
+   },
+   {
+    "mahalle": "ATAKENT",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "TEŞVİKİYE"
+   },
+   "ÇAMLIK",
+   "HARMAN",
+   "HASANBABA",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KORU"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "TEŞVİKİYE"
+   },
+   "KARPUZDERE",
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "TEŞVİKİYE"
+   },
+   {
+    "mahalle": "LİMAN",
+    "belde": "ESENKÖY"
+   },
+   "TAŞLİMAN"
+  ],
+  "ALTINOVA": [
+   {
+    "mahalle": "ALTINKENT",
+    "belde": "SUBAŞI"
+   },
+   "CUMHURİYET",
+   {
+    "mahalle": "DENİZGÖREN",
+    "belde": "SUBAŞI"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "TAVŞANLI"
+   },
+   "HERSEK",
+   "HÜRRİYET",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KAYTAZDERE"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "SUBAŞI"
+   },
+   {
+    "mahalle": "ŞEHİTLİK",
+    "belde": "TAVŞANLI"
+   },
+   {
+    "mahalle": "ALTINKENT",
+    "belde": "SUBAŞI"
+   },
+   "CUMHURİYET",
+   {
+    "mahalle": "DENİZGÖREN",
+    "belde": "SUBAŞI"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "TAVŞANLI"
+   },
+   "HERSEK",
+   "HÜRRİYET",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KAYTAZDERE"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "SUBAŞI"
+   },
+   {
+    "mahalle": "ŞEHİTLİK",
+    "belde": "TAVŞANLI"
+   }
+  ],
+  "TERMAL": [
+   "GÖKÇEDERE",
+   "ÜVEZPINAR",
+   "GÖKÇEDERE",
+   "ÜVEZPINAR"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KADIKÖY"
+   },
+   {
+    "mahalle": "ÖZDEN",
+    "belde": "KADIKÖY"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KADIKÖY"
+   },
+   {
+    "mahalle": "ÖZDEN",
+    "belde": "KADIKÖY"
+   }
+  ]
+ }
+}

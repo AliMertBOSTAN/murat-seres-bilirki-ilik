@@ -1,0 +1,210 @@
+{
+ "il": "ÇANAKKALE",
+ "ilceler": {
+  "AYVACIK": [
+   "FATİH",
+   "HAMDİBEY",
+   {
+    "mahalle": "KÜÇÜKKUYU GÖKÇETEPE",
+    "belde": "KÜÇÜKKUYU"
+   },
+   {
+    "mahalle": "KÜÇÜKKUYU MIHLI",
+    "belde": "KÜÇÜKKUYU"
+   },
+   {
+    "mahalle": "KÜÇÜKKUYU SAHİL",
+    "belde": "KÜÇÜKKUYU"
+   },
+   "ÜMMÜHAN"
+  ],
+  "BAYRAMİÇ": [
+   "CAMİCEDİT",
+   "CAMİKEBİR",
+   "MENDERES",
+   "TEPECİK"
+  ],
+  "BİGA": [
+   "CUMHURİYET",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "GÜMÜŞÇAY"
+   },
+   "ÇAVUŞKÖY",
+   "ESENTEPE",
+   "GAZİKEMAL",
+   "HAMDİBEY",
+   {
+    "mahalle": "İĞDELİK",
+    "belde": "GÜMÜŞÇAY"
+   },
+   "İSTİKLAL",
+   "SAKARYA",
+   "ŞİRİNTEPE",
+   "TURAN",
+   {
+    "mahalle": "ULUCAMİ",
+    "belde": "KARABİGA"
+   },
+   {
+    "mahalle": "YALI",
+    "belde": "KARABİGA"
+   },
+   "YENİCEKÖY",
+   {
+    "mahalle": "ZEYTİNLİK",
+    "belde": "KARABİGA"
+   }
+  ],
+  "BOZCAADA": [
+   "ALAYBEY",
+   "CUMHURİYET"
+  ],
+  "ÇAN": [
+   "ATATÜRK",
+   "CUMHURİYET",
+   {
+    "mahalle": "ÇAKMAKÇAYIR",
+    "belde": "TERZİALAN"
+   },
+   "FATİH",
+   "İSTİKLAL",
+   "KARŞIYAKA",
+   "OSMAN EFENDİ",
+   "SERAMİK",
+   {
+    "mahalle": "SULE",
+    "belde": "TERZİALAN"
+   }
+  ],
+  "ECEABAT": [
+   "İSMETPAŞA",
+   "KEMALPAŞA"
+  ],
+  "EZİNE": [
+   "CAMİKEBİR",
+   "CUMHURİYET",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "GEYİKLİ"
+   },
+   "DANİŞMENT",
+   "GAZİ",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "GEYİKLİ"
+   },
+   "SARISÖĞÜT",
+   "SEFERŞAH"
+  ],
+  "GELİBOLU": [
+   "ALAEDDİN",
+   "CAMİKEBİR",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KAVAKKÖY"
+   },
+   {
+    "mahalle": "ÇEŞME",
+    "belde": "EVREŞE"
+   },
+   "GAZİSÜLEYMANPAŞA",
+   "HOCAHAMZA",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "KAVAKKÖY"
+   },
+   {
+    "mahalle": "KEŞANOĞLU",
+    "belde": "EVREŞE"
+   },
+   "YAZICIZADE",
+   {
+    "mahalle": "YENİ",
+    "belde": "EVREŞE"
+   }
+  ],
+  "GÖKÇEADA": [
+   "CUMHURİYET",
+   "ÇINARLI",
+   "FATİH",
+   "KUZULİMANI",
+   "YENİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "BARBAROS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CEVATPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSMETPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEMALPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NAMIKKEMAL",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "LAPSEKİ": [
+   "CUMHURİYET",
+   "DALYAN",
+   {
+    "mahalle": "GAZİ YAKUP BEY",
+    "belde": "ÇARDAK"
+   },
+   "GAZİSÜLEYMAN PAŞA",
+   {
+    "mahalle": "TEKKE",
+    "belde": "ÇARDAK"
+   },
+   {
+    "mahalle": "UMURBEY",
+    "belde": "UMURBEY"
+   }
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "KEPEZ BOĞAZKENT",
+    "belde": "KEPEZ"
+   },
+   {
+    "mahalle": "KEPEZ CUMHURİYET",
+    "belde": "KEPEZ"
+   },
+   {
+    "mahalle": "KEPEZ HAMİDİYE",
+    "belde": "KEPEZ"
+   }
+  ],
+  "YENİCE": [
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "KALKIM"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KALKIM"
+   },
+   "ESKİYENİCE",
+   "KIŞLALAR",
+   "KURTULUŞ",
+   "YENİ"
+  ]
+ }
+}

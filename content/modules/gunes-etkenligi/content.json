@@ -1,0 +1,733 @@
+{
+ "source": "2.2 Gunes_Etkenligi_Model.xlsx",
+ "sheets": [
+  "model",
+  "Vaka_Girişi",
+  "Hesap",
+  "sınıflandırma",
+  "Rapor_cıktı",
+  "Kurumsal_Model"
+ ],
+ "model": {
+  "baslik": "GÜNEŞ ETKENLİĞİ (SOLAR GLARE) – BİLİRKİŞİLİK MODELİ",
+  "aciklama": "Bu dosya; kaza anındaki güneş konumunu (azimut/elevasyon) hesaplayıp sürücünün görüş doğrultusuyla 3B açı farkını (θ) üretir, etki sınıfını ve 'glare katsayısı (K)' üzerinden görüş/reaksiyon mesafesi kaybını standartlaştırır.",
+  "kullanim": [
+   "1) 'Vaka_Girişi' sayfasında mavi hücrelere tarih-saat, konum (enlem/boylam), yol doğrultusu (heading) ve hız gibi verileri girin.",
+   "2) 'Hesap' sayfası güneş azimut/elevasyon ve 3B açı farkını (θ) otomatik hesaplar.",
+   "3) 'Sınıflandırma' sayfası θ'ya göre etki sınıfını ve K katsayısını verir.",
+   "4) 'Rapor_Çıktı' sayfası bilirkişi raporuna yapıştırılabilir özet metin üretir."
+  ],
+  "notlarKaynak": "Güneş konumu formülleri NOAA'nın yaygın kullanılan yaklaşık algoritmasına dayanır. Kontrol/karşılaştırma için NOAA Solar Calculator (https://gml.noaa.gov/grad/solcalc/) veya PVGIS kullanılabilir."
+ },
+ "vakaGirisi": [
+  {
+   "alan": "Vaka ID",
+   "deger": "V-001",
+   "not": " aracın gidiş yönü (0=Kuzey, 90=Doğu, 180=Güney, 270=Batı)."
+  },
+  {
+   "alan": "Tarih-Saat (Yerel)",
+   "deger": "2026-02-16 12:00",
+   "not": ""
+  },
+  {
+   "alan": "Saat Dilimi (UTC ofset)",
+   "deger": "+3",
+   "not": ""
+  },
+  {
+   "alan": "Enlem (°)",
+   "deger": "41.0082",
+   "not": "Pitch: sürücünün bakışının yukarı-aşağı açısı. Düz yol için 0 kabul edilebilir."
+  },
+  {
+   "alan": "Boylam (°)",
+   "deger": "28.9784",
+   "not": ""
+  },
+  {
+   "alan": "Yol doğrultusu / Sürücü heading (°)",
+   "deger": "90",
+   "not": ""
+  },
+  {
+   "alan": "Sürücü görüş eğimi (pitch, °; genelde 0)",
+   "deger": "0",
+   "not": ""
+  },
+  {
+   "alan": "Hız (km/s)",
+   "deger": "50",
+   "not": ""
+  },
+  {
+   "alan": "Algılanan reaksiyon süresi t (s)",
+   "deger": "1.5",
+   "not": ""
+  }
+ ],
+ "hesapSatirlari": [
+  {
+   "row": 9,
+   "cells": {
+    "B": "Girdi",
+    "I": "Değer",
+    "M": "Açıklama"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 10,
+   "cells": {
+    "B": "Tarih-Saat (Yerel)",
+    "I": "2026-02-16 12:00"
+   },
+   "formulas": {
+    "I": "=Vaka_Girişi!I11"
+   }
+  },
+  {
+   "row": 11,
+   "cells": {
+    "B": "UTC ofset (saat)",
+    "I": 3
+   },
+   "formulas": {
+    "I": "=VALUE(SUBSTITUTE(Vaka_Girişi!I12,\"+\",\"\"))"
+   }
+  },
+  {
+   "row": 12,
+   "cells": {
+    "B": "Enlem (deg)",
+    "I": 410082
+   },
+   "formulas": {
+    "I": "=VALUE(Vaka_Girişi!I13)"
+   }
+  },
+  {
+   "row": 13,
+   "cells": {
+    "B": "Boylam (deg)",
+    "I": 289784,
+    "M": "Doğu +"
+   },
+   "formulas": {
+    "I": "=VALUE(Vaka_Girişi!I14)"
+   }
+  },
+  {
+   "row": 14,
+   "cells": {
+    "B": "Heading (deg)",
+    "I": 90,
+    "M": "0=N,90=E"
+   },
+   "formulas": {
+    "I": "=VALUE(Vaka_Girişi!I15)"
+   }
+  },
+  {
+   "row": 15,
+   "cells": {
+    "B": "Pitch (deg)"
+   },
+   "formulas": {
+    "I": "=VALUE(Vaka_Girişi!I16)"
+   }
+  },
+  {
+   "row": 16,
+   "cells": {
+    "B": "Ara Hesaplar (NOAA yaklaşımı)"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 18,
+   "cells": {
+    "B": "Parametre",
+    "I": "Formül / Sonuç",
+    "M": "Birim",
+    "Q": "Çıktılar"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 19,
+   "cells": {
+    "B": "Gün içi saat (decimal hour)",
+    "I": 12,
+    "M": "saat",
+    "Q": "Güneş elevasyon (deg)",
+    "W": 2.5387655330712082
+   },
+   "formulas": {
+    "I": "=HOUR(I10)+MINUTE(I10)/60+SECOND(I10)/3600",
+    "W": "=I27"
+   }
+  },
+  {
+   "row": 20,
+   "cells": {
+    "B": "Yıl içi gün (N)",
+    "I": 47.5,
+    "M": "gün",
+    "Q": "Güneş azimut (deg)",
+    "W": -289465.4456846599
+   },
+   "formulas": {
+    "I": "=I10-DATE(YEAR(I10),1,0)",
+    "W": "=I28"
+   }
+  },
+  {
+   "row": 21,
+   "cells": {
+    "B": "γ (fractional year)",
+    "I": 0.8004605939283582,
+    "M": "radyan",
+    "Q": "3B açı farkı θ (deg)",
+    "W": 1.9117995035680926
+   },
+   "formulas": {
+    "I": "=2*PI()/365*(I20-1+(I19-12)/24)",
+    "W": "=I36"
+   }
+  },
+  {
+   "row": 22,
+   "cells": {
+    "B": "EoT (equation of time)",
+    "I": -14.217261360601986,
+    "M": "dakika"
+   },
+   "formulas": {
+    "I": "=229.18*(0.000075+0.001868*COS(I21)-0.032077*SIN(I21)-0.014615*COS(2*I21)-0.040849*SIN(2*I21))"
+   }
+  },
+  {
+   "row": 23,
+   "cells": {
+    "B": "δ (declination)",
+    "I": -0.21704979797740637,
+    "M": "radyan"
+   },
+   "formulas": {
+    "I": "=0.006918-0.399912*COS(I21)+0.070257*SIN(I21)-0.006758*COS(2*I21)+0.000907*SIN(2*I21)-0.002697*COS(3*I21)+0.00148*SIN(3*I21)"
+   }
+  },
+  {
+   "row": 24,
+   "cells": {
+    "B": "Zaman ofseti",
+    "I": 1158941.7827386395,
+    "M": "dakika"
+   },
+   "formulas": {
+    "I": "=I22+4*I13-60*I11"
+   }
+  },
+  {
+   "row": 25,
+   "cells": {
+    "B": "Gerçek güneş zamanı (TST)",
+    "I": 719.7829502020226,
+    "M": "dakika"
+   },
+   "formulas": {
+    "I": "=MOD(I19*60+I23,1440)"
+   }
+  },
+  {
+   "row": 26,
+   "cells": {
+    "B": "Saat açısı (HA)",
+    "I": 5053.6958942769215,
+    "M": "radyan"
+   },
+   "formulas": {
+    "I": "=RADIANS(IF(I24/4<0,I24/4+180,I24/4-180))"
+   }
+  },
+  {
+   "row": 27,
+   "cells": {
+    "B": "Güneş zenit açısı",
+    "I": 2.5387655330712082,
+    "M": "radyan"
+   },
+   "formulas": {
+    "I": "=ACOS(SIN(RADIANS(I12))*SIN(I23)+COS(RADIANS(I12))*COS(I23)*COS(I25))"
+   }
+  },
+  {
+   "row": 28,
+   "cells": {
+    "B": "Güneş elevasyon",
+    "I": -289465.4456846599,
+    "M": "deg"
+   },
+   "formulas": {
+    "I": "=DEGREES(PI()/2-I26)"
+   }
+  },
+  {
+   "row": 29,
+   "cells": {
+    "B": "Güneş azimut",
+    "I": 52.850573859183925,
+    "M": "deg"
+   },
+   "formulas": {
+    "I": "=MOD(DEGREES(ATAN2(SIN(I25),COS(I25)*SIN(RADIANS(I12))-TAN(I23)*COS(RADIANS(I12))))+180,360)"
+   }
+  },
+  {
+   "row": 30,
+   "cells": {
+    "B": "Güneş vektörü x(E)",
+    "I": -0.4292335543596552
+   },
+   "formulas": {
+    "I": "=COS(RADIANS(I27))*SIN(RADIANS(I28))"
+   }
+  },
+  {
+   "row": 31,
+   "cells": {
+    "B": "Güneş vektörü y(N)",
+    "I": 0.9021066901852642
+   },
+   "formulas": {
+    "I": "=COS(RADIANS(I27))*COS(RADIANS(I28))"
+   }
+  },
+  {
+   "row": 32,
+   "cells": {
+    "B": "Güneş vektörü z(U)",
+    "I": 0.044295319558217874
+   },
+   "formulas": {
+    "I": "=SIN(RADIANS(I27))"
+   }
+  },
+  {
+   "row": 33,
+   "cells": {
+    "B": "Görüş vektörü x(E)",
+    "I": 1
+   },
+   "formulas": {
+    "I": "=COS(RADIANS(I15))*SIN(RADIANS(I14))"
+   }
+  },
+  {
+   "row": 34,
+   "cells": {
+    "B": "Görüş vektörü y(N)",
+    "I": 6.1257422745431e-17
+   },
+   "formulas": {
+    "I": "=COS(RADIANS(I15))*COS(RADIANS(I14))"
+   }
+  },
+  {
+   "row": 35,
+   "cells": {
+    "B": "Görüş vektörü z(U)"
+   },
+   "formulas": {
+    "I": "=SIN(RADIANS(I15))"
+   }
+  },
+  {
+   "row": 36,
+   "cells": {
+    "B": "Dot ürün",
+    "I": 1.9117995035680926
+   },
+   "formulas": {
+    "I": "=I29*I32 + I30*I33 + I31*I34"
+   }
+  },
+  {
+   "row": 37,
+   "cells": {
+    "B": "Açı farkı θ",
+    "I": 90,
+    "M": "deg"
+   },
+   "formulas": {
+    "I": "=DEGREES(ACOS(MAX(-1,MIN(1,I35))))"
+   }
+  }
+ ],
+ "siniflandirma": [
+  {
+   "row": 8,
+   "cells": {
+    "B": "θ (deg)",
+    "E": "Etki sınıfı",
+    "I": "K (glare katsayısı)",
+    "N": "Not",
+    "R": "Vaka θ",
+    "W": 1.9117995035680926
+   },
+   "formulas": {
+    "W": "=Hesap!W21"
+   }
+  },
+  {
+   "row": 9,
+   "cells": {
+    "B": "0–5",
+    "E": "Tam körlük",
+    "I": 0.1,
+    "N": "0–5°",
+    "R": "Etki sınıfı",
+    "W": "Tam körlük"
+   },
+   "formulas": {
+    "W": "=IF(W8<5,\"Tam körlük\",IF(W8<10,\"Çok yüksek\",IF(W8<20,\"Yüksek\",IF(W8<45,\"Orta\",\"Düşük/önemsiz\"))))"
+   }
+  },
+  {
+   "row": 10,
+   "cells": {
+    "B": "5–10",
+    "E": "Çok yüksek",
+    "I": 0.4,
+    "N": "5–10°",
+    "R": "K",
+    "W": 0.1
+   },
+   "formulas": {
+    "W": "=IF(W8<5,0.1,IF(W8<10,0.4,IF(W8<20,0.6,IF(W8<45,0.8,1))))"
+   }
+  },
+  {
+   "row": 11,
+   "cells": {
+    "B": "10–20",
+    "E": "Yüksek",
+    "I": 0.6,
+    "N": "10–20°"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 12,
+   "cells": {
+    "B": "20–45",
+    "E": "Orta",
+    "I": 0.8,
+    "N": "20–45°",
+    "R": "Hız (km/s)",
+    "W": 50
+   },
+   "formulas": {
+    "W": "=VALUE(Vaka_Girişi!I17)"
+   }
+  },
+  {
+   "row": 13,
+   "cells": {
+    "B": "45–180",
+    "E": "Düşük/önemsiz",
+    "I": 1,
+    "N": ">45°",
+    "R": "t (s)",
+    "W": 46143
+   },
+   "formulas": {
+    "W": "=VALUE(Vaka_Girişi!I18)"
+   }
+  },
+  {
+   "row": 14,
+   "cells": {
+    "B": "Bu tabloda K, güneş etkisi nedeniyle algı/görüş kapasitesinin relatif çarpanı olarak kullanılır (yaklaşım). Dosya bazında sahadaki bulgularla kalibre edilebilir.",
+    "R": "Reaksiyon mesafesi (normal)",
+    "W": 640875
+   },
+   "formulas": {
+    "W": "=W12/3.6*W13"
+   }
+  },
+  {
+   "row": 15,
+   "cells": {
+    "R": "Reaksiyon mesafesi (glare)",
+    "W": 6408750
+   },
+   "formulas": {
+    "W": "=W14/W10"
+   }
+  },
+  {
+   "row": 16,
+   "cells": {
+    "R": "Görüş/algı kaybı katsayısı",
+    "W": 10
+   },
+   "formulas": {
+    "W": "=1/W10"
+   }
+  }
+ ],
+ "raporCikti": [
+  {
+   "row": 8,
+   "cells": {
+    "B": "Alan",
+    "L": "Değer"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 9,
+   "cells": {
+    "B": "Vaka ID",
+    "L": "V-001"
+   },
+   "formulas": {
+    "L": "=Vaka_Girişi!I10"
+   }
+  },
+  {
+   "row": 10,
+   "cells": {
+    "B": "Tarih/Saat (yerel)",
+    "L": "2026-02-16 12:00"
+   },
+   "formulas": {
+    "L": "=Vaka_Girişi!I11"
+   }
+  },
+  {
+   "row": 11,
+   "cells": {
+    "B": "Konum (enlem/boylam)",
+    "L": "41.0082 / 28.9784"
+   },
+   "formulas": {
+    "L": "=Vaka_Girişi!I13&\" / \"&Vaka_Girişi!I14"
+   }
+  },
+  {
+   "row": 12,
+   "cells": {
+    "B": "Heading (°)",
+    "L": "90"
+   },
+   "formulas": {
+    "L": "=Vaka_Girişi!I15"
+   }
+  },
+  {
+   "row": 13,
+   "cells": {
+    "B": "Güneş elevasyon (°)",
+    "L": 2.5387655330712082
+   },
+   "formulas": {
+    "L": "=Hesap!W19"
+   }
+  },
+  {
+   "row": 14,
+   "cells": {
+    "B": "Güneş azimut (°)",
+    "L": -289465.4456846599
+   },
+   "formulas": {
+    "L": "=Hesap!W20"
+   }
+  },
+  {
+   "row": 15,
+   "cells": {
+    "B": "3B açı farkı θ (°)",
+    "L": 1.9117995035680926
+   },
+   "formulas": {
+    "L": "=Hesap!W21"
+   }
+  },
+  {
+   "row": 16,
+   "cells": {
+    "B": "Etki sınıfı",
+    "L": "Tam körlük"
+   },
+   "formulas": {
+    "L": "=sınıflandırma!W9"
+   }
+  },
+  {
+   "row": 17,
+   "cells": {
+    "B": "K",
+    "L": 0.1
+   },
+   "formulas": {
+    "L": "=sınıflandırma!W10"
+   }
+  },
+  {
+   "row": 18,
+   "cells": {
+    "B": "Not",
+    "L": "NOAA yaklaşık güneş konumu + 3B açı (θ) hesabı. Saha koşulları ayrıca değerlendirilmelidir."
+   },
+   "formulas": {
+    "L": "=\"NOAA yaklaşık güneş konumu + 3B açı (θ) hesabı. Saha koşulları ayrıca değerlendirilmelidir.\""
+   }
+  },
+  {
+   "row": 20,
+   "cells": {
+    "B": "Rapor cümlesi (tek satır)"
+   },
+   "formulas": {}
+  },
+  {
+   "row": 21,
+   "cells": {
+    "B": "Kaza anında güneş elevasyon 03°, azimut -289.465° olup sürücü görüş doğrultusu ile güneş arasındaki 3B açı farkı θ=02° hesaplanmıştır. Bu değer Tam körlük sınıfında değerlendirilmiştir (K=000)."
+   },
+   "formulas": {
+    "B": "=\"Kaza anında güneş elevasyon \"&TEXT(Hesap!W19,\"0.0\")&\"°, azimut \"&TEXT(Hesap!W20,\"0.0\")&\"° olup sürücü görüş doğrultusu ile güneş arasındaki 3B açı farkı θ=\"&TEXT(Hesap!W21,\"0.0\")&\"° hesaplanmıştır. Bu değer \"&sınıflandırma!W9&\" sınıfında değerlendirilmiştir (K=\"&TEXT(sınıflandırma!W10,\"0.00\")&\").\""
+   }
+  }
+ ],
+ "kurumsalModel": [
+  "KURUMSAL MODEL – GÜNEŞ ETKENLİĞİ BİLEŞENİ (KITAP İÇİN)",
+  "Amaç: Güneş parlaması (solar glare) etkisini 'yorum' seviyesinden çıkarıp ölçülebilir risk girdisine dönüştürmek.\n\n\n",
+  "1) Veri üretimi (saha):",
+  "• Kaza/ramak kala kayıtlarında tarih-saat, yön, konum ve sürücü beyanı standart alanlar olarak zorunlu tutulur.",
+  "• Kritik kavşak/akslar için 'glare risk pencereleri' (ay-gün-saat aralıkları) haritalanır.",
+  "2) Analiz çekirdeği (merkez):",
+  "• Otomatik güneş konumu + θ hesabı ile olay dosyaları arasında karşılaştırılabilirlik sağlanır.",
+  "• Etki sınıfı ve K katsayısı, müdahale önceliği ve kusur değerlendirmesi için ortak dil üretir.",
+  "3) Müdahale üretimi (idare):",
+  "• Geometrik iyileştirme, gölgeleme/ekranlama, sinyalizasyon/faz revizyonu, hız yönetimi gibi çözümler glare pencerelerine göre hedeflenir.",
+  "4) İzleme ve ölçme:",
+  "• Müdahale öncesi/sonrası aynı glare pencerelerinde kaza/ramak kala oranı izlenir; 'önleyici etkinin' ölçümü kurumsal döngüye bağlanır."
+ ],
+ "raporCumlesiFormulu": "=\"Kaza anında güneş elevasyon \"&TEXT(Hesap!W19,\"0.0\")&\"°, azimut \"&TEXT(Hesap!W20,\"0.0\")&\"° olup sürücü görüş doğrultusu ile güneş arasındaki 3B açı farkı θ=\"&TEXT(Hesap!W21,\"0.0\")&\"° hesaplanmıştır. Bu değer \"&sınıflandırma!W9&\" sınıfında değerlendirilmiştir (K=\"&TEXT(sınıflandırma!W10,\"0.00\")&\").\"",
+ "externalLinks": [
+  {
+   "rId": "rId7",
+   "part": "xl/externalLinks/externalLink1.xml",
+   "target": "file:///D:\\Yayla%20seres\\ÇALIŞTAY\\10.kitap%2010\\EĞİTİM%20001.xlsx",
+   "sheetNames": [
+    "BİLGİ HESAP",
+    "Tanım",
+    "Giriş",
+    "Grş 1",
+    "1.",
+    "2.",
+    "3.",
+    "4",
+    "5",
+    "6",
+    "9Y",
+    "Sayfa5",
+    "Sayfa1",
+    "19",
+    "Sayfa2",
+    "Sayfa3",
+    "Sayfa4"
+   ],
+   "cachedValues": {
+    "BİLGİ HESAP": {},
+    "Tanım": {
+     "B2": "SERESLER BİLİRKİŞİLİK",
+     "C6": "Yaralamalı Maddi Hasarlı Trafik kazası",
+     "C9": "TRF.06.AC.E.25..012.",
+     "C11": "45710",
+     "C12": "Alınmadı",
+     "C15": "24/01.",
+     "C16": "45700"
+    },
+    "Giriş": {
+     "J4": "BİLİRKİŞİ RAPORUDUR"
+    },
+    "Grş 1": {},
+    "1.": {},
+    "2.": {},
+    "3.": {},
+    "4": {},
+    "5": {},
+    "6": {},
+    "9Y": {},
+    "Sayfa5": {},
+    "Sayfa1": {},
+    "19": {},
+    "Sayfa2": {},
+    "Sayfa3": {},
+    "Sayfa4": {}
+   }
+  }
+ ],
+ "hyperlinks": {
+  "model": [
+   {
+    "ref": "F1:N1",
+    "location": "Tanım!B3",
+    "display": "EĞİTİM%20001.xlsx#Tanım!B3",
+    "tooltip": null,
+    "externalTarget": "EĞİTİM%20001.xlsx"
+   }
+  ],
+  "Vaka_Girişi": [
+   {
+    "ref": "F1:N1",
+    "location": "model!A1",
+    "display": "model!A1",
+    "tooltip": null,
+    "externalTarget": null
+   }
+  ],
+  "Hesap": [
+   {
+    "ref": "F1:N1",
+    "location": "model!A1",
+    "display": "model!A1",
+    "tooltip": null,
+    "externalTarget": null
+   }
+  ],
+  "sınıflandırma": [
+   {
+    "ref": "F1:N1",
+    "location": "model!A1",
+    "display": "model!A1",
+    "tooltip": null,
+    "externalTarget": null
+   }
+  ],
+  "Rapor_cıktı": [
+   {
+    "ref": "F1:N1",
+    "location": "model!A1",
+    "display": "model!A1",
+    "tooltip": null,
+    "externalTarget": null
+   }
+  ],
+  "Kurumsal_Model": [
+   {
+    "ref": "F1:N1",
+    "location": "model!A1",
+    "display": "model!A1",
+    "tooltip": null,
+    "externalTarget": null
+   }
+  ]
+ }
+}

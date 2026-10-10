@@ -1,0 +1,466 @@
+{
+ "il": "GİRESUN ",
+ "ilceler": {
+  "ALUCRA": [
+   "BABAPINAR",
+   "CUMHURİYET",
+   "HOCA AHMED YESEVİ",
+   "HÜSEYİN AVNİ ALPARSLAN",
+   "KARAAĞAÇ",
+   "KEMALLI",
+   "MESUDİYE",
+   "TOPÇAM",
+   "VEYSEL KARANİ",
+   "YUNUSEMRE"
+  ],
+  "BULANCAK": [
+   "ACISU",
+   {
+    "mahalle": "AHURLU",
+    "belde": "KOVANLIK"
+   },
+   {
+    "mahalle": "ALİBEY",
+    "belde": "KOVANLIK"
+   },
+   "ARİFLİ",
+   {
+    "mahalle": "AYDINLAR",
+    "belde": "AYDINDERE"
+   },
+   "BAHÇELİEVLER",
+   "BALLICA",
+   "BULANCAK",
+   {
+    "mahalle": "DERECİKALAN",
+    "belde": "AYDINDERE"
+   },
+   "DUACIOĞLU MAHALLESİ",
+   {
+    "mahalle": "DÜZ",
+    "belde": "KOVANLIK"
+   },
+   {
+    "mahalle": "GÜNEY MAHALLE",
+    "belde": "AYDINDERE"
+   },
+   "GÜZELYALI",
+   {
+    "mahalle": "GÜZELYURT",
+    "belde": "KOVANLIK"
+   },
+   "İHSANİYE",
+   "İSMETPAŞA",
+   "KIZILOT",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "AYDINDERE"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "KOVANLIK"
+   },
+   "PAZARSUYU EMECEN",
+   "SANAYİ",
+   "SARAÇLI",
+   "SİSİN",
+   {
+    "mahalle": "SOFULU",
+    "belde": "KOVANLIK"
+   },
+   {
+    "mahalle": "SOĞUKSU",
+    "belde": "KOVANLIK"
+   },
+   "ŞEMSETTİN",
+   "TOPRAKDEĞİRMENİ",
+   "UCARLI",
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "AYDINDERE"
+   }
+  ],
+  "ÇAMOLUK": [
+   "DULUNDAS",
+   "HÜRRİYET",
+   "KARŞIYAKA",
+   "KÖROĞLU",
+   "KURTULUŞ",
+   "KURUKOL",
+   "YAZILAR",
+   "YUVACIK"
+  ],
+  "ÇANAKÇI": [
+   "BEYLİ",
+   "CAMİYANI",
+   "MERKEZ",
+   "ORTA"
+  ],
+  "DERELİ": [
+   "BAHÇELİ",
+   "FATİH",
+   {
+    "mahalle": "GÜZYURDU",
+    "belde": "YAVUZKEMAL"
+   },
+   {
+    "mahalle": "HAPAN",
+    "belde": "YAVUZKEMAL"
+   },
+   {
+    "mahalle": "KULAKKAYA",
+    "belde": "YAVUZKEMAL"
+   },
+   "KUŞLUHAN",
+   "KUZCA",
+   "MERKEZ",
+   "SÜTLÜCE",
+   {
+    "mahalle": "ŞIHLAR",
+    "belde": "YAVUZKEMAL"
+   },
+   {
+    "mahalle": "YENİ MAHALLE",
+    "belde": "YAVUZKEMAL"
+   },
+   {
+    "mahalle": "YUVA",
+    "belde": "YAVUZKEMAL"
+   }
+  ],
+  "DOĞANKENT": [
+   "MERKEZ",
+   "SADAKLI",
+   "SÜTTAŞI",
+   "YENİ MAHALLE",
+   "YEŞİLTEPE"
+  ],
+  "ESPİYE": [
+   "ADABÜK",
+   "AĞALIK MADENİ",
+   "BONCUKÇU",
+   "CİBRİL",
+   "ÇAM",
+   {
+    "mahalle": "DİKMEN",
+    "belde": "SOĞUKPINAR"
+   },
+   "ESENTEPE",
+   "KALEBOYNU",
+   "KARADERE",
+   {
+    "mahalle": "KOZKÖY",
+    "belde": "SOĞUKPINAR"
+   },
+   "MERKEZ",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "SOĞUKPINAR"
+   },
+   {
+    "mahalle": "TUYGUN",
+    "belde": "SOĞUKPINAR"
+   }
+  ],
+  "EYNESİL": [
+   "ALTINLI",
+   {
+    "mahalle": "BELEN",
+    "belde": "ÖREN"
+   },
+   "BOZTEPE",
+   {
+    "mahalle": "CAMİDÜZÜ",
+    "belde": "ÖREN"
+   },
+   "DEREBAŞI",
+   {
+    "mahalle": "ERZİKIRAN",
+    "belde": "ÖREN"
+   },
+   "GÜMÜŞÇAY",
+   {
+    "mahalle": "KIRAN",
+    "belde": "ÖREN"
+   },
+   "KÖSELİ",
+   {
+    "mahalle": "SOKAK",
+    "belde": "ÖREN"
+   },
+   {
+    "mahalle": "TAMYANI",
+    "belde": "ÖREN"
+   },
+   {
+    "mahalle": "YAKUPLU",
+    "belde": "ÖREN"
+   }
+  ],
+  "GÖRELE": [
+   "AYDINLIKEVLER",
+   "BAHÇELİEVLER",
+   {
+    "mahalle": "BAHŞİŞ",
+    "belde": "ÇAVUŞLU"
+   },
+   {
+    "mahalle": "BEYLİ",
+    "belde": "ÇAVUŞLU"
+   },
+   "BOZCAALİ",
+   "CİLLİOĞLU",
+   "ÇEŞMEBAŞI",
+   "HENDEKBAŞI",
+   "HÜRRİYET",
+   "KABA",
+   "KUMYALI",
+   {
+    "mahalle": "MERKEZ (ÇAVUŞLU)",
+    "belde": "ÇAVUŞLU"
+   },
+   {
+    "mahalle": "OBAKIRAN",
+    "belde": "ÇAVUŞLU"
+   },
+   {
+    "mahalle": "ORTA",
+    "belde": "ÇAVUŞLU"
+   },
+   "SAYFİYE",
+   "SOĞUKSU",
+   {
+    "mahalle": "ŞAHALİ",
+    "belde": "ÇAVUŞLU"
+   },
+   "TEPEBAŞI",
+   "ÜNLÜCE",
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "ÇAVUŞLU"
+   },
+   "YEŞİLTEPE"
+  ],
+  "GÜCE": [
+   "FINDIKLI",
+   "GİYİMLİ",
+   "GÜCE MERKEZ",
+   "KEMALİYE",
+   "SOĞUKPINAR",
+   "TEVEKLİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKSU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYDINLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAYKARA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇINARLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇITLAKKALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ERİKLİMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GAZİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GEDİKKAYA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GEMİLERÇEKEĞİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜRE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIHÜSEYİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIMİKTAT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACISİYAM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAPU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAVAKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAYADİBİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜKKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NİZAMİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SAMANLIKKIRANI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELDEĞİRMENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SULTANSELİM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEYHKERAMETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TEYYAREDÜZÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YALI",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KEŞAP": [
+   "ALAKAŞ",
+   "BOZKURT",
+   "FINDIKLI",
+   "KARABEDİR",
+   "UĞURCA",
+   "YOLİÇİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ÇAĞLAYAN",
+    "belde": "DUROĞLU"
+   },
+   {
+    "mahalle": "DEMİRCİ",
+    "belde": "DUROĞLU"
+   },
+   {
+    "mahalle": "HOMURLU",
+    "belde": "DUROĞLU"
+   },
+   {
+    "mahalle": "KONACIK",
+    "belde": "DUROĞLU"
+   },
+   {
+    "mahalle": "TEKKE",
+    "belde": "DUROĞLU"
+   }
+  ],
+  "PİRAZİZ": [
+   "AYDERE",
+   "EREN",
+   "ETLİKKIRAN",
+   "KALEYANI",
+   "KARGI",
+   "MADEN",
+   "ŞEYHLİ",
+   "ŞIHKIRAN",
+   "YENİMAHALLE"
+  ],
+  "ŞEBİNKARAHİSAR": [
+   "AKBUDAK",
+   "AVUTMUŞ",
+   "BİROĞUL",
+   "BÜLBÜL",
+   "ÇİFTLİK",
+   "FATİH",
+   "İKİOĞUL",
+   "KAVAKLAR",
+   "KIRKGÖZ",
+   "KIZILCA",
+   "KÜTKÜT",
+   "MÜFTÜ",
+   "TAMZARA",
+   "TAŞ",
+   "YAVUZ SELİM"
+  ],
+  "TİREBOLU": [
+   "BALÇIKBELEN",
+   "CİNTAŞI",
+   "ÇARŞI",
+   "DEMİRCİ",
+   "HAMAM",
+   "İSTİKLAL",
+   "KÖRLİMAN",
+   "YENİKÖY",
+   "YILGIN"
+  ],
+  "YAĞLIDERE": [
+   "AHALLI",
+   "AKDARI",
+   "AKDOĞAN",
+   "BÜK",
+   {
+    "mahalle": "ÇAĞLAYAN",
+    "belde": "ÜÇTEPE"
+   },
+   {
+    "mahalle": "GÜLTEPE",
+    "belde": "ÜÇTEPE"
+   },
+   "GÜNECE",
+   "KIZILELMA",
+   {
+    "mahalle": "KOZBÜKÜ",
+    "belde": "ÜÇTEPE"
+   },
+   "KURUCALI",
+   "MERKEZ",
+   "ORUÇBEY",
+   "ÖMERLİ",
+   "PALAKLI",
+   "TEPEKÖY",
+   {
+    "mahalle": "TUĞLACIK",
+    "belde": "ÜÇTEPE"
+   }
+  ]
+ }
+}

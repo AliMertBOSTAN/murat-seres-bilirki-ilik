@@ -1,0 +1,189 @@
+{
+ "il": "SİİRT ",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AFETKONUTLARI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ALGÜL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BARIŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BATI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CONKBAYIR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DUMLUPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HALENZÊ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAKOL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KOOPERATİF",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SAKARYA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TINAZTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ULUS",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜLKÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "VEYSEL KARANİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "BAYKAN": [
+   {
+    "mahalle": "ATABAĞI",
+    "belde": "ATABAĞI"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "VEYSELKARANİ"
+   },
+   "CEFAN",
+   {
+    "mahalle": "ÇAY",
+    "belde": "VEYSELKARANİ"
+   },
+   "HAVEL",
+   "İNÖNÜ",
+   "KARŞIYAKA",
+   {
+    "mahalle": "ŞEYHOSMAN",
+    "belde": "VEYSELKARANİ"
+   },
+   "YENİDOĞAN"
+  ],
+  "PERVARİ": [
+   "AYDIN",
+   {
+    "mahalle": "GAZİ",
+    "belde": "BEĞENDİK"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "BEĞENDİK"
+   },
+   "ŞAKİRAN"
+  ],
+  "ŞİRVAN": [
+   "BAĞCILAR",
+   "FATİH",
+   "KIRTEPE",
+   "KÜFRE",
+   "SİT"
+  ],
+  "KURTALAN": [
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "KAYABAĞLAR"
+   },
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   {
+    "mahalle": "ÇEŞME",
+    "belde": "KAYABAĞLAR"
+   },
+   "DİCLE",
+   "FIRAT",
+   "GARZAN",
+   "GÜNEY",
+   {
+    "mahalle": "KAYALI",
+    "belde": "KAYABAĞLAR"
+   },
+   "KÜLTÜR",
+   "SEYRANTEPE",
+   "SÜMER",
+   "TEKEL",
+   "YAYIKDERE",
+   "YENİDOĞAN",
+   "YENİMAHALLE"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "GÖKÇEBAĞ"
+   },
+   {
+    "mahalle": "KOÇPINAR",
+    "belde": "GÖKÇEBAĞ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "GÖKÇEBAĞ"
+   }
+  ],
+  "ERUH": [
+   "DİH",
+   "FATİH",
+   "SARIGÜL"
+  ],
+  "TİLLO": [
+   {
+    "mahalle": "FAKİRULLAH",
+    "belde": "AYDINLAR-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MÜCAHİT",
+    "belde": "AYDINLAR-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SAYDANLAR",
+    "belde": "AYDINLAR-İLÇE MERKEZİ"
+   }
+  ]
+ }
+}

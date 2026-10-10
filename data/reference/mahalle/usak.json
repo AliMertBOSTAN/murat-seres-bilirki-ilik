@@ -1,0 +1,216 @@
+{
+ "il": "UŞAK ",
+ "ilceler": {
+  "BANAZ": [
+   "31 AĞUSTOS",
+   {
+    "mahalle": "BARIŞ",
+    "belde": "KIZILCASÖĞÜT"
+   },
+   "CUMHURİYET",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "KIZILCASÖĞÜT"
+   },
+   "DİLEK",
+   {
+    "mahalle": "EMEK",
+    "belde": "KIZILCASÖĞÜT"
+   },
+   "HAMAMBOĞAZI",
+   "İSLAM",
+   "ŞEHİTLER"
+  ],
+  "SİVASLI": [
+   "AKINCILAR",
+   "ATATÜRK",
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "TATAR"
+   },
+   {
+    "mahalle": "DEDEBALLAR",
+    "belde": "TATAR"
+   },
+   "EVRENLİ",
+   {
+    "mahalle": "FATİH",
+    "belde": "PINARBAŞI"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "TATAR"
+   },
+   "GÖLBAHÇE",
+   {
+    "mahalle": "GÜLBEY",
+    "belde": "SELÇİKLER"
+   },
+   "KONAK",
+   {
+    "mahalle": "PINAR",
+    "belde": "PINARBAŞI"
+   },
+   {
+    "mahalle": "YILDIZTEPE",
+    "belde": "SELÇİKLER"
+   }
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKSE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AYBEY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BOZKURT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BÖLME",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DİKİLİTAŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DURAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ELMALIDERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİ ÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HACIKADEM",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "IŞIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İKİSARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "İSLİCE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALFA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KEMALÖZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÖME",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURŞUNLUK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUYUCAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MEHMET AKİF ERSOY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MUHARREMŞAH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OVADEMİRLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZDEMİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAYALTI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÜNALAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİL KARAAĞAÇ",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "ULUBEY": [
+   "AŞAĞI",
+   "AVGAN",
+   "CAMİİKEBİR",
+   "DİLAVER",
+   "EMİRLER",
+   "GÖLBAŞI",
+   "ÜYÜKBAŞI"
+  ],
+  "KARAHALLI": [
+   "BOĞAZ",
+   "BUĞDAYLI",
+   "DERE",
+   "KARBASAN",
+   "KONAK",
+   "YENİ"
+  ],
+  "EŞME": [
+   "CUMHURİYET",
+   "ELVANLAR",
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "YELEĞEN"
+   },
+   "İSTASYON",
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "YELEĞEN"
+   },
+   "KEMER",
+   "ŞEHİTALİBEY",
+   "ÜÇEYLÜL",
+   "YENİKENT",
+   {
+    "mahalle": "YILDIRIM",
+    "belde": "YELEĞEN"
+   }
+  ]
+ }
+}

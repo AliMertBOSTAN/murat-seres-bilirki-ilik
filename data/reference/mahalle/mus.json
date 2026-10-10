@@ -1,0 +1,389 @@
+{
+ "il": "MUŞ ",
+ "ilceler": {
+  "HASKÖY": [
+   "15 TEMMUZ",
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "DÜZKIŞLA"
+   },
+   "BAHÇELİEVLER",
+   "HÜRRİYET",
+   "İSTİKLAL",
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "DÜZKIŞLA"
+   },
+   "KÜLTÜR",
+   "SAYANLAR",
+   "SUNAY",
+   "VATAN",
+   {
+    "mahalle": "YENİ",
+    "belde": "DÜZKIŞLA"
+   },
+   "ZAFER"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "15 TEMMUZ MİLLİ İRADE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MİNARE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MURATPAŞA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SUNAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SÜTLÜCE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLCE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ZAFER",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "BULANIK": [
+   {
+    "mahalle": "ABDALBAYAZIT",
+    "belde": "UZGÖRÜR"
+   },
+   {
+    "mahalle": "ALAGÖZ",
+    "belde": "UZGÖRÜR"
+   },
+   {
+    "mahalle": "ARI",
+    "belde": "UZGÖRÜR"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "RÜSTEMGEDİK"
+   },
+   "BAHÇELİEVLER",
+   "CUMHURİYET",
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "ELMAKAYA"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "YONCALI"
+   },
+   {
+    "mahalle": "ÇİMEN",
+    "belde": "SARIPINAR"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "ERENTEPE"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "UZGÖRÜR"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "ERENTEPE"
+   },
+   {
+    "mahalle": "GAZİ",
+    "belde": "UZGÖRÜR"
+   },
+   {
+    "mahalle": "GÜLÇİMEN",
+    "belde": "ERENTEPE"
+   },
+   "GÜLLÜOVA",
+   {
+    "mahalle": "HANEDAN",
+    "belde": "RÜSTEMGEDİK"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "YONCALI"
+   },
+   "İNÖNÜ",
+   {
+    "mahalle": "İNÖNÜ",
+    "belde": "RÜSTEMGEDİK"
+   },
+   {
+    "mahalle": "KALE",
+    "belde": "ERENTEPE"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "ELMAKAYA"
+   },
+   "KÜLTÜR",
+   "MESCİTLİ",
+   {
+    "mahalle": "PINAR",
+    "belde": "SARIPINAR"
+   },
+   {
+    "mahalle": "SİNAN",
+    "belde": "SARIPINAR"
+   },
+   "ŞEHİTLİK",
+   "YENİ",
+   {
+    "mahalle": "YENİ",
+    "belde": "YONCALI"
+   },
+   "ZAFER",
+   {
+    "mahalle": "ZAFER",
+    "belde": "RÜSTEMGEDİK"
+   }
+  ],
+  "MALAZGİRT": [
+   "ADALAR",
+   "AFŞİN",
+   "AKSUNGUR",
+   "ALİŞAN",
+   "ALTINTAŞ",
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "KONAKKURAN"
+   },
+   "DANİŞMENTGAZİ",
+   "MENGÜÇGAZİ",
+   {
+    "mahalle": "MURAT",
+    "belde": "KONAKKURAN"
+   },
+   "MURAT",
+   "SALTUKGAZİ",
+   "SAVTEKİNGAZİ",
+   "SELÇUKLU",
+   "ŞEKERBULAK",
+   {
+    "mahalle": "YENİ",
+    "belde": "KONAKKURAN"
+   },
+   {
+    "mahalle": "ZİYARET",
+    "belde": "KONAKKURAN"
+   }
+  ],
+  "KORKUT": [
+   "ADNAN MENDERES",
+   {
+    "mahalle": "AYDINLAR",
+    "belde": "ALTINOVA"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "ALTINOVA"
+   },
+   "BAHÇELİEVLER",
+   "KÜLTÜR",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ALTINOVA"
+   },
+   "ŞEHİTLER",
+   "TURGUT ÖZAL",
+   {
+    "mahalle": "YENİ",
+    "belde": "ALTINOVA"
+   }
+  ],
+  "VARTO": [
+   "ALAGÖZ",
+   "BAHÇELİEVLER",
+   "GÜMGÜM",
+   "HÜRRİYET",
+   "İNÖNÜ",
+   "KÜLTÜR",
+   "YENİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "AYDINGÜN",
+    "belde": "SERİNOVA"
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "KARAAĞAÇLI"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "KIRKÖY"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "SUNGU"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "YEŞİLOVA"
+   },
+   {
+    "mahalle": "BAKIRCILAR",
+    "belde": "SERİNOVA"
+   },
+   {
+    "mahalle": "ÇAĞDAŞ",
+    "belde": "SERİNOVA"
+   },
+   {
+    "mahalle": "ÇUBUKLU",
+    "belde": "KARAAĞAÇLI"
+   },
+   {
+    "mahalle": "DAĞARASI",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "DÜZ",
+    "belde": "KIRKÖY"
+   },
+   {
+    "mahalle": "HACIFETULLAHAĞA",
+    "belde": "KIZILAĞAÇ"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "SERİNOVA"
+   },
+   {
+    "mahalle": "HÜRRİYET",
+    "belde": "SUNGU"
+   },
+   {
+    "mahalle": "KARDEŞLER",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "SERİNOVA"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "KÖRPEAĞAÇ",
+    "belde": "KONUKBEKLER"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "KARAAĞAÇLI"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "KIRKÖY"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "KIZILAĞAÇ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "SUNGU"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "YEŞİLOVA"
+   },
+   {
+    "mahalle": "MERKEZ",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "MİNARE",
+    "belde": "KONUKBEKLER"
+   },
+   {
+    "mahalle": "ŞEHİT NAİM ÇİFTÇİ",
+    "belde": "SUNGU"
+   },
+   {
+    "mahalle": "ŞEHİT YÜCEL KURTOĞLU",
+    "belde": "SUNGU"
+   },
+   {
+    "mahalle": "ŞİRİNEVLER",
+    "belde": "KONUKBEKLER"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "KIRKÖY"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "YEŞİLOVA"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "YAYGIN"
+   },
+   {
+    "mahalle": "YEROLUK",
+    "belde": "KONUKBEKLER"
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "KIZILAĞAÇ"
+   }
+  ]
+ }
+}

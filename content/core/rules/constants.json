@@ -1,0 +1,198 @@
+{
+ "source": "2.!D23:O23, AC12, AD2:AE10, Z81:Z83; 19!AF19:AH21, R87:AL87; Güneş sınıflandırma!B9:I13",
+ "oranSabitleri": {
+  "sabit1_D23": 1,
+  "sabit2_G23": 10000,
+  "sabit3_K23": 100000,
+  "sabit4_O23": 10000000
+ },
+ "riskKatsayisi_AC12": 0.0035,
+ "siklikTablosu": [
+  {
+   "etiket": "Günlük",
+   "katsayi": 2.5,
+   "cell": "AD2"
+  },
+  {
+   "etiket": "1 Haftalık",
+   "katsayi": 2.1,
+   "cell": "AD3"
+  },
+  {
+   "etiket": "1 Aylık",
+   "katsayi": 1.8,
+   "cell": "AD4"
+  },
+  {
+   "etiket": "3 Aylık",
+   "katsayi": 1.5,
+   "cell": "AD5"
+  },
+  {
+   "etiket": "6 Aylık",
+   "katsayi": 1.2,
+   "cell": "AD6"
+  },
+  {
+   "etiket": "1 Yıllık",
+   "katsayi": 0.85,
+   "cell": "AD7"
+  },
+  {
+   "etiket": "5 Yıllk",
+   "katsayi": 0.45,
+   "cell": "AD9"
+  },
+  {
+   "etiket": "10 Yıllık",
+   "katsayi": 0.12,
+   "cell": "AD10"
+  }
+ ],
+ "siklikEslemesi_AD14": {
+  "1 Hafta": "AD3",
+  "1 Gün": "AD2",
+  "1 Ay": "AD4",
+  "3 Ay": "AD5",
+  "6 Ay": "AD6",
+  "1 Yıl": "AD7",
+  "5 Yıl": "AD2",
+  "10 Yıl": "AD9"
+ },
+ "siklikEslemesiFormul": "=AC14*IF(E63=\"1 Hafta\",AD3*J63,IF(E63=\"1 Gün\",AD2*J63,IF(E63=\"1 Ay\",AD4*J63,IF(E63=\"3 Ay\",AD5*J63,IF(E63=\"6 Ay\",AD6*J63,IF(E63=\"1 Yıl\",AD7*J63,IF(E63=\"5 Yıl\",AD2*J63,IF(E63=\"10 Yıl\",AD9*J63))))))))",
+ "onlenebilecekKazalar": [
+  {
+   "ad": "Yandan Çarpma",
+   "agirlik": 0.5
+  },
+  {
+   "ad": "Arkadan Çarpma",
+   "agirlik": 0.5
+  },
+  {
+   "ad": "Devrilme- Düşme",
+   "agirlik": 0.2
+  }
+ ],
+ "kacinma": {
+  "puanTablosu": [
+   {
+    "durum": "KAZADAN KAÇINMA",
+    "aciklama": "Puanın Tamamı",
+    "AF": 1,
+    "AG": 1
+   },
+   {
+    "durum": "KAZADAN KAÇINABİLİRDİ",
+    "aciklama": "Puanın belirlene oranda alınması",
+    "AF": 2,
+    "AG": -4
+   },
+   {
+    "durum": "KAZADAN KAÇINAMAZ",
+    "aciklama": "Puan Verilemez",
+    "AF": 0,
+    "AG": 5
+   }
+  ],
+  "bilincliTaksirKusurDegeri_AH21": 1,
+  "senaryoCarpanlari": {
+   "0": 0,
+   "1": 5,
+   "2": 2,
+   "3": 3,
+   "4": 4,
+   "5": 0
+  },
+  "senaryoFormul": "=IF(AS13=0,0,IF(AS13=5,0,IF(AS13=1,(($AR$12/5)*5),IF(AS13=2,(($AR$12/5)*2),IF(AS13=3,(($AR$12/5)*3),IF(AS13=4,(($AR$12/5)*4),\"\"))))))",
+  "kurumCarpanlari": [
+   {
+    "etiket": "1 Ay dır bilgili",
+    "carpan": 1.1
+   },
+   {
+    "etiket": "3 Ay dır bilgili",
+    "carpan": 1.3
+   },
+   {
+    "etiket": "6 Ay dır bilgili",
+    "carpan": 1.5
+   },
+   {
+    "etiket": "12 Ay dır bilgili",
+    "carpan": 1.7
+   },
+   {
+    "etiket": "Bilgili Henüz işleme almamış",
+    "carpan": 2
+   }
+  ],
+  "kurumFormul": "=IF(AQ86=\"Belirsiz\",O87,IF(AQ86=\"İşleme alınmamış\",AL87*O87,IF(AQ86=\"12 Ay\",AG87*O87,IF(AQ86=\"6 Ay\",AB87*O87,IF(AQ86=\"3 Ay\",W87*O87,IF(AQ86=\"1 Ay\",O87*R87))))))",
+  "senaryolar": [
+   "SOLA Kaçarak",
+   "SAĞA kaçarak",
+   "Durup - Fren yolu kontrol ederek",
+   "İleri Hızlanarak hareket etmesi",
+   "Normatif Hızla Hareket etmesi"
+  ],
+  "kurumSenaryolar": [
+   {
+    "puan": 5,
+    "ad": "Karayolu sorunundan bilgisi Yok",
+    "aciklama": "Bu kazada mahkeme tarafından Büyükşehir belediyesinden bilgi alınacaktır. Genelde 1. defa yaşanan kazalarda aranır. Kusur hakimin takdirindedir."
+   },
+   {
+    "puan": "2-3.",
+    "ad": "Karayolu sorunundan bilgisi var Projeye almış ( 6 AY içinde )",
+    "aciklama": "Bu kazada mahkeme tarafından Büyükşehir belediyesinden bilgi alınacaktır. Genelde 1. defa yaşanan kazalarda aranır. Kusur hakimin takdirindedir."
+   },
+   {
+    "puan": 1,
+    "ad": "Karayolu sorunundan bilgisi var çalışmalar başlanmış ( 1 AY içinde )",
+    "aciklama": "Bu kazada mahkeme tarafından Büyükşehir belediyesinden bilgi alınacaktır. Genelde 1. defa yaşanan kazalarda aranır.Kazanın 1 yıl içinde 1 den fazal olması halinde 2--3-4 renksiz alana yazılarak kusur verilir.Kusuru azaltan gruptur."
+   },
+   {
+    "puan": 0,
+    "ad": "Karayolu sorunundan bilgisi var çalışmalar başlanmış ( Yapım içinde )",
+    "aciklama": "Bu kazada mahkeme tarafından Büyükşehir belediyesinden bilgi alınacaktır. Genelde 1. defa yaşanan kazalarda aranır.Kazanın 1 yıl içinde 1 den fazal olması halinde 2--3-4 renksiz alana yazılarak kusur verilir.Kusuru azaltan gruptur."
+   },
+   {
+    "puan": 4,
+    "ad": "Karayolu sorunundan bilgisi var çalışma yapmıyor.",
+    "aciklama": "Bu kazada mahkeme tarafından Büyükşehir belediyesinden bilgi alındığında tamamen kusur verilir. Kusurun artırımı hakimin tadirinde olacaktır."
+   }
+  ]
+ },
+ "gunesThetaBantlari": [
+  {
+   "aralik": "0–5",
+   "max": 5,
+   "sinif": "Tam körlük",
+   "K": 0.1
+  },
+  {
+   "aralik": "5–10",
+   "max": 10,
+   "sinif": "Çok yüksek",
+   "K": 0.4
+  },
+  {
+   "aralik": "10–20",
+   "max": 20,
+   "sinif": "Yüksek",
+   "K": 0.6
+  },
+  {
+   "aralik": "20–45",
+   "max": 45,
+   "sinif": "Orta",
+   "K": 0.8
+  },
+  {
+   "aralik": "45–180",
+   "max": 180,
+   "sinif": "Düşük/önemsiz",
+   "K": 1
+  }
+ ]
+}

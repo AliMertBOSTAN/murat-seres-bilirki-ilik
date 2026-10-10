@@ -1,0 +1,2496 @@
+{
+ "il": "ŞANLIURFA",
+ "ilceler": {
+  "CEYLANPINAR": [
+   "15 TEMMUZ",
+   "ADNAN MENDERES",
+   "AKBULUT",
+   "AKTEPE",
+   "ALACA",
+   "ALTINKÖY",
+   "AŞAĞIDORUKLU",
+   "AŞAĞIDURMUŞ",
+   "AŞAĞIKARATAŞ",
+   "AVCILI",
+   "AYDIN",
+   "AYDOĞDU",
+   "BAHÇELİEVLER",
+   "BOĞALI",
+   "BÜYÜKÇAYLI",
+   "BÜYÜKYENİCE",
+   "BÜYÜKYILDIZ",
+   "CEYLAN",
+   "CUMHURİYET",
+   "DAMLACIK",
+   "DİKİLİ",
+   "DÜZOVA",
+   "ENSAR",
+   "FATİH SULTAN MEHMET",
+   "GELLEGÖÇ",
+   "GÜLTEPE",
+   "GÜMÜŞ",
+   "HAN",
+   "IŞIKLAR",
+   "MADEN",
+   "MEHMET AKİF ERSOY",
+   "MEVLANA",
+   "MURATLI",
+   "ÖZBEK",
+   "SARAÇÇEŞME",
+   "SELAHADDİN EYYÜBİ",
+   "SEYDO ATİLLA",
+   "SUFRA",
+   "TEKİNLER",
+   "TURGUT ÖZAL",
+   "ULUCAMİ",
+   "YALÇINKAYA",
+   "YENİKÖY",
+   "YENİŞEHİR",
+   "YEŞİLTEPE",
+   "YONCALI",
+   "YUKARI DORUKLU",
+   "YUKARI DURMUŞ",
+   "YUKARI ESENCE",
+   "YUKARI KARATAŞ",
+   "YUKARI TAŞLIDERE",
+   "YÜKSEKTEPE"
+  ],
+  "EYYÜBİYE": [
+   {
+    "mahalle": "15 TEMMUZ ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ABDURRAHMANDEDE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AÇMALI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKABE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKÇAMESÇİT",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKDİLEK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKMAĞARA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKMEŞHET",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AKŞEMSETTİN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALKANLI ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALTIN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALTINBAŞAK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ALTINTEPE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AMBARTEPE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "APALI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ASYA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIHEMEDAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIKOÇLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIYAZICI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ATLIKONAK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "AYRANCI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞIŞ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAKIRTAŞ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAKIŞLAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BANARLI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞGÖK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞGÖZE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAŞÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BATIKENT",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BAYRAKLI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BEŞAT",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BEYAZYAPRAK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BEYKAPISI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BIÇAKÇILI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BİLDİM",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BOZHÖYÜK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BUHARA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BULDUK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKDÜZLÜK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKHAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKHANCAĞIZ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "BÜYÜKOTLUCA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "CAMİKEBİR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇALIŞKANLAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMURLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DEDEOSMAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DERNEK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DİLİMLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DİREKLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DOLUTEPE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DURUCA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "EYYUBİYE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "EYYÜPKENT",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "EYYÜPNEBİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GELİNCİK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLDERE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖLLER",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖRENLER",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÖZELLER",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜMÜŞKUŞAK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜMÜŞÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNBALI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNEŞ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNGÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELKUYU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HACIBAYRAM",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HACILAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HALEPLİBAHÇE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HAMZABABA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HANCIĞAZ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HAYATİHARRANİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HEKİMDEDE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HOROZKÖY",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "İKİZCE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KADIKENDİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KADIOĞLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KAPKÖY",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KAPLANKÖY",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAALİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAHİSAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAKOYUNLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KARAMAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KEBERLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KEÇİKIRAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KENDİRCİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KESERDEDE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KESKİN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KINALI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIRÇİÇEĞİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIRKMAĞARA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KIZILKUYU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KOÇÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÖPRÜLÜK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KUBACIK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KURUCUK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜK ÇAMURLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜKDÜZLÜK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜÇÜKHAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLÜNÇE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "KÜPELİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MANCE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MİHRAPLI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MURADİYE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "MUTLUKAYA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "NADİRE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OLGUNLAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OLUKYANI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ONİKİLER",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ORTAHEMEDAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANLI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OVABEYLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "OZANLAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖRENLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÖZLÜ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PAYAMLI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "PINARBAŞI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "RUHA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SAĞLIK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SEKSENÖREN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SELÇUKLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SELMAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SULTANTEPE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "SÜLEYMANŞAH",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞAHİNALAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞAHİNLER",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIHMAKSUT",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TARLABAŞI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞLICA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TEKYAMAÇ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TEPE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TOPDAĞI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TURLUK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TUZLUCA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "TÜRKMEYDANI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "UĞURLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ULAK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ULUCANLAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ULUKÖY",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "UMUROBA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ÜZERLİK",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "VERGİLİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAĞMURLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAKUBİYE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAMAÇALTI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YANIKÇÖĞÜR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YARDIMCI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAŞAR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YAYKILIÇ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YEDİYOL",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLDERE",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YOLBAŞI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YOLBİLİR",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARI KOÇLU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARIÇAYKUYU",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARIHEMEDAN",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARIYAZICI",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUSUF",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "YUSUFPAŞA",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "ZEYNEPKÖY",
+    "belde": "EYYUBİYE-İLÇE MERKEZİ"
+   }
+  ],
+  "HARRAN": [
+   "15 TEMMUZ",
+   "AĞCIL",
+   "AHMETKARA",
+   "AKKUŞ",
+   "ALACALI",
+   "ALGILI",
+   "ALTILI",
+   "ARALI",
+   "ARIN",
+   "ASLANKUYUSU",
+   "AŞAĞI YEŞİLOVA",
+   "AŞAĞIKESMEKAYA",
+   "AŞAĞIYAKINYOL",
+   "AŞAĞIYARIMCA",
+   "AVLAK",
+   "AYDINCIK",
+   "AYDINLAR",
+   "AYDÜŞTÜ",
+   "BALKAT",
+   "BALKIR",
+   "BAŞAK",
+   "BAŞKARAGÖZ",
+   "BATIKONACIK",
+   "BELLİTAŞ",
+   "BİLGİLİ",
+   "BİNEKLİ",
+   "BİRELİSMET",
+   "BİRLİK",
+   "BOZCEYLAN",
+   "BOZYAZI",
+   "BUĞDAYTEPE",
+   "BULDUM",
+   "BULGURLU",
+   "BÜKDERE",
+   "BÜYÜKTAŞLICA",
+   "BÜYÜKTÜRBE",
+   "CEVİZLİ",
+   "CEYLANGÖZÜ",
+   "CUMHURİYET",
+   "ÇAĞBAŞI",
+   "ÇALTILI",
+   "ÇATALHURMA",
+   "ÇEPKENLİ",
+   "ÇİÇEK",
+   "ÇİFTÇİLER",
+   "ÇOLPAN",
+   "DAMLASU",
+   "DAYANIKLI",
+   "DEMİRLİ",
+   "DİRİLİŞ",
+   "DOĞUKESMEKAYA",
+   "DOĞUKONACIK",
+   "DORUÇ",
+   "DURAN",
+   "EKİNLİ",
+   "EMEKLİ",
+   "ESKİHARRAN",
+   "GAZLIKUYU",
+   "GİYİMLİ",
+   "GÖGEÇ",
+   "GÖKÇE",
+   "GÖKTAŞ",
+   "GÖZCÜ",
+   "GÜL",
+   "GÜRGELEN",
+   "HAZRETİ İMAMBAKIR",
+   "HUZURLU",
+   "HZ.YAKUP",
+   "İBNİTEYMİYE",
+   "İMAMBAKIR",
+   "KABATAŞ",
+   "KARATAŞ",
+   "KAYMAKLI",
+   "KILIÇLI",
+   "KIRMITLI",
+   "KOYUNLUCA",
+   "KÖKENLİ",
+   "KURUYER",
+   "KUYUKENT",
+   "KÜÇÜK EKİNLİ",
+   "KÜÇÜKMİNARE",
+   "KÜÇÜKYILDIZ",
+   "KÜPLÜCE",
+   "KÜTÜKLÜ",
+   "MEYDANKAPI",
+   "MİNARE",
+   "MİYANLI",
+   "OĞULCUK",
+   "ORTAKONACIK",
+   "ÖNCÜLER",
+   "ÖZBAY",
+   "ÖZLÜCE",
+   "ÖZTAŞ",
+   "ÖZTÜRK",
+   "PARAPARA",
+   "SADAK",
+   "SADE",
+   "SAİDE",
+   "SEFERKÖY",
+   "SELAHADDİN EYYUBİ",
+   "SELALMAZ",
+   "SERİNCE",
+   "SOYLU",
+   "SUGELDİ",
+   "SUVACIK",
+   "SÜLEYMANDEMİREL",
+   "SÜTLÜCE",
+   "ŞEHİT ALİ AYDAR",
+   "ŞEYHHAYATİHARRANİ",
+   "ŞUAYİPŞEHRİ",
+   "ŞÜKÜRALİ",
+   "TAHILALAN",
+   "TANINMIŞ",
+   "TANTANA",
+   "TAYLICA",
+   "TEKDAL",
+   "TEKNELİ",
+   "TOYTEPE",
+   "TOZLUCA",
+   "TÜCCARİYE",
+   "TÜRKOĞLU",
+   "ULUAĞAÇ",
+   "UZUNYOL",
+   "ÜÇDİREK",
+   "ÜNLÜ",
+   "VARLIALAN",
+   "YAKACIK",
+   "YARDIMLI",
+   "YAYGILI",
+   "YAYVANDORUK",
+   "YEDİKARDEŞ",
+   "YENİCE",
+   "YENİDOĞAN",
+   "YEŞİLOVA",
+   "YOLGİDER",
+   "YUKARIKESMEKAYA",
+   "YUKARIYAKINYOL",
+   "YUKARIYARIMCA",
+   "YÜNLÜCE",
+   "ZEYTİNDALI"
+  ],
+  "BOZOVA": [
+   "75.YIL",
+   "AKMAĞARA",
+   "ALTINLI",
+   "ARGINCIK",
+   "ARIKÖK",
+   "ARPALI",
+   "AVLAK",
+   "AYLAN",
+   "BAĞLICA",
+   "BALTAŞ",
+   "BİRİS",
+   "BOZTEPE",
+   "BUDAKLI",
+   "BULANCAK",
+   "BÜYÜKHAN",
+   "CAVSAK",
+   "ÇAKMAKLI",
+   "ÇATAK",
+   "DELİLER",
+   "DENİZBACI",
+   "DUTLUCA",
+   "DUTLUK",
+   "ESKİN",
+   "FEVZİ ÇAKMAK",
+   "GERDEK",
+   "GÖKÖREN",
+   "GÖLBAŞI",
+   "GÖYNİK",
+   "GÖZENEK",
+   "HACIKÖY",
+   "HACILAR",
+   "HİSARLAR",
+   "İKİZ",
+   "İNCİRLİ",
+   "KABACIK",
+   "KARACA",
+   "KARACAÖREN",
+   "KARAKAŞ",
+   "KARAPINAR",
+   "KARGILI",
+   "KEPİRCE",
+   "KESMETAŞ",
+   "KEVİK",
+   "KILÇIK",
+   "KILIÇÖREN",
+   "KINDIRALİ",
+   "KIRAĞILI",
+   "KIRMIZIPINAR",
+   "KIZLAR",
+   "KİLLİK",
+   "KOÇHİSAR",
+   "KOÇVERAN",
+   "KONUKSEVER",
+   "KÖSEŞAHİN",
+   "KÜÇÜK HİSARLAR",
+   "KÜPELİ",
+   "MAŞUK",
+   "MÜLKÖREN",
+   "NARSAİT",
+   "NORÇİN",
+   "ORTAÖREN",
+   "ORTATEPE",
+   "ÖRGÜLÜ",
+   "ÖZGÖREN",
+   "PİRHALİL",
+   "SAĞIRLI",
+   "SALUC",
+   "SEYİTÖREN",
+   "SIĞIRCIK",
+   "SIZAN",
+   "SOĞUKKUYU",
+   "SÖĞÜTLÜ",
+   "ŞANLIAVŞAR",
+   "ŞEYHLER",
+   "TAŞAN",
+   "TATARHÜYÜK",
+   "TOZLUCA",
+   "TUNALI",
+   "TÜRKMENÖREN",
+   "UZUNBURÇ",
+   "ÜÇDİREK",
+   "ÜÇKİLİS",
+   "YALINTAŞ",
+   "YASLICA",
+   "YAVUZ SELİM",
+   "YAYLAK",
+   "YEŞİLOVA",
+   "ZİVANLI"
+  ],
+  "VİRANŞEHİR": [
+   "ABALAR",
+   "ADAKÖY",
+   "AKÇATAŞ",
+   "AKKESE",
+   "ALAKONAK",
+   "ALTINBAŞAK",
+   "ANIT",
+   "ARISU",
+   "ARITIR",
+   "ASLANBABA",
+   "AŞAĞITINAZ",
+   "ATATÜRK",
+   "ATICILAR",
+   "AYAKLI",
+   "AYRIDÜŞEN",
+   "AZADİ(EVRENPAŞA)",
+   "BAHÇELİEVLER",
+   "BAKIMLI",
+   "BALLICA",
+   "BAŞARAN",
+   "BAŞKÖY",
+   "BEĞRÜK",
+   "BİNEKLİ",
+   "BOZCA",
+   "BURÇ",
+   "BÜYÜKBARDAKÇI",
+   "BÜYÜKÇAVUŞ",
+   "BÜYÜKGÖRÜMLÜ",
+   "BÜYÜKMUTLU",
+   "CEYLAN",
+   "CUMHURİYET",
+   "ÇALICIK",
+   "ÇAMURLU",
+   "ÇİFTÇİLER",
+   "ÇİFTEKUYU",
+   "ÇOKRAN",
+   "DEDEKÖY",
+   "DEFTERDAR",
+   "DEĞİM",
+   "DEMİRCİ",
+   "DİKİLİ",
+   "DİNÇER",
+   "DİNÇKÖK",
+   "EKİNCİLER",
+   "EKİNDÖVER",
+   "ELBEĞENDİ",
+   "ELGÜN",
+   "EMİROĞLU",
+   "ENGELLİ",
+   "ESER",
+   "ESKİKALE",
+   "ESVETOĞLU",
+   "EŞKİN",
+   "EVCİMEN",
+   "EYYÜPNEBİ",
+   "GERMEN",
+   "GÖĞERLİ",
+   "GÖKTEPE",
+   "GÖLBAŞI",
+   "GÖLCÜK",
+   "GÖMÜLÜ",
+   "GÖNÜLLÜ",
+   "GÖZELİ",
+   "GÖZLER",
+   "GÜLERYÜZ",
+   "GÜRPINAR",
+   "GÜZLEK",
+   "HÜRRİYET",
+   "IŞILDAR",
+   "İNCİRLİ",
+   "İSA HARABESİ",
+   "KADIKÖY",
+   "KALE",
+   "KARAKUZU",
+   "KARATAŞ",
+   "KARATEPE",
+   "KARGALI",
+   "KARINCA",
+   "KAVURGA",
+   "KEÇELİ",
+   "KEMERLİ",
+   "KERVANSARAYI",
+   "KINALITEPE",
+   "KIRBALI",
+   "KIRKGÖZ",
+   "KIŞLA",
+   "KIZLARSARAYI",
+   "KOLAĞASI",
+   "KONAKYERİ",
+   "KOŞULU",
+   "KUCAK",
+   "KUMÇEŞME",
+   "KURTULMUŞ",
+   "KURUROĞLU",
+   "KÜÇÜKMUTLU",
+   "KÜÇÜKTOPÇA",
+   "MALTA",
+   "MEHMETÇİK",
+   "NERGİZLİ",
+   "OĞLAKÇI",
+   "ÖVÜNCÜK",
+   "ÖZAL",
+   "PINARLAR",
+   "REYHANLI",
+   "SAĞIRTAŞ",
+   "SAKALAR",
+   "SAMANLI",
+   "SARIBAL",
+   "SATICIK",
+   "SAYOBA",
+   "SELAHATTİNİEYYUBİ",
+   "SEPETLİ",
+   "SERGEN",
+   "SEVGİLİ",
+   "SÖZERİ",
+   "SÜLEYMANİYE",
+   "ŞAHİNLİ",
+   "ŞARKPINAR",
+   "ŞEHİT",
+   "ŞIRNAK",
+   "TANYELİ",
+   "TAŞÖNÜ",
+   "TAŞYAKA",
+   "TEKKE",
+   "TEKNELİ",
+   "TEPEDÜZÜ",
+   "TOKLU",
+   "TUNÇBİLEK",
+   "TÜRKELİ",
+   "UĞURLU",
+   "ULAKLI",
+   "ÜÇGÜL",
+   "YABAN",
+   "YAĞIZLAR",
+   "YARPUZ",
+   "YAYIK",
+   "YAZGÜNEŞİ",
+   "YENİ",
+   "YENİŞEHİR",
+   "YEŞİLALIÇ",
+   "YEŞİLDURAK",
+   "YILDIZ",
+   "YOLBİLEN",
+   "YOLLARBAŞI",
+   "YUKARIBAĞ",
+   "YUKARIDİLİMLİ",
+   "YUKARIŞÖLENLİ",
+   "YÜCELER"
+  ],
+  "SİVEREK": [
+   "ABDALAĞA",
+   "ALAGÜN",
+   "ALANYURT",
+   "ALTAYLI",
+   "ALTINAHIR",
+   "ALTINLI",
+   "ALTINPINAR",
+   "ANACAK",
+   "ARMAĞANLI",
+   "AŞAĞI ALINCA",
+   "AŞAĞI KARABAHÇE",
+   "AŞAĞI KARACAÖREN",
+   "AŞAĞIYALANKOZ",
+   "AŞLICA",
+   "ATMACA",
+   "AVURTEPE",
+   "AYRANCI",
+   "AYVANAT",
+   "AZIKLI",
+   "BAĞCI",
+   "BAĞLAR",
+   "BAHÇE",
+   "BAHÇELİEVLER",
+   "BAKIRCA",
+   "BAKMAÇ",
+   "BARDAKÇI",
+   "BAŞBÜK",
+   "BAŞDEĞİRMEN",
+   "BATI",
+   "BAYIRÖZÜ",
+   "BEĞDEŞ",
+   "BENEK",
+   "BEYALİ",
+   "BEYBABA",
+   "BEYÇERİ",
+   "BOZKUYU",
+   "BOZLAK",
+   "BÖĞÜRTLEN",
+   "BÜRÜNCEK",
+   "BÜYÜK KAZANLI",
+   "BÜYÜK OBA",
+   "BÜYÜK TEPE",
+   "BÜYÜK YAKITLI",
+   "BÜYÜKGÖL",
+   "CAMİİKEBİR",
+   "CANPOLAT",
+   "ÇAĞA",
+   "ÇAĞDAŞ",
+   "ÇANAKÇI",
+   "ÇATLI",
+   "ÇAVUŞLU",
+   "ÇAYLARBAŞI",
+   "ÇELTİK",
+   "ÇEPNİ",
+   "ÇEVİRME",
+   "ÇİFTÇİBAŞI",
+   "ÇİNHİSAR",
+   "ÇUBUKLU",
+   "DAĞBAŞI",
+   "DAMLICA",
+   "DARDAĞAN",
+   "DARICALI",
+   "DELİKTAŞ",
+   "DİCLE",
+   "DİLEKLİ",
+   "DİREKLİ",
+   "DİVAN",
+   "DOĞUKENT",
+   "DÖNEMEÇ",
+   "DÜĞERİN",
+   "EDİZ",
+   "EĞRİÇAY",
+   "ENDARLI",
+   "ERBEY",
+   "ERGEN",
+   "ERKONAĞI",
+   "ERTEM",
+   "ESKİHAN",
+   "ESMERÇAYI",
+   "FIRAT",
+   "FIRIN",
+   "GAZİKÖY",
+   "GEDİK",
+   "GERÇEK",
+   "GÖZCEK",
+   "GÖZELEK",
+   "GÖZELİ",
+   "GÜLABİBEY",
+   "GÜLLİCE",
+   "GÜLPINAR",
+   "GÜNEY",
+   "GÜNEY KARABAHÇE",
+   "GÜRAKAR",
+   "GÜVENLİ",
+   "GÜVERCİN",
+   "GÜZELPINAR",
+   "GÜZELŞEHİR",
+   "HACIÖMER",
+   "HALİLİYE",
+   "HAMAMÖREN",
+   "HAMİDİYE",
+   "HASANÇELEBİ",
+   "HASIRLI",
+   "HAYRİYE",
+   "İLERİ",
+   "İNANLI",
+   "KALE",
+   "KALEMLİ",
+   "KALINAĞAÇ",
+   "KAMIŞLI",
+   "KAPIKAYA",
+   "KARABAHÇE",
+   "KARACADAĞ",
+   "KARADİBEK",
+   "KARAHİSAR",
+   "KARAKEÇİ",
+   "KARAKOYUN",
+   "KARGALI",
+   "KARKAŞI",
+   "KARPUZCU",
+   "KAVAKLIDERE",
+   "KAVALIK",
+   "KAYALI",
+   "KAYSERİ",
+   "KEÇİBURCU",
+   "KEÇİKIRAN",
+   "KESMEKAYA",
+   "KEŞ",
+   "KIVANÇLI",
+   "KONURTEPE",
+   "KULAKSIZ",
+   "KURBAĞALI",
+   "KUŞLUGÖL",
+   "KÜÇÜKGÖL",
+   "KÜPTEPE",
+   "MEZRAA",
+   "NARLIKAYA",
+   "NOHUT",
+   "OFİS",
+   "OLUKLU",
+   "ONAR",
+   "ORTANCA",
+   "OYMAN",
+   "OYUKTAŞ",
+   "ÖNDER",
+   "ÖRGÜLÜ",
+   "ÖZGÖĞERCİN",
+   "PEYNİRCİ",
+   "SABANCI",
+   "SALUR",
+   "SARIDAM",
+   "SARIKAYA",
+   "SARIÖREN",
+   "SAVUCAK",
+   "SELİMPINAR",
+   "SİSLİCE",
+   "SOYDAN",
+   "SÖYLEMEZ",
+   "SUMAKLI",
+   "ŞAİRİBRAHİMRAFET",
+   "ŞEKERLİ",
+   "ŞİRİNKUYU",
+   "TAKORAN",
+   "TANRIVERDİ",
+   "TAŞAĞIL",
+   "TAŞHAN",
+   "TAŞIKARA",
+   "TAŞLI",
+   "TURNA",
+   "UZUNPINAR",
+   "UZUNZİYARET",
+   "ÜLKÜLÜ",
+   "ÜSTÜNTAŞ",
+   "YELEKEN",
+   "YENİCELİ",
+   "YENİŞEHİR",
+   "YOĞUNCA",
+   "YOĞURTÇU",
+   "YUMRUTEPE",
+   "YUVAR",
+   "YÜCELEN",
+   "ZİNCİRLİÇAY"
+  ],
+  "BİRECİK": [
+   "ABDALLI",
+   "AKARÇAY",
+   "AKPINAR",
+   "ALMAŞAR",
+   "ALTINOVA",
+   "ARSLANLI",
+   "AŞAĞI EŞME",
+   "AŞAĞI FATMACIK",
+   "AŞAĞI HABİB",
+   "AŞAĞI KARKUTLU",
+   "AŞAĞI KUYUCAK",
+   "AŞAĞIALMAŞAR",
+   "AYRAN",
+   "BAĞLARBAŞI",
+   "BAHÇEÖNÜ",
+   "BENTBAHÇESİ",
+   "BOZDERE",
+   "BOZTEPE",
+   "BÖĞÜRTLEN",
+   "CİBİNÖREN",
+   "CUMHURİYET",
+   "ÇİÇEKALAN",
+   "ÇİFTLİKKÖY",
+   "ÇOĞAN",
+   "DAĞGÖREN",
+   "DALOCAK",
+   "DAMLICA",
+   "DIŞLIK",
+   "DİKTEPE",
+   "DİVRİĞİ",
+   "DORUCAK",
+   "DUYDUK",
+   "DÜZLÜCE",
+   "EKENEK",
+   "GEÇİTTEPE",
+   "GÖKTEPE",
+   "GÜNIŞIĞI",
+   "GÜVENİR",
+   "GÜZELYURT",
+   "HAN",
+   "HAYDARAHMET",
+   "HOCAŞERİF",
+   "ILGAR",
+   "İNCELER",
+   "İNCİRLİ",
+   "İNCİRLİDERE",
+   "İNNAPLI",
+   "KARABABA",
+   "KARŞIYAKA",
+   "KESKİNCE",
+   "KOCAALİ",
+   "KONAKKÖY",
+   "KÖMAĞIL",
+   "KURAL",
+   "KURTULUŞ",
+   "KURUCAHÖYÜK",
+   "MENGELLİ",
+   "MERKEZ",
+   "METELER",
+   "MEYANCA",
+   "MEYDAN",
+   "MEZRA",
+   "ORTAFATMACIK",
+   "ÖZVEREN",
+   "SAHA",
+   "SANCAK",
+   "SEKİLİ",
+   "SÖĞÜRTLEN",
+   "SUMAKLI",
+   "SURTEPE",
+   "ŞEKERKÖY",
+   "TÜTEN",
+   "UĞURCUK",
+   "ÜNSAL",
+   "YAYLACIK",
+   "YENİAKPINAR",
+   "YILMAZ",
+   "YUKARI İNCİRLİ",
+   "YUKARI KARABAŞ",
+   "YUKARIHABİB",
+   "YUKARIYENİÇAĞ",
+   "YUVACIK",
+   "ZİYARET"
+  ],
+  "HALİLİYE": [
+   {
+    "mahalle": "ACARYURT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AÇIKYAZI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AHMETYESEVİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AKÇALI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AKDOĞAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AKPINAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AKTAŞ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ALTINDAMLA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ALTINTEPE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ANAZ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ASLANLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ASRİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AŞAĞI İÇKARA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AŞAĞIAKÖREN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AŞAĞIKOYMAT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AŞAĞIVARLICA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ATATÜRK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "AYAZCA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BAĞLAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BAĞLARBAŞI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BAKIMLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BALKATAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BALLICA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BAMYASUYU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BONCUK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BOYDERE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "BÜYÜK MİRDESİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "CENGİZTOPEL",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇAMLIDERE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇANAKÇI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇATALLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇEKÇEK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇİÇEKLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇİÇEKTEPESİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÇUKURDORUÇ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DAĞETEĞİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DAĞYANI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DALBAŞI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DENİZCİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DERİNKUYU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DERMAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DEVTEŞTİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DİKME",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DİKTAŞ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "DİPHİSAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "EĞERKIRAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "EMİRLER",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ERNEBİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ERTUĞRULGAZİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ESENYAYLA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÖKTEPE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜÇLÜ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜLVEREN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜMÜŞTAŞ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜRPINAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜVENLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜZELKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "GÜZELYURT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "HALİME",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "HAMİDİYE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "HAVŞANLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "HIZMALI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İBRİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İKİAĞIZ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İMAMBAKIR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İNCİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İNCİRAĞACI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İNCİRLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İPEKYOL",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "İRİCE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAHRAMAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KALECİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KALINBAYAT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KANATLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KANBERİYE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KANOĞLU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAPAKLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARATEPE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARGALI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARPUZLU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAVAKBAŞI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAYALI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAYGILI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KAYNAKLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KEÇİLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KENGERLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KEPEZ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KEPİRLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KEREMLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KESME",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KISAS",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KIZILPINAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KOÇAK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KONAÇ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KONAK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KONUKLU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KÖRKUYU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KÖSECİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KÖSEKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "KÜÇÜKSENEMAĞARA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MAĞARACIK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MAMUCA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MEHMETCİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MİL",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MİMARSİNAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "MUTLUCA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "NOKTA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "OĞULBEY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ORTAÖREN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "OSMANBEY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "OSMANGAZİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÖRENCİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "PARMAKKAPI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "PAŞABAĞI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "PAYAMLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "PERŞEMBE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "REFAHİYE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SANCAKTAR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SARIŞEYH",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SARITAŞ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SARPDERE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SEFALI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SELAHADDİNİEYYUBİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SENDEBELEN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SEYRANTEPE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SIRRIN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SULTANFATİH",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SUMAKLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SUSUZ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "SÜLEYMANİYE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞAİRNABİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞAİRŞEVKET",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞEHİTLİK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞENOCAK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ŞEYHÇOBAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TAŞLICA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TEKERLİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TEPEDİBİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TEPEKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TERZİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "TOPRAKLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ULUBAĞ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ULUBATLI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ULUHAN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "UMUT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "UZUNKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÜÇGÖZE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÜÇKONAK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÜÇKUYU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "ÜZÜMKARA",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "VEYSELKARANİ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YARIMSU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YAVUZSELİM",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YAZILIKAVAK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEDİKUYU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YENİCE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YENİKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YENİSU",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YENİŞEHİR",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEROLUK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEŞİLDİREK",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEŞİLKÖY",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YEŞİLYURT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YILDIZ",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YOLYAZI",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YUKARIAKÖREN",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   },
+   {
+    "mahalle": "YUKARIKOYMAT",
+    "belde": "HALİLİYE-İLÇE MERKEZİ "
+   }
+  ],
+  "AKÇAKALE": [
+   "ACIKUYU",
+   "ADNAN MENDERES",
+   "AKBİLEK",
+   "AKÇAKÖY",
+   "AKÇALI",
+   "AKDİKEN",
+   "AKKEÇİ",
+   "AKSAHRINÇ",
+   "ALATLAR",
+   "ALINCAK",
+   "ARICAN",
+   "ASLANLI",
+   "AŞAĞI BEĞDEŞ",
+   "AŞAĞI ÇİNPOLAT",
+   "AŞAĞIDEREN",
+   "ATATÜRK",
+   "AYDINLI",
+   "AYRANLI",
+   "AYYILDIZ",
+   "BAYKUŞ",
+   "BİLECE",
+   "BOLATLAR",
+   "BOYBEYİ",
+   "BUKET",
+   "BULUTLU",
+   "BÜYÜCEK",
+   "BÜYÜK NANELİ",
+   "BÜYÜKTAŞ",
+   "BÜYÜKTOKAÇ",
+   "CEVHER",
+   "CEYLANLI",
+   "CUDİ DERESİ",
+   "ÇAKIRLAR",
+   "ÇOKALAN",
+   "ÇÖMLEKÇİ",
+   "ÇUKURCA",
+   "DENİZ",
+   "DİBEK",
+   "DONANDI",
+   "DORUMALİ",
+   "DÜZCE",
+   "EDEBEY",
+   "EKE",
+   "EKİNYAZI",
+   "ERDEMLER",
+   "ERECEK",
+   "ERTUĞRUL GAZİ",
+   "FATİH SULTAN MEHMET",
+   "FEVZİ ÇAKMAK",
+   "FİŞENGE",
+   "GEÇİTTEPE",
+   "GÖLBAŞI",
+   "GÜLVEREN",
+   "GÜNDAŞ",
+   "GÜNEREN",
+   "GÜVENÇ",
+   "HACIEKBER",
+   "HÜRRİYET",
+   "İKİZCE",
+   "İNCEDERE",
+   "KARATEPE",
+   "KAYACA",
+   "KAYALIK",
+   "KEÇİLİ",
+   "KELEBEK",
+   "KEPEZLİ",
+   "KILIÇLI",
+   "KIRMITLI",
+   "KORUKLU",
+   "KÖSEÖREN",
+   "KURUDERE",
+   "KÜÇÜK HACIEKBER",
+   "MAVİTAŞ",
+   "MENZİL",
+   "MERMER",
+   "MİLKÖY",
+   "NARLIOVA",
+   "NİMET",
+   "NUSRETİYE",
+   "OHALİ",
+   "OKAYLAR",
+   "ONORTAK",
+   "ORTADEREN",
+   "ORTAÖREN",
+   "OSMANLI",
+   "ÖNCÜL",
+   "PEKMEZLİ",
+   "SAKÇA",
+   "SALİHLER",
+   "SEVİMLİ",
+   "SEYRANTEPE",
+   "SINIRGÖREN",
+   "SÜLEYMANŞAH",
+   "ŞAHİNLER",
+   "ŞAHİNSOYLU",
+   "ŞANLI",
+   "ŞEFKAT",
+   "ŞEHİTNUSRETBEY",
+   "TAŞKINLAR",
+   "TATLICA",
+   "TEPECİK",
+   "TOPÇU",
+   "TURGUT ÖZAL",
+   "TUZLUCA",
+   "UĞRAKLI",
+   "UĞURHAN",
+   "UĞURTAŞ",
+   "VİZE",
+   "YAĞMURALAN",
+   "YALINLI",
+   "YAZLICA",
+   "YEDİYOL",
+   "YENİ",
+   "YENİŞEHİR",
+   "YEŞERTİ",
+   "YEŞİLTEPE",
+   "YİĞİTLER",
+   "YUKARI BEĞDEŞ",
+   "YUKARI ÇİNPOLAT",
+   "YUKARI ÇUKURCA",
+   "YUKARIDEREN",
+   "YUSUFBEY",
+   "ZENGİNOVA",
+   "ZEYTİNDALI",
+   "ZORLU"
+  ],
+  "KARAKÖPRÜ": [
+   "AĞILCIK",
+   "AĞIZHAN",
+   "AKBAYIR",
+   "AKÇAHİSAR",
+   "AKINCI",
+   "AKPINAR",
+   "AKPIYAR",
+   "ALİ BABA",
+   "APAYDIN",
+   "AŞAĞIÇİFTLİK",
+   "AŞIKKÖY",
+   "ATAKENT",
+   "AYANLAR",
+   "BAHÇELİ",
+   "BAŞÖREN",
+   "BATIKENT",
+   "BEZİRCİ",
+   "BOZKÖY",
+   "BÖLÜCEK",
+   "BUĞDAYHÜYÜK",
+   "BÜYÜK AKZİYARET",
+   "BÜYÜK ALANLI",
+   "BÜYÜK KARGILI",
+   "BÜYÜKÇÖMLEKÇİ",
+   "BÜYÜKÖRDEK",
+   "BÜYÜKSALKIM",
+   "CEMAL",
+   "ÇAKMAK",
+   "ÇAMLIYAYLA",
+   "ÇANKAYA",
+   "ÇIRALI",
+   "ÇİFTEKEMER",
+   "DEMİRCİK",
+   "DOĞUKENT",
+   "DOLUNAY",
+   "DOYUMLU",
+   "DÜĞER",
+   "ERGÜNKÖY",
+   "ESEMKULU",
+   "ESENTEPE",
+   "ESTAFİRULLAH",
+   "GAZİBEY",
+   "GEÇİTKÖY",
+   "GELİBOLU",
+   "GÖBEKLİ",
+   "GÖLGEN",
+   "GÖLPINAR",
+   "GÜLLÜBAĞ",
+   "GÜNIŞIK",
+   "HAMURKESEN",
+   "HORZUM",
+   "HÜYÜKLÜ",
+   "İLHAN",
+   "İSAÖREN",
+   "KARATAŞ",
+   "KARŞIYAKA",
+   "KASIMKUYU",
+   "KINA",
+   "KIRKPINAR",
+   "KIZILBURÇ",
+   "KIZLAR",
+   "KORUKEZEN",
+   "KÖKSÜREN",
+   "KUŞLUCA",
+   "KUYUCAK",
+   "KÜÇÜK AKZİYARET",
+   "KÜÇÜKALANLI",
+   "KÜÇÜKTÜLMEN",
+   "KÜLAFLI",
+   "LÜLECİ",
+   "MAŞUK",
+   "MEHMETÇİK",
+   "MİLLİSARAY",
+   "MUSTAFACIK",
+   "NARLIKUYU",
+   "OTLUKALAN",
+   "ÖĞÜTÇÜ",
+   "ÖRCÜNLÜ",
+   "ÖVERLER",
+   "ÖZGEDİK",
+   "PINARBAŞI",
+   "SAKÇA",
+   "SANCAK",
+   "SARIM",
+   "SEYRANTEPE ",
+   "ŞEKER",
+   "ŞENEVLER",
+   "ŞEYHZELİHA",
+   "TATBURCU",
+   "TÜLMEN",
+   "TÜRKMEN",
+   "UZUNCUK",
+   "YARIMTEPE",
+   "YAYLACIK",
+   "YEDİKUYU",
+   "YEMİŞLİ",
+   "YIĞINAK",
+   "YOĞUNBURÇ",
+   "YUKARIKOŞMA",
+   "YUSUFKUYU"
+  ],
+  "HİLVAN": [
+   "AĞILMUS",
+   "AĞVEREN",
+   "AKÇAKEBİR",
+   "AKÇAÖREN",
+   "ALPI",
+   "ARABUK",
+   "ARICA",
+   "ARINIK",
+   "ARPALI",
+   "ARSLANLI",
+   "AŞAĞIÇATAK",
+   "AŞAĞIEKECE",
+   "AŞAĞIKAMIŞ",
+   "AŞAĞIKÜLÜNÇE",
+   "AYDINLI",
+   "BAĞLAR",
+   "BAHÇECİK",
+   "BAHÇELİEVLER",
+   "BALKI",
+   "BARGAÇ",
+   "BÖLÜKBAŞI",
+   "BUĞUR",
+   "ÇAĞILLI",
+   "ÇAKMAK",
+   "ÇAT",
+   "ÇİMDELİ",
+   "DOĞRULAR",
+   "FAİK",
+   "GELENEK",
+   "GÖKTEPE",
+   "GÖLCÜK",
+   "GÖLEBAKAN",
+   "GÜLALDI",
+   "GÜLUŞAĞI",
+   "GÜRGÜR",
+   "HANMAĞARA",
+   "HAYRAT",
+   "HOŞİN",
+   "İNCİRLİ",
+   "KADIKENT",
+   "KARABURÇ",
+   "KARACURUN",
+   "KARAKUCAK",
+   "KARAPINAR",
+   "KAVALIK",
+   "KEPİRHİSAR",
+   "KEPİRKUCAK",
+   "KIRBAŞI",
+   "KORGUN",
+   "KOVANCI",
+   "KUSKUNLU",
+   "KÜÇÜK GÖLCÜK",
+   "MALÖREN",
+   "MANTARLI",
+   "NASREDDİN",
+   "ORGIZ",
+   "OVACIK",
+   "OYMAAĞAÇ",
+   "ÖMERLİ",
+   "ÖZBAŞ",
+   "ÖZVEREN",
+   "SALUCA",
+   "SÖĞÜTLÜ",
+   "SUCUHAN",
+   "USTAHASAN",
+   "UZUNCUK",
+   "ÜÇÜZLER",
+   "YAKINYURT",
+   "YENİ",
+   "YEŞERDİ",
+   "YUVACALI"
+  ],
+  "SURUÇ": [
+   "AĞIRTAŞ",
+   "AKÖREN",
+   "ALANYURT",
+   "ALİGÖR",
+   "AŞAĞI KARINCALI",
+   "AŞAĞI OYLUM",
+   "AYBASTI",
+   "AYDIN",
+   "AYHAN",
+   "BALABAN",
+   "BARIŞ",
+   "BELLİK",
+   "BİLGE",
+   "BİNATLI",
+   "BOZTEPE",
+   "BOZYOKUŞ",
+   "BÜYÜK SERGEN",
+   "BÜYÜK ZİYARET",
+   "BÜYÜKAĞACI",
+   "CUMHURİYET",
+   "ÇANAKÇI",
+   "ÇAYKARA",
+   "ÇENGELLİ",
+   "ÇOMAK",
+   "DEMOKRASİ",
+   "DİKİLİ",
+   "DİNLENCE",
+   "DUMLUKUYU",
+   "EKİLİ",
+   "ESKİCE",
+   "ESKİÖREN",
+   "EZGİL",
+   "FISTIKLI",
+   "GÖLEÇ",
+   "GÖLEN",
+   "GÜNEBAKAN",
+   "HACILI",
+   "HARMANALAN",
+   "HÜRRİYET",
+   "HÜYÜKYANI",
+   "İZCİ",
+   "KALKANLI",
+   "KAPICI",
+   "KARACA",
+   "KARADUT",
+   "KARAHÜYÜK",
+   "KARAKÖY",
+   "KARAKUYU",
+   "KARATAŞ",
+   "KEBERLİ",
+   "KESMECİK",
+   "KIRMIT",
+   "KIZILHÜYÜK",
+   "KÖSELER",
+   "KÖSEVELİ",
+   "KURUTEPE",
+   "KÜÇÜK SERGEN",
+   "KÜÇÜK ZİYARET",
+   "KÜÇÜKKÖPRÜ",
+   "KÜÇÜKOVA",
+   "MERTİSMAİL",
+   "MOLLAHAMZA",
+   "MÜRŞİTPINAR",
+   "ORTABOSTANCI",
+   "OYMAKLI",
+   "ÖLÇEKTEPE",
+   "ÖRGÜTLÜ",
+   "ÖZLÜCE",
+   "SARAYALTI",
+   "SAYGIN",
+   "TAŞLIKUYU",
+   "TAVŞANKÖY",
+   "TOKÇALI",
+   "TOPÇULAR",
+   "ULUDÜZ",
+   "UYSALLI",
+   "UZGÖREN",
+   "ÜÇPINAR",
+   "ÜVEÇLİ",
+   "YAĞIŞLI",
+   "YALINCA",
+   "YALPI",
+   "YANALOBA",
+   "YATIRTEPE",
+   "YAYLATEPE",
+   "YAZIKÖY",
+   "YEĞEN",
+   "YENİŞEHİR(ŞARYANI)",
+   "YILDIRIM",
+   "YILDIZ",
+   "YÖNLÜ",
+   "YUKARI BOSTANCI",
+   "YUMURTALIK",
+   "YURTÇİÇEĞİ",
+   "ZEYREK"
+  ],
+  "HALFETİ": [
+   "ALTINOVA",
+   "ARGAÇ",
+   "ARGIL",
+   "AŞAĞIGÖĞLÜ",
+   "BALABAN",
+   "BEYBURCU",
+   "BİTEK",
+   "BOZYAZI",
+   "BULAKLI",
+   "CUMHURİYET",
+   "ÇAKALLI",
+   "ÇEBEKOĞLU",
+   "DERGİLİ",
+   "DURAK",
+   "DUTLUCA",
+   "ERİKLİ",
+   "FIRAT",
+   "FISTIKÖZÜ",
+   "GÖZELİ",
+   "GÜLAÇAN",
+   "GÜNECE",
+   "GÜRKUYU",
+   "GÜRLÜCE",
+   "HİLALLİ",
+   "KALKAN",
+   "KANTARMA",
+   "KARAOTLAK",
+   "KAVAKLICA",
+   "KAYALAR",
+   "KINIK",
+   "KURUGÖL",
+   "MACUNLU",
+   "NARLIK",
+   "ORTAYOL",
+   "ÖMERLİ",
+   "ÖZMÜŞ",
+   "RÜŞTİYE",
+   "SAVAŞAN",
+   "SAYLAKKAYA",
+   "SELDEK",
+   "SELMANLI",
+   "SIRATAŞLAR",
+   "SİYAHGÜL",
+   "SÜTVEREN",
+   "ŞİMALİYE",
+   "TAVŞANÖREN",
+   "YENİMAHALLE",
+   "YEŞİLÖZEN",
+   "YUKARIGÖKLÜ"
+  ]
+ }
+}

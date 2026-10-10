@@ -1,0 +1,236 @@
+{
+ "il": "KIRIKKALE",
+ "ilceler": {
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AKŞEMSETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AŞAĞIMAHMUTLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAĞLARBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇALILIÖZ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇULLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ETİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FABRİKALAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜNDOĞDU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜRLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HÜSEYİNKAHYA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KALETEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARŞIYAKA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIRIKKÖYÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KIZILIRMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KİMESKİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KURTULUŞ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OSMANGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OVACIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SANAYİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SELİMÖZER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TEPEBAŞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAYLACIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİDOĞAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUVA",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "DELİCE": [
+   "AKTEPE",
+   "CUMHURİYET",
+   "FATİH",
+   "FEVZİ ÇAKMAK",
+   {
+    "mahalle": "GÖKÇEBEL",
+    "belde": "ÇERİKLİ"
+   },
+   "GÜNDÜZ",
+   "HÜRRİYET",
+   "KARABEKİR",
+   {
+    "mahalle": "MERKEZ",
+    "belde": "ÇERİKLİ"
+   },
+   "MİMAR SİNAN",
+   {
+    "mahalle": "SAKARYA",
+    "belde": "ÇERİKLİ"
+   },
+   {
+    "mahalle": "YENİMAHALLE",
+    "belde": "ÇERİKLİ"
+   },
+   {
+    "mahalle": "YERLİKENT",
+    "belde": "ÇERİKLİ"
+   }
+  ],
+  "YAHŞİHAN": [
+   "ALAADDİN",
+   "BAYRAKTEPE",
+   "DOĞANLIK",
+   "EMİRLER",
+   "ERENLER",
+   "HACIBEY",
+   "KADIOĞLU",
+   "SEYRANTEPE",
+   "YENİŞEHİR",
+   "YEŞİL VADİ"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "ALTINOVA",
+    "belde": "HACILAR"
+   },
+   {
+    "mahalle": "HACIBEY",
+    "belde": "HACILAR"
+   },
+   {
+    "mahalle": "SAĞLIK",
+    "belde": "HACILAR"
+   }
+  ],
+  "KESKİN": [
+   "ALTINTAŞ",
+   "BOZKURT",
+   "GÜNDOĞDU",
+   "MADEN",
+   "YENİ",
+   "YENİCE"
+  ],
+  "BAHŞILI": [
+   {
+    "mahalle": "ATADÖNMEZ",
+    "belde": "BAHŞİLİ-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "DOĞANAY",
+    "belde": "BAHŞİLİ-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HALİM ŞENSES",
+    "belde": "BAHŞİLİ-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HİDAYET DOĞRUER",
+    "belde": "BAHŞİLİ-İLÇE MERKEZİ"
+   },
+   {
+    "mahalle": "HÜSEYİN ONBAŞI",
+    "belde": "BAHŞİLİ-İLÇE MERKEZİ"
+   }
+  ],
+  "BALIŞEYH": [
+   "BALLI",
+   "OBA",
+   "TOKİ",
+   "YENİ"
+  ],
+  "ÇELEBİ": [
+   "BARBAROS",
+   "FATİH",
+   "GÜLVEREN",
+   "YENİ"
+  ],
+  "SULAKYURT": [
+   "CUMHURİYET",
+   "YAYLA",
+   "YENİHAYAT",
+   "YENİMAHALLE",
+   "YEŞİLYURT",
+   "YILDIZ",
+   "YÜKSELEN"
+  ],
+  "KARAKEÇİLİ": [
+   "FATİH SULTAN MEHMET",
+   "HOCA AHMET YESEVİ",
+   "KARŞIYAKA",
+   "KURTULUŞ",
+   "MAREŞAL FEVZİ ÇAKMAK",
+   "YAVUZ SULTAN SELİM",
+   "YEŞİLEVLER",
+   "ZAFER"
+  ]
+ }
+}

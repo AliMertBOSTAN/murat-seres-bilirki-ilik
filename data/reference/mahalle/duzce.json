@@ -1,0 +1,381 @@
+{
+ "il": "DÜZCE ",
+ "ilceler": {
+  "GÖLYAKA": [
+   "AÇMA",
+   "CUMAKIRI",
+   "ESEN",
+   "FATİH",
+   "İÇMELER",
+   "İMAMLAR",
+   "KUYUDÜZÜ",
+   "KÜLTÜR",
+   "YAZIPINARI",
+   "YAZLIK",
+   "YENİ",
+   "YEŞİL"
+  ],
+  "AKÇAKOCA": [
+   "AYAZLI",
+   "CUMHURİYET",
+   "HACIYUSUFLAR",
+   "ORHANGAZİ",
+   "OSMANİYE",
+   "YALI",
+   "YENİ",
+   "YUKARI"
+  ],
+  "CUMAYERİ": [
+   "ÇEVRİK",
+   "MEHMET AKİF",
+   "ORTA",
+   "YAKA",
+   "YENİ"
+  ],
+  "ÇİLİMLİ": [
+   "ARABACI",
+   "MAHİRAĞA",
+   "ŞEREFİYE",
+   "TOPÇULAR",
+   "ULUCAMİ",
+   "YEŞİL",
+   "YEŞİLTEPE"
+  ],
+  "GÜMÜŞOVA": [
+   "FATİH",
+   "HACILAR",
+   "KIŞLA",
+   "KÜLTÜR",
+   "MERKEZ",
+   "YENİ"
+  ],
+  "İL MERKEZİ": [
+   {
+    "mahalle": "AĞAKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKINLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AKYAZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ARAPÇİFTLİĞİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AZİZİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "AZMİMİLLİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BAHÇELİEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BEYCİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "BURHANİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CAMİKEBİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CEDİDİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAKIRLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMKÖY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAMLIEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAVUŞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇAY",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ÇİFTEPINARLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DARICI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEDELER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DEMETEVLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "DERELİTÜTÜNCÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ESENTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FATİH",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "FEVZİÇAKMAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÖKÇE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "GÜZELBAHÇE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "HAMİDİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KADIOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARACA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KARACAHACIMUSA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KAZUKOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KİRAZLI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KİREMİTOCAĞI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KOÇYAZI",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÖRPEŞLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KUYUMCU HACI ALİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MAMURE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "MERGİÇ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NALBANTOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "NUSRETTİN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ORHANGAZİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OTLUOĞLU",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "OZANLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SALLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SANCAKLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SARAYYERİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "SOĞUKPINAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT BAYRAM GÖKMAN",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT HÜSEYİN KIL",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT KEMAL IŞILDAK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEHİT MURAT DEMİR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞEREFİYE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "ŞIRALIK",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TAŞKÖPRÜ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TERZİALİLER",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "TOKUŞLAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "UZUNMUSTAFA",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YAHYALAR",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YEŞİLTEPE",
+    "belde": "İL MERKEZİ"
+   },
+   {
+    "mahalle": "YUKARIYAHYALAR",
+    "belde": "İL MERKEZİ"
+   }
+  ],
+  "KAYNAŞLI": [
+   "ÇELE",
+   "ESKİKÖY",
+   "KARAÇALI",
+   "KUMLUCA",
+   "MERKEZ",
+   "SARIYER",
+   "ŞİMŞİR"
+  ],
+  "MERKEZ": [
+   {
+    "mahalle": "BALLAR",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "BEYTEPE",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "CUMHURİYET",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "ÇAYIRTARLA",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "DEĞİRMENBAŞI",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "DOKUZPINAR",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "İSTİKLAL",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "KABALAK",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "KÜLTÜR",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "ŞEKERPINAR",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "YAZLIK",
+    "belde": "BOĞAZİÇİ"
+   },
+   {
+    "mahalle": "YENİ",
+    "belde": "BEYKÖY"
+   },
+   {
+    "mahalle": "YEŞİLKÖY",
+    "belde": "BOĞAZİÇİ"
+   }
+  ],
+  "YIĞILCA": [
+   "AHMETCİLER",
+   "ATATÜRK",
+   "GÜNEY",
+   "M.FEVZİ ÇAKMAK",
+   "ORHANGAZİ"
+  ]
+ }
+}
