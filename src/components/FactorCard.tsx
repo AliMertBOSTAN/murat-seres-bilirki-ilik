@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import type { FactorDef, FactorEntry, FactorResult } from '@/engine/types'
 import { INCELEME_DURUMLARI } from '@/engine/types'
-import { listItems, listIdForCell, EVIDENCE_CODES, loadLibraryRows } from '@/content'
+import { listItems, listIdForCell, effectiveEvidenceCodes, loadLibraryRows } from '@/content'
 import { useCaseStore } from '@/store/caseStore'
 import { useSettingsStore } from '@/store/settingsStore'
 import { StatusChip } from '@/ui/StatusChip'
@@ -25,21 +25,23 @@ export function FactorCard({ def, entityIndex, entry, result, compact = false }:
   const openLibrary = () => { setOpenLib(true); if (!libRows) void loadLibraryRows(def).then(setLibRows) }
   const patch = (p: Partial<FactorEntry>) => updateEntry(def.id, entityIndex, p)
   const tespit = { yontemler: entry?.tespit?.yontemler ?? [], puanlar: entry?.tespit?.puanlar ?? [], delilKodu: entry?.tespit?.delilKodu ?? null, dogrulama: entry?.tespit?.dogrulama ?? null }
-  const vs = def.valueSource as { kind: string; path?: string; cell?: string }
+  const vs = def.valueSource as { kind: string; path?: string; cell?: string; listId?: string }
   const isInput = vs.kind === 'input'
   const inputPath = isInput && vs.path ? vs.path.replace('[]', `[${entityIndex ?? 0}]`) : null
   const valueOptions = useMemo(() => {
+    // Ayarlarda değer kaynağı listesi (valueSource.listId) seçilmişse önce o kullanılır.
+    if (vs.listId) return settings.listOverrides[vs.listId] ?? listItems(vs.listId)
     const fromOptions = def.options.filter((o) => !/[:：]\s*$/.test(o.label) && o.label.trim() !== def.subTitle.trim()).map((o) => o.label.trim())
     if (fromOptions.length) return Array.from(new Set(fromOptions))
     const lid = def.sourceRef.sheet ? listIdForCell(def.sourceRef.sheet, `E${(def.sourceRef.statusRow ?? 0) - 1}`) : undefined
     return listItems(lid)
-  }, [def])
+  }, [def, vs.listId, settings.listOverrides])
   const yontemList = listItems('tespit-yontemi')
   const sorumluList = listItems('sorumlu')
   const hakimList = listItems('hakim-savci-tespit')
   const dogrulamaList = listItems('tespit-dogrulama')
-  const delilList = (EVIDENCE_CODES.codes as { kod: string }[]).map((c) => c.kod).filter((k, i, a) => a.indexOf(k) === i)
-  const delilAd = (kod: string) => (EVIDENCE_CODES.mapping as { turkceKod: string; ad: string }[]).find((m) => m.turkceKod === kod)?.ad
+  // Delil kodları: paket + Ayarlar › Delil Kodları katmanı (eklenen/düzenlenen/gizlenen).
+  const delilList = useMemo(() => effectiveEvidenceCodes(settings).map((c) => ({ value: c.kod, label: c.ad ? `${c.kod} — ${c.ad}` : c.kod })), [settings])
   const warnings: string[] = []
   if (!result.durumDefined) warnings.push('Bu İnceleme Durumu için Excel kuralı tanımsız (FALSE).')
   const ek = def.ekDosya as { on?: string }
@@ -129,7 +131,7 @@ export function FactorCard({ def, entityIndex, entry, result, compact = false }:
             <div className="mt-2 grid grid-cols-[1fr_auto] items-end gap-2">
               <div>
                 <span className="etiket">Delil Kodu</span>
-                <Select options={delilList.map((k) => ({ value: k, label: delilAd(k) ? `${k} — ${delilAd(k)}` : k }))} value={tespit.delilKodu ?? ''} onChange={(v) => patch({ tespit: { ...tespit, delilKodu: v } })} className="!text-xs" />
+                <Select options={delilList} value={tespit.delilKodu ?? ''} onChange={(v) => patch({ tespit: { ...tespit, delilKodu: v } })} className="!text-xs" />
               </div>
               <div>
                 <span className="etiket">Puan</span>

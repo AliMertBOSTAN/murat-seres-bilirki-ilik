@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { ALL_FACTORS, STATUS_PROFILE_BY_ID, CONTENT_VERSION } from '@/content'
+import { ALL_FACTORS, GROUP_ORDER, CONTENT_VERSION, effectiveProfiles } from '@/content'
 import type { CaseData } from '@/model/case'
 import { ENTITY_KIND_BY_FACTOR } from '@/model/case'
 import type { FactorDef, FactorEntry, FactorResult } from './types'
@@ -12,15 +12,26 @@ export const keyOf = (factorId: string, idx: number | null | undefined) => `${fa
 
 export interface EvaluatedCard { def: FactorDef; entityIndex: number | null; entry: FactorEntry | undefined; result: FactorResult }
 
-/** Ayarlardaki içerik geçersiz kılmalarını uygular. */
+/** Paket içindeki grup içi sıra (1'den başlar); `order` verilmemişse bu kullanılır. */
+export const PACKAGE_ORDER: Map<string, number> = (() => {
+  const m = new Map<string, number>()
+  const counters: Record<string, number> = {}
+  for (const f of ALL_FACTORS) { counters[f.group] = (counters[f.group] ?? 0) + 1; m.set(f.id, counters[f.group]) }
+  return m
+})()
+
+/** Ayarlardaki içerik geçersiz kılmalarını uygular; grup sırası GROUP_ORDER, grup içi sıra `order` (yoksa paket sırası). */
 export function effectiveFactors(settings: Settings): FactorDef[] {
   const ov = settings.contentOverrides
-  return ALL_FACTORS.map((f) => (ov[f.id] ? ({ ...f, ...ov[f.id] } as FactorDef) : f))
+  const list = ALL_FACTORS.map((f, i) => ({ def: (ov[f.id] ? ({ ...f, ...ov[f.id] } as FactorDef) : f), i }))
+  const gi = (g: string) => { const k = GROUP_ORDER.indexOf(g); return k < 0 ? GROUP_ORDER.length : k }
+  const ord = (d: FactorDef) => (typeof d.order === 'number' && Number.isFinite(d.order) ? d.order : (PACKAGE_ORDER.get(d.id) ?? 0))
+  return list.sort((a, b) => gi(a.def.group) - gi(b.def.group) || ord(a.def) - ord(b.def) || a.i - b.i).map((x) => x.def)
 }
 
 export function evaluateAll(caseData: CaseData, settings: Settings): Map<string, EvaluatedCard> {
   const out = new Map<string, EvaluatedCard>()
-  const ctx = { caseData: caseData as unknown as Record<string, unknown>, profiles: STATUS_PROFILE_BY_ID, settings: settings.engine, contentVersion: CONTENT_VERSION }
+  const ctx = { caseData: caseData as unknown as Record<string, unknown>, profiles: effectiveProfiles(settings), settings: settings.engine, contentVersion: CONTENT_VERSION }
   for (const def of effectiveFactors(settings)) {
     if (def.draft && !settings.showDrafts && !def.showInReport) continue
     const kind = def.perEntity ? ENTITY_KIND_BY_FACTOR[def.perEntity] : null

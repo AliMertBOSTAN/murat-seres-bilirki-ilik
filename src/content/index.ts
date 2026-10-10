@@ -85,3 +85,74 @@ export async function loadLibraryRows(factor: FactorDef): Promise<{ row: number;
   const m = await libraryFiles[path]()
   return m.default[factor.id] ?? []
 }
+
+/* ───────────── Ayar katmanıyla birleşen saf yardımcılar ───────────── */
+
+/** Delil kodu — paket + ayar katmanının birleşimi. */
+export interface EvidenceCode { kod: string; ad: string; not: string; grup: string; kaynak: 'paket' | 'eklendi' | 'düzenlendi' }
+type EvidenceOverridesLike = { added: { kod: string; ad: string; not?: string; grup?: string }[]; edited: Record<string, { ad?: string; not?: string; grup?: string }>; removed: string[] }
+
+/** "ÇEV-02" → "ÇEV", "ZMN-KYN-02" → "ZMN-KYN" (son parça sayı ise atılır). */
+export function evidenceGroupOf(kod: string): string {
+  const parts = kod.split('-')
+  if (parts.length > 1 && /^\d+$/.test(parts[parts.length - 1])) return parts.slice(0, -1).join('-')
+  return parts.length > 1 ? parts[0] : ''
+}
+
+/** Paketten gelen delil kodları (tekilleştirilmiş; ad eşlemesi mapping'den). */
+export function packageEvidenceCodes(): EvidenceCode[] {
+  const ec = evidenceCodes as { codes: { kod: string; sira: number | null; not: string }[]; mapping: { eskiKod: string; turkceKod: string; ad: string }[] }
+  const seen = new Set<string>()
+  const out: EvidenceCode[] = []
+  for (const c of ec.codes) {
+    const kod = String(c.kod ?? '').trim()
+    if (!kod || seen.has(kod)) continue
+    seen.add(kod)
+    out.push({ kod, ad: ec.mapping.find((m) => m.turkceKod === kod)?.ad ?? '', not: c.not ?? '', grup: evidenceGroupOf(kod), kaynak: 'paket' })
+  }
+  return out
+}
+
+/** Paket kodları + ayar katmanı (eklenen / düzenlenen / gizlenen). Gizlenenler hariç, kod benzersiz. */
+export function effectiveEvidenceCodes(settings: { evidenceOverrides?: EvidenceOverridesLike }): EvidenceCode[] {
+  const ov: EvidenceOverridesLike = settings.evidenceOverrides ?? { added: [], edited: {}, removed: [] }
+  const removed = new Set(ov.removed)
+  const out: EvidenceCode[] = []
+  for (const c of packageEvidenceCodes()) {
+    if (removed.has(c.kod)) continue
+    const e = ov.edited[c.kod]
+    out.push(e ? { ...c, ad: e.ad ?? c.ad, not: e.not ?? c.not, grup: e.grup ?? c.grup, kaynak: 'düzenlendi' } : c)
+  }
+  const seen = new Set(out.map((c) => c.kod))
+  for (const a of ov.added) {
+    const kod = String(a.kod ?? '').trim()
+    if (!kod || seen.has(kod) || removed.has(kod)) continue
+    seen.add(kod)
+    out.push({ kod, ad: a.ad ?? '', not: a.not ?? '', grup: a.grup ?? evidenceGroupOf(kod), kaynak: 'eklendi' })
+  }
+  return out
+}
+
+type ProfileOverrideLike = { mapping?: Record<string, string>; else?: string; copiedFrom?: string }
+
+/** Paket profilleri + ayar katmanı. Override mapping'inde 'FALSE' değeri anahtarı siler (⚠ tanımsız). Yeni (kopya) profiller de eklenir. */
+export function effectiveProfileList(settings: { profileOverrides?: Record<string, ProfileOverrideLike> }): StatusProfile[] {
+  const ov = settings.profileOverrides ?? {}
+  const apply = (base: StatusProfile, o: ProfileOverrideLike | undefined): StatusProfile => {
+    if (!o) return base
+    const mapping: Record<string, string> = { ...base.mapping, ...(o.mapping ?? {}) }
+    for (const k of Object.keys(mapping)) if (mapping[k] === 'FALSE') delete mapping[k]
+    return { ...base, mapping, else: o.else ?? base.else }
+  }
+  const out = STATUS_PROFILES.map((p) => apply(p, ov[p.id]))
+  for (const [id, o] of Object.entries(ov)) {
+    if (STATUS_PROFILE_BY_ID.has(id)) continue
+    const src = o.copiedFrom ? STATUS_PROFILE_BY_ID.get(o.copiedFrom) : undefined
+    out.push(apply({ id, mapping: src?.mapping ?? {}, else: src?.else ?? 'FALSE', sheets: [] }, o))
+  }
+  return out
+}
+
+export function effectiveProfiles(settings: { profileOverrides?: Record<string, ProfileOverrideLike> }): Map<string, StatusProfile> {
+  return new Map(effectiveProfileList(settings).map((p) => [p.id, p]))
+}

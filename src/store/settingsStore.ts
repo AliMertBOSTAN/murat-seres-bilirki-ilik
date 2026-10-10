@@ -5,6 +5,16 @@ import { CONTENT_VERSION } from '@/content'
 
 export interface SettingsVersion { version: string; note: string; at: string; hash: string }
 
+/** Delil kodu geçersiz kılmaları: paket kodlarının üstüne eklenen / düzenlenen / gizlenen kodlar. */
+export interface EvidenceOverrides {
+  added: { kod: string; ad: string; not?: string; grup?: string }[]
+  edited: Record<string, { ad?: string; not?: string; grup?: string }>
+  removed: string[]
+}
+
+/** Kural profili geçersiz kılması: mapping anahtarları paket profilinin üstüne biner ('FALSE' → tanımsız). `copiedFrom` yeni (kopya) profil işaretidir. */
+export interface ProfileOverride { mapping?: Record<string, string>; else?: string; copiedFrom?: string }
+
 export interface Settings {
   engine: EngineSettings
   summaryScope: 'excel' | 'all'
@@ -21,6 +31,8 @@ export interface Settings {
   listOverrides: Record<string, string[]>
   textOverrides: Record<string, string>
   reportMetaOverrides: Record<string, string>
+  evidenceOverrides: EvidenceOverrides
+  profileOverrides: Record<string, ProfileOverride>
   version: string
   history: SettingsVersion[]
   lastHash: string
@@ -34,7 +46,24 @@ export const DEFAULT_SETTINGS: Settings = {
   gunes: { thetaBands: [{ max: 5, sinif: 'Tam körlük', K: 0.1 }, { max: 10, sinif: 'Çok yüksek', K: 0.4 }, { max: 20, sinif: 'Yüksek', K: 0.6 }, { max: 45, sinif: 'Orta', K: 0.8 }, { max: 180, sinif: 'Düşük/önemsiz', K: 1 }],
     varsayilanReaksiyon: 1.5, varsayilanPitch: 0, varsayilanUtcOfset: 3, oneriEslemesi: { 'Tam körlük': 'Yetersiz', 'Çok yüksek': 'Yetersiz', 'Yüksek': 'Belirsiz', 'Orta': 'Yeterli', 'Düşük/önemsiz': 'Yeterli' } },
   contentOverrides: {}, listOverrides: {}, textOverrides: {}, reportMetaOverrides: {},
+  evidenceOverrides: { added: [], edited: {}, removed: [] },
+  profileOverrides: {},
   version: `${CONTENT_VERSION}`, history: [{ version: CONTENT_VERSION, note: 'Paketle gelen varsayılan içerik (Faz 0 çıkarımı)', at: '2026-10-10T00:00:00Z', hash: 'paket' }], lastHash: 'paket',
+}
+
+/** Eski (persist edilmiş ya da dışa aktarılmış) ayarları DEFAULT_SETTINGS ile tamamlar; eksik alanlar varsayılandan gelir. */
+export function mergeSettings(partial: Partial<Settings> | null | undefined): Settings {
+  const p = partial ?? {}
+  return {
+    ...DEFAULT_SETTINGS, ...p,
+    engine: { ...DEFAULT_SETTINGS.engine, ...(p.engine ?? {}) },
+    duzeltmeler: { ...DEFAULT_SETTINGS.duzeltmeler, ...(p.duzeltmeler ?? {}) },
+    gunes: { ...DEFAULT_SETTINGS.gunes, ...(p.gunes ?? {}) },
+    contentOverrides: p.contentOverrides ?? {}, listOverrides: p.listOverrides ?? {}, textOverrides: p.textOverrides ?? {}, reportMetaOverrides: p.reportMetaOverrides ?? {},
+    evidenceOverrides: { added: p.evidenceOverrides?.added ?? [], edited: p.evidenceOverrides?.edited ?? {}, removed: p.evidenceOverrides?.removed ?? [] },
+    profileOverrides: p.profileOverrides ?? {},
+    history: p.history ?? DEFAULT_SETTINGS.history,
+  }
 }
 
 export async function hashSettings(s: Settings): Promise<string> {
@@ -75,9 +104,14 @@ export const useSettingsStore = create<SettingsStore>()(
       },
       reset: () => set({ settings: DEFAULT_SETTINGS }),
       setAdminToken: (t) => set({ adminToken: t }),
-      importSettings: (s) => set({ settings: s }),
+      importSettings: (s) => set({ settings: mergeSettings(s) }),
     }),
-    { name: 'seres-settings', partialize: (s) => ({ settings: s.settings }) },
+    {
+      name: 'seres-settings',
+      partialize: (s) => ({ settings: s.settings }),
+      // Eski sürümden kalan kayıtlarda eksik alanlar DEFAULT_SETTINGS'ten tamamlanır.
+      merge: (persisted, current) => ({ ...current, settings: mergeSettings((persisted as Partial<SettingsStore> | undefined)?.settings) }),
+    },
   ),
 )
 

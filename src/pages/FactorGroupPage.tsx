@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { FACTORS_BY_GROUP, GROUP_TITLES } from '@/content'
-import { useAllResults, keyOf } from '@/engine/selectors'
+import { GROUP_TITLES } from '@/content'
+import { useAllResults, keyOf, effectiveFactors } from '@/engine/selectors'
 import { useCaseStore } from '@/store/caseStore'
 import { useSettingsStore } from '@/store/settingsStore'
 import { FactorCard } from '@/components/FactorCard'
@@ -28,7 +28,7 @@ export function FactorGroupPage({ group: groupProp }: { group?: string }) {
   const addEntity = useCaseStore((s) => s.addEntity)
   const settings = useSettingsStore((s) => s.settings)
   const all = useAllResults()
-  const defs = useMemo(() => (FACTORS_BY_GROUP[group] ?? []).filter((d) => !d.draft || settings.showDrafts), [group, settings.showDrafts])
+  const defs = useMemo(() => effectiveFactors(settings).filter((d) => d.group === group && (!d.draft || settings.showDrafts)), [group, settings])
   const perEntity = defs.find((d) => d.perEntity)?.perEntity ?? null
   const kind = perEntity ? (ENTITY_KIND_BY_FACTOR[perEntity] as EntityKind) : null
   const count = kind ? Math.max(1, c[kind].length) : 1

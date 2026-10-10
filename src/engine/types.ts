@@ -79,6 +79,8 @@ export interface FactorDef {
   extraBlocks: { label: string; row?: number; source?: Source | null; sampleValue?: unknown }[]
   texts?: Record<string, string>
   showInReport: boolean
+  /** Grup içi sıra (Ayarlar); yoksa paket sırası kullanılır. */
+  order?: number
   draft: boolean
   libraryRows?: LibraryRow[]
   libraryRowCount?: number

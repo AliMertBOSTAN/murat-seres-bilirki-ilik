@@ -1,11 +1,12 @@
 import type { FactorDef, FactorResult } from '@/engine/types'
 import { StatusChip } from '@/ui/StatusChip'
-import { STATUS_PROFILE_BY_ID } from '@/content'
+import { effectiveProfiles } from '@/content'
 import { useSettingsStore } from '@/store/settingsStore'
 
 export function ProvenancePanel({ def, result }: { def: FactorDef; result: FactorResult }) {
   const settings = useSettingsStore((s) => s.settings)
-  const profile = STATUS_PROFILE_BY_ID.get(settings.engine.statusProfileOverride ?? def.statusProfile)
+  const profiles = effectiveProfiles(settings)
+  const profile = profiles.get(settings.engine.statusProfileOverride ?? def.statusProfile) ?? profiles.get(def.statusProfile)
   return (
     <div className="space-y-4 text-sm">
       <div className="rounded-lg bg-lacivert p-4 text-white">

@@ -1,18 +1,23 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { useSettingsStore, DEFAULT_SETTINGS, type Settings } from '@/store/settingsStore'
-import { ALL_FACTORS, GROUP_TITLES, GROUP_ORDER, LISTS, STATUS_PROFILES, STATUS_INPUTS, CONSTANTS, EVIDENCE_CODES, LEGAL_TEXTS, REPORT_META, CONTENT_VERSION } from '@/content'
-import { MODULES, validateRegistry } from '@/modules/registry'
+import { useSettingsStore, DEFAULT_SETTINGS, type Settings, type EvidenceOverrides } from '@/store/settingsStore'
+import { ALL_FACTORS, FACTOR_BY_ID, GROUP_TITLES, GROUP_ORDER, LISTS, STATUS_PROFILES, STATUS_PROFILE_BY_ID, STATUS_INPUTS, CONSTANTS, EVIDENCE_CODES, LEGAL_TEXTS, REPORT_META, CONTENT_VERSION, effectiveEvidenceCodes, packageEvidenceCodes, evidenceGroupOf, effectiveProfileList, type EvidenceCode } from '@/content'
+import { MODULES, MODULE_DEFS, validateRegistry } from '@/modules/registry'
 import { INCONSISTENCIES } from '@/data/inconsistencies'
 import { PageHeader, Tabs, Field, TextInput, TextArea, Toggle, Badge, Select, Segmented } from '@/ui/primitives'
 import { StatusChip } from '@/ui/StatusChip'
 import { download } from '@/lib/io'
-import type { FactorDef } from '@/engine/types'
+import { INCELEME_DURUMLARI, type FactorDef } from '@/engine/types'
+import { countsForSummary } from '@/engine/status'
+import { PACKAGE_ORDER } from '@/engine/selectors'
 import { adminLogin, pullCentralSettings, pushCentralSettings } from '@/lib/central'
 import { useAuthStore } from '@/store/authStore'
+import inputFields from '@content/core/input-fields.json'
+
+const INPUT_LABELS: Record<string, string> = Object.fromEntries((inputFields.grs1 as { path: string; label: string }[]).map((f) => [f.path, f.label]))
 
 const SECTIONS = [
-  { id: 'bilgi-bankasi', label: 'Bilgi Bankası' }, { id: 'listeler', label: 'Listeler' }, { id: 'kurallar', label: 'Kural Profilleri' }, { id: 'katsayilar', label: 'Katsayılar ve Sabitler' },
+  { id: 'genel', label: 'Genel' }, { id: 'bilgi-bankasi', label: 'Bilgi Bankası' }, { id: 'listeler', label: 'Listeler' }, { id: 'kurallar', label: 'Kural Profilleri' }, { id: 'katsayilar', label: 'Katsayılar ve Sabitler' },
   { id: 'referans', label: 'Referans Veriler' }, { id: 'delil', label: 'Delil Kodları' }, { id: 'hukuki', label: 'Hukuki Metinler' }, { id: 'meta', label: 'Rapor Meta ve Kimlik' },
   { id: 'numaralandirma', label: 'Numaralandırma' }, { id: 'moduller', label: 'Modüller' }, { id: 'surum', label: 'Sürüm Geçmişi' }, { id: 'tutarsizlik', label: 'Tutarsızlık Raporu' },
 ] as const
@@ -65,12 +70,13 @@ export function AyarlarPage() {
       {msg && <div className="mb-3 rounded-lg bg-camgobegi-100 px-3 py-2 text-sm text-lacivert">{msg}</div>}
       <Tabs tabs={SECTIONS.map((s) => ({ id: s.id, label: s.label }))} value={tab} onChange={(t) => navigate(`/ayarlar/${t}`)} />
       <div className="mt-4">
+        {tab === 'genel' && <Genel settings={settings} update={update} />}
         {tab === 'bilgi-bankasi' && <BilgiBankasi settings={settings} update={update} />}
         {tab === 'listeler' && <Listeler settings={settings} update={update} />}
         {tab === 'kurallar' && <Kurallar settings={settings} update={update} />}
         {tab === 'katsayilar' && <Katsayilar settings={settings} update={update} />}
         {tab === 'referans' && <Referans />}
-        {tab === 'delil' && <Delil />}
+        {tab === 'delil' && <Delil settings={settings} update={update} />}
         {tab === 'hukuki' && <Hukuki settings={settings} update={update} />}
         {tab === 'meta' && <Meta settings={settings} update={update} />}
         {tab === 'numaralandirma' && <Numaralandirma settings={settings} update={update} />}
@@ -84,7 +90,143 @@ export function AyarlarPage() {
 
 type P = { settings: Settings; update: (p: Partial<Settings> | ((s: Settings) => Partial<Settings>)) => void }
 
+/* ───────────── Genel: motor, kapsam, rapor ve görünüm anahtarları ───────────── */
+
+function Genel({ settings, update }: P) {
+  const profiles = effectiveProfileList(settings)
+  const e = settings.engine
+  return (
+    <div className="grid gap-4 lg:grid-cols-2">
+      <div className="kart space-y-3 p-4">
+        <h3 className="font-semibold text-lacivert">Motor</h3>
+        <div><div className="etiket mb-1">Metin birleştirme</div><Segmented options={['excel', 'okunur'] as const} value={e.renderMode} onChange={(v) => v && update({ engine: { ...e, renderMode: v } })} labels={{ excel: 'Excel (boşluksuz birleştirme)', okunur: 'Okunur mod' }} /><p className="mt-1 text-[11px] text-gri">Kazada Durumu ve parça metinleri Excel gibi (boşluksuz) ya da okunur biçimde birleştirilir (tutarsızlık KAZADA-BOSLUK).</p></div>
+        <Field label="Durum profili ön ayarı" hint="Boş: her etken kendi profilini kullanır (Excel uyumlu, sayfa bazlı). Bir profil seçilirse tüm kartlar o profille değerlendirilir.">
+          <Select options={profiles.map((p) => ({ value: p.id, label: p.id === 'birlesik' ? 'birlesik — birleştirilmiş kural (onay bekler)' : p.id }))} value={e.statusProfileOverride ?? ''} onChange={(v) => update({ engine: { ...e, statusProfileOverride: v || null } })} placeholder="— etkenin kendi profili (Excel uyumlu) —" />
+        </Field>
+        <Toggle checked={e.vlookupExactAlways} onChange={(v) => update({ engine: { ...e, vlookupExactAlways: v } })} label="Seçenek tablolarında daima tam eşleşme (VLOOKUP exact)" />
+      </div>
+      <div className="kart space-y-3 p-4">
+        <h3 className="font-semibold text-lacivert">Sonuç özeti ve varlıklar</h3>
+        <div><div className="etiket mb-1">Sonuç özeti kapsamı</div><Segmented options={['excel', 'all'] as const} value={settings.summaryScope} onChange={(v) => v && update({ summaryScope: v })} labels={{ excel: 'Excel uyumlu (yalnız 2. Yol ve Çevre)', all: 'Tüm gruplar' }} /><p className="mt-1 text-[11px] text-gri">ETKEN / İNCELENMELİ sayaçlarının hangi gruplardan toplandığını belirler (sonuç1 sayfası karşılığı).</p></div>
+        <Field label="Varlık üst sınırı (araç / sürücü / yaya / yolcu)"><TextInput type="number" min={1} max={20} value={settings.entityLimit} onChange={(v) => update({ entityLimit: Math.max(1, Number(v) || 6) })} className="!w-24" /></Field>
+      </div>
+      <div className="kart space-y-3 p-4">
+        <h3 className="font-semibold text-lacivert">Rapor</h3>
+        <div><div className="etiket mb-1">"Aranmadı" kartları raporda</div><Segmented options={['tam', 'kisa', 'gizle'] as const} value={settings.reportAranmadi} onChange={(v) => v && update({ reportAranmadi: v })} labels={{ tam: 'Tam göster', kisa: 'Kısa satır', gizle: 'Gizle' }} /></div>
+        <Toggle checked={settings.reportShowDrafts} onChange={(v) => update({ reportShowDrafts: v })} label="Taslak kartları raporda göster" />
+      </div>
+      <div className="kart space-y-3 p-4">
+        <h3 className="font-semibold text-lacivert">Görünüm</h3>
+        <Toggle checked={settings.showDrafts} onChange={(v) => update({ showDrafts: v })} label="Taslak etken gruplarını (6., 7., 10., 11., dorse, 8.11+, 9.9+) navigasyonda göster" />
+        <Toggle checked={settings.showExcelRefs} onChange={(v) => update({ showExcelRefs: v })} label="Excel kaynak izlerini göster (sayfa adları, hücre referansları)" />
+        <p className="text-[11px] text-gri">Numaralandırma şeması ayrı sekmede; düzeltme anahtarları Katsayılar ve Tutarsızlık Raporu sekmelerinde.</p>
+      </div>
+    </div>
+  )
+}
+
+/* ───────────── Bilgi Bankası: rehber, etken editörü, etki alanı, değişiklik günlüğü ───────────── */
+
+const REHBER: { alan: string; ne: string; etki: string; yer: string[] }[] = [
+  { alan: 'Başlık / Alt başlık', ne: 'Etkenin adı ("2.1. GÜN DURUMU") ve değer etiketi ("Gün/Gece Durumu:").', etki: 'Kart başlığı ve değer etiketi; rapor kart başlığı; sonuç özeti satırı; menüdeki etken çipi.', yer: ['Kart', 'Rapor', 'Sonuç özeti', 'Menü'] },
+  { alan: 'Görünen numara', ne: 'Numaralandırma şeması "Özel" iken kullanılan kod.', etki: 'Kart başlığı önündeki kod, rapor ve DOCX başlıkları.', yer: ['Kart', 'Rapor'] },
+  { alan: 'Aranan', ne: 'Etkende neyin arandığını anlatan kısa cümle.', etki: 'Kart üst satırı (başlığın altı) ve rapor kart bloğu.', yer: ['Kart', 'Rapor'] },
+  { alan: 'Değer kaynağı', ne: 'Değer Veri Girişi alanından mı (input: Grş 1 hücresi) kart üstündeki seçimden mi (cardSelect) gelir; cardSelect için seçenek listesi.', etki: 'Kart değer alanı (bağlantı ya da seçim kutusu), Kazada Durumu cümlesindeki değer, seçeneğe özel metinlerin anahtarı; Bağ haritasında girdi → kart oku.', yer: ['Kart', 'Rapor', 'Bağ haritası'] },
+  { alan: 'Seçenekler', ne: 'Seçilebilir değerler ve her seçeneğe özel Açıklama / Nedensellik metni (VLOOKUP tablosu).', etki: 'Kart seçim kutusu; seçeneğe göre Açıklama ve Nedensellik gövdesi.', yer: ['Kart', 'Rapor'] },
+  { alan: 'Açıklama / Nedensellik / Sorun açıklama', ne: 'Etken düzeyi sabit metinler (seçeneğe özel değilse).', etki: 'Kart gövdesi ("Açıklama ve Nedensellik", "Sorun açıklama") ve rapor kart bloğu.', yer: ['Kart', 'Rapor'] },
+  { alan: 'Sonuç / Sorumlular / Tespit yöntemi metni', ne: 'Kütüphanedeki ek metin alanları (fields.sonuc, sorumlular, tespitYontemi).', etki: 'Raporda kartın ek satırları; kartta ek bloklar.', yer: ['Kart', 'Rapor'] },
+  { alan: 'Önlem metni / Uygunluk metni', ne: 'Kazada Durumu cümlesinin parçaları.', etki: 'İnceleme Durumu Aranmadı/Var → uygunluk metni; aksi → değer + önlem metni ("Şafak Vakti" + "Yönetmeliğe uygun…").', yer: ['Kart', 'Rapor'] },
+  { alan: 'Ek dosya kodu / metni / gizleme kuralı', ne: 'Kart üst şeridindeki "📎 Ek dosya hazırla" rozetinin metni ve hangi durumlarda gizleneceği; koşulun baktığı alan (İnceleme Durumu / Sorumlu / Değer).', etki: 'Kart üst şerit rozeti ve Ekler alanına bağlantı.', yer: ['Kart'] },
+  { alan: 'Durum profili', ne: 'İnceleme Durumu → ETKEN / ETKEN DEĞİL / İNCELENMELİ eşlemesi (Kural Profilleri sekmesi).', etki: 'Kart durum çipi, rapor durumu; ETKEN ve İNCELENMELİ sayaçlarını belirler.', yer: ['Kart', 'Rapor', 'Sonuç özeti'] },
+  { alan: 'Varlık türü', ne: 'Kartın hangi varlık (araç, sürücü, yolcu, yaya) için tekrarlandığı.', etki: 'Her varlık için ayrı kart ve rapor sayfası; menü sekmeleri (1. Araç, 2. Araç…).', yer: ['Kart', 'Rapor', 'Menü'] },
+  { alan: 'Grup / Sıra', ne: 'Etkenin bölümü (2. Yol ve Çevre, 4. Araç…) ve grup içindeki sırası.', etki: 'Grup sayfasındaki kart sırası, rapor bölümü ve sırası.', yer: ['Kart', 'Rapor', 'Menü'] },
+  { alan: 'Raporda göster', ne: 'Kart rapor ve DOCX çıktısına girer mi.', etki: 'Rapor Önizleme ve DOCX; kapalıysa kart yalnız analiz ekranında kalır.', yer: ['Rapor', 'DOCX'] },
+  { alan: 'Taslak', ne: 'Excel rapor sayfalarında olmayan kütüphane başlığı.', etki: 'Yalnız "Taslakları göster" açıkken menü ve analizde; "Taslak kartları raporda göster" açıkken raporda.', yer: ['Menü', 'Kart', 'Rapor'] },
+]
+
+const FIELD_LABELS: Record<'aciklama' | 'nedensellik' | 'sorun' | 'sonuc' | 'sorumlular' | 'tespitYontemi', string> = { aciklama: 'Açıklama', nedensellik: 'Nedensellik', sorun: 'Sorun açıklama', sonuc: 'Sonuç', sorumlular: 'Sorumlular', tespitYontemi: 'Tespit yöntemi (genel metin)' }
+
+function short(v: unknown, n = 70): string {
+  if (v === undefined) return '—'
+  const s = typeof v === 'string' ? v : JSON.stringify(v)
+  return s.length > n ? s.slice(0, n - 1) + '…' : s
+}
+
+interface LogRow { kaynak: string; alan: string; eski: string; yeni: string; undo: () => void }
+
+/** Tüm geçersiz kılma katmanlarını satır satır listeler. */
+function buildChangeLog(settings: Settings, update: P['update']): LogRow[] {
+  const rows: LogRow[] = []
+  const lt = LEGAL_TEXTS as { blocks: { paragraphs: string[] }[] }
+  const meta = REPORT_META as unknown as Record<string, string>
+  for (const [id, ov] of Object.entries(settings.contentOverrides)) {
+    const base = FACTOR_BY_ID.get(id) as unknown as Record<string, unknown> | undefined
+    for (const key of Object.keys(ov)) {
+      rows.push({ kaynak: 'Etken', alan: `${id} › ${key}`, eski: short(base?.[key]), yeni: short((ov as Record<string, unknown>)[key]), undo: () => update((s) => { const o = { ...s.contentOverrides }; const f = { ...o[id] } as Record<string, unknown>; delete f[key]; if (Object.keys(f).length) o[id] = f as Partial<FactorDef>; else delete o[id]; return { contentOverrides: o } }) })
+    }
+  }
+  for (const [id, items] of Object.entries(settings.listOverrides)) {
+    rows.push({ kaynak: 'Liste', alan: id, eski: short(LISTS[id]?.items.map(String).join(' | ')), yeni: short(items.join(' | ')), undo: () => update((s) => { const o = { ...s.listOverrides }; delete o[id]; return { listOverrides: o } }) })
+  }
+  for (const [key, text] of Object.entries(settings.textOverrides)) {
+    const m = /^legal\.(\d+)\.(\d+)$/.exec(key)
+    const def = m ? lt.blocks[Number(m[1]) === 0 ? 1 : 0]?.paragraphs[Number(m[2])] : undefined
+    rows.push({ kaynak: 'Hukuki metin', alan: key, eski: short(def), yeni: short(text), undo: () => update((s) => { const o = { ...s.textOverrides }; delete o[key]; return { textOverrides: o } }) })
+  }
+  for (const [key, text] of Object.entries(settings.reportMetaOverrides)) {
+    rows.push({ kaynak: 'Rapor meta', alan: key, eski: short(meta[key]), yeni: short(text), undo: () => update((s) => { const o = { ...s.reportMetaOverrides }; delete o[key]; return { reportMetaOverrides: o } }) })
+  }
+  const pkg = new Map(packageEvidenceCodes().map((c) => [c.kod, c]))
+  const ev = settings.evidenceOverrides
+  for (const a of ev.added) rows.push({ kaynak: 'Delil kodu', alan: `${a.kod} (yeni)`, eski: '—', yeni: short(`${a.kod} — ${a.ad}`), undo: () => update((s) => ({ evidenceOverrides: { ...s.evidenceOverrides, added: s.evidenceOverrides.added.filter((x) => x.kod !== a.kod) } })) })
+  for (const [kod, e] of Object.entries(ev.edited)) {
+    const p = pkg.get(kod)
+    for (const k of Object.keys(e) as ('ad' | 'not' | 'grup')[]) rows.push({ kaynak: 'Delil kodu', alan: `${kod} › ${k}`, eski: short(p?.[k]), yeni: short(e[k]), undo: () => update((s) => { const ed = { ...s.evidenceOverrides.edited }; const f = { ...ed[kod] }; delete f[k]; if (Object.keys(f).length) ed[kod] = f; else delete ed[kod]; return { evidenceOverrides: { ...s.evidenceOverrides, edited: ed } } }) })
+  }
+  for (const kod of ev.removed) rows.push({ kaynak: 'Delil kodu', alan: `${kod}`, eski: 'görünür', yeni: 'gizli', undo: () => update((s) => ({ evidenceOverrides: { ...s.evidenceOverrides, removed: s.evidenceOverrides.removed.filter((x) => x !== kod) } })) })
+  for (const [pid, o] of Object.entries(settings.profileOverrides)) {
+    const base = STATUS_PROFILE_BY_ID.get(pid)
+    if (!base) { rows.push({ kaynak: 'Kural profili', alan: `${pid} (yeni profil)`, eski: '—', yeni: `kopya: ${o.copiedFrom ?? '?'} · ${Object.keys(o.mapping ?? {}).length} anahtar`, undo: () => update((s) => { const p = { ...s.profileOverrides }; delete p[pid]; return { profileOverrides: p } }) }); continue }
+    for (const [k, v] of Object.entries(o.mapping ?? {})) rows.push({ kaynak: 'Kural profili', alan: `${pid} › ${k || '(boş)'}`, eski: base.mapping[k] ?? '⚠ tanımsız', yeni: v === 'FALSE' ? '⚠ tanımsız' : v || '""', undo: () => update((s) => { const p = { ...s.profileOverrides }; const m = { ...(p[pid]?.mapping ?? {}) }; delete m[k]; const next = { ...p[pid], mapping: m }; if (!Object.keys(m).length) delete (next as { mapping?: unknown }).mapping; if (!Object.keys(next).length) delete p[pid]; else p[pid] = next; return { profileOverrides: p } }) })
+    if (o.else !== undefined) rows.push({ kaynak: 'Kural profili', alan: `${pid} › aksi`, eski: base.else === 'FALSE' ? '⚠ tanımsız' : base.else || '""', yeni: o.else === 'FALSE' ? '⚠ tanımsız' : o.else || '""', undo: () => update((s) => { const p = { ...s.profileOverrides }; const next = { ...p[pid] }; delete next.else; if (!Object.keys(next).length) delete p[pid]; else p[pid] = next; return { profileOverrides: p } }) })
+  }
+  return rows
+}
+
 function BilgiBankasi({ settings, update }: P) {
+  const [sub, setSub] = useState<'editor' | 'gunluk'>('editor')
+  const [rehber, setRehber] = useState(false)
+  const log = useMemo(() => buildChangeLog(settings, update), [settings, update])
+  return (
+    <div className="space-y-3">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <Segmented options={['editor', 'gunluk'] as const} value={sub} onChange={(v) => v && setSub(v)} labels={{ editor: 'Etken editörü', gunluk: `Değişiklik günlüğü (${log.length})` }} />
+        <button className="btn-outline !py-1 text-xs" onClick={() => setRehber((v) => !v)}>{rehber ? 'Rehberi kapat' : 'Rehber: alanlar ve etkileri'}</button>
+      </div>
+      {rehber && (
+        <div className="kart overflow-hidden">
+          <table className="w-full text-xs"><thead className="bg-krem text-left uppercase tracking-wider text-gri"><tr><th className="px-3 py-2">Alan</th><th className="px-3 py-2">Ne</th><th className="px-3 py-2">Neyi etkiler</th><th className="px-3 py-2">Nerede görünür</th></tr></thead><tbody>
+            {REHBER.map((r) => <tr key={r.alan} className="border-t border-krem-200 align-top"><td className="px-3 py-2 font-medium text-lacivert">{r.alan}</td><td className="px-3 py-2 text-gri">{r.ne}</td><td className="px-3 py-2">{r.etki}</td><td className="px-3 py-2"><div className="flex flex-wrap gap-1">{r.yer.map((y) => <Badge key={y} tone={y === 'Kart' ? 'cam' : y === 'Rapor' || y === 'DOCX' ? 'lacivert' : y === 'Sonuç özeti' ? 'altin' : 'gri'}>{y}</Badge>)}</div></td></tr>)}
+          </tbody></table>
+        </div>
+      )}
+      {sub === 'editor' ? <EtkenEditoru settings={settings} update={update} /> : <DegisiklikGunlugu rows={log} />}
+    </div>
+  )
+}
+
+function DegisiklikGunlugu({ rows }: { rows: LogRow[] }) {
+  if (!rows.length) return <div className="kart p-6 text-sm text-gri">Yerel katmanda değişiklik yok; tüm alanlar paket varsayılanında.</div>
+  return (
+    <div className="kart overflow-hidden">
+      <table className="w-full text-xs"><thead className="bg-krem text-left uppercase tracking-wider text-gri"><tr><th className="px-3 py-2">Kaynak</th><th className="px-3 py-2">Alan</th><th className="px-3 py-2">Varsayılan</th><th className="px-3 py-2">Yeni değer</th><th className="px-3 py-2"></th></tr></thead><tbody>
+        {rows.map((r, i) => <tr key={i} className="border-t border-krem-200 align-top"><td className="px-3 py-1.5"><Badge tone="gri">{r.kaynak}</Badge></td><td className="px-3 py-1.5 font-mono">{r.alan}</td><td className="px-3 py-1.5 text-gri">{r.eski}</td><td className="px-3 py-1.5 text-lacivert">{r.yeni}</td><td className="px-3 py-1.5 text-right"><button className="btn-ghost !py-0.5 text-xs" onClick={r.undo}>Geri al</button></td></tr>)}
+      </tbody></table>
+    </div>
+  )
+}
+
+function EtkenEditoru({ settings, update }: P) {
   const [q, setQ] = useState('')
   const [group, setGroup] = useState<string>('yol-cevre')
   const [sel, setSel] = useState<string | null>(null)
@@ -92,9 +234,17 @@ function BilgiBankasi({ settings, update }: P) {
   const def = sel ? ALL_FACTORS.find((f) => f.id === sel) : null
   const ov = (sel && settings.contentOverrides[sel]) || {}
   const eff = def ? ({ ...def, ...ov } as FactorDef) : null
+  const profiles = effectiveProfileList(settings)
   const setOv = (patch: Partial<FactorDef>) => sel && update((s) => ({ contentOverrides: { ...s.contentOverrides, [sel]: { ...s.contentOverrides[sel], ...patch } } }))
   const setText = (key: string, text: string) => eff && setOv({ fields: { ...eff.fields, [key]: { ...(eff.fields as Record<string, { kind: string }>)[key], kind: 'text', text } } as FactorDef['fields'] })
   const toggleAll = (on: boolean) => update((s) => ({ contentOverrides: { ...s.contentOverrides, ...Object.fromEntries(ALL_FACTORS.filter((f) => f.draft).map((f) => [f.id, { ...s.contentOverrides[f.id], showInReport: on }])) }, showDrafts: on }))
+  const vs = eff ? (eff.valueSource as { kind: string; path?: string; cell?: string; listId?: string }) : null
+  const hideWhen = eff?.ekDosya.hideWhen ?? []
+  const toggleHide = (d: string) => eff && setOv({ ekDosya: { ...eff.ekDosya, hideWhen: hideWhen.includes(d) ? hideWhen.filter((x) => x !== d) : [...hideWhen, d] } })
+  const kazadaOn = eff?.kazadaDurumu.branches?.[0]?.on === 'value' || eff?.kazadaDurumu.branches?.[0]?.on === 'input' ? 'value' : 'incelemeDurumu'
+  const hooks = eff ? MODULE_DEFS.filter((m) => m.manifest.hooks?.some((h) => h.targetFactorId === eff.id)) : []
+  const profile = eff ? profiles.find((p) => p.id === (settings.engine.statusProfileOverride ?? eff.statusProfile)) ?? profiles.find((p) => p.id === eff.statusProfile) : undefined
+  const sayilanlar = profile ? Object.entries(profile.mapping).filter(([, v]) => countsForSummary(v)).map(([k, v]) => `${k || '(boş)'} → ${v}`) : []
   return (
     <div className="grid gap-4 lg:grid-cols-[300px_1fr]">
       <aside className="kart p-3">
@@ -106,23 +256,42 @@ function BilgiBankasi({ settings, update }: P) {
         </ul>
       </aside>
       <section className="kart p-4">
-        {!eff ? <p className="text-sm text-gri">Soldan bir etken seçin. Her metin alanı düzenlenebilir; değişiklikler yerel katmana yazılır, "Sürüm kaydet" ile hash alır.</p> : (
+        {!eff || !vs ? <p className="text-sm text-gri">Soldan bir etken seçin. Her metin alanı düzenlenebilir; değişiklikler yerel katmana yazılır, "Sürüm kaydet" ile hash alır.</p> : (
           <div className="space-y-3">
-            <div className="flex flex-wrap items-center justify-between gap-2"><h3 className="text-lg font-semibold text-lacivert">{eff.title}</h3><div className="flex items-center gap-3"><Toggle checked={eff.showInReport} onChange={(v) => setOv({ showInReport: v })} label="Raporda göster" /><Badge tone="gri">{eff.sourceRef.library.sheet}!{eff.sourceRef.library.cell}</Badge>{settings.contentOverrides[eff.id] && <button className="btn-ghost !py-0.5 text-xs" onClick={() => update((s) => { const o = { ...s.contentOverrides }; delete o[eff.id]; return { contentOverrides: o } })}>Varsayılana dön</button>}</div></div>
+            <div className="flex flex-wrap items-center justify-between gap-2"><h3 className="text-lg font-semibold text-lacivert">{eff.title}</h3><div className="flex items-center gap-3"><Toggle checked={eff.showInReport} onChange={(v) => setOv({ showInReport: v })} label="Raporda göster" /><Toggle checked={eff.draft} onChange={(v) => setOv({ draft: v })} label="Taslak" /><Badge tone="gri">{eff.sourceRef.library.sheet}!{eff.sourceRef.library.cell}</Badge>{settings.contentOverrides[eff.id] && <button className="btn-ghost !py-0.5 text-xs" onClick={() => update((s) => { const o = { ...s.contentOverrides }; delete o[eff.id]; return { contentOverrides: o } })}>Varsayılana dön</button>}</div></div>
+
+            {/* Etki alanı */}
+            <div className="rounded-lg border border-camgobegi/40 bg-camgobegi-100/60 p-3 text-xs">
+              <div className="etiket mb-1">Etki alanı</div>
+              <dl className="grid gap-x-4 gap-y-1 sm:grid-cols-2">
+                <div><dt className="text-gri">Değer kaynağı</dt><dd className="font-medium">{vs.kind === 'input' ? `Veri Girişi › ${INPUT_LABELS[vs.path ?? ''] ?? vs.path}${settings.showExcelRefs && vs.cell ? ` (${vs.cell})` : ''}` : vs.kind === 'cardSelect' ? `Kart seçimi${vs.listId ? ` · liste: ${vs.listId}` : ` · ${eff.options.length} seçenek`}` : vs.kind === 'card' ? 'Alt başlık' : vs.kind}</dd></div>
+                <div><dt className="text-gri">Varlık türü</dt><dd className="font-medium">{eff.perEntity ? `Her ${eff.perEntity} için ayrı kart` : 'Tek kart (dosya düzeyi)'}</dd></div>
+                <div><dt className="text-gri">Öneri üreten modüller</dt><dd className="font-medium">{hooks.length ? hooks.map((m) => `${m.manifest.name}${settings.enabledModules.includes(m.manifest.id) ? '' : ' (kapalı)'}`).join(', ') : '—'}</dd></div>
+                <div><dt className="text-gri">Rapor bölümü</dt><dd className="font-medium">{GROUP_TITLES[eff.group] ?? eff.group} · {eff.showInReport ? 'raporda' : 'raporda gizli'}{eff.draft ? ' · taslak' : ''}</dd></div>
+                <div className="sm:col-span-2"><dt className="text-gri">Sonuç özeti</dt><dd className="font-medium">{settings.summaryScope === 'excel' && eff.group !== 'yol-cevre' ? 'Excel kapsamı (yalnız 2. Yol ve Çevre) dışında — sayılmaz.' : `Sayılır; profil ${profile?.id ?? '?'}: ${sayilanlar.join(', ') || 'hiçbir durum ETKEN/İNCELENMELİ vermez'}`}</dd></div>
+              </dl>
+            </div>
+
             <div className="grid gap-3 sm:grid-cols-2">
               <Field label="Başlık"><TextInput value={eff.title} onChange={(v) => setOv({ title: v })} /></Field>
               <Field label="Alt başlık"><TextInput value={eff.subTitle} onChange={(v) => setOv({ subTitle: v })} /></Field>
               <Field label="Görünen numara"><TextInput value={eff.displayCode} onChange={(v) => setOv({ displayCode: v })} /></Field>
-              <Field label="Durum profili"><Select options={STATUS_PROFILES.map((p) => p.id)} value={eff.statusProfile} onChange={(v) => setOv({ statusProfile: v })} /></Field>
+              <Field label="Durum profili"><Select options={profiles.map((p) => p.id)} value={eff.statusProfile} onChange={(v) => v && setOv({ statusProfile: v })} /></Field>
+              <Field label="Grup"><Select options={GROUP_ORDER.map((g) => ({ value: g, label: GROUP_TITLES[g] ?? g }))} value={eff.group} onChange={(v) => v && setOv({ group: v })} /></Field>
+              <Field label="Sıra (grup içi)" hint={`Paket sırası: ${PACKAGE_ORDER.get(eff.id) ?? '—'}. Boş bırakılırsa paket sırası; ondalık (ör. 2.5) araya sokar.`}><TextInput type="number" step="0.5" value={eff.order ?? ''} onChange={(v) => { if (v === '') { const o = { ...ov } as Partial<FactorDef>; delete o.order; update((s) => ({ contentOverrides: { ...s.contentOverrides, [eff.id]: o } })) } else setOv({ order: Number(v) }) }} /></Field>
+              <Field label="Varlık türü"><Select options={[{ value: 'arac', label: 'Araç' }, { value: 'surucu', label: 'Sürücü' }, { value: 'yolcu', label: 'Yolcu' }, { value: 'yaya', label: 'Yaya' }]} value={eff.perEntity ?? ''} onChange={(v) => setOv({ perEntity: (v || null) as FactorDef['perEntity'] })} placeholder="yok (tek kart)" /></Field>
+              <Field label={`Değer kaynağı: ${vs.kind === 'input' ? 'Veri Girişi alanı' : 'kart seçimi'}`} hint={vs.kind === 'cardSelect' ? 'Liste seçilirse kart seçenekleri bu listeden gelir; boşsa etkenin kendi seçenekleri.' : `Alan: ${vs.path ?? '—'}`}>
+                {vs.kind === 'cardSelect' ? <Select options={Object.values(LISTS).map((l) => ({ value: l.id, label: `${l.id} (${l.items.length} öğe)` }))} value={vs.listId ?? ''} onChange={(v) => setOv({ valueSource: { ...eff.valueSource, kind: 'cardSelect', listId: v || undefined } })} placeholder="— etkenin seçenekleri —" /> : <TextInput value={vs.path ?? ''} onChange={() => { /* Veri Girişi alanı paket sürümünde tanımlıdır */ }} disabled />}
+              </Field>
             </div>
             <Field label="Aranan"><TextArea value={eff.aranan} onChange={(v) => setOv({ aranan: v })} /></Field>
-            {(['aciklama', 'nedensellik', 'sorun'] as const).map((k) => {
+            {(['aciklama', 'nedensellik', 'sorun', 'sonuc', 'sorumlular', 'tespitYontemi'] as const).map((k) => {
               const src = eff.fields[k] as { kind: string; text?: string; table?: { key: string; text: string }[] } | undefined
               return (
                 <div key={k}>
-                  <Field label={`${k} ${src?.kind === 'option' ? '(seçeneğe özel tablo)' : '(etken düzeyi metin)'}`}>
+                  <Field label={`${FIELD_LABELS[k]} ${src?.kind === 'option' ? '(seçeneğe özel tablo)' : '(etken düzeyi metin)'}`}>
                     {src?.kind === 'option' ? <div className="rounded border border-krem-200 bg-white p-2 text-xs"><p className="mb-1 text-gri">Seçenek tablosu ({src.table?.length} satır) aşağıda, seçenekler bölümünden düzenlenir.</p></div>
-                      : <TextArea value={src?.text ?? ''} onChange={(v) => setText(k, v)} />}
+                      : <TextArea value={src?.text ?? ''} onChange={(v) => setText(k, v)} className={k === 'sonuc' || k === 'sorumlular' || k === 'tespitYontemi' ? '!min-h-[48px]' : undefined} />}
                   </Field>
                 </div>
               )
@@ -132,9 +301,12 @@ function BilgiBankasi({ settings, update }: P) {
               <div className="grid gap-2 sm:grid-cols-2">
                 <Field label="Ek dosya kodu"><TextInput value={eff.ekDosya.kod ?? ''} onChange={(v) => setOv({ ekDosya: { ...eff.ekDosya, kod: v, parts: [{ kind: 'text', text: v }, { kind: 'text', text: eff.ekDosya.metin ?? '' }] } })} /></Field>
                 <Field label="Ek dosya metni"><TextInput value={eff.ekDosya.metin ?? ''} onChange={(v) => setOv({ ekDosya: { ...eff.ekDosya, metin: v, parts: [{ kind: 'text', text: eff.ekDosya.kod ?? '' }, { kind: 'text', text: v }] } })} /></Field>
+                <div><div className="mb-1 text-xs font-semibold text-lacivert">Ek dosya koşulunun baktığı alan</div><Segmented options={['incelemeDurumu', 'sorumlu', 'value'] as const} value={((eff.ekDosya.on as string | undefined) ?? 'incelemeDurumu') as 'incelemeDurumu' | 'sorumlu' | 'value'} onChange={(v) => v && setOv({ ekDosya: { ...eff.ekDosya, kind: 'rule', on: v } })} labels={{ incelemeDurumu: 'İnceleme Durumu', sorumlu: 'Sorumlu', value: 'Değer' }} size="xs" /></div>
+                <div><div className="mb-1 text-xs font-semibold text-lacivert">Ek dosya gizleme kuralı (şu durumlarda gizle)</div><div className="flex flex-wrap gap-1">{INCELEME_DURUMLARI.map((d) => <button key={d} type="button" aria-pressed={hideWhen.includes(d)} className={`rounded-md border px-2 py-0.5 text-[11px] ${hideWhen.includes(d) ? 'border-camgobegi bg-camgobegi-100 text-lacivert' : 'border-krem-200 bg-white text-gri'}`} onClick={() => toggleHide(d)}>{d}</button>)}</div></div>
               </div>
               {eff.kazadaDurumu.kind === 'rule' && (
                 <div className="mt-2 space-y-1 text-xs">
+                  <div className="flex items-center gap-2"><span className="font-semibold text-lacivert">Kazada durumu koşul alanı</span><Segmented options={['incelemeDurumu', 'value'] as const} value={kazadaOn} onChange={(v) => v && setOv({ kazadaDurumu: { ...eff.kazadaDurumu, branches: (eff.kazadaDurumu.branches ?? []).map((b) => ({ ...b, on: v })) } })} labels={{ incelemeDurumu: 'İnceleme Durumu', value: 'Değer' }} size="xs" /></div>
                   {(eff.kazadaDurumu.branches ?? []).map((b, i) => <div key={i} className="flex items-center gap-2"><Badge tone="gri">{b.on} = {b.when}</Badge><TextInput value={b.parts.map((p) => p.text ?? '').join('')} onChange={(v) => { const br = [...(eff.kazadaDurumu.branches ?? [])]; br[i] = { ...b, parts: [{ kind: 'text', text: v }] }; setOv({ kazadaDurumu: { ...eff.kazadaDurumu, branches: br } }) }} className="!py-1 !text-xs" /></div>)}
                   <div className="flex items-center gap-2"><Badge tone="gri">aksi: değer + önlem</Badge><TextInput value={(eff.kazadaDurumu.else ?? []).filter((p) => p.kind === 'text').map((p) => p.text).join('')} onChange={(v) => setOv({ kazadaDurumu: { ...eff.kazadaDurumu, else: [{ kind: 'value' }, { kind: 'literal', text: settings.engine.renderMode === 'excel' ? '' : ' ' }, { kind: 'text', text: v }] } })} className="!py-1 !text-xs" /></div>
                 </div>
@@ -178,27 +350,61 @@ function Listeler({ settings, update }: P) {
   )
 }
 
+/* ───────────── Kural profilleri: düzenlenebilir matris ───────────── */
+
 function Kurallar({ settings, update }: P) {
   const outputs = ['', 'ETKEN', 'ETKEN DEĞİL', 'İNCELENMELİ', 'ÖZEL İSTEMLİ', 'İNCELEMELİ', 'FALSE']
+  const profiles = effectiveProfileList(settings)
+  const [err, setErr] = useState<string | null>(null)
+  const setCell = (pid: string, key: string, v: string) => update((s) => ({ profileOverrides: { ...s.profileOverrides, [pid]: { ...s.profileOverrides[pid], mapping: { ...(s.profileOverrides[pid]?.mapping ?? {}), [key]: v } } } }))
+  const setElse = (pid: string, v: string) => update((s) => ({ profileOverrides: { ...s.profileOverrides, [pid]: { ...s.profileOverrides[pid], else: v } } }))
+  const resetProfile = (pid: string) => update((s) => { const p = { ...s.profileOverrides }; delete p[pid]; return { profileOverrides: p } })
+  const copyProfile = (src: (typeof profiles)[number]) => {
+    const raw = prompt('Yeni profil kimliği (küçük harf, tire):', `${src.id}-kopya`)
+    if (raw === null) return
+    const id = raw.trim().toLocaleLowerCase('tr-TR').replace(/[^a-z0-9çğıöşü-]+/g, '-').replace(/^-+|-+$/g, '')
+    if (!id) { setErr('Profil kimliği boş olamaz.'); return }
+    if (profiles.some((p) => p.id === id)) { setErr(`"${id}" zaten var.`); return }
+    setErr(null)
+    update((s) => ({ profileOverrides: { ...s.profileOverrides, [id]: { copiedFrom: src.id, mapping: { ...src.mapping }, else: src.else } } }))
+  }
   return (
     <div className="space-y-4">
-      <div className="kart flex flex-wrap items-center gap-4 p-4 text-sm">
-        <span className="etiket">Ön ayar</span>
-        <Segmented options={['excel', 'birlesik'] as const} value={settings.engine.statusProfileOverride ? 'birlesik' : 'excel'} onChange={(v) => v && update({ engine: { ...settings.engine, statusProfileOverride: v === 'birlesik' ? 'birlesik' : null } })} labels={{ excel: 'Excel uyumlu (sayfa bazlı profiller)', birlesik: 'Birleştirilmiş kural' }} />
-        <Segmented options={['excel', 'okunur'] as const} value={settings.engine.renderMode} onChange={(v) => v && update({ engine: { ...settings.engine, renderMode: v } })} labels={{ excel: 'Metin: Excel (boşluksuz birleştirme)', okunur: 'Metin: okunur mod' }} />
+      <div className="kart flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
+        <div className="text-xs text-gri">Her hücre İnceleme Durumu → Durum eşlemesidir. Değişiklikler yerel katmana (profileOverrides) yazılır; sarı hücreler paketten farklıdır. Motor ön ayarı (Excel uyumlu / birleşik, metin modu) <b>Genel</b> sekmesinde.</div>
+        {err && <span className="text-xs text-red-700">{err}</span>}
       </div>
       <div className="grid gap-4 lg:grid-cols-2">
-        {STATUS_PROFILES.map((p) => (
-          <div key={p.id} className="kart p-4">
-            <div className="mb-2 flex items-center justify-between"><h3 className="font-semibold text-lacivert">{p.id}</h3><span className="text-[10px] text-gri">{p.firstSeen ? `ilk: ${p.firstSeen} · sayfalar ${p.sheets?.join(', ')}` : 'öneri (onay bekler)'}</span></div>
-            <table className="w-full text-xs"><tbody>
-              {STATUS_INPUTS.map((k) => { const v = p.mapping[k]; return <tr key={k} className="border-t border-krem-200"><td className="py-1 pr-2">{k || '(boş)'}</td><td className="py-1"><select className="input !py-0.5 !text-xs" value={v ?? 'FALSE'} onChange={() => { /* profil düzenleme: yeni paket sürümünde */ }} disabled>{outputs.map((o) => <option key={o} value={o}>{o === 'FALSE' ? '⚠ tanımsız' : o || '""'}</option>)}</select></td><td className="py-1 pl-2">{v && v !== 'FALSE' ? <StatusChip value={v} size="sm" /> : <Badge tone="altin">tanımsız</Badge>}</td></tr> })}
-            </tbody></table>
-            {p.excelFormula && <pre className="mt-2 whitespace-pre-wrap break-all rounded bg-krem p-2 font-mono text-[9px] text-gri">={p.excelFormula}</pre>}
-          </div>
-        ))}
+        {profiles.map((p) => {
+          const base = STATUS_PROFILE_BY_ID.get(p.id)
+          const ov = settings.profileOverrides[p.id]
+          const isNew = !base
+          return (
+            <div key={p.id} className="kart p-4">
+              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                <h3 className="font-semibold text-lacivert">{p.id} {isNew && <Badge tone="cam">yeni (kopya: {ov?.copiedFrom})</Badge>}{!isNew && ov && <Badge tone="altin">düzenli</Badge>}</h3>
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] text-gri">{p.firstSeen ? `ilk: ${p.firstSeen} · sayfalar ${p.sheets?.join(', ')}` : isNew ? 'yerel profil' : 'öneri (onay bekler)'}</span>
+                  <button className="btn-ghost !py-0.5 text-xs" onClick={() => copyProfile(p)}>Yeni profil (kopyala)</button>
+                  {ov && <button className="btn-ghost !py-0.5 text-xs text-red-700" onClick={() => { if (isNew ? confirm(`"${p.id}" profili silinsin mi? Bu profili kullanan etkenler kendi paket profiline düşer.`) : true) resetProfile(p.id) }}>{isNew ? 'Profili sil' : 'Varsayılana dön'}</button>}
+                </div>
+              </div>
+              <table className="w-full text-xs"><tbody>
+                {STATUS_INPUTS.map((k) => {
+                  const v = p.mapping[k]
+                  const cur = v === undefined ? 'FALSE' : v
+                  const baseV = base ? (base.mapping[k] === undefined ? 'FALSE' : base.mapping[k]) : cur
+                  const changed = cur !== baseV
+                  return <tr key={k} className="border-t border-krem-200"><td className="py-1 pr-2">{k || '(boş)'}</td><td className={`py-1 ${changed ? 'bg-altin-100' : ''}`}><select className="input !py-0.5 !text-xs" value={cur} onChange={(e) => setCell(p.id, k, e.target.value)}>{outputs.map((o) => <option key={o} value={o}>{o === 'FALSE' ? '⚠ tanımsız' : o || '""'}</option>)}</select></td><td className="py-1 pl-2">{v !== undefined && v !== 'FALSE' && v !== '' ? <StatusChip value={v} size="sm" /> : v === '' ? <Badge tone="gri">""</Badge> : <Badge tone="altin">tanımsız</Badge>}</td></tr>
+                })}
+                <tr className="border-t border-krem-200"><td className="py-1 pr-2 text-gri">aksi (diğer)</td><td className={`py-1 ${base && (ov?.else ?? base.else) !== base.else ? 'bg-altin-100' : ''}`}><select className="input !py-0.5 !text-xs" value={p.else ?? 'FALSE'} onChange={(e) => setElse(p.id, e.target.value)}>{outputs.map((o) => <option key={o} value={o}>{o === 'FALSE' ? '⚠ tanımsız (Excel FALSE)' : o || '""'}</option>)}</select></td><td></td></tr>
+              </tbody></table>
+              {p.excelFormula && <pre className="mt-2 whitespace-pre-wrap break-all rounded bg-krem p-2 font-mono text-[9px] text-gri">={p.excelFormula}</pre>}
+            </div>
+          )
+        })}
       </div>
-      <p className="text-xs text-gri">Matris, Excel'in V sütunu IF zincirlerinden otomatik çıkarıldı (content/core/rules/status-profiles.json). Profil düzenleme içerik paketi sürümüyle yapılır; "birleştirilmiş" profil ürün sahibi onayına tabidir (açık soru #1).</p>
+      <p className="text-xs text-gri">Matris, Excel'in V sütunu IF zincirlerinden otomatik çıkarıldı (content/core/rules/status-profiles.json). Paket profilleri {STATUS_PROFILES.map((p) => p.id).join(', ')}; "birleşik" profil ürün sahibi onayına tabidir (açık soru #1). Yeni profiller etken editöründeki "Durum profili" seçicisinde görünür.</p>
     </div>
   )
 }
@@ -274,12 +480,84 @@ function Referans() {
   )
 }
 
-function Delil() {
-  const ec = EVIDENCE_CODES as { codes: { kod: string; sira: number | null; not: string }[]; mapping: { eskiKod: string; turkceKod: string; ad: string }[] }
+/* ───────────── Delil kodları: ekle / düzenle / gizle ───────────── */
+
+function Delil({ settings, update }: P) {
+  const [q, setQ] = useState('')
+  const [editing, setEditing] = useState<string | null>(null)
+  const [showNew, setShowNew] = useState(false)
+  const [form, setForm] = useState({ kod: '', ad: '', not: '', grup: '' })
+  const [err, setErr] = useState<string | null>(null)
+  const ov = settings.evidenceOverrides
+  const all = useMemo(() => effectiveEvidenceCodes(settings), [settings])
+  const pkg = useMemo(() => packageEvidenceCodes(), [])
+  const rows = useMemo(() => { const n = q.trim().toLocaleLowerCase('tr-TR'); return n ? all.filter((c) => [c.kod, c.ad, c.not, c.grup].some((x) => x.toLocaleLowerCase('tr-TR').includes(n))) : all }, [all, q])
+  const setEv = (fn: (e: EvidenceOverrides) => Partial<EvidenceOverrides>) => update((s) => ({ evidenceOverrides: { ...s.evidenceOverrides, ...fn(s.evidenceOverrides) } }))
+  const editField = (c: EvidenceCode, patch: { ad?: string; not?: string; grup?: string }) => c.kaynak === 'eklendi'
+    ? setEv((e) => ({ added: e.added.map((a) => (a.kod === c.kod ? { ...a, ...patch } : a)) }))
+    : setEv((e) => ({ edited: { ...e.edited, [c.kod]: { ...e.edited[c.kod], ...patch } } }))
+  const remove = (c: EvidenceCode) => c.kaynak === 'eklendi' ? setEv((e) => ({ added: e.added.filter((a) => a.kod !== c.kod) })) : setEv((e) => ({ removed: e.removed.includes(c.kod) ? e.removed : [...e.removed, c.kod] }))
+  const restore = (kod: string) => setEv((e) => ({ removed: e.removed.filter((k) => k !== kod) }))
+  const resetCode = (kod: string) => setEv((e) => { const ed = { ...e.edited }; delete ed[kod]; return { edited: ed } })
+  const addNew = () => {
+    const kod = form.kod.trim().toLocaleUpperCase('tr-TR').replace(/\s+/g, '-')
+    if (!kod) { setErr('Kod zorunludur.'); return }
+    if (!form.ad.trim()) { setErr('Ad zorunludur.'); return }
+    if (ov.removed.includes(kod)) { setErr(`"${kod}" paket kodu gizlenmiş; eklemek yerine aşağıdan geri getirin.`); return }
+    if (all.some((c) => c.kod === kod) || pkg.some((c) => c.kod === kod)) { setErr(`"${kod}" zaten var; kod benzersiz olmalı.`); return }
+    setErr(null)
+    setEv((e) => ({ added: [...e.added, { kod, ad: form.ad.trim(), not: form.not.trim() || undefined, grup: form.grup.trim() || evidenceGroupOf(kod) }] }))
+    setForm({ kod: '', ad: '', not: '', grup: '' }); setShowNew(false)
+  }
+  const ec = EVIDENCE_CODES as { mapping: { eskiKod: string; turkceKod: string; ad: string }[] }
+  const tone = (k: EvidenceCode['kaynak']) => (k === 'paket' ? 'gri' : k === 'eklendi' ? 'yesil' : 'altin')
   return (
-    <div className="grid gap-4 lg:grid-cols-2">
-      <div className="kart p-4"><h3 className="mb-2 font-semibold text-lacivert">Delil kodları (Tanım!C2000:E2080)</h3><div className="scroll-thin max-h-[60vh] overflow-y-auto"><table className="w-full text-xs"><tbody>{ec.codes.map((c, i) => <tr key={i} className="border-t border-krem-200"><td className="py-1 font-mono">{c.kod}</td><td className="py-1 text-gri">{c.sira}</td><td className="py-1 text-gri">{c.not.slice(0, 80)}</td></tr>)}</tbody></table></div></div>
-      <div className="kart p-4"><h3 className="mb-2 font-semibold text-lacivert">Eşleme: eski kod → Türkçe kod (Sayfa5)</h3><div className="scroll-thin max-h-[60vh] overflow-y-auto"><table className="w-full text-xs"><tbody>{ec.mapping.map((m) => <tr key={m.eskiKod} className="border-t border-krem-200"><td className="py-1 font-mono text-gri">{m.eskiKod}</td><td className="py-1 font-mono font-semibold">{m.turkceKod}</td><td className="py-1">{m.ad}</td></tr>)}</tbody></table></div></div>
+    <div className="space-y-4">
+      <div className="kart p-4">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <h3 className="font-semibold text-lacivert">Delil kodları <span className="text-xs font-normal text-gri">(Tanım!C2000:E2080 + yerel katman) · {all.length} kod</span></h3>
+          <div className="flex items-center gap-2"><TextInput value={q} onChange={setQ} placeholder="Kod, ad, not, grup ara…" className="!w-64" /><button className="btn-primary !py-1 text-xs" onClick={() => { setShowNew((v) => !v); setErr(null) }}>+ Yeni kod</button></div>
+        </div>
+        {showNew && (
+          <div className="mb-3 rounded-lg border border-camgobegi/40 bg-camgobegi-100/50 p-3">
+            <div className="grid gap-2 sm:grid-cols-4">
+              <Field label="Kod (zorunlu, büyük harf, benzersiz)"><TextInput value={form.kod} onChange={(v) => setForm({ ...form, kod: v.toLocaleUpperCase('tr-TR') })} placeholder="ÖR: YOL-12" className="font-mono" /></Field>
+              <Field label="Ad (zorunlu)"><TextInput value={form.ad} onChange={(v) => setForm({ ...form, ad: v })} placeholder="Kısa açıklama" /></Field>
+              <Field label="Not"><TextInput value={form.not} onChange={(v) => setForm({ ...form, not: v })} /></Field>
+              <Field label="Grup / önek" hint={`Boşsa koddan türetilir (${evidenceGroupOf(form.kod.toLocaleUpperCase('tr-TR')) || '—'})`}><TextInput value={form.grup} onChange={(v) => setForm({ ...form, grup: v })} /></Field>
+            </div>
+            <div className="mt-2 flex items-center gap-2"><button className="btn-primary !py-1 text-xs" onClick={addNew}>Ekle</button><button className="btn-ghost !py-1 text-xs" onClick={() => { setShowNew(false); setErr(null) }}>Vazgeç</button>{err && <span className="text-xs text-red-700">{err}</span>}</div>
+          </div>
+        )}
+        {!showNew && err && <p className="mb-2 text-xs text-red-700">{err}</p>}
+        <div className="scroll-thin max-h-[60vh] overflow-y-auto">
+          <table className="w-full text-xs"><thead className="sticky top-0 bg-krem text-left uppercase tracking-wider text-gri"><tr><th className="px-2 py-1">Kod</th><th className="px-2 py-1">Ad</th><th className="px-2 py-1">Not</th><th className="px-2 py-1">Grup</th><th className="px-2 py-1">Kaynak</th><th className="px-2 py-1"></th></tr></thead><tbody>
+            {rows.map((c) => {
+              const ed = editing === c.kod
+              return (
+                <tr key={c.kod} className="border-t border-krem-200 align-top">
+                  <td className="px-2 py-1 font-mono font-semibold">{c.kod}</td>
+                  <td className="px-2 py-1">{ed ? <TextInput value={c.ad} onChange={(v) => editField(c, { ad: v })} className="!py-0.5 !text-xs" /> : c.ad || <span className="text-gri">—</span>}</td>
+                  <td className="px-2 py-1 text-gri">{ed ? <TextInput value={c.not} onChange={(v) => editField(c, { not: v })} className="!py-0.5 !text-xs" /> : <span title={c.not}>{c.not.slice(0, 60)}{c.not.length > 60 ? '…' : ''}</span>}</td>
+                  <td className="px-2 py-1">{ed ? <TextInput value={c.grup} onChange={(v) => editField(c, { grup: v })} className="!w-28 !py-0.5 !text-xs" /> : <Badge tone="gri">{c.grup || '—'}</Badge>}</td>
+                  <td className="px-2 py-1"><Badge tone={tone(c.kaynak)}>{c.kaynak}</Badge></td>
+                  <td className="px-2 py-1 text-right whitespace-nowrap">
+                    <button className="btn-ghost !py-0.5 text-xs" onClick={() => setEditing(ed ? null : c.kod)}>{ed ? 'Bitti' : 'Düzenle'}</button>
+                    {c.kaynak === 'düzenlendi' && <button className="btn-ghost !py-0.5 text-xs" onClick={() => resetCode(c.kod)}>Varsayılana dön</button>}
+                    <button className="btn-ghost !py-0.5 text-xs text-red-700" onClick={() => remove(c)} title={c.kaynak === 'eklendi' ? 'Eklenen kodu sil' : 'Paket kodunu gizle (geri getirilebilir)'}>{c.kaynak === 'eklendi' ? 'Sil' : 'Gizle'}</button>
+                  </td>
+                </tr>
+              )
+            })}
+            {!rows.length && <tr><td colSpan={6} className="px-2 py-3 text-center text-gri">Eşleşen kod yok.</td></tr>}
+          </tbody></table>
+        </div>
+        {ov.removed.length > 0 && (
+          <div className="mt-3 text-xs"><span className="etiket">Gizlenen paket kodları ({ov.removed.length})</span><div className="mt-1 flex flex-wrap gap-1">{ov.removed.map((k) => <button key={k} className="rounded-full border border-krem-200 bg-white px-2 py-0.5 font-mono text-[11px] text-gri hover:border-camgobegi hover:text-lacivert" onClick={() => restore(k)} title="Geri getir">{k} ↺</button>)}</div></div>
+        )}
+        <p className="mt-2 text-[11px] text-gri">Kartlardaki Delil Kodu seçicisi bu listeyi kullanır. Mevcut dosyalarda seçili ancak gizlenmiş bir kod "(listede yok)" olarak korunur.</p>
+      </div>
+      <div className="kart p-4"><h3 className="mb-2 font-semibold text-lacivert">Eşleme: eski kod → Türkçe kod (Sayfa5)</h3><div className="scroll-thin max-h-[40vh] overflow-y-auto"><table className="w-full text-xs"><tbody>{ec.mapping.map((m) => <tr key={m.eskiKod} className="border-t border-krem-200"><td className="py-1 font-mono text-gri">{m.eskiKod}</td><td className="py-1 font-mono font-semibold">{m.turkceKod}</td><td className="py-1">{m.ad}</td></tr>)}</tbody></table></div></div>
     </div>
   )
 }
@@ -330,7 +608,7 @@ function Moduller({ settings, update }: P) {
   }
   return (
     <div className="space-y-3">
-      <div className="flex items-center gap-3"><label className="btn-outline cursor-pointer">İçerik paketi yükle (.json)<input type="file" accept=".json" className="hidden" onChange={(e) => { const f = e.target.files?.[0]; if (f) void onPack(f) }} /></label><span className="text-xs text-gri">İçerik paketi (yalnız JSON): yeni etken grupları, listeler. Hesap modülleri kod + manifest ile derleme zamanında kaydedilir.</span></div>
+      <div className="flex items-center gap-3"><label className="btn-outline cursor-pointer">İçerik paketi yükle (.json)<input type="file" accept=".json" className="hidden" onChange={(e) => { const f = e.target.files?.[0]; if (f) void onPack(f) }} /></label><span className="text-xs text-gri">İçerik paketi (yalnız JSON): yeni etken grupları, listeler. Hesap modülleri kod + manifest ile derleme zamanında kaydedilir. Görünüm ve rapor anahtarları <b>Genel</b> sekmesinde.</span></div>
       {checks.map((c, i) => <div key={i} className="rounded-lg border border-amber-300 bg-amber-50 p-2 text-xs text-amber-900">{c.level}: {c.moduleId} — {c.message}</div>)}
       <div className="grid gap-3 lg:grid-cols-2">
         {MODULES.map((m) => {
@@ -345,7 +623,6 @@ function Moduller({ settings, update }: P) {
           )
         })}
       </div>
-      <div className="kart p-4 text-sm"><Toggle checked={settings.showExcelRefs} onChange={(v) => update({ showExcelRefs: v })} label="Excel kaynak izlerini göster (sayfa adları, hücre referansları) — kullanıcıya gösterilmek istenmiyorsa kapatın" /><div className="mt-2"><Toggle checked={settings.showDrafts} onChange={(v) => update({ showDrafts: v })} label="Taslak etken gruplarını (6., 7., 10., 11., dorse, 8.11+, 9.9+) navigasyonda göster" /></div><div className="mt-2"><Toggle checked={settings.reportShowDrafts} onChange={(v) => update({ reportShowDrafts: v })} label="Taslak kartları raporda göster" /></div><div className="mt-2 flex items-center gap-3"><span>"Aranmadı" kartları raporda:</span><Segmented options={['tam', 'kisa', 'gizle'] as const} value={settings.reportAranmadi} onChange={(v) => v && update({ reportAranmadi: v })} /></div><div className="mt-2"><Field label="Varlık üst sınırı (araç/sürücü/yaya/yolcu)"><TextInput type="number" min={1} max={20} value={settings.entityLimit} onChange={(v) => update({ entityLimit: Math.max(1, Number(v) || 6) })} className="!w-24" /></Field></div></div>
     </div>
   )
 }
