@@ -531,3 +531,10 @@ Tanım kütüphanesinde numaralı başlık: **230**; rapor sayfalarında kullan�
 - [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V116 → E124
 - [3] yaklaşık VLOOKUP (statik anahtar '2.15  IŞIKLI SESLİ UYARILAR') → Excel kayıtlı değeri kullanıldı: E167
 - [3] ekDosya koşulu Sorumlu satırına bakıyor: 3!V175 → E183
+
+## 12. Kalite ölçümleri (10.10.2026, yerel üretim derlemesi)
+
+- Vitest: 128 test (altın + birim) geçiyor. Playwright duman testi: 4/4.
+- Lighthouse (desktop, /dosya/giris): bkz. aşağıdaki satır; mobil: Performans 63, Erişilebilirlik 100.
+- Ekran görüntüleri: `docs/screens/`.
+- Lighthouse desktop: Performans 90, Erişilebilirlik 96.

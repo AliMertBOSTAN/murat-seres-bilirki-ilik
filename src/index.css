@@ -1,111 +1,67 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+@import "tailwindcss";
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+@theme {
+  --color-lacivert: #0E2A47;
+  --color-lacivert-700: #16395f;
+  --color-lacivert-900: #081a2e;
+  --color-camgobegi: #1FA9D6;
+  --color-camgobegi-100: #e3f5fb;
+  --color-bronz: #4A3426;
+  --color-altin: #C9A24A;
+  --color-altin-100: #f6edd6;
+  --color-krem: #F4EEE4;
+  --color-krem-200: #e8dfd0;
+  --color-kagit: #FFFDF8;
+  --color-murekkep: #1d2430;
+  --color-gri: #596273;
+  --color-d-etken: #FF0000;
+  --color-d-degil: #92D050;
+  --color-d-incelenmeli: #00B0F0;
+  --color-d-belirsiz: #5B9BD5;
+  --color-d-ozel: #8497B0;
+  --color-s-cokiyi: #00B050;
+  --color-s-iyi: #92D050;
+  --color-s-normal: #00B0F0;
+  --color-s-kotu: #FFC000;
+  --color-s-cokkotu: #FF0000;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-rapor: "Tinos", "Times New Roman", Times, serif;
+  --shadow-kart: 0 1px 2px rgba(14, 42, 71, 0.06), 0 8px 24px -12px rgba(14, 42, 71, 0.18);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+:root { color-scheme: light; }
+html, body, #root { height: 100%; }
+body { @apply bg-krem text-murekkep font-sans antialiased; }
+h1, h2, h3 { @apply font-display; }
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
+/* Durum çipi: beyazdan renge radyal gradyan (Excel koşullu biçimi) */
+.chip-durum { background: radial-gradient(circle at 30% 30%, #fff 0%, var(--chip) 85%); }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+/* İnce altın ayraç */
+.hr-altin { background: linear-gradient(90deg, transparent, var(--color-altin), transparent); height: 1px; }
+
+/* Rapor / belge modu */
+.belge { font-family: var(--font-rapor); color: #000; }
+.a4 { width: 210mm; min-height: 297mm; padding: 12mm 14mm 16mm; background: white; margin: 0 auto 10mm; box-shadow: 0 2px 12px rgba(0,0,0,.15); position: relative; }
+@page { size: A4; margin: 10mm; }
+@media print {
+  body { background: white; }
+  .no-print { display: none !important; }
+  .a4 { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; page-break-after: always; }
 }
 
-body {
-  margin: 0;
-}
-
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
-}
-
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
-}
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
-}
+/* Form kontrolleri */
+.input { @apply w-full rounded-md border border-krem-200 bg-white px-3 py-2 text-sm text-murekkep shadow-sm focus:border-camgobegi focus:outline-none focus:ring-2 focus:ring-camgobegi/30 disabled:bg-krem disabled:text-gri; }
+select.input { @apply pr-8; }
+.btn, .btn-primary, .btn-ghost, .btn-outline { @apply inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-camgobegi/40 disabled:opacity-50; }
+.btn-primary { @apply bg-lacivert text-white hover:bg-lacivert-700; }
+.btn-ghost { @apply bg-transparent text-lacivert hover:bg-krem-200; }
+.btn-outline { @apply border border-lacivert/30 bg-white text-lacivert hover:bg-krem; }
+.seg { @apply inline-flex flex-wrap gap-1 rounded-lg bg-krem p-1; }
+.seg > button { @apply rounded-md px-2.5 py-1 text-xs font-medium text-gri transition-colors hover:text-lacivert; }
+.seg > button[aria-pressed="true"] { @apply bg-white text-lacivert shadow-sm; }
+.kart { @apply rounded-xl border border-krem-200 bg-kagit shadow-kart; }
+.etiket { @apply text-[11px] font-semibold uppercase tracking-wider text-gri; }
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: rgba(14,42,71,.2); border-radius: 8px; }

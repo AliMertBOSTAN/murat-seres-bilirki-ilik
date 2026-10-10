@@ -19,6 +19,7 @@ export default defineConfig({
         manualChunks(id) {
           if (id.includes('/data/reference/mahalle/')) return undefined
           if (id.includes('/data/reference/kgm')) return 'ref-kgm'
+          if (id.includes('/content/core/factors/library-rows/')) return undefined
           if (id.includes('/content/core/factors/')) return 'content-factors'
           if (id.includes('/content/core/knowledge/')) return 'content-knowledge'
           if (id.includes('node_modules/recharts') || id.includes('node_modules/d3')) return 'vendor-charts'
@@ -30,9 +31,5 @@ export default defineConfig({
         },
       },
     },
-  },
-  test: {
-    environment: 'node',
-    include: ['tests/**/*.test.ts', 'src/**/*.test.ts'],
   },
 })

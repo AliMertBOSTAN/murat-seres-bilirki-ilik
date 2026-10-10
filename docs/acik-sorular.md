@@ -26,3 +26,4 @@ Bilinmeyen veya ürün sahibi kararı gereken noktalar. Her biri için geçici o
 | 20 | Raporda "Aranmadı" kartları gizlensin mi? | Ayarlar: gizle / kısa / tam (varsayılan tam = Excel) | bekliyor |
 | 21 | Yönetici kimlik doğrulama: demo parola (ADMIN_PASSCODE) yeterli mi, Netlify Identity'ye ne zaman geçilecek? | Demo: parola + imzalı token | bekliyor |
 | 22 | TÜBİR logosu kullanım izni (kapakta görünür) | Excel'deki gibi kapakta | bekliyor |
+| 23 | Örnek dosyadaki mahalle "CEBECİ" Bursa/İnegöl listesinde yok. Mahalle alanı serbest metin kalsın mı, yoksa listeyle sınırlansın mı? | Serbest metin + öneri | bekliyor |

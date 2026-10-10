@@ -29,10 +29,9 @@ export function resolveValue(def: FactorDef, entry: FactorEntry | undefined, ctx
   return v
 }
 
-function joinParts(parts: Part[], mode: 'excel' | 'okunur'): string {
-  const texts = parts.filter((p) => p !== '')
+function joinParts(texts: string[], mode: 'excel' | 'okunur'): string {
   if (mode === 'excel') return texts.join('')
-  return texts.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim()
+  return texts.map((t) => t.trim()).filter(Boolean).join(' ').replace(/\s+/g, ' ').trim()
 }
 
 export function renderParts(parts: Part[] | undefined, env: { value: unknown; incelemeDurumu: string; durum: string; subTitle: string }, mode: 'excel' | 'okunur', prov?: ProvenanceStep[]): string {
@@ -52,7 +51,7 @@ export function renderParts(parts: Part[] | undefined, env: { value: unknown; in
       default: out.push(p.text ?? '')
     }
   }
-  return joinParts(out as unknown as Part[], mode)
+  return joinParts(out, mode)
 }
 
 function resolveSource(src: Source | undefined, env: { value: unknown; incelemeDurumu: string; durum: string; subTitle: string }, settings: EngineSettings, prov: ProvenanceStep[], label: string): string {

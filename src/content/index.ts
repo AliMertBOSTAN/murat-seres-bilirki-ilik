@@ -13,7 +13,6 @@ import kazaNedeni from '@content/core/factors/kaza-nedeni.json'
 import sections from '@content/core/factors/sections.json'
 import statusProfiles from '@content/core/rules/status-profiles.json'
 import constants from '@content/core/rules/constants.json'
-import colors from '@content/core/rules/colors.json'
 import lists from '@content/core/lists/index.json'
 import evidenceCodes from '@content/core/evidence-codes.json'
 import legalTexts from '@content/core/legal-texts.json'
@@ -42,7 +41,6 @@ export const STATUS_PROFILE_BY_ID: Map<string, StatusProfile> = new Map(STATUS_P
 export const STATUS_INPUTS: string[] = statusProfiles.inputs
 
 export const CONSTANTS = constants
-export const COLORS = colors
 export const LISTS = lists.lists as Record<string, { id: string; source: string; items: (string | number)[]; usedBy: { sheet: string; cells: string }[]; named?: boolean }>
 export const LIST_USAGE = lists.usage as { sheet: string; cells: string; listId: string }[]
 export const EVIDENCE_CODES = evidenceCodes
@@ -77,4 +75,13 @@ function colIndex(c: string): number { let n = 0; for (const ch of c) n = n * 26
 export function listItems(listId: string | undefined): string[] {
   if (!listId) return []
   return (LISTS[listId]?.items ?? []).map(String)
+}
+
+const libraryFiles = import.meta.glob('../../content/core/factors/library-rows/*.json') as Record<string, () => Promise<{ default: Record<string, { row: number; cells: Record<string, unknown> }[]> }>>
+/** Bir etkenin kütüphane satırlarını (ham Excel bloğu) gerektiğinde yükler. */
+export async function loadLibraryRows(factor: FactorDef): Promise<{ row: number; cells: Record<string, unknown> }[]> {
+  const path = Object.keys(libraryFiles).find((p) => p.endsWith(`/${factor.group}.json`))
+  if (!path) return []
+  const m = await libraryFiles[path]()
+  return m.default[factor.id] ?? []
 }

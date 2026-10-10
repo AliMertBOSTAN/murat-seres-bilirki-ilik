@@ -1,0 +1,1683 @@
+{
+ "source": "Grş 1!B6:B175 etiketleri (Tanım'dan), x14 veri doğrulamaları",
+ "grs1": [
+  {
+   "row": 6,
+   "path": "taraflar.slot1",
+   "kind": "scalar",
+   "label": "SORUŞTURMA NO",
+   "labelSource": "=IF(D6=\"\",\"\",IF(B$1=1,Tanım!A65,IF(B$1=2,Tanım!B65,IF(B$1=3,Tanım!C65,IF(B$1=4,Tanım!D65,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 7,
+   "path": "taraflar.slot2",
+   "kind": "scalar",
+   "label": "MÜŞTEKİ/MAĞDUR",
+   "labelSource": "=IF(D7=\"\",\"\",IF(B$1=1,Tanım!A66,IF(B$1=2,Tanım!B66,IF(B$1=3,Tanım!C66,IF(B$1=4,Tanım!D66,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 8,
+   "path": "taraflar.slot3",
+   "kind": "scalar",
+   "label": "VEKİLİ",
+   "labelSource": "=IF(D8=\"\",\"\",IF(B$1=1,Tanım!A67,IF(B$1=2,Tanım!B67,IF(B$1=3,Tanım!C67,IF(B$1=4,Tanım!D67,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 9,
+   "path": "taraflar.slot4",
+   "kind": "scalar",
+   "label": "ŞÜPHELİ",
+   "labelSource": "=IF(D9=\"\",\"\",IF(B$1=1,Tanım!A68,IF(B$1=2,Tanım!B68,IF(B$1=3,Tanım!C68,IF(B$1=4,Tanım!D68,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 10,
+   "path": "taraflar.slot5",
+   "kind": "scalar",
+   "label": "ŞÜPHELİ VEKİLİ",
+   "labelSource": "=IF(D10=\"\",\"\",IF(B$1=1,Tanım!A69,IF(B$1=2,Tanım!B69,IF(B$1=3,Tanım!C69,IF(B$1=4,Tanım!D69,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 11,
+   "path": "taraflar.slot6",
+   "kind": "scalar",
+   "label": "SORUŞTURMA KONUSU",
+   "labelSource": "=IF(D11=\"\",\"\",IF(B$1=1,Tanım!A70,IF(B$1=2,Tanım!B70,IF(B$1=3,Tanım!C70,IF(B$1=4,Tanım!D70,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 12,
+   "path": "taraflar.slot7",
+   "kind": "scalar",
+   "label": "SUÇ TARİHİ",
+   "labelSource": "=IF(D12=\"\",\"\",IF(B$1=1,Tanım!A71,IF(B$1=2,Tanım!B71,IF(B$1=3,Tanım!C71,IF(B$1=4,Tanım!D71,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 13,
+   "path": "taraflar.slot8",
+   "kind": "scalar",
+   "label": "GÖREVLENDİRME",
+   "labelSource": "=IF(D13=\"\",\"\",IF(B$1=1,Tanım!A72,IF(B$1=2,Tanım!B72,IF(B$1=3,Tanım!C72,IF(B$1=4,Tanım!D72,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 14,
+   "path": "taraflar.slot9",
+   "kind": "scalar",
+   "label": "TARİHİ",
+   "labelSource": "=IF(D14=\"\",\"\",IF(B$1=1,Tanım!A73,IF(B$1=2,Tanım!B73,IF(B$1=3,Tanım!C73,IF(B$1=4,Tanım!D73,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 15,
+   "path": "taraflar.slot10",
+   "kind": "scalar",
+   "label": "VERİLEN SÜRE",
+   "labelSource": "=IF(D15=\"\",\"\",IF(B$1=1,Tanım!A74,IF(B$1=2,Tanım!B74,IF(B$1=3,Tanım!C74,IF(B$1=4,Tanım!D74,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 16,
+   "path": "taraflar.slot11",
+   "kind": "scalar",
+   "label": "KEŞİF TARİHİ",
+   "labelSource": "=IF(D16=\"\",\"\",IF(B$1=1,Tanım!A75,IF(B$1=2,Tanım!B75,IF(B$1=3,Tanım!C75,IF(B$1=4,Tanım!D75,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 17,
+   "path": "taraflar.slot12",
+   "kind": "scalar",
+   "label": "RAPOR TARİHİ",
+   "labelSource": "=IF(D17=\"\",\"\",IF(B$1=1,Tanım!A76,IF(B$1=2,Tanım!B76,IF(B$1=3,Tanım!C76,IF(B$1=4,Tanım!D76,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 18,
+   "path": "bilirkisi.ad",
+   "kind": "scalar",
+   "label": "Bilirkişi Ad Soyadı",
+   "labelSource": "=IF(D18=\"\",\"\",IF(B$1=1,Tanım!A77,IF(B$1=2,Tanım!B77,IF(B$1=3,Tanım!C77,IF(B$1=4,Tanım!D77,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 19,
+   "path": "bilirkisi.uzmanlik",
+   "kind": "scalar",
+   "label": "Uzmanlık Alanı",
+   "labelSource": "=IF(D19=\"\",\"\",IF(B$1=1,Tanım!A78,IF(B$1=2,Tanım!B78,IF(B$1=3,Tanım!C78,IF(B$1=4,Tanım!D78,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 20,
+   "path": "bilirkisi.sicilNo",
+   "kind": "scalar",
+   "label": "Bilirkişi Sicil No",
+   "labelSource": "=IF(D20=\"\",\"\",IF(B$1=1,Tanım!A79,IF(B$1=2,Tanım!B79,IF(B$1=3,Tanım!C79,IF(B$1=4,Tanım!D79,\"\")))))",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 21,
+   "path": "gorevlendirme.incelemeTuru",
+   "kind": "scalar",
+   "label": "İNCELEME TÜRÜ",
+   "labelSource": null,
+   "listId": "tanim-c83-c88",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 22,
+   "path": "gorevlendirme.dayanak",
+   "kind": "scalar",
+   "label": "GÖREVLENDİRME/TALEP DAYANAĞI",
+   "labelSource": null,
+   "listId": "tanim-c90-c96",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 23,
+   "path": "gorevlendirme.konu",
+   "kind": "scalar",
+   "label": "İNCELEME KONUSU",
+   "labelSource": null,
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 24,
+   "path": "gorevlendirme.sorular",
+   "kind": "scalar",
+   "label": "BİLİRKİŞİYE YÖETİLEN SORULAR",
+   "labelSource": null,
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 27,
+   "path": "kazaYeri.tarih",
+   "kind": "scalar",
+   "label": "1.2. TARİH",
+   "labelSource": "=Tanım!B251",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 28,
+   "path": "kazaYeri.haftaninGunu",
+   "kind": "derived",
+   "label": "1.3. HAFTANIN GÜNÜ",
+   "labelSource": "=Tanım!B252",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 29,
+   "path": "kazaYeri.saat",
+   "kind": "scalar",
+   "label": "1.4. SAAT/DAKİKA",
+   "labelSource": "=Tanım!B253",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 30,
+   "path": "dosya.il",
+   "kind": "scalar",
+   "label": "1.5. İL",
+   "labelSource": "=Tanım!B254",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 31,
+   "path": "dosya.ilce",
+   "kind": "scalar",
+   "label": "1.6. İLÇE",
+   "labelSource": "=Tanım!B255",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 32,
+   "path": "kazaYeri.mahalle",
+   "kind": "scalar",
+   "label": "1.7. MAH/KÖY",
+   "labelSource": "=Tanım!B256",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 33,
+   "path": "kazaYeri.adres",
+   "kind": "scalar",
+   "label": "1.8.  ADRESİ",
+   "labelSource": "=Tanım!B257",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 38,
+   "path": "kazaYeri.yerlesim",
+   "kind": "scalar",
+   "label": "1.9 KAZA YERİ YERLEŞİMİ",
+   "labelSource": "=Tanım!B258",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 39,
+   "path": "kazaYeri.azamiHiz",
+   "kind": "scalar",
+   "label": "1.10 KAZA YERİ AZAMİ HIZI",
+   "labelSource": "=Tanım!B259",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 40,
+   "path": "kazaYeri.azamiHizOnerisi",
+   "kind": "scalar",
+   "label": "1.11 KAZA YERİ AZAMİ HIZI ÖNERİSİ",
+   "labelSource": "=Tanım!B260",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 42,
+   "path": "yolCevre.gunDurumu",
+   "kind": "scalar",
+   "label": "2.1.  GÜN DURUMU",
+   "labelSource": "=Tanım!B377",
+   "listId": "bilgi-hesap-b4-b13",
+   "sectionHeader": "",
+   "localOptions": null
+  },
+  {
+   "row": 43,
+   "path": "yolCevre.havaDurumu",
+   "kind": "scalar",
+   "label": "2.3. HAVA DURUMU",
+   "labelSource": "=Tanım!B393",
+   "listId": "tanim-b395-b408",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 44,
+   "path": "yolCevre.yolSinifi",
+   "kind": "scalar",
+   "label": "2.4. YOLUN SINIFI",
+   "labelSource": "=Tanım!B411",
+   "listId": "tanim-b413-b428",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 45,
+   "path": "yolCevre.akisYonu",
+   "kind": "scalar",
+   "label": "2.5  YOLUN AKIŞ YÖNÜ",
+   "labelSource": "=Tanım!B430",
+   "listId": "tanim-b432-b435",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 46,
+   "path": "yolCevre.kaplamaTipi",
+   "kind": "scalar",
+   "label": "2.6  YOLUN KAPLAMA TİPİ",
+   "labelSource": "=Tanım!$B$436",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 47,
+   "path": "yolCevre.yolYuzeyi",
+   "kind": "scalar",
+   "label": "2.7 Yolun Yüzeyi",
+   "labelSource": "=Tanım!B444",
+   "listId": "tanim-c271-q271",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 48,
+   "path": "yolCevre.yolYuzeyHatalari",
+   "kind": "scalar",
+   "label": "2.8  KAZAYA ETKİ EDEN YOL YÜZEY HATALARI",
+   "labelSource": "=Tanım!B456",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 49,
+   "path": "yolCevre.yerinKonumu",
+   "kind": "scalar",
+   "label": "2.9  KAZANIN MEYDANA GELDİĞİ YERİN KONUMU",
+   "labelSource": "=Tanım!B466",
+   "listId": "tanim-c270-l270",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 50,
+   "path": "yolCevre.cevreOzelligi",
+   "kind": "scalar",
+   "label": "2.10  YOLUN ÇEVRE ÖZELLİĞİ",
+   "labelSource": "=Tanım!B478",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 51,
+   "path": "yolCevre.seritSayisi",
+   "kind": "scalar",
+   "label": "2.11  YOLUN ŞERİT SAYISI",
+   "labelSource": "=Tanım!B491",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 52,
+   "path": "yolCevre.platform",
+   "kind": "scalar",
+   "label": "2.12  YOLUN PLATFORMU",
+   "labelSource": "=Tanım!B516",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 53,
+   "path": "yolCevre.yolElemanlari",
+   "kind": "scalar",
+   "label": "2.13  yol elemanları",
+   "labelSource": "=Tanım!B521",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 54,
+   "path": "yolCevre.yatayDikeyEgim",
+   "kind": "scalar",
+   "label": "2.14  KAZA YERİ YATAY DİKEY EĞİMİ",
+   "labelSource": "=Tanım!B563",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 55,
+   "path": "yolCevre.kazaYeriIsaretleme",
+   "kind": "scalar",
+   "label": "2.14.1  KAZA YERİ İŞARETLEME",
+   "labelSource": "=Tanım!B570",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 56,
+   "path": "yolCevre.isikliSesliUyari",
+   "kind": "scalar",
+   "label": "2.15  IŞIKLI SESLİ UYARILAR",
+   "labelSource": "=Tanım!B583",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 57,
+   "path": "yolCevre.korNokta",
+   "kind": "scalar",
+   "label": "2.16  KÖR NOKTA VE GÖRÜŞ ENGELLERİ",
+   "labelSource": "=Tanım!B595",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 58,
+   "path": "yolCevre.yoldaCalisma",
+   "kind": "scalar",
+   "label": "2.17  YOLDA ÇALIŞMA",
+   "labelSource": "=Tanım!B606",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 59,
+   "path": "yolCevre.yoldaCalismaIsaretleme",
+   "kind": "scalar",
+   "label": "2.18.  YOLDA ÇALIŞMA İŞARETLEME DURUMU",
+   "labelSource": "=Tanım!B615",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 60,
+   "path": "yolCevre.gecitOzellikleri",
+   "kind": "scalar",
+   "label": "2.19  GEÇİT ÖZELLİKLERİ",
+   "labelSource": "=Tanım!B627",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 61,
+   "path": "yolCevre.aydinlatma",
+   "kind": "scalar",
+   "label": "2.20  AYDINLATMA DURUMU",
+   "labelSource": "=Tanım!B637",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 62,
+   "path": "yolCevre.cevreDiger",
+   "kind": "scalar",
+   "label": "2.21  ÇEVRE VE DİĞER ÖZELLİKLER",
+   "labelSource": "=Tanım!B650",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 63,
+   "path": "yolCevre.yolunOzelligi",
+   "kind": "scalar",
+   "label": "2.22  YOLUN ÖZELLİĞİ",
+   "labelSource": "=Tanım!B664",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 64,
+   "path": "yolCevre.yolunYapiOzelligi",
+   "kind": "scalar",
+   "label": "2.22  YOLUN YAPI ÖZELLİĞİ",
+   "labelSource": "=Tanım!B672",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 71,
+   "path": "guzergah.yatayDikey",
+   "kind": "scalar",
+   "label": "3. YATAY DİKEY GÜZERGAH",
+   "labelSource": "=Tanım!B276",
+   "listId": null,
+   "sectionHeader": "",
+   "localOptions": null
+  },
+  {
+   "row": 72,
+   "path": "guzergah.yatay",
+   "kind": "scalar",
+   "label": "3.1. YATAY GÜZERGAH",
+   "labelSource": "=Tanım!B277",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 73,
+   "path": "guzergah.dikey",
+   "kind": "scalar",
+   "label": "3.2.  DİKEY GÜZERGAH",
+   "labelSource": "=Tanım!B278",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 75,
+   "path": "yolEkipman.otoKorkuluk",
+   "kind": "scalar",
+   "label": "4.1. OTO KORKULUK",
+   "labelSource": "=Tanım!B280",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 76,
+   "path": "yolEkipman.yayaYolu",
+   "kind": "scalar",
+   "label": "4.2. YAYA YOLU)",
+   "labelSource": "=Tanım!B281",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 77,
+   "path": "yolEkipman.emniyetSeridi",
+   "kind": "scalar",
+   "label": "4.3. EMNİYET ŞERİDİ",
+   "labelSource": "=Tanım!B282",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 78,
+   "path": "yolEkipman.yolSeritCizgisi",
+   "kind": "scalar",
+   "label": "4.4. YOL ŞERİ ÇİZGİSİ",
+   "labelSource": "=Tanım!B283",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 79,
+   "path": "yolEkipman.trafikIsaretLevhasi",
+   "kind": "scalar",
+   "label": "4.5. TRAFİK İŞARET LEVHASI",
+   "labelSource": "=Tanım!B284",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 80,
+   "path": "yolEkipman.isikliSesliIsaret",
+   "kind": "scalar",
+   "label": "6.1    IŞIKLI SESLİ İŞARET",
+   "labelSource": "=Tanım!B285",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 81,
+   "path": "yolEkipman.yolAydinlatmasi",
+   "kind": "scalar",
+   "label": "6.2. YOL AYDINLATMASI",
+   "labelSource": "=Tanım!B286",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 82,
+   "path": "yolEkipman.trafikGorevlisi",
+   "kind": "scalar",
+   "label": "7.   TRAFİK GÖREVLİSİ",
+   "labelSource": "=Tanım!B287",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 83,
+   "path": "yolEkipman.goruseEngelCisim",
+   "kind": "scalar",
+   "label": "8.   GÖRÜŞE ENGEL CİSİM",
+   "labelSource": "=Tanım!B288",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 85,
+   "path": "yolEkipman.yoldaCalisma",
+   "kind": "scalar",
+   "label": "9.1.  YOLDA ÇALIŞMA",
+   "labelSource": "=Tanım!B290",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 86,
+   "path": "yolEkipman.yoldaCalismaIsaretleme",
+   "kind": "scalar",
+   "label": "9.2.  YOLDA ÇALIŞMA İŞARETLEME",
+   "labelSource": "=Tanım!B291",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 87,
+   "path": "yolEkipman.yolSorunu",
+   "kind": "scalar",
+   "label": "9.3.  YOL SORUNU",
+   "labelSource": "=Tanım!B292",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 88,
+   "path": "yolEkipman.yolSorunuIsaretleme",
+   "kind": "scalar",
+   "label": "9.4.  YOL SORUNU İÇİN İŞARETLEME",
+   "labelSource": "=Tanım!B293",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 89,
+   "path": "kaza.olusSekli",
+   "kind": "scalar",
+   "label": "10.1. OLUŞ ŞEKLİNE GÖRE KAZA TÜRLERİ",
+   "labelSource": "=Tanım!B294",
+   "listId": "tanim-c294-r294",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 90,
+   "path": "kaza.aracSayisinaGore",
+   "kind": "scalar",
+   "label": "10.2. ARAÇ SAYISINA GÖRE KAZA TÜRÜ",
+   "labelSource": "=Tanım!B295",
+   "listId": "tanim-c295-h295",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 91,
+   "path": "kaza.ilkCarpismaYeri",
+   "kind": "scalar",
+   "label": "11.1 İLK ÇARPIŞMA YERİ",
+   "labelSource": "=Tanım!B296",
+   "listId": "tanim-c296-n296",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 92,
+   "path": "kaza.yayaGecidiOzellikleri",
+   "kind": "scalar",
+   "label": "12.1.   YAYA GEÇİDİ ÖZELLİKLERİ",
+   "labelSource": "=Tanım!B297",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 93,
+   "path": "kaza.gecitDurumu",
+   "kind": "scalar",
+   "label": "12.2. GEÇİT DURUMU",
+   "labelSource": "=Tanım!B298",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 94,
+   "path": "kaza.ilkYardim",
+   "kind": "scalar",
+   "label": "13.   İLK YARDIM",
+   "labelSource": "=Tanım!B299",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 95,
+   "path": "kaza.digerOzellik",
+   "kind": "scalar",
+   "label": "14.   DİĞER ÖZELLİK",
+   "labelSource": "=Tanım!B300",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 96,
+   "path": "kaza.fotoKameraKayitlari",
+   "kind": "scalar",
+   "label": "15.   KAZAYA AİT FOTO-KAMERA KAYITLARI",
+   "labelSource": "=Tanım!B301",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 100,
+   "path": "araclar[].aracNo",
+   "kind": "arac",
+   "label": "ARÇA NO",
+   "labelSource": "=Tanım!B305",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 101,
+   "path": "araclar[].plaka",
+   "kind": "arac",
+   "label": "ARAÇ PLAKASI",
+   "labelSource": "=Tanım!B307",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 102,
+   "path": "araclar[].modelYili",
+   "kind": "arac",
+   "label": "MODELİ YILI",
+   "labelSource": "=Tanım!B308",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 103,
+   "path": "araclar[].tescilUlkesi",
+   "kind": "arac",
+   "label": "YABANCI TESCİLDE ÜLKE ADI",
+   "labelSource": "=Tanım!B309",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 104,
+   "path": "araclar[].cinsi",
+   "kind": "arac",
+   "label": "ARACIN CİNSİ",
+   "labelSource": "=Tanım!B310",
+   "listId": "bilgi-hesap-d513-x513",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 105,
+   "path": "araclar[].motorGucu",
+   "kind": "arac",
+   "label": "ARACIN MOTOR GÜCÜ",
+   "labelSource": null,
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 106,
+   "path": "araclar[].kullanimAmaci",
+   "kind": "arac",
+   "label": "KULLANIM AMACI",
+   "labelSource": "=Tanım!B311",
+   "listId": "tanim-b982-b991",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 107,
+   "path": "araclar[].kameraKaydi",
+   "kind": "arac",
+   "label": "ARAÇ İÇİ VEYA ÜZERİ KAMERA KAYDI VARMI",
+   "labelSource": "=Tanım!B312",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 108,
+   "path": "araclar[].kullanimSekli",
+   "kind": "arac",
+   "label": "ARACIN KAZA ANINDAKİ KULLANIM ŞEKLİ",
+   "labelSource": "=Tanım!B313",
+   "listId": "grs-1-b967-b976",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 109,
+   "path": "araclar[].kazaOncesiHareket",
+   "kind": "arac",
+   "label": "KAZA ÖNCESİ ARAÇ HARKETLERİ",
+   "labelSource": "=Tanım!B314",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 110,
+   "path": "araclar[].hiz",
+   "kind": "arac",
+   "label": "ARACIN HIZI",
+   "labelSource": "=Tanım!B315",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 111,
+   "path": "araclar[].frenUzunlugu",
+   "kind": "arac",
+   "label": "FREN UZUNLUĞU",
+   "labelSource": "=Tanım!B316",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 112,
+   "path": "araclar[].yukCinsi",
+   "kind": "arac",
+   "label": "ARAÇ YÜKLÜ İSE YÜKÜN CİNSİ",
+   "labelSource": "=Tanım!B317",
+   "listId": "tanim-b1086-b1096",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 113,
+   "path": "araclar[].istihapAsimi",
+   "kind": "arac",
+   "label": "İSTİHAP HADDİNİ AŞMIŞSA MİKTARI",
+   "labelSource": "=Tanım!B318",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 114,
+   "path": "araclar[].ilkDarbeBolumu",
+   "kind": "arac",
+   "label": "ARACIN DARBEYİ ALDIĞI İLK BÖLÜM",
+   "labelSource": "=Tanım!B319",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 115,
+   "path": "araclar[].sigortaTuru",
+   "kind": "arac",
+   "label": "SİGORTA TÜRÜ ADI",
+   "labelSource": "=Tanım!B320",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 116,
+   "path": "araclar[].sigortaSirketi",
+   "kind": "arac",
+   "label": "SİGORTA ŞİRKETİNİN ADI",
+   "labelSource": "=Tanım!B321",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 117,
+   "path": "araclar[].policeNo",
+   "kind": "arac",
+   "label": "SİGORTA POLÇE NUMARASI",
+   "labelSource": "=Tanım!B322",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 118,
+   "path": "araclar[].sigortaBitis",
+   "kind": "arac",
+   "label": "SİGORTA BİTİŞ TARİHİ",
+   "labelSource": "=Tanım!B323",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 119,
+   "path": "araclar[].etkenAksamlar",
+   "kind": "arac",
+   "label": "KAZAYA ETKEN EDEN ARAÇ AKSAMLARI",
+   "labelSource": "=Tanım!B324",
+   "listId": "tanim-d37-d45",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 120,
+   "path": "araclar[].fenniMuayeneBitis",
+   "kind": "arac",
+   "label": "fenni muayene bitiş tarihi",
+   "labelSource": "=Tanım!B325",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 121,
+   "path": "araclar[].hasarDerecesi",
+   "kind": "arac",
+   "label": "ARACIN HASAR DERECESİ/ YANMA DURUMU",
+   "labelSource": "=Tanım!B326",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 122,
+   "path": "araclar[].yakitCinsi",
+   "kind": "arac",
+   "label": "ARACIN YAKIT CİNSİ",
+   "labelSource": "=Tanım!B327",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 123,
+   "path": "araclar[].lastikDurumu",
+   "kind": "arac",
+   "label": "ARACIN LASTİK DURUMU",
+   "labelSource": "=Tanım!B328",
+   "listId": "tanim-d23-d32",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 124,
+   "path": "araclar[].lastikDisDerinligi",
+   "kind": "arac",
+   "label": "LASTİK TÜRÜ DİŞ DERİNLİĞİ",
+   "labelSource": "=Tanım!B329",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 125,
+   "path": "araclar[].camDurumu",
+   "kind": "arac",
+   "label": "ARAÇ CAM DURUMU",
+   "labelSource": "=Tanım!B330",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 126,
+   "path": "araclar[].dikizAynaDurumu",
+   "kind": "arac",
+   "label": "ARAÇ DİKİZ AYNA DURMU",
+   "labelSource": "=Tanım!B331",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 128,
+   "path": "araclar[].sahibi",
+   "kind": "arac",
+   "label": "ARAÇ SAHİBİNİN ADI SOYADI",
+   "labelSource": "=Tanım!B333",
+   "listId": "tanim-d37-d45",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 129,
+   "path": "araclar[].firmaIsletme",
+   "kind": "arac",
+   "label": "FİRMA-İSLETME SAHİBİ",
+   "labelSource": "=Tanım!B334",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 132,
+   "path": "araclar[].kazaSonrasiKonum",
+   "kind": "arac",
+   "label": "ARACIN KAZA SONRASI KONUMU",
+   "labelSource": "=Tanım!B306",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 134,
+   "path": "suruculer[].adi",
+   "kind": "surucu",
+   "label": "5.1.SÜRÜCÜNÜN CİNSİYETİ - YAŞI",
+   "labelSource": "=Tanım!B685",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 135,
+   "path": "suruculer[].tckn",
+   "kind": "surucu",
+   "label": "VATANDAŞLIK NUMARASI",
+   "labelSource": "=Tanım!B339",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 136,
+   "path": "suruculer[].dogumTarihi",
+   "kind": "surucu",
+   "label": "DOĞUM YILI ( Gün Ay Yıl )",
+   "labelSource": "=Tanım!B340",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 137,
+   "path": "suruculer[].cinsiyet",
+   "kind": "surucu",
+   "label": "CİNSİYETİ",
+   "labelSource": "=Tanım!B341",
+   "listId": "grs-1-i136-l136",
+   "sectionHeader": null,
+   "localOptions": [
+    "ERKEK",
+    "KADIN",
+    "EKS"
+   ]
+  },
+  {
+   "row": 138,
+   "path": "suruculer[].kazaSonucu",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ KAZA SONUCU",
+   "labelSource": "=Tanım!B342",
+   "listId": "grs-1-i137-m137",
+   "sectionHeader": null,
+   "localOptions": [
+    "SAĞLAM",
+    "YARALI"
+   ]
+  },
+  {
+   "row": 139,
+   "path": "suruculer[].belgeDurumu",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ BELGESİ DURUMU",
+   "labelSource": "=Tanım!B343",
+   "listId": "tanim-c344-h344",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 140,
+   "path": "suruculer[].belgeIli",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ BELGESİNİN VERİLDİĞİ İL",
+   "labelSource": "=Tanım!B344",
+   "listId": "tanim-g4-g85",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 141,
+   "path": "suruculer[].belgeIlcesi",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ BELGESİNİN VERİLDİĞİ İLÇE",
+   "labelSource": "=Tanım!B345",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": [
+    "ADAY",
+    "SÜRÜCÜ"
+   ]
+  },
+  {
+   "row": 142,
+   "path": "suruculer[].adaylik",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ ADAYLIĞI",
+   "labelSource": "=Tanım!B346",
+   "listId": "grs-1-i141-m141",
+   "sectionHeader": null,
+   "localOptions": [
+    "VAR",
+    "YOK "
+   ]
+  },
+  {
+   "row": 143,
+   "path": "suruculer[].ogrenim",
+   "kind": "surucu",
+   "label": "SÜRÜCÜNÜN ÖĞRENİM DURUMU",
+   "labelSource": "=Tanım!B347",
+   "listId": "tanim-c347-h347",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 144,
+   "path": "suruculer[].alkol",
+   "kind": "surucu",
+   "label": "SÜRÜCÜNÜN ALKOL DERECESİ",
+   "labelSource": "=Tanım!B348",
+   "listId": "grs-1-i143-k143",
+   "sectionHeader": null,
+   "localOptions": [
+    "O \"Sıfır\"",
+    "BELİRSİZ",
+    "TESPİT EDİLEMEDİ",
+    "YETERSİZ"
+   ]
+  },
+  {
+   "row": 145,
+   "path": "suruculer[].psikoFizikselSuphe",
+   "kind": "surucu",
+   "label": "PRİKO-FİZİKSEL DURUM ŞÜPHESİ",
+   "labelSource": "=Tanım!B349",
+   "listId": "grs-1-i144-p144",
+   "sectionHeader": null,
+   "localOptions": [
+    "VAR",
+    "YOK"
+   ]
+  },
+  {
+   "row": 146,
+   "path": "suruculer[].koruyucuTertibat",
+   "kind": "surucu",
+   "label": "SÜRÜCÜ KORUYUCU TERTİBATLAR",
+   "labelSource": "=Tanım!B350",
+   "listId": "grs-1-i144-p144",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 147,
+   "path": "suruculer[].meslek",
+   "kind": "surucu",
+   "label": "SÜRÜCÜNÜN MESLEĞİ",
+   "labelSource": "=Tanım!B351",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 155,
+   "path": "yayalar[].adSoyad",
+   "kind": "yaya",
+   "label": "ADI SOYADI",
+   "labelSource": "=Tanım!B354",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 156,
+   "path": "yayalar[].tckn",
+   "kind": "yaya",
+   "label": "VATANDAŞLIK NUMARASI",
+   "labelSource": "=Tanım!B355",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 157,
+   "path": "yayalar[].dogumTarihi",
+   "kind": "yaya",
+   "label": "DOĞUM YILI ( Gün Ay Yıl )",
+   "labelSource": "=Tanım!B356",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 158,
+   "path": "yayalar[].cinsiyet",
+   "kind": "yaya",
+   "label": "CİNSİYETİ",
+   "labelSource": "=Tanım!B357",
+   "listId": "grs-1-i136-l136",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 159,
+   "path": "yayalar[].kazaSonucu",
+   "kind": "yaya",
+   "label": "KAZA SONUCU",
+   "labelSource": "=Tanım!B358",
+   "listId": "grs-1-i137-m137",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 160,
+   "path": "yayalar[].kurallar",
+   "kind": "yaya",
+   "label": "YAYA KURALLARI",
+   "labelSource": "=Tanım!B359",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 161,
+   "path": "yayalar[].kazaOncesiHareket",
+   "kind": "yaya",
+   "label": "YAYA KAZA ÖNCESİ HAREKETİ",
+   "labelSource": "=Tanım!B360",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 162,
+   "path": "yayalar[].giysi",
+   "kind": "yaya",
+   "label": "YAYA GİYİSİ ÖZELLİĞİ",
+   "labelSource": "=Tanım!B361",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 163,
+   "path": "yayalar[].alkol",
+   "kind": "yaya",
+   "label": "YAYA ALKOL KONTROLÜ",
+   "labelSource": "=Tanım!B362",
+   "listId": "grs-1-i143-k143",
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 164,
+   "path": "yayalar[].kusurlar",
+   "kind": "yaya",
+   "label": "YAYA KUSURLARI",
+   "labelSource": "=Tanım!B363",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 165,
+   "path": "yayalar[].meslek",
+   "kind": "yaya",
+   "label": "YAYANIN MESLEĞİ",
+   "labelSource": "=Tanım!B364",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 166,
+   "path": "yolcular[].adi",
+   "kind": "yolcu",
+   "label": "6.  KAZAYA KARIŞAN YOLCU",
+   "labelSource": "=Tanım!B365",
+   "listId": null,
+   "sectionHeader": "YAYANIN MESLEĞİ",
+   "localOptions": null
+  },
+  {
+   "row": 167,
+   "path": "yolcular[].adSoyad",
+   "kind": "yolcu",
+   "label": "6.1  ADI SOYADI",
+   "labelSource": "=Tanım!B366",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 168,
+   "path": "yolcular[].tckn",
+   "kind": "yolcu",
+   "label": "6.2  VATANDAŞLIK NUMARASI",
+   "labelSource": "=Tanım!B367",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 169,
+   "path": "yolcular[].dogumTarihi",
+   "kind": "yolcu",
+   "label": "6.3  DOĞUM YILI ( Gün Ay Yıl )",
+   "labelSource": "=Tanım!B368",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 170,
+   "path": "yolcular[].kazaSonucu",
+   "kind": "yolcu",
+   "label": "6.4  KAZA SONUCU",
+   "labelSource": "=Tanım!B369",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 171,
+   "path": "yolcular[].kurallar",
+   "kind": "yolcu",
+   "label": "6.5  YOLCU KURALLARI",
+   "labelSource": "=Tanım!B370",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 172,
+   "path": "yolcular[].aractaYer",
+   "kind": "yolcu",
+   "label": "6.6  YOLCUNUN ARAÇTA BULUNDUĞU YER",
+   "labelSource": "=Tanım!B371",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 173,
+   "path": "yolcular[].guvenlikEkipmani",
+   "kind": "yolcu",
+   "label": "6.7  YOLCUNUN GÜVENLİK EKİPMANI",
+   "labelSource": "=Tanım!B372",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 174,
+   "path": "yolcular[].kusurlar",
+   "kind": "yolcu",
+   "label": "6.8  YOLCUNUN KUSURLARI",
+   "labelSource": "=Tanım!B373",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  },
+  {
+   "row": 175,
+   "path": "yolcular[].meslek",
+   "kind": "yolcu",
+   "label": "6.9  YOLCUNUN MESLEĞİ",
+   "labelSource": "=Tanım!B374",
+   "listId": null,
+   "sectionHeader": null,
+   "localOptions": null
+  }
+ ],
+ "sections": [
+  {
+   "id": "taraflar",
+   "title": "Taraflar ve Görevlendirme",
+   "rows": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "id": "yer-zaman",
+   "title": "Yer ve Zaman",
+   "rows": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    38,
+    39,
+    40
+   ]
+  },
+  {
+   "id": "yol-cevre",
+   "title": "Yol ve Çevre",
+   "rows": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    71,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96
+   ]
+  },
+  {
+   "id": "araclar",
+   "title": "Araçlar",
+   "rows": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    128,
+    129,
+    132
+   ]
+  },
+  {
+   "id": "suruculer",
+   "title": "Sürücüler",
+   "rows": [
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+   ]
+  },
+  {
+   "id": "yayalar",
+   "title": "Yayalar",
+   "rows": [
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165
+   ]
+  },
+  {
+   "id": "yolcular",
+   "title": "Yolcular",
+   "rows": [
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175
+   ]
+  }
+ ],
+ "giris": [
+  {
+   "cell": "J2",
+   "path": "dosya.firma",
+   "label": "SERESLER BİLİRKİŞİLİK",
+   "listId": "tanim-e86-e113"
+  },
+  {
+   "cell": "J4",
+   "path": "dosya.raporTuru",
+   "label": "BİLİRKİŞİ RAPORUDUR",
+   "listId": "tanim-e2-e7"
+  },
+  {
+   "cell": "M7",
+   "path": "dosya.personel",
+   "label": "Personel adı",
+   "listId": "tanim-e86-e108"
+  },
+  {
+   "cell": "M8",
+   "path": "dosya.il",
+   "label": "İLİ GİRİNİZ",
+   "listId": "tanim-g4-g85"
+  },
+  {
+   "cell": "M9",
+   "path": "dosya.ilce",
+   "label": "İLÇE GİRİNİZ",
+   "listId": "tanim-ad3-ad92"
+  },
+  {
+   "cell": "M10",
+   "path": "dosya.mahalle",
+   "label": "İLÇE GİRİNİZ",
+   "listId": "tanim-af3-af150"
+  },
+  {
+   "cell": "M11",
+   "path": "dosya.mahkemeNoVeDosyaTuru",
+   "label": "MAHKEMESİ",
+   "listId": "tanim-f62-f162"
+  },
+  {
+   "cell": "N11",
+   "path": "dosya.mahkemeAdi",
+   "label": "MAHKEMESİ",
+   "listId": "tanim-b46-b61"
+  },
+  {
+   "cell": "M12",
+   "path": "dosya.dosyaNo",
+   "label": "DOSYA NO",
+   "listId": null
+  },
+  {
+   "cell": "M13",
+   "path": "dosya.suc",
+   "label": "SUÇ",
+   "listId": "tanim-d60-d76"
+  }
+ ]
+}

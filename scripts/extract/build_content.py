@@ -576,6 +576,53 @@ def build_sample_case(sample_entries):
     out("content/core/sample-case.json", case)
 
 
+def build_input_fields(lists):
+    """Grş 1 giriş alanları: etiket (B sütunu), yol, tür, liste kimliği, Excel hücresi."""
+    G = CORE["Grş 1"]
+    usage = []
+    for lid, l in lists.items():
+        for u in l["usedBy"]:
+            usage.append((u["sheet"], u["cells"], lid))
+
+    def list_for(sheet, col, row):
+        for sname, cells, lid in usage:
+            if sname != sheet:
+                continue
+            for ref in str(cells).split():
+                a, _, b = ref.partition(":")
+                ca, ra = re.match(r"([A-Z]+)(\d+)", a).groups()
+                if not b:
+                    if ca == col and int(ra) == row:
+                        return lid
+                    continue
+                cb, rb = re.match(r"([A-Z]+)(\d+)", b).groups()
+                if col_idx(ca) <= col_idx(col) <= col_idx(cb) and int(ra) <= row <= int(rb):
+                    return lid
+        return None
+
+    fields = []
+    for row, (path, kind) in sorted(GRS1_ROWS.items()):
+        label = clean(G.val(f"B{row}")).strip()
+        lf = G.formula(f"B{row}")
+        fields.append({"row": row, "path": path, "kind": kind, "label": label, "labelSource": lf, "listId": list_for("Grş 1", "D", row),
+                       "sectionHeader": clean(G.val(f"B{row-1}")).strip() if row in (26, 42, 71, 74, 99, 133, 154, 166) else None,
+                       "localOptions": [clean(G.val(f"{c}{row}")) for c in "IJKLMNOP" if clean(G.val(f"{c}{row}"))] or None})
+    sections = [
+        {"id": "taraflar", "title": "Taraflar ve Görevlendirme", "rows": [r for r in GRS1_ROWS if r <= 24]},
+        {"id": "yer-zaman", "title": "Yer ve Zaman", "rows": [r for r in GRS1_ROWS if 26 <= r <= 40]},
+        {"id": "yol-cevre", "title": "Yol ve Çevre", "rows": [r for r in GRS1_ROWS if 42 <= r <= 96]},
+        {"id": "araclar", "title": "Araçlar", "rows": [r for r in GRS1_ROWS if 100 <= r <= 132]},
+        {"id": "suruculer", "title": "Sürücüler", "rows": [r for r in GRS1_ROWS if 134 <= r <= 147]},
+        {"id": "yayalar", "title": "Yayalar", "rows": [r for r in GRS1_ROWS if 154 <= r <= 165]},
+        {"id": "yolcular", "title": "Yolcular", "rows": [r for r in GRS1_ROWS if 166 <= r <= 175]},
+    ]
+    giris = []
+    for cell, path in GIRIS_CELLS.items():
+        label_cell = "J" + re.sub(r"\D", "", cell)
+        giris.append({"cell": cell, "path": path, "label": clean(CORE.val("Giriş", label_cell)).strip(), "listId": list_for("Giriş", re.match(r"[A-Z]+", cell).group(0), int(re.sub(r"\D", "", cell)))})
+    out("content/core/input-fields.json", {"source": "Grş 1!B6:B175 etiketleri (Tanım'dan), x14 veri doğrulamaları", "grs1": fields, "sections": sections, "giris": giris})
+
+
 def build_expected():
     exp = {"source": "EĞİTİM 001.xlsx önbelleğe alınmış (cached) hesap değerleri", "cells": []}
     for sname in ("Giriş", "Grş 1", "1.", "2.", "3", "sonuç1", "4", "5", "6", "9Y", "19"):
@@ -689,7 +736,12 @@ def main():
         fs = factors_by_group.get(g, [])
         if not fs:
             continue
-        out(f"content/core/factors/{g}.json", {"group": g, "version": CONTENT_VERSION, "factors": fs})
+        # Kütüphane satırları (eksiksiz ham blok) ayrı dosyada tutulur; uygulama gerektiğinde yükler (paket boyutu)
+        out(f"content/core/factors/library-rows/{g}.json", {g_f["id"]: g_f.get("libraryRows", []) for g_f in fs})
+        slim = []
+        for f in fs:
+            f2 = OrderedDict(f); f2["libraryRowCount"] = len(f.get("libraryRows", [])); f2.pop("libraryRows", None); slim.append(f2)
+        out(f"content/core/factors/{g}.json", {"group": g, "version": CONTENT_VERSION, "factors": slim})
         index.append({"group": g, "file": f"{g}.json", "count": len(fs), "drafts": sum(1 for f in fs if f["draft"])})
     out("content/core/factors/index.json", {"version": CONTENT_VERSION, "groups": index,
                                             "groupTitles": {"yer-zaman": "1. Kazanın Yeri ve Zamanı", "yol-cevre": "2. Yol ve Çevre", "arac": "4. Araç", "dorse": "4.35 Dorse", "surucu": "5. Sürücü",
@@ -710,6 +762,7 @@ def main():
     out("content/core/excel-map.json", {"version": CONTENT_VERSION, "giris": GIRIS_CELLS, "grs1": {str(k): {"path": v[0], "kind": v[1]} for k, v in GRS1_ROWS.items()}, "cards": card_map,
                                         "entityColumns": {"D": 0, "E": 1, "F": 2}, "sheet4EntityOffset": 26})
     build_sample_case(sample_entries)
+    build_input_fields(lists)
     n_expected = build_expected()
     print("[6] Güneş modülü içeriği")
     build_gunes_content()

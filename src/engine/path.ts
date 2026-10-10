@@ -37,5 +37,5 @@ export function setPath(obj: Record<string, unknown>, path: string, value: unkno
 
 /** "araclar[].cinsi" → "araclar[2].cinsi" */
 export function withEntity(path: string, index: number | null | undefined): string {
-  return path.replace('[]', `[${index ?? 0}]`)
+  return path.replace(/\[\]|\[\d+\]/, `[${index ?? 0}]`)
 }

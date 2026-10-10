@@ -27,3 +27,5 @@ dist-ssr
 scripts/extract/out/
 # Netlify
 .netlify/
+test-results/
+playwright-report/

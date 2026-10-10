@@ -80,7 +80,8 @@ export interface FactorDef {
   texts?: Record<string, string>
   showInReport: boolean
   draft: boolean
-  libraryRows: LibraryRow[]
+  libraryRows?: LibraryRow[]
+  libraryRowCount?: number
   excelSample?: {
     value?: unknown; scale?: unknown; incelemeDurumu?: unknown; muteala?: unknown
     tespit?: { yontemler: unknown[]; delilKodu?: unknown; puanlar: unknown[]; dogrulama?: unknown } | null
